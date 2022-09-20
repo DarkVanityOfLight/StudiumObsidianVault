@@ -1,0 +1,5 @@
+# Vorzeichen und Betrag
+Jede Zahl ([natürliche](Natürliche%20Zahlen.md), [ganze](Ganze%20Zahlen.md), [rationale](Rationale%20Zahlen.md) oder [reelle](Reelle%20Zahlen.md)) hat ein [Vorzeichen](Vorzeichenregel.md) und einen _Betrag_. Eine Zahl, die auf dem rechten Abschnitt der Zahlengeraden liegt, hat positives Vorzeichen oder Vorzeichen $+1$. Eine Zahl auf der linken Seite der Zahlengeraden hat negatives Vorzeichen oder Vorzeichen $-1$. Die Null ist ihre eigene Gegenzahl, $0=0−0$. Deswegen ist $0=−0$ und das Vorzeichen kann frei gewählt werden und wird meistens $+1$ gewählt.  
+
+Nun kommen wir zum Betrag einer Zahl $a$, die wir uns wiederum als Punkt auf der Zahlengeraden vorstellen. Der Betrag $|a|$ von $a$ ist der Abstand von $a$ zur Null auf der Zahlengeraden, oder in Formeln ausgedrückt:
+$$|a| =\{ {{a\ a\geq 0} \atop {-a\ a < 0}}$$
