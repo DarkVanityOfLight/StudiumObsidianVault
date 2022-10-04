@@ -1,6 +1,6 @@
 # Die Wurzel aus 2 ist nicht Rational
 Wir suchen eine Zahl d, mit der wir die Länge der Diagonalen im Quadrat der Seitenlänge $1$ angeben können. Die in der unteren der beiden Abbildungen dargestellte Konstruktion mit einer Zerlegung in Dreiecke zeigt dann, dass das Quadrat mit Seitenlänge $d$ eine doppelt so große Fläche hat, wie das Quadrat mit Seitenlänge $1$. Da die Fläche eines Quadrates mit Seitenlänge d durch $d^2$ gegeben ist, sehen wir also, dass die gesuchte Zahl $d$ die Gleichung $d^2=2$ erfüllen muss.
-Hippasos erkannte, dass es keine rationale Zahl gibt, die diese Gleichung erfüllt, d.h., es gibt keine ganzen Zahlen pp und $q \neq 0$, so dass $d={p \over q}$.
+Hippasos erkannte, dass es keine rationale Zahl gibt, die diese Gleichung erfüllt, d.h., es gibt keine ganzen Zahlen $p$ und $q \neq 0$, so dass $d={p \over q}$.
 Der bekannteste Beweis geht auf den Griechen Euklid im 4. Jahrhundert v. Chr. zurück. Er basiert auf einem Widerspruch. Angenommen $d$ ist eine rationale Zahl. Da $d$ sicher größer als Null ist, kann dd sogar als Quotient zweier natürlicher Zahlen dargestellt werden, also
 $$d = {p \over q}, p,q \in N$$
 Insbesondere können wir davon ausgehen, dass pp und $q$ keine gemeinsamen Teiler haben, der Bruch also [vollständig gekürzt](Erweitern%20und%20Kürzen%20von%20Brüchen.md) ist. Da nun
