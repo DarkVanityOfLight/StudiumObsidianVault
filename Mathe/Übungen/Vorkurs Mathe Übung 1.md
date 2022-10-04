@@ -39,9 +39,11 @@ F|F|F|F|F
 
 # Aufgabe 1.3
 a)
-Wenn $A$ lustig und $B$ langhaarig
-$$(\forall m \in M| A \land B)$$
-$$(\exists m \in M|\neg (A \land B))$$
+Wenn $A$ lustig und $B$ langhaarig und $C$ Linkshänder
+$$(\forall m \in M| A \land B \land C)$$
+$$(\exists m \in M|A \lor B \lor C)$$
 b) Wenn $A$ Brille und $B$ Kontaktlinsen
-$$(\exists m \in M|A \lor B)$$
-$$(\forall m \in M| \neg(A \lor B))$$
+$$(\exists i \in I|A \lor B)$$
+$$(\forall i \in I| A \land B)$$
+# Aufgabe 1.4
+$$$$
