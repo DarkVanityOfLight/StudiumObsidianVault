@@ -1,6 +1,25 @@
 # Aufgabe 1.1
 a) $$n^2 + n +41 = Primzahl$$
-b)$$A\setminus B(B\cup C) = (A \setminus B) \setminus C$$
+IA: $$1^2 + 1+41 = 43$$
+IV: Behauptung gilt für  $n\in N$
+IS: $$\begin{align}
+&(n+1)^2 + n +1+41\\
+\iff& n^2 + 2n +1 +n +1+41\\
+\iff& n^2+n+41+2n+2
+\end{align}$$
+Kein gutes Beispiel da Widerspruch nur durch ausprobieren eintritt.
+b)$$\begin{align}
+&A\setminus (B\cup C) = (A \setminus B) \setminus C \\
+&x \in A \setminus (B\cup C) \\
+\iff &x\in A \land x \not \in (B\cup C) \\
+\iff &x\in A \land x\not \in B \land x \not \in C\\
+\iff &x\in(A\setminus B) \setminus C \\
+q.e.d \blacksquare
+\end{align}$$
+c) $$\begin{align}
+A \setminus (B\setminus C) = (A \setminus B) \cup C
+
+\end{align}$$
 # Aufgabe 2.2
 a)
 $$\begin{align}
