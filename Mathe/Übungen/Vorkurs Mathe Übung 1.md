@@ -47,3 +47,8 @@ $$(\exists i \in I|A \lor B)$$
 $$(\forall i \in I| A \land B)$$
 # Aufgabe 1.4
 $$$$
+
+30 muss lügen
+1 sagt die Wahrheit
+29 muss lügen
+2 Wahrheit
