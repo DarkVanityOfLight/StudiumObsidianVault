@@ -9,5 +9,4 @@ $$\begin{align}
 ## Lösungsmengen
 Viele Gleichungen haben jedoch mehrere oder gar keine oder sogar unendlich viele Lösungen. Deshalb ist es vernünftig, von der Lösungsmenge zu sprechen.
 > Die Menge aller Lösungen einer Gleichung $f(x) = 0$ wird als Lösungsmenge $L$ bezeichnet, $$L = \{x_0 | f(x_0) = 0\}$$
->#lösungsmenge
 >Der Lösungsbegriff ist nicht auf eine einzige Variable eingeschränkt. Für eine Gleichung der Form $T(x,y) = 0$ sind alle Zahlenpaare $(x_0; y_0) \in R^2$ eine Lösung, für die $T(x_0; y_0) = 0$ gilt.

@@ -7,4 +7,3 @@ Diese Zahl, die man mit $\sqrt2$ bezeichnet, ist also keine rationale Zahl, sie 
 
 Nimmt man die irrationalen Zahlen zu den rationalen hinzu -  nimmt man also alle Zahlen der Zahlengeraden - so erhält man die reellen Zahlen.
 Die [Menge](Mengen.md) der reellen Zahlen wird mit $R$ bezeichnet.
-#zahlenraum 
