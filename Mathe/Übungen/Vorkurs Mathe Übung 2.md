@@ -35,3 +35,16 @@ $$\begin{align}
 \end{align}$$
 c) $$M = R^2 \setminus \{(x_1, x_2)\in R^2 | x_1 < x_2\}$$
 # Aufgabe 2.3
+a) $$\sum_{k=1}^{n}(2k-1) = n^2$$
+IA: $$\sum_{k=1}^1 = 1^2 = 1$$
+IV: Für ein beliebiges $n \in N$ gilt $A(n)$
+IS: Zu zeigen $A(n+1)$
+$$\begin{align}
+&\sum_{k=1}^{n}(2k-1)\\
+& \sum_{k=1}^{n+1} (2k-1)\\
+= & \sum_{k=1}^{n}(2k-1) + (2(n+1)-1) \\
+\stackrel{IV} =&  n^2 + (2(n+1)-1) = n^2 + 2n+1\\
+= & (n+1)^2
+\end{align}$$
+
+
