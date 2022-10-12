@@ -19,7 +19,7 @@ Fuer eine Teilmenge $T \subseteq B$ heißt $f^-1(T) = \{x \in D_f | f(x) \in T\}
 
 ## Injektiv
 $f$ heißt injektiv, wenn für alle $x_1,x_2 \in D_f$ gilt: wenn $x_1 \not = x_2$, dann $f(x_1) \not = f(x_2)$. Mit anderen Worten: $f$ heißt injektiv, wenn je zwei verschiedene Elemente aus $D_f$ auf verschiedene Elemente von $B$ abgebildet werden.
-weitere äquivalente Formulierung:
+Weitere äquivalente Formulierung:
 >$f$ heißt injektiv, wenn aus $f(x_1) = f(x_2)$ für $x_1, x_2 \in D$ stets $x_1 = x_2$ folgt.
 
 $$\forall x_1, x_2 \in D_f, f(a) = f(b) \implies a = b$$

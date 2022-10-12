@@ -14,4 +14,3 @@ $$\begin{align}
 
 $\neg B \implies \neg A$ : nicht beschränkt $\implies$ nicht konvergent
 Beschränktheit ist keine hinreichende Bedingung für Konvergenz
-
