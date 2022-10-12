@@ -40,16 +40,17 @@ $f$ heißt gerade, wenn mit $x \in D_f$ ist und $f(-x) = f(x) \forall x \in D_f$
 ## Ungerade
 $f$ heißt ungerade, wenn mit $x \in D_f$ auch $-x \in D_f$ auch $-x\in D_f$ ist und $f(-x) = -f(x) \forall x \in D_f$ 
 
-## Monoton  Wachsend
+## Monotonie
+### Monoton  Wachsend
 $f$ heißt monoton wachsend, wenn aus $x_1, x_2 \in D_f$ mit $x_1 < x_2$ stets $f(x_1) \leq f(x_2)$ folgt.
 
-## Streng Monoton Wachsend
+### Streng Monoton Wachsend
 $f$ heißt streng monoton wachsend, wenn aus $x_1, x_2 \in D_f$ mit $x_1 < x_2$ stets $f(x_1) < f(x_2)$ folgt.
 
-## Monoton Fallend
+### Monoton Fallend
 $f$ heißt monoton fallend, wenn aus $x_1, x_2 \in D_f$ mit $x_1 < x_2$ stets $f(x_1) \geq f(x_2)$ folgt.
 
-## Steng Monoton Fallend
+### Steng Monoton Fallend
 $f$ heißt streng monoton fallend, wenn aus $x_1, x_2 \in D_f$ mit $x_1 < x_2$ stets $f(x_1) > f(x_2)$ folgt.
 
 
