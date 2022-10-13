@@ -25,4 +25,9 @@ $$\begin{align}
 &\lim_{n\to\infty} {1 \over n^2} \cdot {n(n+1) \over 2} = \lim_{n\to\infty}{n^2 + n \over 2n^2} = \lim_{n\to\infty} {1+{1\over n} \over 2} = {1\over 2}
 \end{align}$$
 ## Aufgabe 7.3
-a)
+a
+$$
+(-1)^n + (-1)^{n+1} = 0
+$$
+b
+$a_n = n$ dann ist das inverse $1 \over a_n$ also $1\over n$ konvergent.
