@@ -6,7 +6,7 @@ Sei $y = 2b - 1$ mit $b \in N$
 Behauptung: $x \cdot y = 2c$ für ein $c \in N$
 
 $$\begin{align}
-x \cdot y &= (2a \cdot (x2b -1a \\
+x \cdot y &= (2a \cdot (2b -1a)) \\
 &= 4ab -2a \\
 &= 2(\underbrace{2ab -a}_{c \in N})
 \end{align}$$
