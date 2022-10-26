@@ -27,17 +27,14 @@ Gruppe, Ring, Körper
 ### Algebraische Geometrie
 Lösungsmengen in polynomialen, multivariaten Gleichungssystemen
 $$
-\begin{align} 
-x^2 + 2y^2 = 3\\
-2x^2 + y^2 = 3
-\end{align}
+\left\{{x^2 + 2y^2 = 3 \atop
+2x^2 + y^2 = 3}\right.
 $$
 Lineare Gleichungssysteme
-$$\begin{align}
-2x +y = 1 \\
-x+2y = 1
-\end{align}
+$$
+\left\{{2x +y = 1 \atop x+2y = 1}\right.
 $$
 Spezialfall: Polynom in ein 1 Variable, höher Grad
 $ax^2 + bx +c = 0$
-$x_1/2 = -$
+$x_{1/2} = {-b \pm \sqrt{b^2 -4ac} \over 2a}$
+
