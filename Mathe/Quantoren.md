@@ -1,5 +1,3 @@
-# Quantoren
-
 ## Allquantor
 > Die Universalaussage wird mit dem Allquantor $\forall$ bezeichnet.
 > Man ließt "für alle"

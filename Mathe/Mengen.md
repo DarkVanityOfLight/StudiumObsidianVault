@@ -1,8 +1,8 @@
-# Mengen
-
 Die Objekte in einer Menge nennt man Element der Menge M.
 
-> Eine Menge ist die Zusammenfassung von unterscheidbaren Objekten zu einem Ganzen.
+## Definition
+> Eine Menge ist die Zusammenfassung von wohl unterschiedenen Objekten unserer Anschauung oder unseres Denkens zu einem Ganzen.
+---
 
 Ist x ein Element der Menge M, so schreibt man:
 $$x \in M$$
