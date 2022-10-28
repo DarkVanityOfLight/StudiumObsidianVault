@@ -1,4 +1,5 @@
-Die Objekte in einer Menge nennt man Element der Menge M.
+0 13 11 46
+21% 23% 18% 13%Die Objekte in einer Menge nennt man Element der Menge M.
 
 ## Definition
 > Eine Menge ist die Zusammenfassung von wohl unterschiedenen Objekten unserer Anschauung oder unseres Denkens zu einem Ganzen.

@@ -59,50 +59,48 @@ Aus $x>1$ wahr folgt $x^2>1$ wahr.
 Es existiert ein $x \in \mathbb Z$ mit $x<0$.
 ![Quantoren](Quantoren.md)
 
-## Prädikatenlogik
-Aussagen die mit Hilfe von $\forall , \exists$ und Aussageformen formuliert werden können nennt man Aussagen der Prädikatenlogik.
+---
 
-### Sätze und Beweise
+
+Prädikatenlogik
+Aussagen die mit Hilfe von ∀,∃ und Aussageformen formuliert werden können nennt man Aussagen der Prädikatenlogik.
+
+Sätze und Beweise
 Eine wahre Aussage der Prädikatenlogik bezeichnet man als Satz, ihre Herleitung beizeichnen wir als Beweis
 
-- Lemma: Zwischenergebnis
-- Proposition: nicht so zentrales Ergebnis
-- Corollar: Folgerung aus einem Satz
+Lemma: Zwischenergebnis
+Proposition: nicht so zentrales Ergebnis
+Corollar: Folgerung aus einem Satz
 
 ---
 
 ## Logische Operationen
 Eine logische Operation verknüpft [Aussagen](Aussagen.md) zu einer neuen [Aussage](Aussagen.md). Damit erhalten wir Aussageformen, die wir als Logische Formel bezeichnen.
 ![Logisches Oder(Disjunktion)](Aussagen.md#Logisches%20Oder(Disjunktion))
-![Negation](Aussagen.md#Negation)
-### Beispiel
-```bash
-if not A then ... fi
-if A and B then ... fi
-if A or B then ... fi
-```
-
-## Wahrheitstafel
-Wahrheitstafel gilt die Werte einer logischen Formel an in Abhängigkeit
-
-| $A$  | $\neg A$  |
-|---|---|
-| 1  | 0  |
-| 0  |  1 |
-
-|  $A$ | $B$  | $A\land B$  |
-|---|---|---|
-|  1 |  1 |  1 |
-|  0 |  1 |  0 |
-|  1 |  0 |  0 |
-| 0  | 0  |  0 |
-
 |  $A$ | $B$  | $A\lor B$  |
 |---|---|---|
 |  1 |  1 |  1 |
 |  0 |  1 |  1 |
 |  1 |  0 |  1 |
 | 0  | 0  |  0 |
+![Logisches Und(Konjunktion)](Aussagen.md#Logisches%20Und(Konjunktion))
+|  $A$ | $B$  | $A\land B$  |
+|---|---|---|
+|  1 |  1 |  1 |
+|  0 |  1 |  0 |
+|  1 |  0 |  0 |
+| 0  | 0  |  0 |
+![Negation](Aussagen.md#Negation)
+| $A$  | $\neg A$  |
+|---|---|
+| 1  | 0  |
+| 0  |  1 |
+### Beispiel
+```bash
+if not A then ... fi
+if A and B then ... fi
+if A or B then ... fi
+```
 
 ![Implikation](Aussagen.md#Implikation)
 
@@ -111,5 +109,4 @@ Wahrheitstafel gilt die Werte einer logischen Formel an in Abhängigkeit
 | 1  | 1  |  1 |
 | 0  |  1 |  1 |   
 |  1 |  0 |  0 |
-
 |  0 |  0 |  1 |
