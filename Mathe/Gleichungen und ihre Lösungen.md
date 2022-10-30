@@ -1,9 +1,8 @@
-# Gleichungen und ihre Lösungen
 
 Gleichungen, die Variablen enthalten, sind eine spezielle Form von [Aussagen](Aussagen.md). Manche Gleichungen haben genau eine Lösung, auf die man durch Äquivalenzumformungen geführt wird, beispielsweise die Gleichung $2x + 1= 8x-11$:
 $$\begin{align}
-\ &2x+1 &=&\ 8x-11 &| -2x+11\\
-\iff &12 &=&\ 6x &|:6\\
+\ &2x+1 &=&\ 8x-11 &|& -2x+11\\
+\iff &12 &=&\ 6x &|&:6\\
 \iff &x &=&\ 2
 \end{align}$$
 ## Lösungsmengen
