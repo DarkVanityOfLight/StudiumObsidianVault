@@ -1,0 +1,1 @@
+$$M_1 \times ... \times M_n = \{(m_1, ..., m_n) | m_i\in M_i\}$$
