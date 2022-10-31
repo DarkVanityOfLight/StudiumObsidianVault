@@ -1,4 +1,3 @@
-# Vollständige Induktion
 Betrachte eine Aussage $A(n)$ für alle $n \in N, n \geq n_0$, wobei $n_0 \in N$ fest (oft $n_0 = 1$) definiert ist. Um zu zeigen, dass die Aussage $A(n)$ für alle $n \in N, n \geq n_0$ wahr ist, geht man wie folgend vor:
 - Man zeigt, dass $A(n_0)$ wahr ist. (Induktionsanfang)
 - Man zeigt:
