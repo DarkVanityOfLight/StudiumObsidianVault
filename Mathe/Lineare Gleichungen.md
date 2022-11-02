@@ -1,4 +1,3 @@
-# Lineare Gleichungen
 >Eine Gleichung der Form $bx + c = 0$, wobei $b, c \in R$ vorgegebene [reelle Zahlen](Reelle%20Zahlen.md) mit $b\neq 0$ sind und $x \in R$ die gesuchte Unbekannte ist, heißt _lineare Gleichung_.
 
 Mit Hilfe der Äquivalenzumformungen
