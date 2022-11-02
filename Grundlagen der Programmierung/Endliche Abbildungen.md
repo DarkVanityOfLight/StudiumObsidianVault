@@ -19,7 +19,7 @@ Der Kommaoperator ist [assoziativ](Assoziativgesetz.md) aber nicht [kommutativ](
 ### Die Einschränkung
 $$dom(\varphi - A) := dom \varphi - A$$
 $$(\varphi - A)(x) := \varphi(x)$$
-Dies endlichen Abbildungen sind mehr oder weniger gleich der [Mengen](Mengen.md) und ihrer Operationen([Differenz von zwei Mengen](Differenz%20von%20zwei%20Mengen.md), [Durschnitt von zwei Mengen](Durschnitt%20von%20zwei%20Mengen.md), [Vereinigung von zwei Mengen](Vereinigung%20von%20zwei%20Mengen.md))
+Dies endlichen Abbildungen sind mehr oder weniger gleich der [Mengen](Mengen.md) und ihrer Operationen([Differenz von zwei Mengen(Komplement)](Differenz%20von%20zwei%20Mengen(Komplement).md), [Durschnitt von zwei Mengen](Durschnitt%20von%20zwei%20Mengen.md), [Vereinigung von zwei Mengen](Vereinigung%20von%20zwei%20Mengen.md))
 
  ## Eigenschaften endlicher Abbildungen
 [Die Erweiterung(Kommaoperator)](Endliche%20Abbildungen.md#Die%20Erweiterung(Kommaoperator)) ist [assoziativ](Assoziativgesetz.md):

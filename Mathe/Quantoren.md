@@ -3,10 +3,16 @@
 > Man ließt "für alle"
 >Eine Universalaussage wird [verneint](Aussagen.md#Negation), indem man den [Existenzquantor](#Existensquantor) $\exists$ vor die verneinte Aussage stellt.
 
+$${\cap \atop i \in I}M_i = \{m | m \in M_i \forall i\in I\}$$
+
 ## Existensquantor
 >Die Existenzaussage wird mit dem Existensquantor $\exists$ bezeichnet.
 >Man ließt "mindestens eins"
 >Eine Existenzaussage wird [verneint](Aussagen.md#Negation), indem man den [Allquantor](#Allquantor)$\forall$ vor die verneinte Aussage stellt.
+
+$$
+{\cup \atop i\in I} M_i = \{m|\exists i\in I\ mit\ m\in M_i\}
+$$
 
 ## Beispiel
 Alle Studierenden sind fleißig.
