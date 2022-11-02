@@ -1,4 +1,3 @@
-# Summe von 1 bis n
 
 $$\sum_{k=1}^nk = 1+2+...+n= {n(n+1) \over 2}$$
 
