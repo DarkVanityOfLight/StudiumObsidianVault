@@ -1,7 +1,12 @@
 ## Aussage
 >Eine mathematische Aussage ist ein Objekt, dem genau der Wahrheitswert wahr oder falsch zugeordnet werden kann.
 
-## Implikation
+| A | B | $A \implies B$ | $B \implies A$ | $A \implies B \land B \implies A$ | $A\iff B$ |
+|---|---|----------------|----------------|-----------------------------------|-----------|
+| 1 | 1 | 1              | 1              | 1                                 | 1         |
+| 1 | 0 | 0              | 1              | 0                                 | 0         |
+| 0 | 1 | 1              | 0              | 0                                 | 0         |
+| 0 | 0 | 1              | 1              | 1                                 | 1         |## Implikation
 > Sind zwei Aussagen $A$ und $B$ gegeben, und ist $B$ wahr, falls $A$ wahr ist, so heißt $B$ Folgerung aus $A$. Wir sagen dann auch, $B$ folge aus $A$ oder $A$ impliziert $B$ und wir schreiben: $$A \implies B$$
 > Die Kontraposition $\neg B \implies \neg A$ ist äquivalent zu der Implikation $A \implies B$
 

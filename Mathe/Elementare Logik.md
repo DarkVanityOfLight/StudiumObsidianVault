@@ -102,7 +102,12 @@ if A and B then ... fi
 if A or B then ... fi
 ```
 
-![Implikation](Aussagen.md#Implikation)
+![Implikation](Aussage| A | B | $A \implies B$ | $B \implies A$ | $A \implies B \land B \implies A$ | $A\iff B$ |
+|---|---|----------------|----------------|-----------------------------------|-----------|
+| 1 | 1 | 1              | 1              | 1                                 | 1         |
+| 1 | 0 | 0              | 1              | 0                                 | 0         |
+| 0 | 1 | 1              | 0              | 0                                 | 0         |
+| 0 | 0 | 1              | 1              | 1                                 | 1         |n.md#Implikation)
 
 | A  | B  |  $A\implies B$ |
 |---|---|---|
