@@ -16,7 +16,7 @@ Aus der Voraussetzung A wird die Behauptung B direkt gefolgert, wir beweisen fol
 
 ---
 
-## Der indirekte Beweis
+## Der indirekte Beweis(Widerspruchsbeweis)
 Ist der zu beweisende Satz eine Aussage A, so zeigen wir äquivalent, dass $\neg A$ falsch ist, also dass die negierte Aussage zu einem Widerspruch führt.
 ![Gerade Potenzen](Gerade%20Potenzen.md)
 
