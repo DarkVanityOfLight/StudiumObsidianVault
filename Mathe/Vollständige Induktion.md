@@ -5,4 +5,4 @@ Betrachte eine Aussage $A(n)$ für alle $n \in N, n \geq n_0$, wobei $n_0 \in N$
     $A(n+1)$ wahr.(Induktionsschluss)
 
 ## Beispiel
-![Summe von 1 bis n](Summe%20von%201%20bis%20n.md#Summe%20von%201%20bis%20n)
+![Summe von 1 bis n](Summe%20von%201%20bis%20n.md)
