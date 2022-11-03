@@ -1,4 +1,4 @@
-
+(n^2 - 1^2)
 > Für alle [reelle Zahlen](Reelle%20Zahlen.md) $a$ und $b$ gelten:
 >  1. Binomische Formel $$(a + b)^2 = a^2 + 2ab + b^2$$
 >2. Binomische Formel$$(a-b)^2 = a^2 -2ab + b^2$$
