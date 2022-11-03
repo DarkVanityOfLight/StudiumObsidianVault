@@ -130,7 +130,6 @@ $$
 &\square q.e.d
 \end{align}
 $$
-
 ---
 ## Aufgabe 5
 
