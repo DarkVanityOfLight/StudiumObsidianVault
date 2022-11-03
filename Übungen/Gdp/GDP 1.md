@@ -20,3 +20,31 @@ d) $if\ 42\ then\ false\ else\ true$
 ## Aufgabe 2
 a) Es gibt unendlich viele Boolesche Ausdrücke, $n <n+1 \forall n\in N$
 b) Es gibt genau zwei Boolesche Werte, nämlich true und false
+
+## Aufgabe 3
+
+${\over one \Downarrow one}$ $\over two \Downarrow two$ $\over nil \Downarrow nil$ 
+
+
+$$
+e_1 \Downarrow n_1 \qquad e_2 \Downarrow n_2 \over
+cons(e_1, e_2) \Downarrow n_1 + 2\cdot n_2
+$$
+
+
+
+cons(1, nil)
+1
+$$
+1 + 2 \cdot 0 = 1
+$$
+
+cons(1, cons(1, nil))
+$11$
+$$ 1+ 2 \cdot (1 + 2 \cdot 0) = 3$$
+cons(1, cons(2, nil))
+12
+$$
+1 + 2 \cdot (2 + 2\cdot 0) = 5
+$$
+
