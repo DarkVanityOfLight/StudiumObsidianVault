@@ -14,8 +14,8 @@ $$(\varphi_1, \varphi_2)(x):=
 &\varphi_2(x)\ falls\ x \in dom \varphi_2\\
 &\varphi_1(x)\ sonst
 \end{align}\right.$$
-Der Kommaoperator ist [assoziativ](Assoziativgesetz.md) aber nicht [kommutativ](Kommutativgesetz.md)￼###
-.
+Der Kommaoperator ist [assoziativ](Assoziativgesetz.md) aber nicht [kommutativ](Kommutativgesetz.md)
+
 ### Die Einschränkung
 $$dom(\varphi - A) := dom \varphi - A$$
 $$(\varphi - A)(x) := \varphi(x)$$

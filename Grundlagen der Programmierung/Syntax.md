@@ -40,6 +40,4 @@ graph TD
     id4 --- id6((815))
 ```
 Die hierarchische Struktur verdeutlicht, dass sich der Ausdruck aus mehreren Teilausdrücken zusammensetzt. Man spricht auch von einem Rechenbaum oder allgemein von einem abstrakten Syntaxbaum.
-
-
-
+$e \in Expr ::= ...$
