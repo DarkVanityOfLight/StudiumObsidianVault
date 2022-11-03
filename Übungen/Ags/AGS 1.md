@@ -119,17 +119,24 @@
 ---
 
 ## Aufgabe 4
-Eine Zahl $n\in \mathbb N$ ist durch $3$ teilbar wenn sie ein vielfaches der Zahl $3$ ist, also von der Form $3k$
+
+$A: n^3 +2n$ ist Teilbar durch 3
+IA: $A(1) = 1^3 + 2 \cdot 1 = 3$
+IV: Für ein beliebiges $n\in N$ gelte $A(n)$
+IS: $n \to n+1$
 $$
 \begin{align}
-&n^3 +2n &|& Umschreiben \\
-=&n \cdot n \cdot n + (n + n)&|&Distributivgesetz\\
-=& n \cdot n + (n \cdot n) + (n\cdot n)&|&Zusammenfassen\ zu\ Quadraten\\
-=& (n^2) + (n^2) + (n^2)&|& Plus\ zu\ Mal\ Rechnung\\
-=& 3(n^2) &|& Von\ der \ Form\ 3k\\
-&\square q.e.d
+&(n+1)^3 +2(n+1) \\
+=& n^3 + 3n^2 + 3n+1 + 2n +2\\
+=& n^3 +3n^2 + 3n +2n + 3 \\
+=& \underbrace{n^3 + 2n}_{IV} + 3n^2 + 3n + 3 \\
+=& \underbrace{n^3 + 2n}_{IV}  + 3(n^2 +n + 1)\\
 \end{align}
 $$
+
+Da der Term ohne die IV von der Form $3k$ ist lässt sich der Term durch 3 Teilen.
+$\square q.e.d$
+
 ---
 ## Aufgabe 5
 
