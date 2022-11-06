@@ -9,7 +9,6 @@ cons(e_1, e_2) \Downarrow n_1 + 2\cdot n_2$$
 b)
 Da wir zu Beginn nicht wissen, wie viele Stellen die Zahl haben wird, kenne wir den Wert des Größten Exponenten nicht.
 
-
 ## Aufgabe 4
 
 $\phi_1, \phi_1 = \{Flecki \mapsto Heu, Fred \mapsto Heu, Hoppel \mapsto Drops\}$
