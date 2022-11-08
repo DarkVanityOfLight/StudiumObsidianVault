@@ -1,5 +1,5 @@
 # Folgen
-Eine [Funktionen](Funktionen.md) von $N$ nach $R$ heißt (reelle) Folge.
+Eine [Funktionen](Mathe/Funktionen.md) von $N$ nach $R$ heißt (reelle) Folge.
 $$\begin{align}
 a: N \rightarrow R\\
 n \mapsto a(n) = a_n
