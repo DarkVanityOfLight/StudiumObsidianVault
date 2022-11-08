@@ -1,5 +1,3 @@
-
-
 ## [Abstrakte Syntax](Syntax.md#Abstrakte%20Syntax)
 ```csharp
 e::=

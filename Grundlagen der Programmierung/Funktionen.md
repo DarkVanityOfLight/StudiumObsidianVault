@@ -1,3 +1,8 @@
+```mermaid
+graph TD
+START["Definition: let f(x:t):u = e<br>anonyme Funktion:fun(x:t) -> e"] ---|konstruktion| MID((t -> u)) ---|Analyse/Beobachtung<br>Funktionsanwendung| END(( ))
+```
+
 ```csharp
 let s = 4711 + 815 in s*s 
 ```
@@ -87,7 +92,17 @@ Der Rumpf einer Funktion wird in der um den formalen Parameter erweiterten [Sign
 - Können wir Funktionen überhaupt auswerten?
 - Man könnte eine Funktion tabellieren: für jedes Argument wird der Funktionswert ausgerechnet. 
 
-Der Bereich der Werte wird um Funktionsabschlüsse erweitert(engl. closures).
+### Beispiel
+```csharp
+let not(a: Bool): Bool = if a then false else true
+```
+wird ausgewertet zu
+$\{\text{false} \mapsto \text{true}, \text{true} \mapsto \text{false}\}$
+Dies ist nicht machbar, wenn das Argument eine natürliche Zahl ist.
+
+Die Auswertung einer Funktion wird verzögert oder "eingefroren", bis der aktuelle Parameter bekannt ist.
+
+Der Bereich der [Werte](Werte.md) wird um Funktionsabschlüsse erweitert(engl. closures).
 
 $$\begin{align}
 &v ::=...\\
@@ -101,21 +116,14 @@ $$
 Eine Funktionsdefinition wertet zu einer Bindung aus, in der der Funktionsname an einen Funktionsabschluss gebunden ist.
 
 Die Kombination aus Umgebung und Ausdruck $\delta \vdash e$, kann als Konfiguration oder [[Zustand]] eines Rechners aufgefasst werden; die Auswertungsregeln legen die Arbeitsweise des Rechners fest; eine "closure" speichert im Wesentlichen eine Konfiguration
+
+
 ### Auswertungsregel
 $$
 \delta(f) = \langle\delta', x_1, e\rangle \qquad \delta\vdash e_1 \Downarrow v_1 \qquad \delta', \{x_1\mapsto v_1\} \vdash e \Downarrow v \over \delta \vdash f(e_q) \Downarrow v
 $$
 Jetzt da der aktuelle Parameter bekannt ist kann die verzögerte Auswertung wiederaufgenommen werden.
 
-### Beispiel
-```csharp
-let not(a: Bool): Bool = if a then false else true
-```
-wird ausgewertet zu
-$\{\text{false} \mapsto \text{true}, \text{true} \mapsto \text{false}\}$
-Dies ist nicht machbar, wenn das Argument eine natürliche Zahl ist.
-
-Die Auswertung einer Funktion wird verzögert oder "eingefroren", bis der aktuelle Parameter bekannt ist.
 
 ## Verzögerte Auswertung
 Was passiert, wenn der Funktionsrumpf freie Bezeichner enthält?
@@ -124,6 +132,4 @@ $$
 {\emptyset \vdash 2\Downarrow2\over \emptyset \vdash \text{let d} =2 \Downarrow \{d\mapsto2\}}\qquad {\over \{d\mapsto2\}\vdash \text{let next}(n) = n+d \Downarrow?}\over \emptyset \vdash \text{let}\; d=2\; \text{let next}\; (n) = n+d \Downarrow?
 $$
 Wenn wir die Auswertung "einfrieren" und später fortsetzen "auftauen" wollen, müssen wir uns die Funktionsdefinition und die aktuelle Umgebung merken.
-
-
-
+#prüfungszettel 

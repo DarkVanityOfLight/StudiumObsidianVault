@@ -1,5 +1,5 @@
 ## Aussage
->Eine mathematische Aussage ist ein Objekt, dem genau der Wahrheitswert wahr oder falsch zugeordnet werden kann.
+>Eine mathematische Aussage ist ein Objekt, dem genau der [Warheitswerte(Boolean)](Warheitswerte(Boolean).md) wahr oder falsch zugeordnet werden kann.
 
 
 ## Implikation
