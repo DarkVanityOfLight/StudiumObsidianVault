@@ -43,8 +43,9 @@ Die obigen Beweisregeln für die Auswertung arithmetischer Ausdrücke sind sehr 
 $$
 {\over num(n) \Downarrow n}
 \atop
-{e_1 \Downarrow n_1\ e_2 \Downarrow n_2\over add(e_1, e_2 \Downarrow n_1+n_2)}\ {e_1 \Downarrow n_1 \ e_2 \Downarrow n_2\over mul(e_1, e_2) \Downarrow n_1 \cdot n_2}
+{e_1 \Downarrow n_1\ e_2 \Downarrow n_2\over add(e_1, e_2)\Downarrow n_1+n_2}\ {e_1 \Downarrow n_1 \ e_2 \Downarrow n_2\over mul(e_1, e_2) \Downarrow n_1 \cdot n_2}
 $$
+
 Die erste Regel - ein Axiom - legt fest, dass Konstanten zu sich selbst auswerten. Die beiden anderen Regeln formalisieren, dass sich zunächst beide Teilausdrücke ausgerechnet werden und dass das Ergebnis die Summe bzw. das Produkt der Teilergebnisse ist.
 
 Regeln, die Metavariablen enthalten, heißen Regelschemata.

@@ -120,21 +120,22 @@
 
 ## Aufgabe 4
 
-$A: n^3 +2n$ ist Teilbar durch 3
+$A: n^3 +2n =3k \qquad k\in \mathbb N$
 IA: $A(1) = 1^3 + 2 \cdot 1 = 3$
-IV: Für ein beliebiges $n\in N$ gelte $A(n)$
+IV: Für ein beliebiges $n\in \mathbb N$ gelte $A(n)$
 IS: $n \to n+1$
 $$
 \begin{align}
 &(n+1)^3 +2(n+1) \\
 =& n^3 + 3n^2 + 3n+1 + 2n +2\\
 =& n^3 +3n^2 + 3n +2n + 3 \\
-=& \underbrace{n^3 + 2n}_{IV} + 3n^2 + 3n + 3 \\
-=& \underbrace{n^3 + 2n}_{IV}  + 3(n^2 +n + 1)\\
+=& \underbrace{n^3 + 2n}_{IV: 3k} + 3n^2 + 3n + 3 \\
+=& 3k  + 3(n^2 +n + 1)\\
+=& 3(n^2 + n + 1 + k)
 \end{align}
 $$
 
-Da der Term ohne die IV von der Form $3k$ ist lässt sich der Term durch 3 Teilen.
+
 $\square q.e.d$
 
 ---

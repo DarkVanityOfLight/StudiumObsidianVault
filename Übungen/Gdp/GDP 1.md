@@ -1,22 +1,47 @@
-## Aufgabe 1
+## Aufgabe 3
 a)
-$$
+$$\overline{one \Downarrow one}$$ 
+$$\overline{two \Downarrow two}$$
+$$\overline{nil \Downarrow nil}$$
+$$e_1 \Downarrow n_1 \qquad e_2 \Downarrow n_2 \over
+cons(e_1, e_2) \Downarrow n_1 + 2\cdot n_2$$
 
-{{4: Nat\ 5: Nat\over4*5: Nat}\ {17: Nat\ 3: Nat\over 17+3:Bool}\over (4*5) > (17+3): Bool}
-$$
-$$
-{{4\Downarrow4\ 5\Downarrow 5\over4*5\Downarrow20}\ {17\Downarrow17\ 3\Downarrow 3\over 17+3 \Downarrow20}\over (4*5) > (17+3)\Downarrow false}
-$$
-b) $(5 > 4)> 3$ nicht wohlgetypt, da $5>4:Bool$ und $3:Nat$
-c)
-$$
-{{{{{\over 2: Nat }{\over 6: Nat}\over2+6:Nat}{\over10: Nat}\over(2+6) < 10: Bool} {\over 42: Nat}\ {\over 9:Nat}}\over if (2+6) < 10\ then\ 42 else 9: Nat} 
-$$
-$$
-{{{{{\over 2\Downarrow2 }{\over 6\Downarrow6}\over2+6\Downarrow 8}{\over10\Downarrow10}\over(2+6) < 10\Downarrow true} {\over 42\Downarrow 42}}\over if (2+6) < 10\ then\ 42 else 9\Downarrow42} 
-$$
-d) $if\ 42\ then\ false\ else\ true$
+b)
+Da wir zu Beginn nicht wissen, wie viele Stellen die Zahl haben wird, kenne wir den Wert des Größten Exponenten nicht.
 
-## Aufgabe 2
-a) Es gibt unendlich viele Boolesche Ausdrücke, $n <n+1 \forall n\in N$
-b) Es gibt genau zwei Boolesche Werte, nämlich true und false
+## Aufgabe 4
+
+$\phi_1, \phi_1 = \{Flecki \mapsto Heu, Fred \mapsto Heu, Hoppel \mapsto Drops\}$
+$\phi_2, \phi_2 = \{Blacki \mapsto Salat, Flecki \mapsto Moehren, Max \mapsto Gras, Moritz \mapsto Heu\}$
+
+---
+$\phi_1, \phi_2 = \{Flecki \mapsto Moehren, Fred \mapsto Heu, Hoppel \mapsto Drops, Blacki \mapsto Salat, Max\mapsto Gras, Moritz \mapsto Heu\}$
+ $\phi_2, \phi_1 = \{Flecki \mapsto Heu, Fred \mapsto Heu, Hoppel \mapsto Drops, Blacki \mapsto Salat, Max\mapsto Gras, Moritz \mapsto Heu\}$
+ ---
+$$\begin{align}
+\phi_1, \{Hoppel \mapsto Sticks\}, \phi_2 =& \{Flecki \mapsto Moehren, Fred \mapsto Heu,\\
+&Hoppel \mapsto Sticks, Blacki \mapsto Salat,\\
+&Max\mapsto Gras, Moritz \mapsto Heu\}
+\end{align}$$
+
+---
+
+$\phi_1 - \{Max,Moritz\} = \{Flecki \mapsto Heu, Fred \mapsto Heu, Hoppel \mapsto Drops\}$
+$\phi_2 - \{Max, Moritz\} = \{Blacki \mapsto Salat, Flecki \mapsto Moehren\}$
+
+---
+
+$(\phi_1, \phi_2) - \{Max, Moritz\} = \{Flecki \mapsto Moehren, Fred \mapsto Heu, Hoppel \mapsto Drops, Blacki \mapsto Salat\}$
+$\phi_1, (\phi_2 - \{Max, Moritz\}) = \{Flecki \mapsto Moehren, Fred \mapsto Heu, Hoppel \mapsto Drops, Blacki \mapsto Salat\}$
+
+---
+
+$(\phi_1, \phi_2) - \{Fred, Moritz\} = \{Flecki \mapsto Moehren, Hoppel \mapsto Drops, Blacki \mapsto Salat, Max\mapsto Gras\}$
+$\phi_1, (\phi_2 - \{Fred, Moritz\}) = \{Blacki \mapsto Salat, Flecki \mapsto Moehren, Max\mapsto Gras, Fred \mapsto Heu, Hoppel \mapsto Drops\}$
+
+---
+
+
+
+
+
