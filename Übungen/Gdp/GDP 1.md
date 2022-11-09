@@ -1,13 +1,28 @@
 ## Aufgabe 3
 a)
-$$\overline{one \Downarrow one}$$ 
-$$\overline{two \Downarrow two}$$
-$$\overline{nil \Downarrow nil}$$
+$$\overline{one \Downarrow 1}$$ 
+$$\overline{two \Downarrow 2}$$
+$$\overline{nil \Downarrow 0}$$
 $$e_1 \Downarrow n_1 \qquad e_2 \Downarrow n_2 \over
 cons(e_1, e_2) \Downarrow n_1 + 2\cdot n_2$$
 
 b)
 Da wir zu Beginn nicht wissen, wie viele Stellen die Zahl haben wird, kenne wir den Wert des Größten Exponenten nicht.
+
+c)
+$$\begin{align}
+a \in \text{Aussage} ::= &ds\Downarrow \mathbb N \\\
+&|d\Downarrow\mathbb N\\
+&|len(ds) \sim \mathbb N
+\end{align}$$
+
+$$\over len(nil) \sim 0$$ 
+$$len(ds) \sim n \over len\, cons(d, ds) \sim n+1$$
+
+$$
+len(ds) \sim n \qquad d\Downarrow n_1 \qquad ds\Downarrow n_2 \over cons(d, ds) \Downarrow2^n \cdot n_1 + n_2
+$$
+
 
 ## Aufgabe 4
 
