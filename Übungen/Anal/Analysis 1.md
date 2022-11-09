@@ -10,8 +10,10 @@ $$\begin{align}
  &\quad|\forall x: x\in M \land x\in N| - |\forall x: x\in M \land x\in N| \\
  &= |\forall x:x\in M \lor x \in N| \\
 \end{align}$$
+### b)
 $$\begin{align}
-|M \times N| = |M| \cdot |N|
+|M \times N| = |M| \cdot |N|\\
+|M| \cdot |N| = |M\times N|
 \end{align}$$
 ## Aufgabe 2
 $$\begin{align}
@@ -47,3 +49,38 @@ $$\begin{align}
 \square q.e.d
 \end{align}$$
 ## Aufgabe 4
+
+
+Turm verschieben(Ziel, Hilfsplatz, Startplatz)
+    Wenn wir nur 1 Scheibe auf dem Startplatz haben verschiebe sie auf den Zielplatz, Zurückgeben
+    Turm mit -1 Scheiben verschieben (Hilfsplatz, Zielplatz, Startplatz)
+    Bewegung von letzter Scheibe von Startplatz auf Zielplatz
+    Turm mit -1 Scheiben verschieben(Zielplatz, Startplatz, Hilfsplatz)
+
+
+Die optimale Anzahl an Zügen ist $2^n -1$
+
+$A: 2^n -1 = 2\cdot A(n-1) + 1$
+IA: $A(1) = 2^1 -1 = 1 = 2\cdot 0 +1$
+IV: Für $n\in \mathbb N$ gelte $A(n)$
+IB: $A(n+1) = 2^{(n+1)} -1$
+IS: 
+$$\begin{align}
+&A(n+1)  =2\cdot (2^n -1) +1\\
+&=2\cdot 2^n -2+1\\
+&=2^{(n+1)} -1 \\
+&\square q.e.d
+\end{align}$$
+
+## Aufgabe 5
+
+b)
+```python
+
+def sum(n):
+    if n == 1:
+        return 1
+
+    return sum(n-1) + n^3
+
+```
