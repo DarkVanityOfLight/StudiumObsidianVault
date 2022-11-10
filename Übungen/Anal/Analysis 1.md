@@ -50,7 +50,6 @@ $$\begin{align}
 \end{align}$$
 ## Aufgabe 4
 
-
 Turm verschieben(Ziel, Hilfsplatz, Startplatz)
     Wenn wir nur 1 Scheibe auf dem Startplatz haben verschiebe sie auf den Zielplatz, Zurückgeben
     Turm mit -1 Scheiben verschieben (Hilfsplatz, Zielplatz, Startplatz)

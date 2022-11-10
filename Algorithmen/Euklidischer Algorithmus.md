@@ -1,4 +1,3 @@
-# Der euklidische Algorithmus
 Um den grössten gemeinsamen Teiler zweier Zahlen $a$ und $b$, also den $ggT(a, b)$ zu berechnen führt man nacheinander mehrere Divisionen mit Rest aus. Dabei werden Divisor und Rest im 1. Schritt zu Dividend und Divisor im 2. Schritt. Weiter werden Divisor und Rest im 2. Schritt zu Dividend und Divisor im 3. Schritt usw. Dieses Verfahren führt man solange durch bis die Division ohne Rest aufgeht. Der Divisor im letzten Schritt ist der grösste gemeinsame Teiler.
 
 ## Beispiel
