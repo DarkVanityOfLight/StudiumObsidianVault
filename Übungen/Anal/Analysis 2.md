@@ -17,3 +17,61 @@ $$\begin{align}
 
 
 ## Aufgabe 4
+```kotlin
+import java.util.Stack
+
+fun hanoi(start: Stack<Int>, hilfs: Stack<Int>, ziel: Stack<Int>){
+    print(start)
+    print(hilfs)
+    println(ziel)
+    println("-----------")
+    
+    if(start.size == 1) {
+    	ziel.push(start.pop())
+        return
+    }
+    
+    // Take the last element to not move it 
+    var lastElement: Int = 0
+    val help = Stack<Int>()
+    
+    for(i in 0..start.size){
+        if(start.size == 1){
+            lastElement = start.pop()
+            break
+        }
+        
+        help.push(start.pop())
+    }
+    
+    // Move the stack back from the helper stack
+    for(i in 1..help.size){
+        val e = help.pop()
+        start.push(e)
+    }
+    
+    hanoi(start, ziel, hilfs)
+    ziel.push(lastElement)
+    hanoi(hilfs, start, ziel)
+    
+ 
+    
+    
+}
+
+
+fun main() {
+    
+    val start = Stack<Int>()
+    val hilfs = Stack<Int>()
+    val ziel  = Stack<Int>()
+    
+    
+    start.push(1)
+    start.push(2)
+    start.push(3)
+    
+    
+    hanoi(start, hilfs, ziel)
+}
+```
