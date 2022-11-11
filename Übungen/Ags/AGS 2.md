@@ -8,6 +8,7 @@ $\gamma$. $\neg(\neg A) \implies \neg C \land \neg B$: Wenn der Herbst (nicht ni
 
 Da der Ertrag hoch ist wenn die Weinreben genug Sonne bekommen, dadurch kann dann der Preis gesenkt werden und somit ist der Wein nicht teuer.
 
+---
 
 ## Aufgabe 2
 IB:
@@ -37,6 +38,7 @@ $$\begin{align}
 =&{6(n^2 +n + 2n + 2) \over 2} - (n+1)\\
 =&{6(n+1)(n+2) \over 2} - (n+1)
 \end{align}$$
+---
 
 ## Aufgabe 3
 $$\begin{align}
@@ -45,6 +47,9 @@ $$\begin{align}
 =&2^{1+...+n}\\
 =&2^{n(n+1) \over 2}
 \end{align}$$
+
+---
+
 ## Aufgabe 4
 
 Turm verschieben(Ziel, Hilfsplatz, Startplatz)
@@ -69,39 +74,75 @@ $$\begin{align}
 &\square q.e.d
 \end{align}$$
 
+---
+
 
 ## Aufgabe 5
+### a)
 
 ```python
-def summe(n):
-    if n<=1:
-        return n
-    else:
-        return n+summe(n-1)
-        
-def produkt(n):
-    if n==1:
-        return n
-    else:
-        return n*produkt(n-1)
-        
-def compareSumTill(n):
-    for i in range(1, n):
-        formel = (i*(i+1))/2
-        funktion = summe(i)
-        print("Programm: ", int(funktion))
-        print("Formel: ", int(formel))
-        if formel != funktion:
-            raise Exception(f"Programm und Formel habe unterschiedliche Werte fuer {i}")
+def summe(a):
 
-def compareProdTill(n):
-    formel = 2 ** ((n(n+1)) /2)
-    funktion = produkt(n)
+    # return sum(a)
+    s = 0
+    for i in a:
+        s+= i
     
-    print("Programm: ", int(funktion))
-    print("Formel: ", int(formel))
-    if formel != funktion:
-        raise Exception("Programm und Formel habe unterschiedliche Werte")
+    return s
+
+def prod(a):
+
+    s = 1
+
+    for i in a:
+        s *= i
+
+    return s
+# Errechne das Ergebniss der Summe mit der Formel aus Aufgabe 2
+def sum_form(n):
+    return ((6*n*(n+1))/2) - n
+# Errechne das Ergebniss des Produkts mit der Formel aus Aufgabe2
+def prod_form(n):
+    return 2 ** ((n*(n+1))/2)
+
+# Vergleiche das Ergebniss von 2 Funktion in einer Markdown
+# Tabelle
+def compareTill(n, f1, f2):\
+    res = ["|n|Programm|Formel|", "|----|----|----|"]
+    template = "|{}|{}|{}|"
+    for i in range(1, n):
+        program = f1(range(1, i))
+        form = f2(i)
+        res.append(template.format(i, int(program), int(form)))
+
+    return res
 
 ```
 
+### b)
+
+#### Summe
+|n|Programm|Formel|
+|----|----|----|
+|1|0|5|
+|2|1|16|
+|3|3|33|
+|4|6|56|
+|5|10|85|
+|6|15|120|
+|7|21|161|
+|8|28|208|
+|9|36|261|
+
+#### Produkt
+|n|Programm|Formel|
+|----|----|----|
+|1|1|2|
+|2|1|8|
+|3|2|64|
+|4|6|1024|
+|5|24|32768|
+|6|120|2097152|
+|7|720|268435456|
+|8|5040|68719476736|
+|9|40320|35184372088832|
