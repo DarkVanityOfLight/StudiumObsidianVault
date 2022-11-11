@@ -54,6 +54,10 @@ Turm verschieben(Ziel, Hilfsplatz, Startplatz)
     Wenn wir nur 1 Scheibe auf dem Startplatz haben verschiebe sie auf den Zielplatz, Zurückgeben
     Turm mit -1 Scheiben verschieben (Hilfsplatz, Zielplatz, Startplatz)
     Bewegung von letzter Scheibe von Startplatz auf Zielplatz
+    Turm mit -1 Scheiben verschieben(Zielplatz, Startplatz, Hilfsplatz)Turm verschieben(Ziel, Hilfsplatz, Startplatz)
+    Wenn wir nur 1 Scheibe auf dem Startplatz haben verschiebe sie auf den Zielplatz, Zurückgeben
+    Turm mit -1 Scheiben verschieben (Hilfsplatz, Zielplatz, Startplatz)
+    Bewegung von letzter Scheibe von Startplatz auf Zielplatz
     Turm mit -1 Scheiben verschieben(Zielplatz, Startplatz, Hilfsplatz)
 
 

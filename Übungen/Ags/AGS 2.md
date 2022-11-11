@@ -1,4 +1,4 @@
-- [ ] ## Aufgabe 1
+## Aufgabe 1
 $\alpha$. $(A \land \neg C) \implies \neg B$ : Wenn der Herbst Sonnig ist und der Ertrag nicht gering ist, dann ist der Wein nicht teuer.
 
 $\beta$. $(\neg A \lor B) \implies \neg C$ : Wenn der Herbst nicht Sonnig ist oder der Wein teuer ist dann ist der Ertrag nicht gering.
