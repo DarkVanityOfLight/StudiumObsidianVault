@@ -27,7 +27,7 @@ Für ein $n \in \mathbb N$ gelte $A(n)$
 IS: $n \to n+1$
 $$\begin{align}
 &\sum^{n+1}_{k=1} (6k -1)\\
-=& \underbrace{\sum^{n}_{k=1} (6k-1)}_{IV} + (6n-1)\\
+=& \underbrace{\sum^{n}_{k=1} (6k-1)}_{IV} + (6(n+1)-1)\\
 =& {6n(n+1) \over 2} - n + (6(n+1) -1)\\
 =& n(6n+6) -2n+2(6(n+1)-1) \over 2\\
 =&n(6n+6) -2n + 2(6n +6 -1)\over 2 \\
@@ -36,7 +36,8 @@ $$\begin{align}
 =&6n^2 + 6n +12n +12 -2n -2 \over 2\\
 =& {6n^2 + 6n+12n +12 \over 2} - {2(n+1)\over 2}\\
 =&{6(n^2 +n + 2n + 2) \over 2} - (n+1)\\
-=&{6(n+1)(n+2) \over 2} - (n+1)
+=&{6(n+1)(n+2) \over 2} - (n+1)\\
+\square
 \end{align}$$
 ---
 
@@ -52,11 +53,11 @@ $$\begin{align}
 
 ## Aufgabe 4
 
-Turm verschieben(Ziel, Hilfsplatz, Startplatz)
+Turm verschieben(Zielplatz, Hilfsplatz, Startplatz):
     Wenn wir nur 1 Scheibe auf dem Startplatz haben verschiebe sie auf den Zielplatz, Zurückgeben
     Turm mit -1 Scheiben verschieben (Hilfsplatz, Zielplatz, Startplatz)
     Bewegung von letzter Scheibe von Startplatz auf Zielplatz
-    Turm mit -1 Scheiben verschieben(Zielplatz, Startplatz, Hilfsplatz)Turm verschieben(Ziel, Hilfsplatz, Startplatz)
+    Turm mit -1 Scheiben verschieben(Zielplatz, Startplatz, Hilfsplatz)
 
 
 Die optimale Anzahl an Zügen ist $2^n -1$
@@ -71,7 +72,7 @@ $$\begin{align}
 &=2\cdot (2^n -1) +1\\
 &=2\cdot 2^n -2+1\\
 &=2^{(n+1)} -1 \\
-&\square q.e.d
+&\square
 \end{align}$$
 
 ---
