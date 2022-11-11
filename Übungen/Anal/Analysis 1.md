@@ -50,7 +50,6 @@ $$\begin{align}
 \end{align}$$
 ## Aufgabe 4
 
-
 Turm verschieben(Ziel, Hilfsplatz, Startplatz)
     Wenn wir nur 1 Scheibe auf dem Startplatz haben verschiebe sie auf den Zielplatz, Zurückgeben
     Turm mit -1 Scheiben verschieben (Hilfsplatz, Zielplatz, Startplatz)
@@ -66,13 +65,25 @@ IV: Für $n\in \mathbb N$ gelte $A(n)$
 IB: $A(n+1) = 2^{(n+1)} -1$
 IS: 
 $$\begin{align}
-&A(n+1)  =2\cdot (2^n -1) +1\\
+&A(n+1)=2 \cdot A(n) + 1\\
+&=2\cdot (2^n -1) +1\\
 &=2\cdot 2^n -2+1\\
 &=2^{(n+1)} -1 \\
 &\square q.e.d
 \end{align}$$
 
 ## Aufgabe 5
+
+$$\begin{align}
+\sum_{k=1}^n k^3 = {n^2(n+1)^2 \over 4} = {1\over 4} n^4+ {1\over 2} n^3 + {1\over 4}n^2
+\end{align}$$
+IA: ...
+IV: ...
+IS: $$\begin{align}
+&n\to n+1\\
+&\sum_{k=1}^{n+1} k^3 = \sum^{n}_{k=n} k^3 + (n+1)^3\\
+&= n^2
+\end{align}$$
 
 b)
 ```python

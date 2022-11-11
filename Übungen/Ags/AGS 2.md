@@ -5,6 +5,9 @@ $\beta$. $(\neg A \lor B) \implies \neg C$ : Wenn der Herbst nicht Sonnig ist od
 
 $\gamma$. $\neg(\neg A) \implies \neg C \land \neg B$: Wenn der Herbst (nicht nicht)sonnig ist dann  ist der Ertrag nicht gering und der Wein ist nicht teuer.
 
+Da der Ertrag hoch ist wenn die Weinreben genug Sonne bekommen, dadurch kann dann der Preis gesenkt werden und somit ist der Wein nicht teuer.
+
+
 ## Aufgabe 2
 IB:
 $$A:
@@ -24,15 +27,37 @@ $$\begin{align}
 &\sum^{n+1}_{k=1} (6k -1)\\
 =& \underbrace{\sum^{n}_{k=1} (6k-1)}_{IV} + (6n-1)\\
 =& {6n(n+1) \over 2} - n + (6n -1)\\
-=& {6n(n+1) -2n + 2(6n-1) \over 2}\\
 =& n(6n+6) -2n+2(6n-1) \over 2\\
 =& {6n^2 +6n-2n+12n-2 \over 2}\\
 =&6n^2 + 6n +12n -2n -2 \over 2\\
 =& {6n^2 + 6n+12n \over 2} - {2(n+1)\over 2}\\
 =&{6(n^2 +n + 2n) \over 2} - (n+1)\\
+=&{6(n(n+1+2))\over 2} -(n+1)\\
+=&{6(n(n+1)+2) \over 2} - (n+1)\\
 =&{6(n+1)(n+2) \over 2} - (n+1)
 \end{align}$$
 
-$$
-{6(n+1)(n+2) \over 2} - (n+1)
-$$
+## Aufgabe 3
+
+$$\begin{align}
+2^{n(n+1) \over 2}
+\end{align}$$
+
+## Aufgabe 5
+
+```python
+def summe(n):
+    if n<=1:
+        return n
+    else:
+        return n+summe(n-1)
+        
+def produkt(n):
+    if n==1:
+        return n
+    else:
+        return n*produkt(n-1)
+        
+print(summe(5))
+print(produkt(5))
+```
