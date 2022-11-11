@@ -6,7 +6,7 @@ $\beta$. $(\neg A \lor B) \implies \neg C$ : Wenn der Herbst nicht Sonnig ist od
 
 $\gamma$. $\neg(\neg A) \implies \neg C \land \neg B$: Wenn der Herbst (nicht nicht)sonnig ist dann  ist der Ertrag nicht gering und der Wein ist nicht teuer.
 
-Da der Ertrag hoch ist wenn die Weinreben genug Sonne bekommen, dadurch kann dann der Preis gesenkt werden und somit ist der Wein nicht teuer.
+Die Aussage $\gamma$ ergibt Sinn, da der Ertrag hoch ist wenn die Weinreben genug Sonne bekommen, dadurch kann dann der Preis gesenkt werden und somit ist der Wein nicht teuer.
 
 ---
 
@@ -112,7 +112,7 @@ def compareTill(n, f1, f2):\
     res = ["|n|Programm|Formel|", "|----|----|----|"]
     template = "|{}|{}|{}|"
     for i in range(1, n):
-        program = f1(range(1, i))
+        program = f1(range(0, i))
         form = f2(i)
         res.append(template.format(i, int(program), int(form)))
 
@@ -125,25 +125,27 @@ def compareTill(n, f1, f2):\
 #### Summe
 |n|Programm|Formel|
 |----|----|----|
-|1|0|5|
-|2|1|16|
-|3|3|33|
-|4|6|56|
-|5|10|85|
-|6|15|120|
-|7|21|161|
-|8|28|208|
-|9|36|261|
+|1|1|5|
+|2|3|16|
+|3|6|33|
+|4|10|56|
+|5|15|85|
+|6|21|120|
+|7|28|161|
+|8|36|208|
+|9|45|261|
+
 
 #### Produkt
 |n|Programm|Formel|
 |----|----|----|
 |1|1|2|
-|2|1|8|
-|3|2|64|
-|4|6|1024|
-|5|24|32768|
-|6|120|2097152|
-|7|720|268435456|
-|8|5040|68719476736|
-|9|40320|35184372088832|
+|2|2|8|
+|3|6|64|
+|4|24|1024|
+|5|120|32768|
+|6|720|2097152|
+|7|5040|268435456|
+|8|40320|68719476736|
+|9|362880|35184372088832|
+
