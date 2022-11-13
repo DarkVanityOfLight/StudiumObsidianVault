@@ -1,4 +1,3 @@
-# Reelle Zahlen
 
 > Konstruiert man über dem Einheitsintervall der Zahlengerade 0 bis 1 ein Quadrat und schlägt um 0 einen Kreis, der durch die rechte obere Ecke des Quadrates geht, so schneidet dieser die Zahlengerade in keinem rationalen Punkt
 > ![](Reelle%20Zahlen.jpg)

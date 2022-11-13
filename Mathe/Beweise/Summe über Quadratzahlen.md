@@ -1,4 +1,4 @@
-Beweise, dass für $n \in \mathbb N_{\geq 1}$ gilt:
+fBeweise, dass für $n \in \mathbb N_{\geq 1}$ gilt:
 $$\sum_{k=1}^n k^2 = {n \cdot (n+1) \cdot (2n+1) \over 6}$$
 IA:
 $$
