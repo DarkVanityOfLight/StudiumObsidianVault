@@ -43,10 +43,10 @@ also $m_1 = m_2 \implies f(m_1) = f(m_2)$
 Siehe [Funktionen](Mathe/Funktionen.md)
 
 ## Schubfachprinzip
-Sind $M, N$ endliche Mengen und ist $: M\to N$ eine injektive Abbildung dann gilt $|M| \leq |N|$.
+Sind $M, N$ endliche Mengen und ist $: M\to N$ eine [injektiv](Abbildungen.md#Injektiv) Abbildung dann gilt $|M| \leq |N|$.
 
 ## Beispiel
-$M = \{1,2,3\}$ $N= \{1, 2\}$
+$M = \{1,2,3\}$ $N= \{1, 2\}$injektive
 $\implies |M| > |N| \implies$ es gibt keine inj. Abbildung $M\to N$
 
 ### Beweis
