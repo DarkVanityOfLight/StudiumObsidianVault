@@ -1,4 +1,4 @@
-Eine Relation zwischen [Mengen](Mengen.md) $M$ un $N$ ist Teilmenge $R\subset M\times N$
+fEine Relation zwischen [Mengen](Mengen.md) $M$ un $N$ ist gegeben durch eine [Teilmenge](Teilmengen.md) $R\subset M\times N$
 
 Könne Relation $R\subset M\times N$ mit $(m, n) \in R$ identifizieren. Schreibe $m\square n$ für $(m, n)\in R$
 

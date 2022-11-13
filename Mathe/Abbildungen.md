@@ -1,4 +1,4 @@
-> Eine Abbildung $f: M \to N$ ist eine [Relation](Relation.md) $R\subset \underbrace{M}_{\text{Quelle}} \times \underbrace{N}_{\text{Ziel}}$ sodass es für jedes $m\in M$ genau ein $f(m)\in N$ gibt mit $(m, f(m)) \in R$.
+f> Eine Abbildung $f: M \to N$ ist eine [Relation](Relation.md) $R\subset \underbrace{M}_{\text{Quelle}} \times \underbrace{N}_{\text{Ziel}}$ sodass es für jedes $m\in M$ genau ein $f(m)\in N$ gibt mit $(m, f(m)) \in R$.
 
 ## Schreibweise 
 $$\begin{align}
@@ -44,6 +44,8 @@ Siehe [Funktionen](Mathe/Funktionen.md)
 
 ## Schubfachprinzip
 Sind $M, N$ endliche Mengen und ist $: M\to N$ eine [injektiv](Abbildungen.md#Injektiv) Abbildung dann gilt $|M| \leq |N|$.
+
+Teilt man das Quadrat in ein Netz von ￼n×n￼ gleich großen Quadraten mit der Seitenlänge 1. Setzen wir ￼n2+1￼ Punkte in diese Quadrate muss einer der Punkte in ein Quadrat gesetzt werden in dem schon ein Punkt liegt, damit ist der Abstand zwischen diesen Punkten ￼≤2￼. 
 
 ## Beispiel
 $M = \{1,2,3\}$ $N= \{1, 2\}$injektive
