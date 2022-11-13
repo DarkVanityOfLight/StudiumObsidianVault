@@ -3,6 +3,7 @@ graph TD
 START["Definition: let f(x:t):u = e<br>anonyme Funktion:fun(x:t) -> e"] ---|konstruktion| MID((t -> u)) ---|Analyse/Beobachtung<br>Funktionsanwendung| END(( ))
 ```
 
+
 ```csharp
 let s = 4711 + 815 in s*s 
 ```
