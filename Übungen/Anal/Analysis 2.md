@@ -2,10 +2,33 @@
 
 ## Aufgabe 1
 
+Starte mit der leeren Menge $\emptyset$
+Nehme ein Element aus M: $\{1\}$
+Vereinige die Bisherigen Teilmengen mit dem Element:
+$\emptyset \cap {1} =\{1\}$
+$\emptyset, \{1\}$
 
+---
 
+Nehme das nächste Element aus M: $\{2\}$
+Vereinige die bisherigen Teilmengen mit dem Element: 
+$\emptyset \cap 2$, $\{1\} \cap {2}$
+$\emptyset, \{1\}, \{2\}, \{1, 2\}$
 
-$$|2^M| = 2^{|M|}$$
+---
+
+Nehme das nächste Element aus M: $\{3\}$
+Vereinige die bisherigen mit dem Element: 
+$\emptyset \cap 3, \{1\} \cap \{3\}, \{2\} \cap 3, \{1, 2\} \cap 3$
+
+$\emptyset, \{1\}, \{2\}, \{3\}, \{1, 2\}, \{1, 3\}, \{2, 3\}, \{1, 2 ,3\}$
+
+---
+
+Nehme das letzte Element aus M: $\{4\}$
+Vereinige die bisherigen Teilmengen mit dem Element: $\emptyset \cap \{4\}, \{1\} \cap \{4\}, \{2\} \cap 4, \{3\} \cap \{4\}, \{1, 2\} \cap \{4\}, \{1, 3\} \cap \{4\}, \{2, 3\} \cap \{4\}, \{1, 2, 3\} \cap \{4\}$
+$\emptyset, \{1\}, \{2\}, \{3\}, \{4\}, \{1, 2\}, \{1, 3\}, \{1, 4\},\{2, 3\}, \{2, 4\}, \{3, 4\}, \{1, 2 ,3\},    \{1, 2, 4\}, \{1, 3, 4\}, \{2, 3, 4\}, \{1, 2, 3, 4\}$
+
 
 ## Aufgabe 2
 
