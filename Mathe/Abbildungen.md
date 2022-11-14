@@ -14,6 +14,9 @@ Für $B\subset N$ heißt $f^{-1}(B) := \{m\in M | f(m) \in B\}$ Urbild von B unt
 
 ## Surjektiv
 $f: M\to N$ heißt surjektiv wenn $f(M) = N$
+### Formal
+$\forall n \in N \exists m \in M: f(m) = n$
+
 
 ## Injektiv
 Gilt für alle $m_1, m_2 \in M$ dass $f(m_1) = f(m_2) \implies m_1 = m_2$

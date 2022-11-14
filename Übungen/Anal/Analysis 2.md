@@ -28,9 +28,11 @@ Kategorien:
 
 $|M| = |N|$ und $f: M\to N$
 
-$f$ ist bijektiv, wenn fuer alle $m \in M$ genau ein $n\in N$ mit $f(m) = n$ existiert, $\forall n\in N: \exists_1 m \in N: f(m) = n$
+$f$ ist bijektiv, wenn für alle $m \in M$ genau ein $n\in N$ mit $f(m) = n$ existiert, $\forall n\in N: \exists_1 m \in N: f(m) = n$
 
 $f$ ist injektiv wenn $m_1, m_2 \in M$ $f(m_1) = f(m_2) \implies m_1 = m_2$
+
+$f$ ist surjektiv wenn $\forall n \in N\, \exists m \in M: f(m) = n$
 
 
 ## Aufgabe 5
