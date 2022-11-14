@@ -30,9 +30,9 @@ $|M| = |N|$ und $f: M\to N$
 
 $f$ ist bijektiv, wenn für alle $m \in M$ genau ein $n\in N$ mit $f(m) = n$ existiert, $\forall n\in N: \exists_1 m \in N: f(m) = n$
 
-$f$ ist injektiv wenn $m_1, m_2 \in M$ $f(m_1) = f(m_2) \implies m_1 = m_2$
 
-$f$ ist surjektiv wenn $\forall n \in N\, \exists m \in M: f(m) = n$
+Wenn eine Abbildung injektiv ist darf jeder Wert in der Ziel menge nur einmal angenommen werden da die beiden Mengen gleich Mächtig sind,
+muss jeder Wert in der Ziel menge einmal angenommen werden. Damit ist die Funktion surjektiv. Da aus der Injektivität die Surjektivität folgt ist die Abbildung Bijektiv. Aeqivalent dazu muss die Abbildung injektiv sein wenn  sie surjektiv ist da alle Werte in der Zielmenge angenommen werden müssen und die Mächtigkeit der beiden Mengen gleich ist darf kein Zielwert zwei mal angenommen werden.
 
 
 ## Aufgabe 5
