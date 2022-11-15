@@ -7,4 +7,4 @@ START[ false, true ] -->|konstrktion<br>synthese| A((Bool))-->|Beobachtung<br>An
 A -->|Transformation<br>Modifikation| A
 ```
 
-[not](Aussagen.md#Negation), [&&](Aussagen.md#Logisches%20Und(Konjunktion)), [||](Aussagen.md#Logisches%20Oder(Disjunktion))
+[not](Aussagen.md#Negation), [&&](Aussagen.md#Logisches%20Und(Konjunktion)), [||](AussEvaluatesagen.md#Logisches%20Oder(Disjunktion))

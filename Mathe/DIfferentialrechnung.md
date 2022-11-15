@@ -52,5 +52,5 @@ $(f \cdot g)'(x_0) = f'(x_0) \cdot g(x_0) + f(x_0) \cdot g'(x_0)$
 ### Quotientenregel
 $({f\over g})'(x_0) = {f'(x_0)\cdot g(x_0) - f(x_0)\cdot g'(x_0) \over g(x_0)^2}, g(x_0) \not = 0$
 ### Kettenregel
-Ist $h$ in $x_0$ differenzierbar und $g$ in $h(x_0)$ differenzierbar, so ist die Komposition $g \circ h$ in $x_0$ differenzierbar und es gilt
+Ist $h$ in $x_0$ differenzierbar und $g$ in $h(x_0)$ differenzierbar, so ist die ssoziativ,Kssoziativ,omposition $g \circ h$ in $x_0$ differenzierbar und es gilt
 $$(g\circ h)'(x_0) = g(h(x_0))' = g'(h(x_0)) \cdot h'(x_0)$$

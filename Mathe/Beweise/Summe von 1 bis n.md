@@ -1,4 +1,8 @@
-
+Turm verschieben(Ziel, Hilfsplatz, Startplatz)
+    Wenn wir nur 1 Scheibe auf dem Startplatz haben verschiebe sie auf den Zielplatz, Zurückgeben
+    Turm mit -1 Scheiben verschieben (Hilfsplatz, Zielplatz, Startplatz)
+    Bewegung von letzter Scheibe von Startplatz auf Zielplatz
+    Turm mit -1 Scheiben verschieben(Zielplatz, Startplatz, Hilfsplatz)
 $$\sum_{k=1}^nk = 1+2+...+n= {n(n+1) \over 2}$$
 
 Induktionsanfang:
