@@ -34,7 +34,7 @@ $\emptyset, \{1\}, \{2\}, \{3\}, \{4\}, \{1, 2\}, \{1, 3\}, \{1, 4\},\{2, 3\}, \
 
 Sein $n \in \mathbb N$ und seien $n^2 + 1$ beliebige Punkte in dem Quadrat $\{(x, y) | 0 \leq x < n, 0 \leq y < n\}$
 
-Teilt man das Quadrat in ein Netz von $n\times n$ gleich großen Quadraten mit der Seitenlänge 1 und setzen wir $n^2 + 1$ Punkte in diese Quadrate muss einer der Punkte in ein Quadrat gesetzt werden in dem schon ein Punkt liegt, da es nur $n^2$ Felder gibt aber $n^2 + 1$ Punkte, damit ist der Abstand zwischen diesen Punkten $\leq \sqrt{2}$. 
+Teilt man das Quadrat in ein Netz von $n\times n$ gleich großen Quadraten mit der Seitenlänge 1 und setzen wir $n^2 + 1$ Punkte in diese Quadrate muss einer der Punkte in ein Quadrat gesetzt werden in dem schon ein Punkt liegt, da es nur $n^2$ Felder gibt aber $n^2 + 1$ Punkte, damit ist der Abstand zwischen diesen Punkten maximal $\sqrt{1^2 + 1^2}\leq \sqrt{2}$. 
 
 
 ## Aufgabe 3
