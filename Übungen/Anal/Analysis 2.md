@@ -34,9 +34,13 @@ $\emptyset, \{1\}, \{2\}, \{3\}, \{4\}, \{1, 2\}, \{1, 3\}, \{1, 4\},\{2, 3\}, \
 
 Sein $n \in \mathbb N$ und seien $n^2 + 1$ beliebige Punkte in dem Quadrat $\{(x, y) | 0 \leq x < n, 0 \leq y < n\}$
 
-Teilt man das Quadrat in ein Netz von $n\times n$ gleich großen Quadraten mit der Seitenlänge 1. Setzen wir $n^2 + 1$ Punkte in diese Quadrate muss einer der Punkte in ein Quadrat gesetzt werden in dem schon ein Punkt liegt, damit ist der Abstand zwischen diesen Punkten $\leq \sqrt{2}$. 
+Teilt man das Quadrat in ein Netz von $n\times n$ gleich großen Quadraten mit der Seitenlänge 1 und setzen wir $n^2 + 1$ Punkte in diese Quadrate muss einer der Punkte in ein Quadrat gesetzt werden in dem schon ein Punkt liegt, da es nur $n^2$ Felder gibt aber $n^2 + 1$ Punkte, damit ist der Abstand zwischen diesen Punkten $\leq \sqrt{2}$. 
+
 
 ## Aufgabe 3
+
+Es sind maximal ${n^2 \over 2} - n - 1$ verschiedene Freundschaften möglich.
+
 
 Wie viele unterschiedlich Freundschaften sind möglich ? Weniger Freundschaften sind Möglich als es Personen gibt, also müssen mindestens 2 in der selben Kategorie landen. Da die Beziehung Symmetrisch ist fällt entweder die Kategorie keine Freunde oder n-1 Freunde weg, denn entweder ist jemand mit allen befreundet, dann gibt es niemanden der keine Freunde hat, oder es gibt nur Personen die nicht mit jedem Befreundet sind.
 
@@ -45,6 +49,9 @@ Kategorien:
  - 1 Freund
  - 2 Freunde
  - 3 Freunde
+ - n-1 Freunde
+
+
 
 
 ## Aufgabe 4
@@ -59,6 +66,24 @@ muss jeder Wert in der Ziel menge einmal angenommen werden. Damit ist die Funkti
 
 
 ## Aufgabe 5
+
+#### a)
+Da $f$ injektiv ist gilt für beliebige$m_1, m_2 \in M : m_1 \not = m_2$
+$f(m_1) \not = f(m_2) \implies n_1 \not = n_2$ und da $g$ auch injektiv ist gilt $g(n_1) \not = g(n_2) \implies l_1 \not = l_2$. Damit muss $h$ injektiv sein.
+
+#### b)
+Da $f$ surjektiv ist existiert ein $m \in M$ für das $f(m) = n$ mit einem beliebigem $n \in N$, und da $g$ auch surjektiv ist existiert ein $n\in N$ für das $g(n) = l$ mit beliebigem $l\in L$.
+
+$$
+\forall n \in N \exists m\in M : f(m) = n
+$$
+$$
+\forall l\in L \exists n\in N : g(n) = l 
+$$
+$$
+\implies \forall l \in L \exists m \in M : g(f(m)) = l
+$$
+
 
 
 ## Aufgabe 6
