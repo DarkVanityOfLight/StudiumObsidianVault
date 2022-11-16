@@ -1,4 +1,4 @@
-$R \subset M\times N$, $R \subset M^2$ 
+$R \subset M\times M$, $R \subset M^2$ 
 
 ## Reflexiv
 $(m,m) \in R$ $\forall m \in M$
@@ -7,6 +7,6 @@ $(m,m) \in R$ $\forall m \in M$
 $(l, m) \in R$ und $(m, n) \in R \implies (l,n) \in R$
 
 ## Antisymetrisch
-$(n,m) \in R$ und $(m, n) \in \implies m=n$
+$(n,m) \in R$ und $(m, n) \in R \implies m=n$
 
 ![Beispiel 1.2](Relation.md#Beispiel%201.2)

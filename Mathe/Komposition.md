@@ -16,6 +16,11 @@ gibt
 $$
 g \circ f: \mathbb R\to \mathbb R, x \mapsto(x+1)^2 = x^2+2x +1
 $$
+$$
+f \circ g: \mathbb R \to \mathbb R, x \mapsto x^2+1
+$$
+
+
 ---
 Die Komposition von [Abbildungen](Abbildungen.md) ist [assoziativ](Assoziativgesetz.md), das heißt für [Abbildungen](Abbildungen.md) 
 $$
