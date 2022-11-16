@@ -12,43 +12,9 @@ $$Bild(f) := f(M) \subset N$$
 Für $B\subset N$ heißt $f^{-1}(B) := \{m\in M | f(m) \in B\}$ Urbild von B unter f.
 
 
-## Surjektiv
-$f: M\to N$ heißt surjektiv wenn $f(M) = N$
-### Formal
-$\forall n \in N \exists m \in M: f(m) = n$
-
-
-## Injektiv
-Gilt für alle $m_1, m_2 \in M$ dass $f(m_1) = f(m_2) \implies m_1 = m_2$
-so heißt $f$ injektiv.
-
-## Bijektiv
-Wenn der Graph [Surjektiv](#Surjektiv) und [Injektiv](#Injektiv) ist, ist er Bijektiv
-Ist $f: M \to N$ bijektiv dann gibt es für jedes $n \in N$ genau ein $m \in M$
-mit $f(m) = n$
-$\implies f^{-1}: N \to M, n \mapsto m$ falls $f(m) = n$
-
-### Beispiel
-$\forall m\in M$
-$f^{-1}(f(m)) = m$
-$f^{-1}$ inj Sei $n_1, n_2 \in N$ $f^{-1}(n_1) = f^{-1}(n_2)$
-$$\begin{align}
-\exists m_1, m_2 \in M: {f(m_1) = n_1 \atop f(m_2)= n_2}
-\end{align}$$
-
-$$\begin{align}
-&f^{-1} (n_1) = f^{-1}(n_2)\\
-&f^{-1}(n_1) = m_1\\
-&f^{-1}(n_2) = m_2
-\end{align}$$
-also $m_1 = m_2 \implies f(m_1) = f(m_2)$ 
-
-Siehe [Funktionen](Mathe/Funktionen.md)
-
 ## Schubfachprinzip
 Sind $M, N$ endliche Mengen und ist $: M\to N$ eine [injektiv](Abbildungen.md#Injektiv) Abbildung dann gilt $|M| \leq |N|$.
 
-Teilt man das Quadrat in ein Netz von ￼n×n￼ gleich großen Quadraten mit der Seitenlänge 1. Setzen wir ￼n2+1￼ Punkte in diese Quadrate muss einer der Punkte in ein Quadrat gesetzt werden in dem schon ein Punkt liegt, damit ist der Abstand zwischen diesen Punkten ￼≤2￼. 
 
 ## Beispiel
 $M = \{1,2,3\}$ $N= \{1, 2\}$injektive
