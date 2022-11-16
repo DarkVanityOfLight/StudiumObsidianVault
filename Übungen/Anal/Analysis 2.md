@@ -34,35 +34,32 @@ $\emptyset, \{1\}, \{2\}, \{3\}, \{4\}, \{1, 2\}, \{1, 3\}, \{1, 4\},\{2, 3\}, \
 
 Sein $n \in \mathbb N$ und seien $n^2 + 1$ beliebige Punkte in dem Quadrat $\{(x, y) | 0 \leq x < n, 0 \leq y < n\}$
 
-Teilt man das Quadrat in ein Netz von $n\times n$ gleich großen Quadraten mit der Seitenlänge 1 und setzen wir $n^2 + 1$ Punkte in diese Quadrate muss einer der Punkte in ein Quadrat gesetzt werden in dem schon ein Punkt liegt, da es nur $n^2$ Felder gibt aber $n^2 + 1$ Punkte, damit ist der Abstand zwischen diesen Punkten $\leq \sqrt{2}$. 
+Teilt man das Quadrat in ein Netz von $n\times n$ gleich großen Quadraten mit der Seitenlänge 1 und setzen wir $n^2 + 1$ Punkte in diese Quadrate muss einer der Punkte in ein Quadrat gesetzt werden in dem schon ein Punkt liegt, da es nur $n^2$ Felder gibt aber $n^2 + 1$ Punkte, damit ist der Abstand zwischen diesen Punkten maximal $\sqrt{1^2 + 1^2}\leq \sqrt{2}$. 
 
 
 ## Aufgabe 3
 
-Es sind maximal ${n^2 \over 2} - n - 1$ verschiedene Freundschaften möglich.
-
-
-Wie viele unterschiedlich Freundschaften sind möglich ? Weniger Freundschaften sind Möglich als es Personen gibt, also müssen mindestens 2 in der selben Kategorie landen. Da die Beziehung Symmetrisch ist fällt entweder die Kategorie keine Freunde oder n-1 Freunde weg, denn entweder ist jemand mit allen befreundet, dann gibt es niemanden der keine Freunde hat, oder es gibt nur Personen die nicht mit jedem Befreundet sind.
-
-Kategorien:
- - Keine Freunde
- - 1 Freund
- - 2 Freunde
- - 3 Freunde
- - n-1 Freunde
-
+Ich kann maximal $n-1$ Freunde haben und da es entweder jemanden gibt der mit allen bekannt ist, oder jemanden der keine Bekanntschaft hat gibt es $n-1-1$ unterschiedliche "Schubfächer" an Bekanntschaften. Daher gibt es mehr "Schubfächer" als Personen($n-2 < n$) und mindestens zwei Personen müssen im selben "Fach" landen(selbe anzahl an Freundschaften).
 
 
 
 ## Aufgabe 4
 
+### 1.
 $|M| = |N|$ und $f: M\to N$
 
 $f$ ist bijektiv, wenn für alle $m \in M$ genau ein $n\in N$ mit $f(m) = n$ existiert, $\forall n\in N: \exists_1 m \in N: f(m) = n$
 
 
-Wenn eine Abbildung injektiv ist darf jeder Wert in der Ziel menge nur einmal angenommen werden da die beiden Mengen gleich Mächtig sind,
-muss jeder Wert in der Ziel menge einmal angenommen werden. Damit ist die Funktion surjektiv. Da aus der Injektivität die Surjektivität folgt ist die Abbildung Bijektiv. Aeqivalent dazu muss die Abbildung injektiv sein wenn  sie surjektiv ist da alle Werte in der Zielmenge angenommen werden müssen und die Mächtigkeit der beiden Mengen gleich ist darf kein Zielwert zwei mal angenommen werden.
+Da $M$ und $N$ gleich mächtig sind und $f$ surjektiv ist, muss jedes $m\in M$ auf ein unterschiedliches $n \in N$ abgebildet werden, damit ist unsere Abbildung injektiv und da aus der surjektiv die Injektivität folgt ist sie auch bijektiv.
+
+Da jedes $m \in M$ auf ein unterschiedliches $n \in N$ abgebildet werden muss(injektiv) und die Mächtigkeit der Zielmenge gleich der Mächtigkeit der Quelle ist muss jedes $n$ angenommen werden. Da aus der Injektivität die surjektiv folgt, ist die Abbildung bijektiv.
+
+### 2.
+
+$x\in \mathbb N$
+Injektiv aber nicht surjektiv $f(x) = {2\over x}$
+Surjektiv aber nicht Injektiv $f(x) = x^2$
 
 
 ## Aufgabe 5
@@ -83,7 +80,6 @@ $$
 $$
 \implies \forall l \in L \exists m \in M : g(f(m)) = l
 $$
-
 
 
 ## Aufgabe 6
