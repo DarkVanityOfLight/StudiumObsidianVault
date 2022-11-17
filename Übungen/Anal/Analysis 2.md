@@ -39,7 +39,7 @@ Teilt man das Quadrat in ein Netz von $n\times n$ gleich großen Quadraten mit d
 
 ## Aufgabe 3
 
-Ich kann maximal $n-1$ Freunde haben und da es entweder jemanden gibt der mit allen bekannt ist, oder jemanden der keine Bekanntschaft hat gibt es $n-1-1$ unterschiedliche "Schubfächer" an Bekanntschaften. Daher gibt es mehr "Schubfächer" als Personen($n-2 < n$) und mindestens zwei Personen müssen im selben "Fach" landen(selbe anzahl an Freundschaften).
+Ich kann maximal $n-1$ Freunde haben und da es entweder jemanden gibt der mit allen bekannt ist, oder jemanden der keine Bekanntschaft hat gibt es $n-1$ unterschiedliche "Schubfächer" an Bekanntschaften. Daher gibt es mehr "Schubfächer" als Personen($n-1 < n$) und mindestens zwei Personen müssen im selben "Fach" landen(selbe anzahl an Freundschaften).
 
 
 
