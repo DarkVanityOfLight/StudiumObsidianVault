@@ -46,20 +46,30 @@ Ich kann maximal $n-1$ Freunde haben und da es entweder jemanden gibt der mit al
 ## Aufgabe 4
 
 ### 1.
-$|M| = |N|$ und $f: M\to N$
 
-$f$ ist bijektiv, wenn für alle $m \in M$ genau ein $n\in N$ mit $f(m) = n$ existiert, $\forall n\in N: \exists_1 m \in N: f(m) = n$
+Vorgaben: $|N| = |M|$, $|M|, |N| < \infty$, $f: M\to N$
+Behauptungen: 
+a) f bijektiv 
+b) f injektiv
+c) f surjektiv
 
+a, b, c äquivalent
 
-Da $M$ und $N$ gleich mächtig sind und $f$ surjektiv ist, muss jedes $m\in M$ auf ein unterschiedliches $n \in N$ abgebildet werden, damit ist unsere Abbildung injektiv und da aus der surjektiv die Injektivität folgt ist sie auch bijektiv.
+b) $\implies$ c) f inj. -> $\forall m \in M \exists n \in N: f(m)=n \land f(m_1) \not = f(m_2)$
+$|M| = |N|$, M, N endl $\implies \forall n \in N \exists m\in M : f(m) = n$
 
-Da jedes $m \in M$ auf ein unterschiedliches $n \in N$ abgebildet werden muss(injektiv) und die Mächtigkeit der Zielmenge gleich der Mächtigkeit der Quelle ist muss jedes $n$ angenommen werden. Da aus der Injektivität die surjektiv folgt, ist die Abbildung bijektiv.
+c) $\implies$ b) $f surj \implies \forall n \in N \exists m\in M: f(m) = n$
+$|M| = |N|$, M, N endl ein El. hat nicht mehrere Bilder
+$\implies \forall m \in M \exists n\in N: f(m) = n end f(m_1) \not = f(m_2), m_1\not = m_2 \implies f inj.$
+
+$(c\iff b) \implies a$
 
 ### 2.
 
-$x\in \mathbb N$
-Injektiv aber nicht surjektiv $f(x) = {2\over x}$
-Surjektiv aber nicht Injektiv $f(x) = x^2$
+$\mathbb N \to \mathbb N$
+Injektiv aber nicht surjektiv $x \mapsto x^2$
+Surjektiv aber nicht Injektiv $x\mapsto = |x-2| +1$
+
 
 
 ## Aufgabe 5

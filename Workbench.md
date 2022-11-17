@@ -17,3 +17,5 @@ insbesondere $g= f^{-1}$
 
 $id_m: M\to M, m \mapsto m$
 $f: M \to N bij \implies f^-1 \circ f = id_M, f \circ f = id_N$
+
+---
