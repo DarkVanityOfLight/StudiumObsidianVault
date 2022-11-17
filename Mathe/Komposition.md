@@ -1,4 +1,4 @@
-Seien $f: M\to N$  und $g: N \to L$ Abbildungen, dann ist die Komposition von __g nach f__ definiert als
+Seien $f: M\to N$  und $g: N \to L$ [Abbildungen](Abbildungen.md), dann ist die Komposition von __g nach f__ definiert als
 $$
 \begin{align}
 g \circ f:& M\to L\\
