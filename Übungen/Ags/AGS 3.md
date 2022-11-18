@@ -1,3 +1,5 @@
+> Kilian Lichtner, Jannis Lauterbach
+
 ## Aufgabe 1
 Vorgaben: $|N| = |M|$, $|M|, |N| < \infty$, $f: M\to N$
 Behauptungen: 
@@ -55,7 +57,7 @@ $f: M \to N$ ist definiert als $m \mapsto g^{-1}(m)$ falls das Urbild von $m$ na
 
 
 ## Aufgabe 4
-
+Wir schreiben für jede Zahl $n \leq 101$ jede mögliche länge($\leq 10$) der ab/aufsteigenden Teilfolge auf, daraus erhalten wir $10^2$ verschiedene mögliche paare aus Teilfolgen. Da wir allerdings $101$ Zahlen haben muss eine dieser Teilfolgen $11$ lang sein.
 
 
 ## Aufgabe 5
