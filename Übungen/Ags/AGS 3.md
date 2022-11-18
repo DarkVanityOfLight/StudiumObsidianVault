@@ -37,12 +37,20 @@ $$
 
 
 ## Aufgabe 3
+### a)
 $g: N \to M$ ist definiert als $n \mapsto f^{-1}(n)$  falls das Urbild von  $n$ definiert ist, ansonsten ein beliebiges Element in $M$. Damit gilt $g(f(m)) = id_M$.
 
 Seien $m_1, m_2 \in M \qquad f(m_1) = f(m_2)$ Anwendung von $g$
 $g(f(m_1)) = g(f(m_2)) \implies m_1 = m_2$ da $f \circ g = id_M$
 
-$\forall n\in N \exists_1 m \in M : f(m) = n$ 
+### b)
+Da f surjektiv ist gilt:
+$\forall n\in N \quad \exists_1 m \in M : f(m) = n$
+Wahlen wir ein beliebiges aber festes $n \in N$ erhalten wir:
+Da $g: N \to M$
+$f(g(n)) = n = f \circ g = id_N$
+
+$f: M \to N$ ist definiert als $m \mapsto g^{-1}(m)$ falls das Urbild von $m$ nach $N$ definiert ist, ansonsten wählen wir ein beliebiges Element in $N$. Damit gilt $f(g(n)) = id_N$
 
 
 
