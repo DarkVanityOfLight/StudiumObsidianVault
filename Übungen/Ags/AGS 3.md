@@ -47,6 +47,7 @@ $g(f(m_1)) = g(f(m_2)) \implies m_1 = m_2$ da $f \circ g = id_M$
 
 ## Aufgabe 4
 
+
 ## Aufgabe 5
 ```kotlin
 import java.util.Stack
