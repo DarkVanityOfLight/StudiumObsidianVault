@@ -42,11 +42,13 @@ $g: N \to M$ ist definiert als $n \mapsto f^{-1}(n)$  falls das Urbild von  $n$ 
 Seien $m_1, m_2 \in M \qquad f(m_1) = f(m_2)$ Anwendung von $g$
 $g(f(m_1)) = g(f(m_2)) \implies m_1 = m_2$ da $f \circ g = id_M$
 
+$\forall n\in N \exists_1 m \in M : f(m) = n$ 
 
 
 
 ## Aufgabe 4
-Wir unterteilen unsere Zahlenfolge in Teilfolgen aus 10 absteigenden oder 10 aufsteigende Zahlen dann hätten wir $10 \cdot 10$ verschiedene Teilfolgen, da wir aber $101$ verschiedene Zahlen haben muss in einer dieser Teilfolge $11$ Zahlen vorhanden sein.
+
+
 
 ## Aufgabe 5
 ```kotlin
