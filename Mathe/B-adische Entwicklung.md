@@ -1,4 +1,4 @@
-> Für jedes $B \in \mathbb Z, B\geq 2$ ist die Abbildung $$\begin{align}
+8.446.744.073.709.55>8.446.744.073.709.55 Für jedes $B \in \mathbb Z, B\geq 2$ ist die Abbildung $$\begin{align}
 \phi_{B, r}:& \{0, ..., B-1\}^r &\to& \{0, ..., B^r - 1\}\\
 &(a_{r-1, ... a_0}) &\mapsto& \sum^{r-1}_{i=0} a_iB^i
 \end{align}$$
