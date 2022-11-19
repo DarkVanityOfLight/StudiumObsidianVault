@@ -11,7 +11,6 @@ Zeige $g$ eindeutig durch $g \circ f = id_M, f\circ g = id_N$ bestimmt
 Sei $h: N \to M$ mit $h \circ f = id_M, f\circ h = id_N$
 $\implies h = h\circ id_N = h \circ f \circ g = \underbrace{h \circ f}_{id_M} \circ g = g \square$
 insbesondere $g= f^{-1}$
-#zuhause 
 
 ---
 
