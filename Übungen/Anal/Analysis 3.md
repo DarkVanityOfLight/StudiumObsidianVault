@@ -25,12 +25,13 @@ $$\begin{align}
 &1 = {1 - \lambda \over 1 - \lambda}\\
 & 1 = 1
 \end{align}$$
+
 IV: Für ein beliebiges aber festes $n \in \mathbb N_0$ und ein beliebiges aber festes $1 \not = \lambda \in \mathbb R$gelte $A(n)$
 IB: $A(n+1) = {1 - \lambda^{n+2} \over 1 - \lambda}$
 IS: 
 $$\begin{align}
 &n \to n+1 \\
-&\sum^{n+1}_{k=0}= \lambda^{k}\\
+&\sum^{n+1}_{k=0} \lambda^{k}\\
 =&\underbrace{\sum^{n}_{k=0} \lambda^{k}}_{IV} + \lambda^{n+1}\\
 =& {1 - \lambda^{n+1} \over 1 -\lambda} + \lambda^{n+1}\\
 =& {1-\lambda^{n+1} \over 1 - \lambda} + {\lambda^{n+1} \cdot (1 - \lambda) \over 1-\lambda}\\
