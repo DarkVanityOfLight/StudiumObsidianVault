@@ -54,6 +54,7 @@ $m$ heißt Repräsentant von $[m]$
 $\{m_1, ..., m_r\}$ vollständiges Repräsentantensystem
 
 $$M = \bigcup^r_{i=1} [m_i]$$
+
 ---
 
 > Je zwei Äquivalenzklassen sind gleich oder disjunkt
