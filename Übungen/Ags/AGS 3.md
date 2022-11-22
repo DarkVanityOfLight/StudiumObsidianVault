@@ -35,18 +35,24 @@ Seien $m_1, m_2 \in M \qquad f(m_1) = f(m_2)$ Anwendung von $g$
 $g(f(m_1)) = g(f(m_2)) \implies m_1 = m_2$ da $f \circ g = id_M$
 
 ### b)
-Da f surjektiv ist gilt:
-$\forall n\in N \quad \exists_1 m \in M : f(m) = n$
-Wahlen wir ein beliebiges aber festes $n \in N$ erhalten wir:
-Da $g: N \to M$
-$f(g(n)) = n = f \circ g = id_N$
+Definiere $g$ als $g(n) = m_n$ wobei $m_n$ definiert durch $f(m_n) = n$
+Dann gilt $f \circ g(n) = f(m_n) = n \implies f \circ g = id_N$
 
-$f: M \to N$ ist definiert als $m \mapsto g^{-1}(m)$ falls das Urbild von $m$ nach $N$ definiert ist, ansonsten wählen wir ein beliebiges Element in $N$. Damit gilt $f(g(n)) = id_N$
-
+Sei $g: N \to M$ mit $f\circ g = id_N$ 
+Dann gilt $f \circ g(N) = N \implies f(M) = N$
 
 
 ## Aufgabe 4
-Wir schreiben für jede Zahl $n \leq 101$ jede mögliche länge($\leq 10$) der ab/aufsteigenden Teilfolge auf, daraus erhalten wir $10^2$ verschiedene mögliche paare aus Teilfolgen. Da wir allerdings $101$ Zahlen haben muss eine dieser Teilfolgen $11$ lang sein.
+$a_1, a_2 ... a_{101}\qquad a_2, a_{10}, a_{15}, ..., a_{99}$
+1 bis 101 in einer bel. Reihenfolge zu jedem $a_k$ merken wir uns $(i_k, d_k)$ Länge der Längsten aufsteigenden/absteigenden Teilfolge beginnend bei $a_k$
+
+Angenommen: Es gibt keine Teilfolge der länge 11, $\implies i_k, d_k \leq 10$ für alle $k=1, ..., 101$
+Es gibt 100 mögliche verschiedene Paare $(i_k, d_k)$
+Nach dem Schubfachprinip müssen 2 dieser Paare gleich sein.
+
+Es gibt $s, t \in \{1, ..., 101\}$ mit $s<t$ und $(i_s, d_s) = (i_t, d_t)$
+Falls $a_s < a_t$ können wir eine aufsteigende Teilfolge der länge $i_t + 1$ finden:
+beginnend bei $a_s$ gefolgt von der aufsteigenden Folge beginnend bei $a_t$
 
 
 ## Aufgabe 5
