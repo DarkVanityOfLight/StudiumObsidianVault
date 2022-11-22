@@ -20,22 +20,11 @@ $(c\iff b) \implies a$
 
 ## Aufgabe 2
 #### a)
-Da $f$ injektiv ist gilt für beliebige$m_1, m_2 \in M : m_1 \not = m_2$
-$f(m_1) \not = f(m_2) \implies n_1 \not = n_2$ und da $g$ auch injektiv ist gilt $g(n_1) \not = g(n_2) \implies l_1 \not = l_2$. Damit muss $h$ injektiv sein.
+Da $f$ injektiv ist gilt für beliebige$\forall m_1, m_2 \in M : f(m_1) = f(m_2) \implies m_1 = m_2$ und da $g$ auch injektiv ist gilt $\forall n_1, n_2 \in N: g(n_1) = g(n_2) \implies n_1  = n_2$. $\forall m_1, m_2 \in M: (g \circ f)(m_1) = (g\circ f)(m_2) \implies h(f(m_1)) = h(f(m_2)) \implies f(m_1) = f(m_2) \implies m_1 = m_2$
 
-#### b)
-Da $f$ surjektiv ist existiert ein $m \in M$ für das $f(m) = n$ mit einem beliebigem $n \in N$, und da $g$ auch surjektiv ist existiert ein $n\in N$ für das $g(n) = l$ mit beliebigem $l\in L$.
-
-$$
-\forall n \in N \exists m\in M : f(m) = n
-$$
-$$
-\forall l\in L \exists n\in N : g(n) = l 
-$$
-$$
-\implies \forall l \in L \exists m \in M : g(f(m)) = l
-$$
-
+#### b) f,h surejektiv $\implies$ $h\circ f$ surjektiv
+$\implies f(m) = n$ und $h(n) = l$
+$(h\circ f) \implies h(f(m)) = h(m) = l$
 
 
 ## Aufgabe 3
