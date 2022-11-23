@@ -71,7 +71,8 @@ Da eine Gerade durch zwei Punkte eindeutig bestimmt ist gilt:
 Die Gerade durch $(x, y), (x', y')$ ist dieselbe wie $(x', y') (x, y)$ 
 
 ### b)
-![](2022-11-22-201431_317x280_scrot.png)
+![2022-11-22-201431_317x280_scrot](2022-11-22-201431_317x280_scrot.png)
+
 Wir wählen als Represäsentanten der Äquivalenzklassen die Punkte die ein Positives $x$ haben und den Abstand $2$ zum $0$ Punkt haben also: $\sqrt{x^2 + y^2} = 2$
 
 ## Aufgabe 3
@@ -100,14 +101,63 @@ Fülle beide Zahlen mit 0 auf die Gleiche länge
 
 Setze carry auf 0
 Gehe von Rechts nach Links durch beide Zahlen
-Sind beide Stellen 1 setze die momentane stelle auf 0 und erhöhe das carry
-Sind beide Stellen 0 und das Carry $\geq 1$ setze die Stelle auf 1 und ziehe eins  vom carry ab
+Sind beide Stellen 1 und das carry bit 0 setze die momentane stelle auf 0 und setze das carry bit auf 1
+Sind beide Stellen 1 und das carry bit 1 setze die momentane stelle auf 1
+Sind beide Stellen 0 und das carry bit 1 setze die Stelle auf 1 und das carry bit auf 0
 Ist eine Stelle 1 und das carry 1 setze die Stelle auf 1
 Ist eine Stelle 1 und das carry 0 setze die Stelle auf 1
 
-Solange das Carry grösser als 1 ist füge eine Stelle hinzu und setze sie auf 1
+Falls das carry bit gesetzt ist füge eine Stelle hinzu und setze sie auf 1
 
 Gehe von Links nach Rechts bis wir auf eine 1 treffen
 Kürze die Zahl von links um 1
 
 ## Aufgabe 5
+```python
+# a)
+dec = 12 # Eingabe von der Dezimalzahl
+binNum = [] # List für die Binärzahl
+def toBinary(n): # Rekursive Funktion für Dezimal- zu Binärzahl
+    if n >= 1: # Ausführen solang n (Deziamlzahl) nicht >= 1 ist
+        toBinary(n // 2) # Erneutes Aufrufen der Funktion mit der 
+    binNum.append(n % 2) # Auflistungen der "Zwischenergebnisse"
+
+toBinary(dec) # Funktionsaufruf mit der Dezimalzahl als Eingabe
+print("".join(str(e) for e in binNum)) # Ausgabe der Binärzahl
+
+def addBinary(bin1,bin2):
+
+    maxLength = max(len(bin1), len(bin2))
+    bin1 = bin1.zfill(maxLength)
+    bin2 = bin2.zfill(maxLength)
+
+    extra = 0
+    summe = ""
+
+    for i in range(maxLength - 1, -1, -1):
+        n = extra
+        if bin1[i] == "1":
+            n += 1
+        else:
+            0
+        if bin2[i] == "1":
+            n += 1
+        else:
+            0
+        summe = ("1" if n % 2 == 1 else "0") + summe
+        extra = 0 if n < 2 else 1
+    
+    if extra != 0:
+        summe = "1" + summe
+
+    summe.zfill(maxLength)
+    
+    for x in range(1, len(summe), 1):
+        if summe[x] == "1":
+            summe = summe[x:]
+            break
+            
+    return summe
+
+print(addBinary("00001111", "0101"))
+```
