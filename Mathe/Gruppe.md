@@ -1,4 +1,4 @@
-Eine Gruppe $(G, \circ)$ ist eine [Menge](Mengen.md) $G$ mit einer Verknüpfung
+Eine Gruppe $(G, \circ)$ ist eine [Menge](Mengen.md) $G$ mit einer Verknüpfunög
 $$\begin{align}
 \circ :& G \times G \to G\\
 &(a,b) \mapsto a \circ b
