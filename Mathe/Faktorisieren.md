@@ -1,4 +1,3 @@
-# Lösen von Gleichungen durch Faktorisieren
 Wir betrachten zwei [reelle Zahlen](Reelle%20Zahlen.md) a,b deren Produkt gleich Null ist: $ab  = 0$. Wenn $a$ von Null verschieden ist, können wir die Gleichung durch $a$ dividieren und erhalten $b = 0$. Analog folgt aus $b \neq 0$, dass $a = 0$ ist, d.h. mindestens eine der beiden Zahlen $a,b$ muss Null sein. Dies nennt sich Nullproduktregel. Dies impliziert die folgende Regel für zwei beliebige Terme.
 > Das Produkt zweier Terme hat genau dort Nullstellen, wo mindestens einer der Faktoren eine Nullstelle hat.
 
