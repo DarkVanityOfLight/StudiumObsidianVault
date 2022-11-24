@@ -1,3 +1,4 @@
+> Jannis Lauterbach, Kilian Lichtner
 ## Aufgabe 1
 
 ### a)
@@ -71,8 +72,7 @@ Da eine Gerade durch zwei Punkte eindeutig bestimmt ist gilt:
 Die Gerade durch $(x, y), (x', y')$ ist dieselbe wie $(x', y') (x, y)$ 
 
 ### b)
-![2022-11-22-201431_317x280_scrot](2022-11-22-201431_317x280_scrot.png)
-
+![semicircle](semicircle.jpg)
 Wir wählen als Represäsentanten der Äquivalenzklassen die Punkte die ein Positives $x$ haben und den Abstand $2$ zum $0$ Punkt haben also: $\sqrt{x^2 + y^2} = 2$
 
 ## Aufgabe 3
