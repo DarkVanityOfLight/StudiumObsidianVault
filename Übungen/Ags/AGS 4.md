@@ -153,7 +153,7 @@ $$\begin{align}
 &[(1, -1)] = \{x, y \in \mathbb R | x+y = 0\}\\
 &[(1, 1)] = \{x, y \in \mathbb R | x+y = 2\}
 \end{align}$$
-![semicircle](semicircle.jpg)
+![semicircle](lines.png)
 
 ## Aufgabe 4
 ### a)
@@ -186,21 +186,6 @@ Die Gerade durch $(x, y), (x', y')$ ist dieselbe wie $(x', y') (x, y)$
 ### b)
 ![semicircle](attachments/semicircle.jpg)
 Wir wählen als Represäsentanten der Äquivalenzklassen die Punkte die ein Positives $x$ haben und den Abstand $2$ zum $0$ Punkt haben also: $\sqrt{x^2 + y^2} = 2$
-
-## Aufgabe 3
-
-### a)
-$g: N \to M$ ist definiert als $n \mapsto f^{-1}(n)$  falls das Urbild von  $n$ definiert ist, ansonsten ein beliebiges Element in $M$. Damit gilt $g(f(m)) = id_M$.
-
-Seien $m_1, m_2 \in M \qquad f(m_1) = f(m_2)$ Anwendung von $g$
-$g(f(m_1)) = g(f(m_2)) \implies m_1 = m_2$ da $f \circ g = id_M$
-
-### b)
-Definiere $g$ als $g(n) = m_n$ wobei $m_n$ definiert durch $f(m_n) = n$
-Dann gilt $f \circ g(n) = f(m_n) = n \implies f \circ g = id_N$
-
-Sei $g: N \to M$ mit $f\circ g = id_N$ 
-Dann gilt $f \circ g(N) = N \implies f(M) = N$
 
 
 ## Aufgabe 5
