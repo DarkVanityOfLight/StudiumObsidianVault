@@ -65,7 +65,7 @@ M = \{[a]| \{\forall a, b \in \mathbb Z | a\equiv b \mod 5\}\}
 
 ## Aufgabe 2
 $$\begin{align}
-& 11111111111 : 123259 = 914 \ Rest:51815\\
+& 11111111111 : 123259 = 9014 \ Rest:51815\\
 & \underline{0} \\
 & 11 \\
 & \ \ \underline{0} \\

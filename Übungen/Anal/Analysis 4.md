@@ -24,15 +24,19 @@ Wir kombinieren alle 2 Elementigen Teilmengen aus der 3 Elementigen Menge(3 Vers
 Und wir kombinieren alle 3 Elementigen Mengen aus der 3 Elementigen Menge(genau 1 Menge) mit allen 1 Elementigen Teilmengen aus der 2 Elementigen Menge(2 verschiedene Mengen) um alle Mengen mit 3 Elementen aus der einen und 1 Element aus der anderen zu bekommen.
 
 ### b)
-$$\left({n\atop k}\right) = {n! \over k! \cdot (n-k)!}$$
 $$\begin{align}
-\sum^{k}_{j=0} \left(n \atop j\right)\left(m \atop k-j\right) = \left(n + m \atop k\right)\\
-
+&\sum^{k}_{j=0} \left(n \atop j\right) \left(m \atop k-j\right) = \left(n + m \atop k \right)\\
+&|A^j| + |B^{k-j}| = |(A \cup B)^k|\\
+&|A^j \cup B^{k-j}| = |(A\cup B)^k|\\
+&|(A\cup B)^{j+k-j}| = |(A \cup B)^k|\\
+&|(A\cup B)^{k}| = |(A \cup B)^k|
 \end{align}$$
+
 
 ## Aufgabe 4
 
 $$(x+1)^n=\sum^n_{k=0}({n \atop k})x^k$$ IA: $(n=1$) $$\sum^1_{k=0}({1 \atop k})x^k y^{1-k}=y+x=(x+y)^1$$ IS: $(n + 1)$
-$$\begin{align}
 
-\end{align}$$
+
+
+
