@@ -1,4 +1,4 @@
-	Jannis Lauterbach, Kilian Lichtner
+	Jannis Lauterbach, Kilian Lichtner, Gregor Stöbener
 
 
 ## Aufgabe 1
@@ -190,5 +190,7 @@ Wir wählen als Represäsentanten der Äquivalenzklassen die Punkte die ein Posi
 
 ## Aufgabe 5
 ```csharp
-let kongurent (a: int) (b: int) (m: int) = (a % m) * (if a < - 0 then -2 else 1) = (b % m) * (if b < 0 then -2 else 1);;
+let kongurent (a: int) (b: int) (m: int) = 
+	(a % m) * (if a < 0 then -2 else 1) = (b % m) * 
+	(if b < 0then -2 else 1);;
 ```
