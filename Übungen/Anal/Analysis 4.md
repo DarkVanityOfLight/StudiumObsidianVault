@@ -3,8 +3,11 @@
 ## Aufgabe 1
 
 $$\begin{align}
-&10 + n = 1 + n + {1 \over 100} \cdot (10 + n)\\
-&n = 890
+&{10 + n \over 1 + n} \leq 1, 01\\
+\iff &10 + n \leq 1, 01 \cdot (1 + n)\\
+\iff& 10 + n \leq 1,01 + 1,01 \cdot n\\
+\iff& 8,99 \leq 0,01 \cdot n\\
+\iff& 899 \leq n
 \end{align}$$
 ## Aufgabe 2
 
@@ -48,8 +51,9 @@ $$\begin{gather} \left( 0 \atop 0 \right)=1 \\ \left( 1 \atop 0 \right)=1 \qquad
 
 
 ## Aufgabe 4
+
+$$(x + 1)^0 = 1 = \sum^{0}_{k=0}\left(n \atop k\right) x^k = \left(\right)$$
 $$\begin{align}
-&(x+1)^n = \left(n \atop 0\right)x^n + \left(n \atop1\right)x^{n-1}\cdot 1 + ... + \left(n\atop n-1\right)x\cdot 1^{n-1} + \left(n\atop n\right)1^n\\
-&= \sum^{n}_{k=0} \left(n \atop k\right)x^{n-k} \cdot 1^k\\
-&=\sum^{n}_{k=0} \left(n \atop k\right)x^n
+(x+1)^{n+1} = (x+1)^n \cdot (x + n)\\
+= (\sum^{n}_{k=0}\left(n \atop k\right) x^k ) \cdot (x+1) = 
 \end{align}$$
