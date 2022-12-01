@@ -19,3 +19,10 @@ $f: M \to N bij \implies f^-1 \circ f = id_M, f \circ f = id_N$
 
 ---
 
+Warteschlangen: Bei rear hinten = vorne
+Invariante: Immer eingehalten,
+vorne > hinten
+
+
+
+---
