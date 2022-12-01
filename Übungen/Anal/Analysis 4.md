@@ -38,8 +38,8 @@ $$\begin{align}
 
 ## Aufgabe 4
 
-$$(x+1)^n=\sum^n_{k=0}({n \atop k})x^k$$ IA: $(n=1$) $$\sum^1_{k=0}({1 \atop k})x^k y^{1-k}=y+x=(x+y)^1$$ IS: $(n + 1)$
-
-
-
-
+$$(x + 1)^0 = 1 = \sum^{0}_{k=0}\left(n \atop k\right) x^k = \left(\right)$$
+$$\begin{align}
+(x+1)^{n+1} = (x+1)^n \cdot (x + n)\\
+= (\sum^{n}_{k=0}\left(n \atop k\right) x^k ) \cdot (x+1) = 
+\end{align}$$
