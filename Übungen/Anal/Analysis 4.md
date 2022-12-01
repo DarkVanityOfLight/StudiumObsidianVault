@@ -24,6 +24,9 @@ Wir kombinieren alle 2 Elementigen Teilmengen aus der 3 Elementigen Menge(3 Vers
 Und wir kombinieren alle 3 Elementigen Mengen aus der 3 Elementigen Menge(genau 1 Menge) mit allen 1 Elementigen Teilmengen aus der 2 Elementigen Menge(2 verschiedene Mengen) um alle Mengen mit 3 Elementen aus der einen und 1 Element aus der anderen zu bekommen.
 
 ### b)
+
+> Anmerkung:
+>  Wir bezeichnen die Menge aller n Elementigen Teilmengen einer Menge A mit $A^n$
 $$\begin{align}
 &\sum^{k}_{j=0} \left(n \atop j\right) \left(m \atop k-j\right) = \left(n + m \atop k \right)\\
 &|A^j| + |B^{k-j}| = |(A \cup B)^k|\\
@@ -32,11 +35,21 @@ $$\begin{align}
 &|(A\cup B)^{k}| = |(A \cup B)^k|
 \end{align}$$
 
+## Aufgabe 3
+
+$$\begin{align}
+&|B| = 1\qquad A \cap B = \emptyset\\
+&\left(n + 1 \atop k+1\right) = \left(n \atop k\right) + \left(n \atop k+1\right)\\
+&|(A \cup B)^{k+1}| = |A^k| + |A^{k+1}|\\
+&|(A \cup B)^{k+1}| = |(A \cup A)^{k+1}|
+\end{align}$$
+
+$$\begin{gather} \left( 0 \atop 0 \right)=1 \\ \left( 1 \atop 0 \right)=1 \qquad \left( 1 \atop 1 \right)=1 \\ \left( 2 \atop 0 \right)=1 \qquad \left( 2 \atop 1 \right)=2 \qquad \left( 2 \atop 2 \right)=1 \\ \left( 3 \atop 0 \right)=1 \qquad \left( 3 \atop 1 \right)=3 \qquad \left( 3 \atop 2 \right)=3 \qquad \left( 3 \atop 3 \right)=1 \\ \end{gather}$$
+
 
 ## Aufgabe 4
-
-$$(x+1)^n=\sum^n_{k=0}({n \atop k})x^k$$ IA: $(n=1$) $$\sum^1_{k=0}({1 \atop k})x^k y^{1-k}=y+x=(x+y)^1$$ IS: $(n + 1)$
-
-
-
-
+$$\begin{align}
+&(x+1)^n = \left(n \atop 0\right)x^n + \left(n \atop1\right)x^{n-1}\cdot 1 + ... + \left(n\atop n-1\right)x\cdot 1^{n-1} + \left(n\atop n\right)1^n\\
+&= \sum^{n}_{k=0} \left(n \atop k\right)x^{n-k} \cdot 1^k\\
+&=\sum^{n}_{k=0} \left(n \atop k\right)x^n
+\end{align}$$
