@@ -26,3 +26,18 @@ vorne > hinten
 
 
 ---
+
+
+To prove this, we will use the geometric sum formula. The formula states that for any complex number $z$ such that $|z| = 1$, the sum of the first $n$ powers of $z$ is given by
+
+$$ \sum^{n-1}_{k=0} z^k = \frac{1 - z^n}{1 - z} $$
+
+In our case, we have $z = e^{i {2\pi \over n}}$, so
+
+$$ \begin{aligned} \sum^{n-1}_{k=0} e^{i {2\pi k \over n}} &= \frac{1 - e^{i {2\pi n \over n}}}{1 - e^{i {2\pi \over n}}} \ &= \frac{1 - e^{i {2\pi }}}{1 - e^{i {2\pi \over n}}} \ &= \frac{1 - 1}{1 - e^{i {2\pi \over n}}} \ &= 0 \end{aligned} $$
+
+Therefore, we have proven that for all $n \in \mathbb N$,
+
+$$ \sum^{n-1}_{k=0} e^{i {2\pi k \over n}} = 0 $$
+
+as desired.
