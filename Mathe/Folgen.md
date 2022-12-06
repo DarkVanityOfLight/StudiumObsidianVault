@@ -1,4 +1,7 @@
-# Folgen
+Sei $M$ eine Menge, dann ist eine Folge in $M$  eine Abbildung
+$$\begin{align}
+&\mathbb N \to M\\&n \mapsto a_n\end{align}$$
+
 Eine [Funktionen](Mathe/Funktionen.md) von $N$ nach $R$ heißt (reelle) Folge.
 $$\begin{align}
 a: N \rightarrow R\\
