@@ -11,6 +11,81 @@ n \mapsto a(n) = a_n
 Folgen können [Beschränkt](Schranken.md) sein.
 Außerdem können sie [Monotonie](Funktionen.md#Monotonie) verhalten zeigen.
 
+
+
+$(a_n), (b_n)$ sind [Konvergent](Konvergenz.md)
+$\lim a_n = a \quad \lim b_n = b$
+Dann $(a_n + b_n)$ und $(a_n \cdot b_n)$ konvergent
+und 
+$\lim_{n\to\infty} a_n + b_n = a+b$
+$\lim_{n\to\infty} a_n \cdot b_n = a \cdot b$
+$(a_1) = (a_1 , a_2, a_3, ...)$
+$b_n = (b_1, b_2, b_3, ...)$
+$(a_n + b_n) := (a_1 + b_1, a_2 + b_2, ...)$
+
+## Beweis
+### Summenregel
+Sei $\epsilon > 0$
+$\exists N_1, N_2$
+$|a_n -a| < ... \qquad\forall n \geq N_1$
+$|bn - b| < ... \qquad \forall n \geq N_2$
+$|a_n + b_n - (a + b)| \leq |a_n -a| + |b_n -b| < {\epsilon \over 2} + {\epsilon \over 2} \leq \epsilon$
+
+$\forall n \geq max\{N_1, N_2\}$
+
+### Produktregel
+
+$|a_n \cdot b_n - a \cdot b| \leq |b_n| \cdot |a_n - a| + |a| \cdot |b_n - b|$
+
+
+#übung 
+
+---
+
+Ist $a\not = 0 \implies \exists N : a_n \not = 0 \quad\forall n \geq N$
+dann $\left(1\over a_n\right)_{n \geq N}$
+konv $\lim_{n \to \infty} {1\over a_n} = {1 \over a}$
+
+## Beispiel
+
+Die Summe von nicht konvergenten Folgen kann konvergent sein.
+
+$(-1)^n + (-1)^{n+1} = 0 \implies$ konvergent
+
+## Beschränkt
+$(a_n)$ ist nach oben beschränkt wenn $\exists c \in K : a_n \leq c \forall n$
+$(a_n)$ ist nach unten beschränkt wenn $\exists c \in K : a_n \geq c \forall n$
+
+Wenn $(a_n)$ von oben und unten beschränkt ist nennt man es nur beschränkt
+
+### Bemerkung
+
+$(a_n)$ ist beschränkt $\iff \exists c \in k : |a_n| \leq c \quad \forall n$
+
+---
+
+Jede [Konvergente](Konvergenz.md) Folge ist beschränkt
+
+## Beweis
+
+$a := \lim_{n \to \infty} a_n\qquad \exists N : |a_n -a|< 1\quad \forall n \geq N$
+$|a_n| = |a_n - a +a| \leq |a_n -a| + |a| < 1+|a| \quad \forall n \geq N$
+$c:= max\{|a_1|,..., |a_{N-1}|, 1+|a|\}$
+$\implies |a_n| \leq c \quad \forall n$
+
+## Beispiel
+
+$a_n = 2 + {2 \over n} \quad \lim a_n = 2$
+$N = 3\qquad |a_n - 2| < 1 \quad \forall n\geq 3$
+$c := max\{3, 4, 2 + 1\}=$ 4
+$\implies |a_n| \leq 4 \quad\forall n$
+---
+
+Gibt es zu jedem $\epsilon\in k$ ein $N \in \mathbb N$ mit $a_n > \epsilon\quad\forall n \geq N$ so heißt $(a_n)$ bestimmt divergent gegen $\infty$
+
+Schreibe $\lim_{n\to\infty} a_n = \infty$
+
+
 ## Grenzwert
 Sei $(a_n)_{n\in \mathbb{N}}$ eine Folge.
 Eine Zahl $a \in \mathbb{R}$ heißt Grenzwert der Folge $(a_n)_{n \in \mathbb N}$, wenn es zu jeder Zahl $\epsilon \in \mathbb R, \epsilon > 0$, eine [natürliche Zahl](Natürliche%20Zahlen.md) $n_\epsilon \in \mathbb N$ gibt, so dass für alle $n \geq n_\epsilon$ stets gilt, dass $|a_n - a| < \epsilon$. Kurz und knapp:

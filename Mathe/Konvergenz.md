@@ -29,6 +29,29 @@ $|a-b| = |a-a_n + a_n -b| \leq |a_n -a| + |a_n -b|$
 $< 2\cdot \epsilon = {2\over 3} |a-b|$
 $\implies a = b$
 
+---
+
+$K = \mathbb Q \qquad a_n = {1\over n}$
+$\lim_{n\to \infty} {1\over n} = 0$
+
+$\epsilon = {p\over q} \in \mathbb Q \quad \epsilon > 0$
+$|a_n -a| = {1\over n} < {p\over q} = \epsilon\qquad \forall n \geq N := q+1$
+
+## Beispiel
+$a_n = (-1)^n$ divergent
+Angenommen $(a_n)$ kann dann $\exists N$, $a\in \mathbb Q$
+$$\begin{align}
+|a_n -a| < 1\\
+2 = |a_{n+1} - a_n| = |a_{n+1} -a+a - a_n| \leq |a_{n+1} -a| + |a_n -a| < 1+1 =2
+\end{align}$$
+
+## Notation
+Für $(a_n)\qquad N\in \mathbb N$
+ist  $(a_n)_{n \geq N} = (a_N, a_{N+1}, ...)$ weil
+$(a_n)$ konvergent $\implies (a_n)_{\geq N}$ konvergent zum selben Grenzwert
+
+---
+
 
 ## Rechenregeln
 $(a_n)$ kons
