@@ -1,4 +1,3 @@
-# Folgen
 Eine [Funktionen](Mathe/Funktionen.md) von $N$ nach $R$ heißt (reelle) Folge.
 $$\begin{align}
 a: N \rightarrow R\\
