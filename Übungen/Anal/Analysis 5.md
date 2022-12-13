@@ -1,3 +1,4 @@
+> Jannis Lauterbach, Kilian Lichtner
 
 ## Aufgabe 1
 
@@ -83,7 +84,52 @@ $$\begin{align}
 
 
 ## Aufgabe 5
-```csharp
-let floatingPointAddition(x: float, y: float) = x+y
+```kotlin
+import kotlin.math.round
+
+fun Double.roundTo4Places(): Double {
+    return round(this * 10000) / 10000
+}
+
+fun floatPointAddition(x: Double, y: Double): Double =  (x+y).roundTo4Places()
+
+
+fun main() {
+
+    println(floatPointAddition(0.010002, 0.090003))
+    println(floatPointAddition(floatPointAddition(0.010002, 0.090003), 0.070001))
+    println("---------")
+    
+    println(floatPointAddition(0.090003, 0.070001))
+    
+    println(floatPointAddition(floatPointAddition(0.090003, 0.070001), 0.010002))
+    println("---------")
+
+}
 ```
 
+```python
+def nToRow(n):
+    erg = []
+    zähler = n
+    nenner = 1
+    while True:
+        erg.append(str(zähler)+"/"+str(nenner))
+        print(str(zähler)+"/"+str(nenner))
+        if zähler < 0:
+            zähler = abs(zähler)
+            zähler = zähler+n
+            nenner = abs(nenner)
+            nenner = nenner+1
+        else:
+            zähler = -abs(zähler)
+            nenner = -abs(nenner)
+        print("------------")
+        print(len(erg))
+```
+Um ein $n\in \mathbb N$ nach ein $q \in \mathbb Q$ zuzuordnen ordnen wir ihm einfach den index seines Platzes in der Liste `erg` zu.
+
+$$\begin{align}
+f:& \mathbb N \to \mathbb Q\\
+& n \mapsto \text{erg}[n]
+\end{align}$$
