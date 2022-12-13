@@ -1,4 +1,3 @@
-# Reihen
 Sei $(a_k)_{k \in N}$ eine reelle Folge
 Die Folge $(S_n)_{n\in N}$ mit $S_n' = a_1 + a_2 +... +a_n = \sum_[k=1]^{n}a_k$ heißt die zu $(a_k)_{k \in \mathbb N}$ gehörende Reihe.
 Die Zahl $S_n$ heißt n-te Partialsumme.
