@@ -1,4 +1,4 @@
-
+> Jannis Lauterbach, Kilian Lichtner
 ## Aufgabe 1
 
 ### a)
@@ -27,7 +27,19 @@ $$\begin{align}
 Da wir annehmen können, dass die Folge konvergiert. Können wir davon ausgehen, dass die Folge gegen $1$ konvergiert.
 
 ## Aufgabe 3
-1.  Da $(a_n)$ und $(b_n)$ nach Voraussetzung konvergieren, sind beide Folgen beschränkt, es gibt also $K_a,K_b > 0$, sodass $|a_n|\leq K_a$ und $|b_n|\leq K_b$ für alle $n$. Wir wählen $K=max{K_a,K_b}$, sodass $|a_n|\leq K$ und $|b_n|\leq K$ für alle $n$ gilt. Wegen der Konvergenz beider Folgen gibt es zu jedem vorgegebenen $\epsilon > 0$ natürliche Zahlen $N_a$ und $N_b$, sodass: $|a_n-a|<{\epsilon \over 2K}$ für $n \geq N_a$; $|b_n-b|<{\epsilon \over 2K}$ für $n \geq N_b$ Für $N=max{N_a,N_b}$ gilt dann nach der Dreiecksungleichung: $$\begin{align} |a_nb_n-ab| &=|a_nb_n-a_nb+a_nb-ab| \\ &=|a_n(b_n-b)+(a_n-a)b| \\ &\leq|a_n(b_n-b)+(a_n-a)b| \\ &=|a_n|\cdot|b_n-b|+|(a_n-a)|\cdot|b| \\ &< K \cdot {\epsilon \over 2K}+{\epsilon \over 2K}\cdot |b| \\ &= \epsilon \end{align}$$ Die Folgen $(a_n,b_n)$ konvergiert also und ihr Grenzwert ist $ab$.
+Beide Folgen müssen aufgrund der Voraussetzung beschränkt sein, deswegen gibt es also $K_a,K_b > 0$, woraufhin $|a_n|\leq K_a$ und $|b_n|\leq K_b$ für alle $n$ gilt. Für $K$ können wir $K=max{K_a,K_b}$ wählen, wodurch $|a_n|\leq K$ und $|b_n|\leq K$ für alle $n$ gilt. Da beide Folgen konvergent sind, gibt es zu jedem vorgegebenen $\epsilon > 0$ natürliche Zahlen $N_a$ und $N_b$. Deswegen gilt
+$|a_n-a|<{\epsilon \over 2K}$ für $n \geq N_a$; $|b_n-b|<{\epsilon \over 2K}$ für $n \geq N_b$
+
+Für $N=max{N_a,N_b}$ gilt dann aufgrund der Dreiecksungleichung:
+$$\begin{align}
+|a_nb_n-ab| &=|a_nb_n-a_nb+a_nb-ab| \\
+&=|a_n(b_n-b)+(a_n-a)b| \\
+&\leq|a_n(b_n-b)+(a_n-a)b| \\
+&=|a_n|\cdot|b_n-b|+|(a_n-a)|\cdot|b| \\
+&< K \cdot {\epsilon \over 2K}+{\epsilon \over 2K}\cdot K \\
+&= \epsilon
+\end{align}$$
+Die Folgen konvergieren, der Grenzwert der Folgen ist $ab$.
 
 
 ## Aufgabe 4
@@ -53,3 +65,4 @@ $$\begin{align}
 \end{align}$$
 -> Wenn $n\to \infty$ ist  $b_n = \infty$
 ### b)
+![2022-12-13-211551_1430x581_scrot](2022-12-13-211551_1430x581_scrot.png)
