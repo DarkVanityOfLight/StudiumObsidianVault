@@ -1,3 +1,5 @@
+Eine Halbordnung nennt man eine Relation die Reflexiv, Transitiv und Antisymmetrisch ist.
+
 $R \subset M\times M$, $R \subset M^2$ 
 
 ## Reflexiv

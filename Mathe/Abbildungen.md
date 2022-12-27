@@ -5,6 +5,15 @@ $$\begin{align}
 f:& M \to N\\
 &m \mapsto f(m)
 \end{align}$$
+
+## Graph
+Die Relationenmenge $R$ bezeichnet man auch als Graphen
+$$
+Graph(f) := R = \{(m, f(m)) | m\in M\}
+$$
+von $f$
+
+
 ## Bild
 Für $A\subset M$ heißt  $f(A) = \{f(m) | m\in A\}$ Bild von A unter f
 $$Bild(f) := f(M) \subset N$$
@@ -15,6 +24,11 @@ Für $B\subset N$ heißt $f^{-1}(B) := \{m\in M | f(m) \in B\}$ Urbild von B unt
 ## Schubfachprinzip
 Sind $M, N$ endliche Mengen und ist $: M\to N$ eine [injektiv](Abbildungen.md#Injektiv) Abbildung dann gilt $|M| \leq |N|$.
 
+![Surjektiv](Surjektiv.md)
+
+![Injektiv](Injektiv.md)
+
+![Bijektiv](Bijektiv.md)
 
 ## Beispiel
 $M = \{1,2,3\}$ $N= \{1, 2\}$injektive

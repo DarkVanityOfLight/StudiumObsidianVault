@@ -1,5 +1,6 @@
-Das kartesische Produkt(Produktmenge) ist folgendermaßen definiert:
-$$A \times B := \{(a,b)| a\in A, b\in B\}$$
+Sind $M_1, ..., M_n$ Mengen, dann heisst die Menge der geordneten Tupel
+$$M_1 \times ... \times M_n =  \{(m_1, ..., m_n)|m_i \in M_i \forall i =1,..., n\}$$
+
 ## Beispiel
 Schachbrett
 $$\{a,..., h\} \times\{1, ..., 8\}$$

@@ -1,0 +1,1 @@
+[Surjektive](Surjektiv.md) [Gruppenhomomorphismen](Gruppenhomomorphismus.md) nennt man Epimorphismen

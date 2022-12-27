@@ -7,21 +7,19 @@ Schreibe $m \sim n$ für $m, n \in R$ dann bedeutet
 - transitiv, dass $m\sim l, l\sim n \implies  m\sim n \quad \forall m,n \in M$
 - symmetrisch, dass $m \sim n \implies n\sim m\quad \forall m, n \in M$
 
-$f: M\to N$ $m_1 \sim m_2 :\iff f(m_1) = f(m_2)$
-
-$M$ Menge $\sim$ Äquival. rel. $m\in M$
-$[m] = \left\{n\in M : n \sim m\right\} \subset 2^M$
+## Äquivalenzklassen
+Ist $M$ eine  Menge, $\sim$ eine Äquivalenzrelation und $m\in M$, dann heißt
+$[m] = \left\{n\in M : n \sim m\right\} \subset 2^M$ die Äquivalenzklasse von $m$. Jedes $n \in [m]$ heißt Repräsentant von $[m]$
 
 ## Kanonische Abbildung
 
-Wir schreiben $M/\sim = \{[m]|m\in M\} \subset 2^M$ für die Menge der Äquivalenzklassen von $\sim$ und
+Wir schreiben $M{\setminus\sim} = \{[m]|m\in M\} \subset 2^M$ für die Menge der Äquivalenzklassen von $\sim$ und
 
 $$\begin{align}
 \pi :& M \to M/\sim\\
 &m \mapsto [m]\\
-&\text{surjektiv}
 \end{align}$$
-für die kanonische Abbildung von $\sim$.
+für die kanonische Abbildung von $\sim$. Diese sind offenbar [Surjektiv](Surjektiv.md)
 #prüfungszettel 
 
 ### Beweis

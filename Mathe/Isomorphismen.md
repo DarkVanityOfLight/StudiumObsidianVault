@@ -1,0 +1,1 @@
+Ein (Gruppen-) Isomorphismus $\varphi: G_1 \to G_2$ ist ein [bijektiver](Bijektiv.md) [Gruppenhomomorphismus](Gruppenhomomorphismus.md). Die Umkehrabbildung $\varphi^{-1}: G_2 \to G_1$ ist dann ebenfalls ein Homomorphismus. Wir schreiben auch $G_1 \cong G_2$

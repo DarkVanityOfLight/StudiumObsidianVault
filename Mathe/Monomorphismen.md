@@ -1,0 +1,1 @@
+[Injektive](Injektiv.md) [Gruppenhomomorphismen](Gruppenhomomorphismus.md) nennt man auch (Gruppen-) Monomorphismen
