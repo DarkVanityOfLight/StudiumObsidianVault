@@ -1,4 +1,4 @@
-Ein unendlicher Dezimalbruch ist eine Folge $(a_n)_{n\in\mathbb N_0}$ von  [Dezimalbruechen](Dezimalbruch.md)
+Ein unendlicher Dezimalbruch ist eine Folge $(a_n)_{n\in\mathbb N_0}$ von  [Dezimalbrüchen](Dezimalbruch.md)
 $$\begin{align}
 &a_0 = \pm s_0 \cdot 10^k\\
 &a_1 = \pm s_0.s_1 \cdot 10^k\\
