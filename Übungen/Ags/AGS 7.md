@@ -216,3 +216,16 @@ print(signum([2, 5, 6, 1, 4, 7, 3]))
 # -1
 
 ```
+
+## Aufgabe 5
+
+$$\begin{align}
+sign:& S_n \to (\{-1, 1\})\\
+&sign(\sigma \circ \tau) = sign(\sigma) sign(\tau)
+\end{align}$$
+Seien $\sigma, \tau \in S_n$
+
+$$\begin{align}
+sign(\sigma \circ \tau) &=\prod^{n}_{i, j = 1, i < j} \frac{\sigma \circ \tau(i) - \sigma \circ \tau(j)}{i - j} \\
+&= \prod_{i < j} \frac{\sigma \circ \tau(i) - \sigma \circ \tau(j)}{\tau(i) - \tau(j)} \cdot \frac{\tau(i) - \tau(j)}{i-j}\\
+\end{align}$$
