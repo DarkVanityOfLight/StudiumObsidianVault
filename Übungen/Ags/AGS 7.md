@@ -31,7 +31,53 @@ $$\begin{align}
 R = \{ 188 + z \cdot 210 | \forall z \in \mathbb Z\}
 \end{align}$$
 
+## Aufgabe 2
 
+### a)
+
+$$\begin{align}
+\varphi: &\mathbb Z / (a \cdot b) \to \mathbb Z / a \times \mathbb Z / b\\
+&\overline x \mapsto (\overline x, \overline x)\\
+\end{align}$$
+
+Seien $\overline x, \overline y \in \mathbb Z/(a, b)$
+
+$$\varphi(\overline x + \overline y) = (\overline x + \overline y, \overline x + \overline y) = (\overline x + \overline x) + (\overline y + \overline y) = \varphi(\overline x) + \varphi(\overline y)$$
+
+Injektiv
+
+$$\text{Ker}(\varphi) = \{\overline x \in \mathbb Z / (a b)| \varphi(\overline x) = (\overline 0, \overline 0)\}$$
+Sei $\overline x \in \text{Ker}(\varphi)$
+-> $x = k_1 \cdot a \land x = k_2 \cdot b$
+-> $kgv(a,b) = a \cdot b$ da $a, b$ teilerfremd
+-> $x$ muss Vielfaches von $ab$ sein, $x = k \cdot a \cdot b$
+$\implies \overline x = \overline 0 \& \text{ker}(\varphi) = \{\overline 0\}$
+$\implies \varphi$ injektiv
+
+Surjektiv:
+Sei $(\overline y_a , \overline y_b) \in \mathbb Z/a \times \mathbb Z/b$
+Wir erhalten die Kongruenz
+
+$$\begin{align}
+&x \equiv y_a \mod a\\
+& x \equiv y_b \mod b
+\end{align}$$
+
+-> Nach Chin. Restsatz existiert eine Lösung, die eindeutig ist modulo $a \cdot b$
+-> $\varphi$ ist surjektiv (Wir finden für jedes Element im Zielraum ein Urbild)
+
+### b)
+$(\overline 8, \overline {-11}) = (\overline 8, \overline 10) \in \mathbb Z/10 \times \mathbb Z/21$
+
+$$\begin{align}
+&x \equiv 8 \mod 10\\
+&x \equiv 10 \mod 21
+\end{align}$$
+$ggT(10, 21) = 1 \cdot 21 + (-2) \cdot 10 = 1$
+$x = 8 \cdot 1 \cdot 21 + 10 \cdot (-2) \cdot 10 = -32$
+$-32 \equiv 178 \mod 210$
+
+$\overline {178} \mapsto (\overline{178} = \overline 8, \overline{178} = \overline{10})$
 
 
 ## Aufgabe 3
