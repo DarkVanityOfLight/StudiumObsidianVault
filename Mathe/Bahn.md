@@ -47,6 +47,7 @@ Quotientenabbildung.
 
 ---
 
+## Repräsentantensystem
 Sei $G\times M \to M$ eine Operation. Ein vollständiges Repräsentantensystem der Bahn ist eine Teilmenge $R\subset M$, sodass jede Bahn $G_m$ genau ein Element von $R$ enthält.
 Dann ist $M$ die disjunkte Vereinigung
 $$M = \bigcup^{\cdot}_{r\in R} G\cdot r$$
@@ -65,6 +66,28 @@ codieren. Dies ist die Idee eines Zykels
 
 ## Zykel
 
-Ist $\sigma \in S_n$, dann zerlegt die Operation von $\langle \sigma \rangle$ die Menge $\{1, ..., n\}$ in Bahnen der Form 
+Ist $\sigma \in S_n$ dann zerlegt die Operation von $\langle \sigma \rangle$ die Menge $\{1, ..., n\}$ in Bahnen der Form 
 $$\langle \sigma\rangle x = (x, \sigma(x), \sigma^{2}(x), ..., \sigma^{t-1}(x))$$
 das heißt wir codieren zusätzlich zu der Bahn als Menge noch die Reihenfolge in der die Bahn durchlaufen wird. [Transposition](Gruppe.md#Transposition) sind Zykel der  Länge $2$. Fuer das neutrale Element schreiben wir $()$. Man könnte fuer Zykel auch eine Kreisnotation wie oben verwenden, die würde aber zu viel Platz verbrauchen und ist auch in einer Computerkonsole schwer einzugeben.
+Transpositionen sind Zykel der Länge 2
+
+### Beispiel
+
+$$\sigma = \left(\begin{matrix}1 & 2& 3& 4\\ 1 & 3& 4&2\end{matrix}\right) = (2, 3, 4)$$
+$$\{1, ..., 4\} = \{1\} \cup \{2, 3, 4\}$$
+
+$$\begin{align}\sigma^2 =& (2, 3, 4) \circ (2, 3, 4)\\
+=& (2, 4, 3)
+\end{align}$$
+
+---
+
+1. Jedes Element der $S_n$ ist Produkt elementfremder Zykel
+2. Jedes Element der $S_n$ ist Produkt von Transpositionen
+
+$$\sigma: <\sigma> x_i \to <\sigma> x_i$$
+
+$$\sigma: \{1, 2, 3\} \to \{1, 2, 3\}$$
+$$\sigma: \{4, 5\} \to \{4, 5\}$$
+ist der Zykel $\sigma_i$
+$\sigma = \sigma_1 \circ ... \circ \sigma_r$
