@@ -85,7 +85,7 @@ $$\begin{align}\sigma^2 =& (2, 3, 4) \circ (2, 3, 4)\\
 1. Jedes Element der $S_n$ ist Produkt elementfremder Zykel
 2. Jedes Element der $S_n$ ist Produkt von Transpositionen
 
-$$\sigma: <\sigma> x_i \to <\sigma> x_i$$
+$$\sigma: \langle\sigma\rangle x_i \to <\sigma> x_i$$
 
 $$\sigma: \{1, 2, 3\} \to \{1, 2, 3\}$$
 $$\sigma: \{4, 5\} \to \{4, 5\}$$
