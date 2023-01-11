@@ -30,6 +30,9 @@ $$\begin{align}
 
 Falsch für $\lambda = 1$
 
+## Leibnizkriterium
+$(C_n)$ monoton fallende Nullfolge
+$\implies \sum (-1)^n \cdot C_n$ konvergent
 
 ---
 
