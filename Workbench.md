@@ -41,3 +41,8 @@ Therefore, we have proven that for all $n \in \mathbb N$,
 $$ \sum^{n-1}_{k=0} e^{i {2\pi k \over n}} = 0 $$
 
 as desired.
+
+---
+
+|Bezeichner|x|y|i|
+|Adresse| $a_0$| $a_1$|
