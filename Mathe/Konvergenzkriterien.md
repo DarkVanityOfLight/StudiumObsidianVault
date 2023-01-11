@@ -23,7 +23,12 @@ $$\begin{align}
 
 ## Quotientenkriterium
 
-$$\sum^{\infty}_{n = 1} b_n, \qquad$$
+$$\begin{align}
+\sum^{\infty}_{n = 1} b_n \qquad, b_n \not = 0 \forall n\qquad \exists 0 < \lambda < 1:
+\left|\frac{b_{n+1}}{b_n} \right|\le \lambda \forall n
+\end{align}$$
+
+Falsch für $\lambda = 1$
 
 
 ---
