@@ -44,5 +44,3 @@ as desired.
 
 ---
 
-|Bezeichner|x|y|i|
-|Adresse| $a_0$| $a_1$|
