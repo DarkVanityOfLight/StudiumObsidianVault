@@ -1,4 +1,6 @@
 
+> Jannis Lauterbach, Gregor Stöbener, Kilian Lichtner
+
 ## Aufgabe 1
 
 ### a)
@@ -96,6 +98,7 @@ Ordnung $\text{kgV}(4,3)=12$
 
 ## Aufgabe 3
 
+### a)
 $\alpha = \text{Spiegelung}$
 $\beta = \text{Drehung}$
 
@@ -108,4 +111,64 @@ $$\begin{align}
 &|G| = |G 1| \cdot |\text{Stab}(1)|\\
 &|G| = |\{1, 2, 3, 4, 5\}| \cdot |\{id, \alpha\}|\\
 &|G| = 5 \cdot 2 = 10
+\end{align}$$
+
+### b)
+
+| Element    | Permutation                |
+|------------|----------------------------|
+| Rotation   | $\texttt{(1 2 3 4 5)}$     |
+| Rotation   | $\texttt{(2 3 4 5 1)}$     |
+| Rotation   | $\texttt{(3 4 5 1 2)}$     |
+| Rotation   | $\texttt{(4 5 1 2 3)}$     |
+| Rotation   | $\texttt{(5 1 2 3 4)}$     |
+| Spiegelung | $\texttt{(1 5)(2 4)(3 3)}$ |
+| Spiegelung | $\texttt{(1 4)(2 5)(3 3)}$ |
+| Spiegelung | $\texttt{(1 3)(2 2)(3 5)}$ |
+| Spiegelung | $\texttt{(1 2)(2 3)(3 4)}$ |
+| Spiegelung | $\texttt{(1 1)(2 2)(3 4)}$ |
+
+### c)
+
+Da es sich hierbei um eine regelmäßiges 5-Eck handelt wissen wir, dass es $2^5=32$ Untergruppen geben muss.
+
+1. ${}$
+2. $\{1\}$
+3. $\{2\}$
+4. $\{3\}$
+5. $\{4\}$
+6. $\{5\}$
+7. $\{1,2\}$
+8. $\{1,3\}$
+9. $\{1,4\}$
+10. $\{1,5\}$
+11. $\{2,3\}$
+12. $\{2,4\}$
+13. $\{2,5\}$
+14. $\{3,4\}$
+15. $\{3,5\}$
+16. $\{4,5\}$
+17. $\{1,2,3\}$
+18. $\{1,2,4\}$
+19. $\{1,2,5\}$
+20. $\{1,3,4\}$
+21. $\{1,3,5\}$
+22. $\{1,4,5\}$
+23. $\{2,3,4\}$
+24. $\{2,3,5\}$
+25. $\{2,4,5\}$
+26. $\{3,4,5\}$
+27. $\{1,2,3,4\}$
+28. $\{1,2,3,5\}$
+29. $\{1,3,4,5\}$
+30. $\{1,3,4,5\}$
+31. $\{2,3,4,5\}$
+32. $\{1,2,3,4,5\}$
+
+## Aufgabe 4
+
+$$\begin{align}
+&|G| = |Gm| \cdot |\text{Stab}(m)|\\
+&|G| = |G1| \cdot |Stab(1)|\\
+&|G| = |\{1, 2, 3, 4, 5, 6\}| \cdot |\{id,  \text{Spiegelung}| = 12
 \end{align}$$

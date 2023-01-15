@@ -1,4 +1,3 @@
-# Multiplikation und Division von Brüchen
 ## Multiplikation
 Die Multiplikation und die Division von Brüchen ist einfacher als die [Addition und Subtraktion](Addition%20und%20Subtraktion%20von%20Brüchen.md). Der Zähler des Produktes von zwei Brüchen ist das Produkt der beiden Zähler. Der Nenner ist das Produkt der beiden Nenner. Somit ist das Produkt der beiden Brüche $p_1 \over q_1$ und $p_2 \over q_2$: $${p_1 \over q_1} \cdot {p_1 \cdot p_2 \over q_1 \cdot q_2}$$
 ### Kehrwert

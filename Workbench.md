@@ -44,3 +44,15 @@ as desired.
 
 ---
 
+$$\begin{align}
+&f(x) = \frac{1}{3} x^5 - 2x^2\\
+&0 = \frac{1}{3} x^5 - 2x^2\\
+&0 = x^2 \cdot (\frac{1}{3} x^3 - 2)\\
+&(x_1)^2 = 0 \iff x_1 = 0\\
+& \frac{1}{3} x^3 - 2= 0\\
+& \frac{1}{3} x^3 =2\\
+&x^3 = 6\\
+&\sqrt[3]{x^3} = \sqrt[3]{6}\\
+& x_2 \approx 1.8171 \quad x_3 \approx - 1.8171
+
+\end{align}$$

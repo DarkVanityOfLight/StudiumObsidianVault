@@ -2,7 +2,7 @@ Ein Gruppenhomomorphismus $\varphi$ zwischen zwei Gruppen $G_1$ und $G_2$ ist ei
 $$\varphi: G_1 \to G_2$$
 die
 $$\varphi(a\circ b) = \varphi(a) \circ \varphi (b) \quad \forall a, b \in G_1$$
-erfüllt, als doe Verknüpfungsstruktur erhält.
+erfüllt, als die Verknüpfungsstruktur erhält.
 
 Man beachte, dass $\circ$ auf der linken Seite die Verknüpfung in $G_1$, auf der rechten Seite die in $G_2$ bezeichnet.
 
