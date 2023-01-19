@@ -27,3 +27,5 @@ $$\begin{align*}
 f_{\text{Stetig}}: D\to\mathbb R,\quad g:E\to\mathbb R,\quad f(D) \subset E\\
 \implies g\circ f: D\to\mathbb R, x\mapsto g(f(x))\quad\text{stetig}
 \end{align*}$$
+
+$$\lim_{x\to0}\exp(x) = 1$$
