@@ -56,3 +56,15 @@ $$\begin{align}
 & x_2 \approx 1.8171 \quad x_3 \approx - 1.8171
 
 \end{align}$$
+---
+
+$$\begin{align}
+&f(x) = 8x^{3}- 4x^4\\
+&4x^2(2x -x^2)\\
+&4x^{2}= 0 \land 2x-x^2=0\\
+&x_{1}= 0 \land x (2 - x) = 0\\
+&x_{2}= 0 \land (2-x) = 0\\
+&x_{1, 2} = 0 \land x_{3}= 2
+\end{align}$$
+---
+

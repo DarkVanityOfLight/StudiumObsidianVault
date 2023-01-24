@@ -38,7 +38,7 @@ $|G| = |Gm| \cdot |Stab(m)|$.
 Zwei Bahnen $Gm_1$ und $Gm_2$ sind entweder gleich oder [Disjunkt](Disjunkt.md). In der gleichen Bahn zu sein ist also eine [Äquivalenzrelation](Äquivalenzrelationen.md).
 
 ## Quotient
-Die Menge der Bahnen bezeichnen wir mit $M/ G$ Quotient von $M$ nach $G$. Jedes Element $m\in Gm_1$ nennen wir einen Repräsentanten der Bahn, denn $Gm = Gm_1$. Weiter heisst
+Die Menge der Bahnen bezeichnen wir mit $M/ G$ Quotient von $M$ nach $G$. Jedes Element $m\in Gm_1$ nennen wir einen Repräsentanten der Bahn, denn $Gm = Gm_1$. Weiter heißt
 $$\begin{align}
 \pi:& M \to M/ G\\
 &m \mapsto Gm
@@ -68,7 +68,7 @@ codieren. Dies ist die Idee eines Zykels
 
 Ist $\sigma \in S_n$ dann zerlegt die Operation von $\langle \sigma \rangle$ die Menge $\{1, ..., n\}$ in Bahnen der Form 
 $$\langle \sigma\rangle x = (x, \sigma(x), \sigma^{2}(x), ..., \sigma^{t-1}(x))$$
-das heißt wir codieren zusätzlich zu der Bahn als Menge noch die Reihenfolge in der die Bahn durchlaufen wird. [Transposition](Gruppe.md#Transposition) sind Zykel der  Länge $2$. Fuer das neutrale Element schreiben wir $()$. Man könnte fuer Zykel auch eine Kreisnotation wie oben verwenden, die würde aber zu viel Platz verbrauchen und ist auch in einer Computerkonsole schwer einzugeben.
+das heißt wir codieren zusätzlich zu der Bahn als Menge noch die Reihenfolge in der die Bahn durchlaufen wird. [Transpositionen](Gruppe.md#Transposition) sind Zykel der  Länge $2$. Fuer das neutrale Element schreiben wir $()$. Man könnte fuer Zykel auch eine Kreisnotation wie oben verwenden, die würde aber zu viel Platz verbrauchen und ist auch in einer Computerkonsole schwer einzugeben.
 Transpositionen sind Zykel der Länge 2
 
 ### Beispiel
