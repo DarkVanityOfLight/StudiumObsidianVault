@@ -23,13 +23,24 @@ $x^3 = 0$   | 3te Wurzel ziehen
 $x = 0$
 
 ### b)
-$$\lim{x \to \infty} \frac{\frac{x^3}{x^2-1}}{x} = \lim{x \to \infty} \frac{x^2}{x^2-1}=\lim_{x \to \infty}\frac{\infty}{\infty}=1$$
+$$\lim_{x \to \infty} \frac{\frac{x^3}{x^2-1}}{x} = \lim_{x \to \infty} \frac{x^2}{x^2-1}=\lim_{x \to \infty}\frac{\infty}{\infty}=1$$
 1. Vereinfachung des Bruchs $\frac{\frac{x^3}{x^2-1}}{x}$ indem wir ihn durch $x$ teilen.
 2. $x$ geht gegen $\infty$ deswegen kann man $x^2$ im Zähler und $x^2-1$ im Nenner streichen. 
 3. Da der Zähler immer durch den Nenner geteilt wird und der Nenner $x^2-1$ ist muss der Grenzwert $1$ sein.
 
+$$\lim_{x \to 1 \atop x<1} \frac{x^3}{x^2-1}=\lim_{x \to 1 \atop x<1} \frac{x^3}{x-1}=\lim_{x \to 1 \atop x<1} \frac{-1}{0}=-\infty$$
+1. Vereinfachung des Bruchs $\frac{x^3}{x^2-1}$ indem wir ihn durch $x$ teilen.
+2. $x-1$ geht gegen $0$ von links, da $x$ gegen $1$ von links geht. $x^3$ geht gegen $-1$ von links also können wir $\frac{-1}{0}$ schreiben.
+
+
+$$\lim_{x \to 1 \atop x>1} \frac{x^3}{x^2-1}=\lim_{x \to 1 \atop x>1} \frac{x^3}{x-1}=\lim_{x \to 1 \atop x>1} \frac{1}{0}=\infty$$
+1. Vereinfachung des Bruchs $\frac{x^3}{x^2-1}$ indem wir ihn durch $x$ teilen.
+2. $x-1$ geht gegen $0$ von rechts, da $x$ von rechts gegen $1$ geht. $x^3$ geht gegen $1$ von rechts also können wir $\frac{1}{0}$ schreiben.
+
 ### c)
 ![graph](graph.png)
+
+### d)
 
 ## Aufgabe 3
 
@@ -53,3 +64,4 @@ $x_0$ ist die Rationale Zahl $\frac{5}{3}$ allerdings kann die Intervallhalbieru
 
 
 ## Aufgabe 4
+
