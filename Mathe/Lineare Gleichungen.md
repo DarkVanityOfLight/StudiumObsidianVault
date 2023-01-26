@@ -9,3 +9,8 @@ $$\begin{align}
 \end{align}$$
 sehen wir sofort, dass eine lineare Gleichung in $x$ immer die eindeutige Lösung $x=-{c\over b}$ besitzt, d.h. es gilt $$L = \{-{c\over b}\}$$
 
+---
+
+- [Polynome](Polynome.md) heißen __homogen__ wenn alle Terme denselben Grad haben.
+- [Polynome](Polynome.md) heißen linear wenn die exponenten 1 sind.
+

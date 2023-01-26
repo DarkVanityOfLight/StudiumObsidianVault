@@ -1,4 +1,3 @@
-# Vektorräume
 Sei $n \in N$ eine natürliche Zahl.
 Betrachte die Menge $R^n = R \times ... \times R$ aller n-Tupel von [reelle Zahlen](Reelle%20Zahlen.md)
 $$R^n = \left\{ \underline x = \left(
