@@ -7,4 +7,4 @@ $$\begin{align*}
 &\qquad\qquad\qquad \text{ else $l_{j}:=\frac{1}{LC(l_{j})} \cdot l_{j}$}
 \end{align*}$$
 
-
+Sortieren der $l_{i}$ nach $L(l_{i})$ gibt die Zeilenstufenform

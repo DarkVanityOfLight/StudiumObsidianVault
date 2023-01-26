@@ -28,3 +28,4 @@ $\text{tail}(f) = 5 x_{3}+ x_{4}$
 
 ![Gaußalgorithmus](Algorithmen/Gaußalgorithmus.md)
 
+![Reduzierte Zeilenstufenform](Reduzierte%20Zeilenstufenform.md)
