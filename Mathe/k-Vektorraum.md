@@ -27,4 +27,3 @@ $$1\cdot v = v \qquad \forall v \in V$$
 $$(\lambda + \mu) \cdot v = \lambda \cdot v + \mu \cdot v$$
 
 $$\lambda \cdot (v + w) = \lambda \cdot v + \lambda \cdot w$$
-
