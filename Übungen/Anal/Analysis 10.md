@@ -1,6 +1,5 @@
 > Jannis Lauterbach, Kilian Lichtner
 
-
 ## Aufgabe 1
 
 $$\begin{align*}

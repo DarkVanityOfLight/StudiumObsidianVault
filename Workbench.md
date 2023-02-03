@@ -68,3 +68,20 @@ $$\begin{align}
 \end{align}$$
 ---
 
+$$\begin{align*}
+f(x) &= 12x^{2}-96 + 128\\
+a &= 12\\
+b &= -96\\
+c &= 128\\
+x_{1,2} &= \frac{-b \pm \sqrt{b^{2}  - 4  \cdot a \cdot c}}{2 \cdot a}\\
+x_{1,2}&= \frac{-(-96) \pm \sqrt{(-96)^{2}- 4 \cdot 12 \cdot 128}}{2\cdot 12}\\
+x_{1,2}&= \frac{96 \pm \sqrt{(-96)^{2}- 4 \cdot 12 \cdot 128}}{2\cdot 12}\\
+x_{1,2}&= \frac{96 \pm \sqrt{9216 - 4 \cdot 12 \cdot 128}}{2\cdot 12}\\
+x_{1,2}&= \frac{96 \pm \sqrt{9216 - 48 \cdot 128}}{2\cdot 12}\\
+x_{1,2}&= \frac{96 \pm \sqrt{9216 - 6144}}{2\cdot 12}\\
+x_{1,2}&= \frac{96 \pm \sqrt{9216 - 6144}}{24}\\
+x_{1,2}&= \frac{96 \pm \sqrt{3072}}{24}\\
+x_{1} &= \frac{96 + \sqrt{3072}}{24} \land x_{2} = \frac{96 - \sqrt{3072}}{24}\\
+x_{1}&\approx 6.3094 \land x_{2}\approx 1.6906
+\end{align*}
+$$
