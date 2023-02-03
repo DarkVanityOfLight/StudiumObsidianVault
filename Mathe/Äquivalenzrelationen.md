@@ -1,19 +1,17 @@
-Sei $M$ Menge und $R\subset M\times M$ [Reflexiv](Halbordnung.md#Reflexiv) und [Transitiv](Halbordnung.md#Transitiv).
-Ist $R$ außerdem symmetrisch dh. $(m, n) \in R \implies (n, m)\in R$
+Sei $M$ Menge und $R\subset M\times M$ eine [Reflexive](Halbordnung.md#Reflexiv) und [Transitive](Halbordnung.md#Transitiv) Relation.
+Ist $R$ außerdem symmetrisch dh. $$(m, n) \in R \implies (n, m)\in R$$
 so heißt $R$ Äquivalenzrelation.
 
-Schreibe $m \sim n$ für $m, n \in R$ dann bedeutet
+Schreiben wir $m \sim n$ für $m, n \in R$ dann bedeutet
 - reflexiv, dass $m \sim m \qquad \forall m\in M$ 
 - transitiv, dass $m\sim l, l\sim n \implies  m\sim n \quad \forall m,n \in M$
 - symmetrisch, dass $m \sim n \implies n\sim m\quad \forall m, n \in M$
 
 ## Äquivalenzklassen
-Ist $M$ eine  Menge, $\sim$ eine Äquivalenzrelation und $m\in M$, dann heißt
-$[m] = \left\{n\in M : n \sim m\right\} \subset 2^M$ die Äquivalenzklasse von $m$. Jedes $n \in [m]$ heißt Repräsentant von $[m]$
+Ist $M$ eine  Menge, $\sim$ eine Äquivalenzrelation und $m\in M$, dann heißt $$[m] = \left\{n\in M : n \sim m\right\} \subset 2^M$$ die Äquivalenzklasse von $m$. Jedes $n \in [m]$ heißt Repräsentant von $[m]$
 
 ## Kanonische Abbildung
-
-Wir schreiben $M{\setminus\sim} = \{[m]|m\in M\} \subset 2^M$ für die Menge der Äquivalenzklassen von $\sim$ und
+Wir schreiben $$M{\diagup\sim} = \{[m]|m\in M\} \subset 2^M$$ für die Menge der Äquivalenzklassen von $\sim$ und
 
 $$\begin{align}
 \pi :& M \to M/\sim\\

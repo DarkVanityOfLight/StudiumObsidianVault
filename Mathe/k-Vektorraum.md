@@ -41,5 +41,5 @@ u_{1}, u_{2} \in U \implies u_{1}+ u_{2}\in U\\
 
 > Die Lösungsmenge eines homogenen LGLS
 > für $x_{1}, ..., x_n$ über dem [Körper](Körper.md) K ist ein UVR von $K^{n}$
-> Gerade im $\mathbb R^{2} ist UR $L = \{\lambda \cdot v | \lamda \in k\}$
+> Gerade im $\mathbb R^{2}$ ist UR $L = \{\lambda \cdot v | \lambda \in k\}$
 

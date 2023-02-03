@@ -1,4 +1,4 @@
-[Reflexiv](Halbordnung.md#Reflexiv), [Transitiv](Halbordnung.md#Transitiv), [Antisymetrisch](Halbordnung.md#Antisymetrisch)
+Eine Totalordnung ist eine [Halbordnung](Halbordnung.md), bei der zusätzlich gilt dass für alle $m, n\in M$,  $(m, n) \in R$ oder $(n,m)\in R$
 
 $(m,n) \in R$ oder $(n,m) \in R$ $\forall m,n \in M$
 

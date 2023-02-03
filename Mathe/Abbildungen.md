@@ -1,4 +1,4 @@
-> Eine Abbildung $f: M \to N$ ist eine [Relation](Relation.md) $R\subset \underbrace{M}_{\text{Quelle}} \times \underbrace{N}_{\text{Ziel}}$ sodass es für jedes $m\in M$ genau ein $f(m)\in N$ gibt mit $(m, f(m)) \in R$.
+ Eine Abbildung $f: M \to N$ ist eine [Relation](Relation.md) $R\subset \underbrace{M}_{\text{Quelle}} \times \underbrace{N}_{\text{Ziel}}$ sodass es für jedes $m\in M$ genau ein $f(m)\in N$ gibt mit $(m, f(m)) \in R$.
 
 ## Schreibweise 
 $$\begin{align}
@@ -7,37 +7,20 @@ f:& M \to N\\
 \end{align}$$
 
 ## Graph
-Die Relationenmenge $R$ bezeichnet man auch als Graphen
+Hat man eine Abbildung durche eine Abbildungsvorschrift $f: M\to N, m\mapsto f(m)$ gegeben, so ist die Darstellung von $f$ als Relation nichts anderes als der Graph
 $$
-Graph(f) := R = \{(m, f(m)) | m\in M\}
+R = Graph(f) =  \{(m, f(m)) | m\in M\}\subset M\times N
 $$
 von $f$
 
-
 ## Bild
-Für $A\subset M$ heißt  $f(A) = \{f(m) | m\in A\}$ Bild von A unter f
+Für eine [Teilmenge](Teilmengen.md) $A\subset M$ heißt  $f(A) = \{f(m) | m\in A\}$ Bild von $A$ unter $f$
 $$Bild(f) := f(M) \subset N$$
+bezeichnen wir als Bild von $f$.
+
 ## Urbild
-Für $B\subset N$ heißt $f^{-1}(B) := \{m\in M | f(m) \in B\}$ Urbild von B unter f.
+Für $B\subset N$ heißt $$f^{-1}(B) := \lbrace m\in M | f(m) \in B\rbrace \subset M$$ Urbild von $B$ unter $f$.
 
-
-## Schubfachprinzip
-Sind $M, N$ endliche Mengen und ist $: M\to N$ eine [injektiv](Abbildungen.md#Injektiv) Abbildung dann gilt $|M| \leq |N|$.
-
-![Surjektiv](Surjektiv.md)
-
-![Injektiv](Injektiv.md)
-
-![Bijektiv](Bijektiv.md)
-
-## Beispiel
-$M = \{1,2,3\}$ $N= \{1, 2\}$injektive
-$\implies |M| > |N| \implies$ es gibt keine inj. Abbildung $M\to N$
-
-### Beweis
-$$\begin{align}
-|N| = \sum_{n\in N} 1 \geq \sum_{n\in N} \underbrace{|f^{-1}(\{n\})|}_{0 \text{falls} m \not\in Bild(f)\atop 1 \text{falls} m \in Bild(f)} \doteq |M|
-\end{align}$$
 
 denn $f^{-1}(\{n\})$ hat genau 1 Element, wenn $n$ im Bild von $f$ liegt,
 (da $f$ injektiv), und ist leer sonst. Die zweite Gleichheit gilt, da $M$ die disjunkte Vereinigung

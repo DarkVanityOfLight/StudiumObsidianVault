@@ -1,4 +1,5 @@
-Seien $a, b \in \mathbb Z, b \not = 0$ Dann gibt es eindeutig bestimmte Zahlen $q, r \in \mathbb Z$ mit $a = b \cdot q + r$ und $0 \leq r < |b|$
+
+Seien $a, b \in \mathbb Z, b > 0$ Dann gibt es eindeutig bestimmte Zahlen $q, r \in \mathbb Z$ mit $$a = b \cdot q + r$$ und $0 \leq r < |b|$
 
 ## Beispiel
 $a = 1000, b=3$
