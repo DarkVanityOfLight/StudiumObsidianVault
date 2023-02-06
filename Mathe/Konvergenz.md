@@ -28,8 +28,9 @@ Fuer $n \geq \max\{N_1, N_2\}$
 $|a-b| = |a-a_n + a_n -b| \leq |a_n -a| + |a_n -b|$
 $< 2\cdot \epsilon = {2\over 3} |a-b|$
 $\implies a = b$
-
 ---
+
+
 ## Abgeschnittene Folge
 Gegeben ist eine Folge $(a_n)$ und $N \in \mathbb N$, dann schreiben wir $(a_n)_{n\geq N}$ für die abgeschnittene Folge $(a_N, a_{N+1}, a_{N+2}, ...)$.
 

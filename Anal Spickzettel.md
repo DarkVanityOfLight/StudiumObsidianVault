@@ -24,3 +24,35 @@ für die kanonische Abbildung von $\sim$. Diese sind offenbar [Surjektiv](Surjek
 
 ---
 
+## Dreiecksungleichung
+
+Sei $K$ ein angeordneter Körper. Es gilt
+$|a+b| \leq |a| + |b|$
+für alle $a,b \in K$.
+
+$$|a-b| = |a-c + c -b| \leq |a-c| + |c-b|$$
+
+---
+
+Ist $K$ Archimedisch und $x\in K$ mit $-1 < x < 1$, dann gilt 
+$$\lim_{n\to\infty} x^n = 0$$
+
+
+---
+
+Sei $(a_n)$ eine Folge in einem [Archimedischen Koerper](Körper.md#Archimedisch). Gibt es ein $0 < \lambda < 1$ mit $$|a_{n+1} - a_n| \leq \lambda|a_n -a_{n-1}|$$
+für alle $n$, so ist $(a_n)$ eine Cauchyfolge.
+
+---
+
+Die harmonische Reihe
+$$\sum\limits^{\infty}_{n=1} \frac{1}{n}$$
+ist [bestimmt Divergent](Bestimmt%20Divergent.md) gegen $\infty$.
+
+Für $|x| < 1$ konvergiert die geometrische [Reihe](Reihe.md) und
+$$\sum^{\infty}_{n_0} x_n = {1 \over 1 -x}$$
+Die Exponentialreihe
+$$\sum\limits^{\infty}_{n=0} \frac{1}{n!} x^{n}$$
+ist für jedes $x\in\mathbb R$ konvergent
+
+---

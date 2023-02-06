@@ -6,3 +6,15 @@ Diese Zahl, die man mit $\sqrt2$ bezeichnet, ist also keine rationale Zahl, sie 
 
 Nimmt man die irrationalen Zahlen zu den rationalen hinzu -  nimmt man also alle Zahlen der Zahlengeraden - so erhält man die reellen Zahlen.
 Die [Menge](Mengen.md) der reellen Zahlen wird mit $R$ bezeichnet.
+
+---
+
+Der [Körper](Körper.md) $\mathbb R$ ist angeordnet durch
+$$[(a_{n})]> 0$$
+genau dann, wenn es ein $c \in\mathbb Q, c>0$ und ein $N$ gibt mit
+$$a_{n} \ge c \forall n \ge N$$
+
+---
+
+> $\mathbb R$ ist [Archimedisch](Körper.md#Archimedisch)
+

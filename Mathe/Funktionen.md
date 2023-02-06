@@ -1,4 +1,12 @@
-fEine Funktion $f$ von $D_f \subseteq A$ nach $B$ ist eine Vorschrift, die jedem $x \in D$ genau ein Element von $B$, genannt $f(x)$, zuordnet. $D_f$ heißt Definitionsmenge von $f$.
+Sei $D \subset\mathbb R$. Eine Abbildung $f: D\to\mathbb R$ heißt Funktion.
+
+## Graph
+ Der Graph von $f$ ist
+ $$\text{Graph}(f) = \lbrace(x, f(x))| x\in D\rbrace$$
+
+---
+
+Eine Funktion $f$ von $D_f \subseteq A$ nach $B$ ist eine Vorschrift, die jedem $x \in D$ genau ein Element von $B$, genannt $f(x)$, zuordnet. $D_f$ heißt Definitionsmenge von $f$.
 $$\begin{align}
 f: &A \supseteq D_f \rightarrow B \\ 
 &x \mapsto f(x)
@@ -67,3 +75,8 @@ $f$ heißt nach oben beschränkt, wenn es ein $K \in R$ gibt, so dass $f(x) \leq
 
 f heißt nach unten beschränkt, wenn es ein $L \in R$, so dass $f(x) \geq L$ für alle $x \in D_f$. $L$ heißt eine untere Schranke von $f$
 Siehe auch [Schranken](Intervalle.md#Schranken)
+
+## Stetig
+Sei $f: \mathbb R \supseteq [a, b] \to \mathbb R$ eine Funktion, sei $x_0 \in [a, b]$.
+- $f$ heißt stetig in $x_0$, wenn $\lim_{x \to x_0}f(x) = f(x_0)$, d.h., falls für jede Folge $(x_n)_{n \in \mathbb N}$ in $[a, b]$ mit $\lim_{n \to \infty} x_n = x_0$ gilt, dass $\lim_{n \to \infty} f(x_n) = f(x_0)$.
+- $f$ heißt stetig auf $[a, b]$ wenn $f$ in jedem Punkt aus dem Intervall $[a, b]$ stetig ist.

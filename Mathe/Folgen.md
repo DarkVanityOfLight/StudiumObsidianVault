@@ -1,8 +1,11 @@
 Sei $M$ eine Menge, dann ist eine Folge in $M$  eine Abbildung
 $$\begin{align}
 &\mathbb N \to M\\&n \mapsto a_n\end{align}$$
+Wir schreiben für die Folge kurz $(a_n)_{n\in\mathbb N}$ oder $(a_n)$.
 
-Eine [Funktionen](Mathe/Funktionen.md) von $N$ nach $R$ heißt (reelle) Folge.
+---
+
+Eine [Funktion](Mathe/Funktionen.md) von $N$ nach $R$ heißt (reelle) Folge.
 $$\begin{align}
 a: N \rightarrow R\\
 n \mapsto a(n) = a_n
@@ -12,33 +15,21 @@ Folgen können [Beschränkt](Schranken.md) sein.
 Außerdem können sie [Monotonie](Funktionen.md#Monotonie) verhalten zeigen.
 
 
-
-$(a_n), (b_n)$ sind [Konvergent](Konvergenz.md)
+Sei $K$ ein [angeordneter Körper](Angeordneter%20Körper.md) und $(a_n), (b_n)$  [konvergente](Konvergenz.md) Folgen in $K$ mit
 $\lim a_n = a \quad \lim b_n = b$
-Dann $(a_n + b_n)$ und $(a_n \cdot b_n)$ konvergent
-und 
+Dann [konvergieren](Konvergenz.md) die Folgen $(a_n + b_n)$ und $(a_n \cdot b_n)$ und es gilt:
 $\lim_{n\to\infty} a_n + b_n = a+b$
 $\lim_{n\to\infty} a_n \cdot b_n = a \cdot b$
+
 $(a_1) = (a_1 , a_2, a_3, ...)$
 $b_n = (b_1, b_2, b_3, ...)$
 $(a_n + b_n) := (a_1 + b_1, a_2 + b_2, ...)$
 
-## Beweis
-### Summenregel
-Sei $\epsilon > 0$
-$\exists N_1, N_2$
-$|a_n -a| < ... \qquad\forall n \geq N_1$
-$|bn - b| < ... \qquad \forall n \geq N_2$
-$|a_n + b_n - (a + b)| \leq |a_n -a| + |b_n -b| < {\epsilon \over 2} + {\epsilon \over 2} \leq \epsilon$
-
-$\forall n \geq max\{N_1, N_2\}$
-
-### Produktregel
-
-$|a_n \cdot b_n - a \cdot b| \leq |b_n| \cdot |a_n - a| + |a| \cdot |b_n - b|$
+ist außerdem $a \not = 0$, dann gibt es ein $N$ mit $a_{n} \not= 0$ für alle $n\ge N$,
+die Folge $\left(\frac{1}{a_{n}}\right)_{n\ge N}$ [konvergiert](Konvergenz.md) und es gilt 
+$$\lim_{n\to\infty} \frac{1}{a_{n}} = \frac{1}{a}$$
 
 
-#übung 
 
 ---
 
@@ -96,26 +87,6 @@ $a$ heißt Grenzwert von $$\begin{align}
 Hat die Folge $(a_n)_n \in \mathbb N$ einen Grenzwert $a$, schreibt man kurz 
 $$\lim_{ n \to \infty } a_n = a$$
 
-## Konvergent und Divergent
-Dann heißt die Folge $(a_n)_n\in \mathbb N$ einen konvergent.
-Man sagt auch: Die Folge $(a_n)_n\in \mathbb N$ konvergiert gegen a
-> Jede konvergente Folge ist beschränkt
-> Beschränktheit ist keine hinreichende Bedingung für Konvergenz.
-> Ist eine Folge monoton und beschränkt, dann ist sie konvergent.
-
-Hat die Folge $(a_n)_{n\in \mathbb N}$ keinen Grenzwert, dann heißt sie divergent.
-
-Seien $(a_n)_n{\in \mathbb N}$ und $(b_n)_{n\in\mathbb N}$ zwei Folgen. Dann gilt:
-Konvergieren die Folgen $(a_n)_{n \in \mathbb N}$ und $(b_n)_{n \in \mathbb N}$, dann konvergiert auch die Folge $(a_n + b_n)_{n \in \mathbb N}$ und es gilt
-$$\lim_{n \to \infty}(a_n + b_n) = \lim_{n \to \infty} a_n + \lim_{n \to \infty} b_n$$
-Konvergieren die Folgen $(a_n)_{n \in \mathbb N}$ und $(b_n)_{n \in \mathbb N}$, dann konvergiert auch die Folge $(a_n \cdot b_n)_{n \in \mathbb N}$ und es gilt
-$$\lim_{n \to \infty}(a_n \cdot b_n) = \lim_{n \to \infty} a_n \cdot \lim_{n \to \infty} b_n$$
-Konvergieren die Folgen $(a_n)_{n \in \mathbb N}$ und $(b_n)_{n \in \mathbb N}$ und gilt $b_n \not = 0 \forall n \in \mathbb N$ und $\lim_{n \to \infty} b_n \not = 0$, dann konvergiert auch die Folge $({a_n \over b_n})_{n\in \mathbb N}$ und es gilt
-$$
-\lim_{n \to \infty} {a_n \over b_n} = {\lim_{n \to \infty} a_n \over \lim_{n \to \infty} n_n}
-$$
-Für $c \in \mathbb R$ gilt
-$$\lim_{n\to\infty}(c\cdot a_n) = c \cdot \lim_{n\to\infty} a_n$$
 ## Grenzwertbeweisen
 Behauptung: $lim_{n\to \infty} {1 \over n}= 0$
 Sein $\epsilon > 0$ vorgegeben. Wir müssen $n_\epsilon \in N$ bestimmen, sodass $|a_n -a| < \epsilon$, also $|{1\over n} - 0| < \epsilon \forall n \geq n_\epsilon$
@@ -141,7 +112,39 @@ Wenn für zwei auf $[a, b]$ oder $[a, b] \setminus {x_0}$ definierte reellwertig
 - $\lim_{x\to x_0}(f(x) \cdot g(x)) = \lim_{x\to x_0} f(x) \cdot\lim_{x\to x_0} g(x)$ 
 - $\lim_{x \to x_0} = {\lim_{x \to x_0} f(x) \over \lim_{x \to x_0} g(x)}$
 
-## Stetig
-Sei $f: \mathbb R \supseteq [a, b] \to \mathbb R$ eine Funktion, sei $x_0 \in [a, b]$.
-- $f$ heißt stetig in $x_0$, wenn $\lim_{x \to x_0}f(x) = f(x_0)$, d.h., falls für jede Folge $(x_n)_{n \in \mathbb N}$ in $[a, b]$ mit $\lim_{n \to \infty} x_n = x_0$ gilt, dass $\lim_{n \to \infty} f(x_n) = f(x_0)$.
-- $f$ heißt stetig auf $[a, b]$ wenn $f$ in jedem Punkt aus dem Intervall $[a, b]$ stetig ist.
+
+
+## Monotonie
+Sei $K$ ein [Angeordneter Körper](Angeordneter%20Körper.md). Eine Folge $(a_n)$ heißt monoton wachsend, wenn $a_{n+1} \ge a_{n}$ für alle $n$.
+Sie heißt monoton fallend, wenn $a_{n+1} \le a_{n}$ für alle $n$.
+
+## Konvergent und Divergent
+Dann heißt die Folge $(a_n)_n\in \mathbb N$ einen konvergent.
+Man sagt auch: Die Folge $(a_n)_n\in \mathbb N$ konvergiert gegen a
+> Jede konvergente Folge ist beschränkt
+> Beschränktheit ist keine hinreichende Bedingung für Konvergenz.
+> Ist eine Folge monoton und beschränkt, dann ist sie konvergent.
+
+Hat die Folge $(a_n)_{n\in \mathbb N}$ keinen Grenzwert, dann heißt sie divergent.
+
+Seien $(a_n)_n{\in \mathbb N}$ und $(b_n)_{n\in\mathbb N}$ zwei Folgen. Dann gilt:
+Konvergieren die Folgen $(a_n)_{n \in \mathbb N}$ und $(b_n)_{n \in \mathbb N}$, dann konvergiert auch die Folge $(a_n + b_n)_{n \in \mathbb N}$ und es gilt
+$$\lim_{n \to \infty}(a_n + b_n) = \lim_{n \to \infty} a_n + \lim_{n \to \infty} b_n$$
+Konvergieren die Folgen $(a_n)_{n \in \mathbb N}$ und $(b_n)_{n \in \mathbb N}$, dann konvergiert auch die Folge $(a_n \cdot b_n)_{n \in \mathbb N}$ und es gilt
+$$\lim_{n \to \infty}(a_n \cdot b_n) = \lim_{n \to \infty} a_n \cdot \lim_{n \to \infty} b_n$$
+Konvergieren die Folgen $(a_n)_{n \in \mathbb N}$ und $(b_n)_{n \in \mathbb N}$ und gilt $b_n \not = 0 \forall n \in \mathbb N$ und $\lim_{n \to \infty} b_n \not = 0$, dann konvergiert auch die Folge $({a_n \over b_n})_{n\in \mathbb N}$ und es gilt
+$$
+\lim_{n \to \infty} {a_n \over b_n} = {\lim_{n \to \infty} a_n \over \lim_{n \to \infty} n_n}
+$$
+Für $c \in \mathbb R$ gilt
+$$\lim_{n\to\infty}(c\cdot a_n) = c \cdot \lim_{n\to\infty} a_n$$
+
+## Teilfolgen
+Eine Teilfolge einer Folge $(a_{n})= (a_{1}, a_{2}, ...)$ ist eine Folge der Form
+$$(a_{n_{i}}) = (a_{n_{1}}, a_{n_{2}}, ...)$$
+mit 
+$$n_{1} < n_{2} < ...$$
+
+Sei $K$ ein angeordneter [Körper](Körper.md). Jede Folge in $K$ hat eine monotone Teilfolge.
+Jede Teilfolge $(a_{n_{i}})$ einer [konvergenten](Konvergenz.md) Folge $(a_n)$ hat denselben [Grenzwert](Folgen.md#Grenzwertsätze)
+$$\lim_{i\to\infty} a_{n_{i}} = \lim_{n\to\infty} a_{n}$$

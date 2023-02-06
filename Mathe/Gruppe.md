@@ -6,11 +6,13 @@ $$\begin{align}
 die folgende Axiome erf체llt:
 
 - [Assoziativ](Assoziativgesetz.md) $a \circ (b \circ c) = (a\circ b) \circ c \quad \forall a, b, c  \in G$
-- Es existiert ein neutrales Element dh. $e \in G$ mit $e \circ a = a\circ e =a \forall a \in G$
-- Existenz des Inversen dh. $\forall a \in G \exists a^{-1} \in G\quad a^{-1} \circ a = a \circ a^{-1} = e$
+- Es existiert ein __neutrales Element__ dh. $e \in G$ mit $e \circ a = a\circ e =a \forall a \in G$
+- Existenz des __Inversen__ dh. $\forall a \in G \exists a^{-1} \in G\quad a^{-1} \circ a = a \circ a^{-1} = e$
 
 ## Monoid
-[Assoziativ](Assoziativgesetz.md) + Existenz des Neutral elements
+Eine [Menge](Mengen.md) $G$ zusammen mit einer Verkn체pfung
+$$\circ: G \times G \to G$$
+die [Assoziativ](Assoziativgesetz.md) ist und ein neutrales Element besitzt nennt sich __Monoid__.
 
 ## Abelsch
 Gilt das [Kommutativgesetz](Kommutativgesetz.md) $a \circ b = b \circ a\quad \forall a, b \in G$
@@ -30,7 +32,7 @@ Die Anzahl der Elemente $|G|$ bezeichnet man als die Ordnung von $G$(kann $\inft
 
 ---
 
-Setzt man fier eine Gruppe $G$ nur die Existenz eines links neutralen Elements $e\in G$ mit $e\circ a = a \forall a\in G$ und von links inversen Element $a^{-1}$ f체r jedes $a\in G$ mit $a^{-1} \circ a =e$ voraus, dann ist $e$ auch rechts neutral und die $a^{-1}$ sind rechts invers.
+Setzt man f체r eine Gruppe $G$ nur die Existenz eines links neutralen Elements $e\in G$ mit $e\circ a = a \forall a\in G$ und von links inversen Element $a^{-1}$ f체r jedes $a\in G$ mit $a^{-1} \circ a =e$ voraus, dann ist $e$ auch rechts neutral und die $a^{-1}$ sind rechts invers.
 
 ---
 
@@ -70,4 +72,9 @@ Sei $(G, \circ)$ eine Gruppe. Eine [Teilmenge](Teilmengen.md) $H \subset G$ hei�
 1) $(H, \circ)$ ist eine Gruppe (d.h $e\in H$ und $a,b \in H \implies a\circ b \in H, b^{-1} \in H$)
 2) $H \not = \emptyset$, und $a,b \in H \implies a \circ b^{-1} \in H$.
 
+
+---
+
+> Die Menge der Symmetrien $Sym(D)$ von $D$ ist mit der [Komposition](Komposition.md) von Abbildungen als Verkn체pfung eine Gruppe
+> Die $Sym(D)$ ist nicht [kommutativ](Kommutativgesetz.md)
 
