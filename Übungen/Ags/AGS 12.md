@@ -1,3 +1,4 @@
+> Jannis Lauterbach, Kilian Lichtner, Gregor Stöbener
 
 ## Aufgabe 1
 
