@@ -1,32 +1,3 @@
-Themen:
-Grundkonstruktionen und Basiswissen:
-
-![](https://www.mathematik.uni-kl.de/~boehm/lehre/2223_MfI_A/circle.gif)  Mengen, Relationen, Abbildungen.  
-![](https://www.mathematik.uni-kl.de/~boehm/lehre/2223_MfI_A/circle.gif)  Schubfachprinzip.  
-![](https://www.mathematik.uni-kl.de/~boehm/lehre/2223_MfI_A/circle.gif)  Äquivalenzrelationen.  
-![](https://www.mathematik.uni-kl.de/~boehm/lehre/2223_MfI_A/circle.gif)  Natürliche Zahlen, ganze Zahlen, rationale Zahlen.  
-![](https://www.mathematik.uni-kl.de/~boehm/lehre/2223_MfI_A/circle.gif)  Vollständige Induktion.  
-![](https://www.mathematik.uni-kl.de/~boehm/lehre/2223_MfI_A/circle.gif)  Anwendungen in der Informatik.
-
-Grundlagen der Analysis:
-
-![](https://www.mathematik.uni-kl.de/~boehm/lehre/2223_MfI_A/circle.gif)  Konvergenz von Folgen und Reihen.  
-![](https://www.mathematik.uni-kl.de/~boehm/lehre/2223_MfI_A/circle.gif)  Reelle und komplexe Zahlen.  
-![](https://www.mathematik.uni-kl.de/~boehm/lehre/2223_MfI_A/circle.gif)  Funktionen.  
-![](https://www.mathematik.uni-kl.de/~boehm/lehre/2223_MfI_A/circle.gif)  Stetigkeit.  
-![](https://www.mathematik.uni-kl.de/~boehm/lehre/2223_MfI_A/circle.gif)  Differenzierbarkeit, Extremwertprobleme.  
-![](https://www.mathematik.uni-kl.de/~boehm/lehre/2223_MfI_A/circle.gif)  Integralrechnung.  
-![](https://www.mathematik.uni-kl.de/~boehm/lehre/2223_MfI_A/circle.gif)  Anwendungen in der Informatik.
-
-Ausblick auf die multivariate Analysis:
-
-![](https://www.mathematik.uni-kl.de/~boehm/lehre/2223_MfI_A/circle.gif)  Partielle Ableitungen.  
-![](https://www.mathematik.uni-kl.de/~boehm/lehre/2223_MfI_A/circle.gif)  Taylorformel.  
-![](https://www.mathematik.uni-kl.de/~boehm/lehre/2223_MfI_A/circle.gif)  Lokale Extrema.  
-![](https://www.mathematik.uni-kl.de/~boehm/lehre/2223_MfI_A/circle.gif)  Anwendungen in der Informatik.
-
----
-
 
 Eine [Abbildung](Abbildungen.md) $f: M\to N$ heißt surjektiv wenn $f(M) = N$
 Gilt für alle $m_1, m_2 \in M$ dass $f(m_1) = f(m_2) \implies m_1 = m_2$
@@ -110,3 +81,14 @@ $0 = F'(a) = f'(a) - \frac{f(s) -f(r)}{g(s) -g(r)}g'(a)$
 
 Für alle $x, y$ mit $r \le x < y \le s$ gibt der Mittelwertsatz, dass
 $$\frac{f(y) -f(x)}{y-x} = 0$$ also $f(y) = f(x)$
+
+## Taylorpolynom
+
+Sei $f$ in $x_0$ mindestens k-mal [differenzierbar](Differenzierbarkeit.md) (d.h. $f'(x_{0),}..., f^{(k)}(x_0)$ existieren). Mit dem k-ten __Taylorpolynom__
+
+$$T_{k}(x) = \sum\limits^{k}_{n=0} \frac{f^{(n)}x_{0}}{n!} (x-x_0)^n$$
+ist das k-te Restglied der Taylorreihe von $f$
+$$R_{k}(x) = f(x) - T_{k-1}(x)$$
+Insbesondere gilt
+$$T(x) = f(x) \iff \lim_{k\to\infty} R_{k(x)} = 0$$
+denn $T(x) = \lim_{k\to\infty} T_{k}(x)$. Mit der folgenden Darstellung des Restglieds lässt sich oft die [Konvergenz](Konvergenz.md) der Taylorreihe beweisen

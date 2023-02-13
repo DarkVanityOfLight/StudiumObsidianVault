@@ -7,7 +7,7 @@ $$
 existiert. Wir bezeichnen diesen Grenzwert als Ableitung von $f$ in $x_0$ und schreiben $f'(x_0)$.
 $f$ heißt differenzierbar auf $[a, b]$, wenn $f$ in jedem Punkt aus dem Intervall $[a,b]$ differenzierbar ist.
 Der Quotient ${f(x) - f(x_0) \over f(x_0)}$, $X \not x_0$ heißt Differenzquotient.
-Äquivalente Formulierung von (*):
+Äquivalente Formulierung von (*): ^aee223
 $$\begin{align}
 &h:= x-x_0 \\
 &\lim_{h\to 0} {f(x_0+h) - f(x_0) \over h}
