@@ -12,7 +12,7 @@ Ein Infimum ist eine grösste untere [Schranke](Schranken.md)
 
 ---
 
-> Jede [monotone](Folgen.md#Monotonie) wachsende, von oben [beschränkte](Mathe/Funktionen.md#Beschränkt) [Folge](Folgen.md) ist [Konvergent](Folgen.md#Konvergent%20und%20Divergent), ebenso jede [monotone](Folgen.md#Monotonie) fallende, von unten [beschränkte](Mathe/Funktionen.md#Beschränkt) [Folge](Folgen.md).
+> Jede [monotone](Mathe/Folgen.md#Monotonie) wachsende, von oben [beschränkte](Mathe/Funktionen.md#Beschränkt) [Folge](Mathe/Folgen.md) ist [Konvergent](Mathe/Folgen.md#Konvergent%20und%20Divergent), ebenso jede [monotone](Mathe/Folgen.md#Monotonie) fallende, von unten [beschränkte](Mathe/Funktionen.md#Beschränkt) [Folge](Mathe/Folgen.md).
 
 
 ---

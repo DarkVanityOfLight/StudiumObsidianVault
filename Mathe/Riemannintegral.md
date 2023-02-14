@@ -47,7 +47,7 @@ O_{n} &= \sum\limits^{n}_{i=1} f(t_{i}) (t_{i} - t_{i-1})\\
 \end{align*}$$
 also mit $\lim_{n\to\infty} \exp\left(\frac{1}{n}\right) = 1$ wieder
 $$\lim_{n\to\infty} O_{n} = \exp(1) -1$$
-Wir haben somit eine [Folge](Folgen.md) von Obersummen und eine [Folge](Folgen.md) von Untersummen gefunden, die beide gegen $\exp(1) -1$ konvergieren. Da außerdem
+Wir haben somit eine [Folge](Mathe/Folgen.md) von Obersummen und eine [Folge](Mathe/Folgen.md) von Untersummen gefunden, die beide gegen $\exp(1) -1$ konvergieren. Da außerdem
 $$O_{n} =\exp\left(\frac{1}{n}\right) U_{n} > U_{n}$$
 folgt $O = U = \exp(1)-1$
 Wie bei Treppenfunktionen gibt also das Integral eine mathematisch exakte Definition für die Fläche unter dem Funktionsgraphen. Das Beispiel illustriert ein allgemeines Prinzip:

@@ -1,8 +1,8 @@
-Mit dem [unendlichen Dezimalbruch](Unendlicher%20Dezimalbruch.md) haben wir schon eine Klasse von [Folgen](Folgen.md) $(a_n)$ kennengelernt, bei der man $a_n$ aus $a_{n-1}$ durch Addition einer Konstanten $b_n$ erhält.
+Mit dem [unendlichen Dezimalbruch](Unendlicher%20Dezimalbruch.md) haben wir schon eine Klasse von [Folgen](Mathe/Folgen.md) $(a_n)$ kennengelernt, bei der man $a_n$ aus $a_{n-1}$ durch Addition einer Konstanten $b_n$ erhält.
 
-Allgemein können wir [Folgen](Folgen.md) $(a_n)$  der Form $$a_n = b_1 + ... + b_n = \sum^{n}_{i=1} b_i$$
-mit einer gegebenen [Folge](Folgen.md) $(b_n)$ betrachten. Solche [Folgen](Folgen.md) $(a_n)$ bezeichnet man als Reihen.
-Natürlich lässt sich jede beliebige [Folge](Folgen.md) mittels einer Teleskopsumme in dieser Form schreiben
+Allgemein können wir [Folgen](Mathe/Folgen.md) $(a_n)$  der Form $$a_n = b_1 + ... + b_n = \sum^{n}_{i=1} b_i$$
+mit einer gegebenen [Folge](Mathe/Folgen.md) $(b_n)$ betrachten. Solche [Folgen](Mathe/Folgen.md) $(a_n)$ bezeichnet man als Reihen.
+Natürlich lässt sich jede beliebige [Folge](Mathe/Folgen.md) mittels einer Teleskopsumme in dieser Form schreiben
 $$a_n = \underbrace{a_1}_{b_1} + \underbrace{(a_2 - a_1)}_{b_2} + \underbrace{(a_3 -a_2)}_{b_3} + ... + \underbrace{(a_n - a_{n-1})}_{b_n}$$
 allerdings gibt es Beispiele, bei denen diese Schreibweise eben auf natürliche Weise auftritt, etwa die [unendlicher Dezimalbrüche](Unendlicher%20Dezimalbruch.md)
 $$a_n = \sum_{i = 1}^{n} \underbrace{10^k s_i \cdot \left(1\over 10\right)^i}_{b_{i}}$$
@@ -16,7 +16,7 @@ $$\sum^{\infty}_{i=0} c_i \cdot x^i + \sum^{\infty}_{i=0}d_i \cdot x^i = \sum^{\
 
 ---
 
-Sei $(b_n)$ eine [Folge](Folgen.md) in $\mathbb R$. Die Folge $(a_k)$ mit $$a_k = \sum^{k}_{n=1} b_n$$
+Sei $(b_n)$ eine [Folge](Mathe/Folgen.md) in $\mathbb R$. Die Folge $(a_k)$ mit $$a_k = \sum^{k}_{n=1} b_n$$
 heißt Reihe der Partialsummen von $(b_n)$ und wird mit $\sum^{\infty}_{n=1}b_n$
 bezeichnet.  Im Falle der [Konvergenz](Konvergenz.md) oder [bestimmte Divergenz](Bestimmt%20Divergent.md) von $(a_n)$ verwenden wir diese Bezeichnung auch für den Grenzwert
 $$\sum^{\infty}_{n=1} b_n$$

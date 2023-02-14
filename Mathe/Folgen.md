@@ -146,5 +146,5 @@ mit
 $$n_{1} < n_{2} < ...$$
 
 Sei $K$ ein angeordneter [Körper](Körper.md). Jede Folge in $K$ hat eine monotone Teilfolge.
-Jede Teilfolge $(a_{n_{i}})$ einer [konvergenten](Konvergenz.md) Folge $(a_n)$ hat denselben [Grenzwert](Folgen.md#Grenzwertsätze)
+Jede Teilfolge $(a_{n_{i}})$ einer [konvergenten](Konvergenz.md) Folge $(a_n)$ hat denselben [Grenzwert](Mathe/Folgen.md#Grenzwertsätze)
 $$\lim_{i\to\infty} a_{n_{i}} = \lim_{n\to\infty} a_{n}$$

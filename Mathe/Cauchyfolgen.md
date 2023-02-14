@@ -1,4 +1,4 @@
-Sei $K$ ein [Angeordneter Körper](Angeordneter%20Körper.md). Eine [Folge](Folgen.md) heißt Cauchyfolge, wenn es zu jedem $\epsilon > 0$ ein $N \in \mathbb N$ gibt mit 
+Sei $K$ ein [Angeordneter Körper](Angeordneter%20Körper.md). Eine [Folge](Mathe/Folgen.md) heißt Cauchyfolge, wenn es zu jedem $\epsilon > 0$ ein $N \in \mathbb N$ gibt mit 
 $$
 |a_n - a_m| < \epsilon\ \text{fuer alle } n,m \geq N
 $$
@@ -8,7 +8,7 @@ Jede Cauchyfolge ist [Beschränkt](Konvergenz.md#Beschränkt).
 
 ---
 
-> Sei $K$ ein angeordneter [Körper](Körper.md). Jede [konvergente](Konvergenz.md) [Folge](Folgen.md) ist eine Cauchyfolge.
+> Sei $K$ ein angeordneter [Körper](Körper.md). Jede [konvergente](Konvergenz.md) [Folge](Mathe/Folgen.md) ist eine Cauchyfolge.
 
 ## Beweis
 Ist $(a_n)$ konvergent gegen $a\in K$, dann gibt es zu jede $\epsilon < 0$ ein $N$ mit 

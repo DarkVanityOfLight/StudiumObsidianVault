@@ -72,7 +72,7 @@ $$D f(a) := A\in \mathbb R^{m\times n}$$
 Ist $f$ in jedem $a\in D$ differenzierbar, dann heißt $f$ differenzierbar.
 
 1. In der Definition fordern wir, dass $f$ in einer Umgebung von $a$ definiert ist, d.h. dass es ein $\varepsilon > 0$ gibt mit $$B_\varepsilon (a) = \lbrace x\in\mathbb R^{n} | \Vert x - a\Vert < \varepsilon\rbrace \subset D$$ Damit stellen wir sicher, dass es aus jeder Richtung eine Folge von Punkten in $D$ gibt, die sich annähert und es damit Sinn macht, nach der entsprechenden Richtungsableitung zu fragen.
-2. Nach Definition von Konvergenz einer [Folge](Folgen.md) gilt für jede [Funktion](Mathe/Funktionen.md) $g$ und jede [Norm](Abstandsbegriff.md#Norm) $\Vert - \Vert$, dass $$\lim_{x\to a} g(x) = 0 \iff \lim_{x\to a} \Vert g(x)\Vert = 0$$ Die Funktion $f$ ist also total differenzierbar genau dann, wenn $$\lim_{\begin{array}{}h\to 0 \\ h\not = 0\end{array}} \frac{\Vert f(a+h) - f(a) -A\cdot h\Vert}{\Vert h\Vert} = 0$$
+2. Nach Definition von Konvergenz einer [Folge](Mathe/Folgen.md) gilt für jede [Funktion](Mathe/Funktionen.md) $g$ und jede [Norm](Abstandsbegriff.md#Norm) $\Vert - \Vert$, dass $$\lim_{x\to a} g(x) = 0 \iff \lim_{x\to a} \Vert g(x)\Vert = 0$$ Die Funktion $f$ ist also total differenzierbar genau dann, wenn $$\lim_{\begin{array}{}h\to 0 \\ h\not = 0\end{array}} \frac{\Vert f(a+h) - f(a) -A\cdot h\Vert}{\Vert h\Vert} = 0$$
 3. Nach dem [konvergenzbegriff in der multivariaten Analysis](Abstandsbegriff.md#^aa3f99) ist $f = (f_{1}, ..., f_{m}$ total differenzierbar genau dann wenn jedes $f_{i}$ total differenzierbar ist und $Df_{i}(a)$ ist die i-te Zeile von $Df(a)$
 
 ---

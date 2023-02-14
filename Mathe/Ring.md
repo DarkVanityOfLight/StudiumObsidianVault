@@ -6,7 +6,7 @@ $$\begin{align*}
 
 für die gilt
 - $(R, +)$ ist eine abelsche Gruppe
-- $(R, \cdot)$ ist ein [abelsche](Gruppe.md#Abelsch) [Gruppe](Gruppe.md)
+- $(R, \cdot)$ ist ein [abelsches](Gruppe.md#Abelsch) [Monoid](Gruppe.md#Monoid)
 - die Verknüpfungen sind [distributiv](Distributivgesetz.md)
 
 ---

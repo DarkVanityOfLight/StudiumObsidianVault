@@ -6,7 +6,7 @@ Die Definition hatten wir uns als Spiel vorgestellt:
 2. Spieler B muss dann ein $N$ finden, sodass der Abstand von $a_N$ zu $a$ kleiner ist als $\varepsilon$, und auch alle weiteren Folgeglieder innerhalb dieses Abstands bleiben.
 
 
-Die [Folge](Folgen.md) ist [konvergent](Konvergenz.md) gegen $a$, wenn Spieler B immer gewinnt.
+Die [Folge](Mathe/Folgen.md) ist [konvergent](Konvergenz.md) gegen $a$, wenn Spieler B immer gewinnt.
 Können wir den Abstandsbegriff von zwei Punkten $a,b \in\mathbb R$ durch den Absolutbetrag der Differenz
 $$|a-b|$$
 realisiert war, auf $\mathbb R^{n}$ übertragen, dann überträgt sich auch der Konververgenzbegriff.
@@ -25,7 +25,7 @@ als einen __normierten Raum__.
 
 ---
 
-Sei $(X, \lVert - \rVert)$ ein normierter Raum. Wir sagen, dass die [Folge](Folgen.md) $(x_{n})$ in $X$ gegen $x\in X$ [konvergiert](Konvergenz.md), wenn
+Sei $(X, \lVert - \rVert)$ ein normierter Raum. Wir sagen, dass die [Folge](Mathe/Folgen.md) $(x_{n})$ in $X$ gegen $x\in X$ [konvergiert](Konvergenz.md), wenn
 $$\lim_{n\to\infty} \lVert  x_{n}- x\rVert = 0$$
 und schreiben
 $$\lim_{n\to\infty} x_{n} = x$$
@@ -38,7 +38,7 @@ $$\lVert x \rVert_{\infty} \le \lVert x \rVert_{2} \le \sqrt{n} \lVert x \rVert_
 
 ---
 
-Eine [Folge](Folgen.md) $(x_{k})$ in $\mathbb R^{n}$ mit Koordinaten
+Eine [Folge](Mathe/Folgen.md) $(x_{k})$ in $\mathbb R^{n}$ mit Koordinaten
 $$x_{k} = \left(\begin{array}{}x_{k,1} \\ \vdots \\ x_{k,n}\end{array}\right)$$
 konvergiert genau dann gegen ^aa3f99
 $$

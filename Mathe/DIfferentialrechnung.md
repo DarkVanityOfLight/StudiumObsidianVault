@@ -36,7 +36,7 @@ f: &\mathbb R \to \mathbb R, f(x)=x^2, x_0 \in\mathbb R \\
 \end{align}$$
 
 Sei $f: \mathbb R \supseteq[a,b] \rightarrow \mathbb R$ in $x_0 \in [a,b]$ differenzierbar.
-Dann ist $f$ in $x_0$ [stetig](Folgen.md#Stetig).
+Dann ist $f$ in $x_0$ [stetig](Mathe/Folgen.md#Stetig).
 - nicht stetig $\implies$ nicht differenzierbar
 - Die Umkehrung gilt nicht. z.B Betragsfunktion stetig in $x_0 = 0$, aber nicht differenzierbar in $x_0 = 0$
 
