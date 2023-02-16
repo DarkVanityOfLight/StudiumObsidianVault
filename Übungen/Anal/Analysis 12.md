@@ -1,4 +1,5 @@
-## Aufgabe 1
+> Jannis Lauterbach, Kilian Lichtner
+
 ## Aufgabe 1
 
 ### a)
