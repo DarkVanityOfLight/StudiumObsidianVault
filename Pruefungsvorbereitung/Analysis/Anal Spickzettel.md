@@ -50,7 +50,7 @@ $$\sum\limits^{\infty}_{n=1} \frac{1}{n}$$
 ist [bestimmt Divergent](Bestimmt%20Divergent.md) gegen $\infty$.
 
 Für $|x| < 1$ konvergiert die geometrische [Reihe](Reihe.md) und
-$$\sum^{\infty}_{n_0} x_n = {1 \over 1 -x}$$
+$$\sum^{\infty}_{n = 0} x^n = {1 \over 1 -x}$$
 Die Exponentialreihe
 $$\sum\limits^{\infty}_{n=0} \frac{1}{n!} x^{n}$$
 ist für jedes $x\in\mathbb R$ konvergent
@@ -67,7 +67,7 @@ Ist $f: [r, s] \to\mathbb R$ [stetig](Stetigkeit%20und%20Zwischenwertsatz.md) un
 ## Beweis
 
 Wir nehmen zunächst an, dass $g(x) = x$ und $f(r) = f(s)$. Ist $f$ konstant, dann ist $f'(a) = 0$ für alle $a \in ]r, s[$. Sei also $f$ nicht konstant. Da $f$ stetig ist, nimmt $f$ auf $[r, s]$ ein Minimum und ein Maximum an, und eines von beiden ist verschieden von $f(r) = f(s)$, wird also für ein $a\in]r, s[$ angenommen, nach dem Notwendigem Kriterium ist $f'(a) = 0$.
-Diese Aussage angewendet auf $g$ zeight, dass $g(s) \not = g(r)$, denn sonst gäbe es ein $a\in]r, s[$ mit $g'(a) = 0$.
+Diese Aussage angewendet auf $g$ zeigt, dass $g(s) \not = g(r)$, denn sonst gäbe es ein $a\in]r, s[$ mit $g'(a) = 0$.
 Wir können die Aussage also nochmals auf die Funktion 
 $$F(x) = f(x) - \frac{f(s) - f(r)}{g(s)-g(r)}(g(x) -g(r))$$
 anwenden, die $F(r) = F(s)$ erfüllt. Damit erhalten wir ein $a$ mit 
