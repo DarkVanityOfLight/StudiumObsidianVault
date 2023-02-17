@@ -1,4 +1,4 @@
-Sei K ein [Angeordneter Körper](Angeordneter%20Körper.md). Die [Folge](Folgen.md) $(a_n)$ in $K$ heißt Konvergent gegen den Grenzwert $a\in K$, wenn es zu jedem $\epsilon \in K$, $e > 0$ ein $N \in \mathbb N$ gibt mit
+Sei K ein [Angeordneter Körper](Angeordneter%20Körper.md). Die [Folge](Mathe/Folgen.md) $(a_n)$ in $K$ heißt Konvergent gegen den Grenzwert $a\in K$, wenn es zu jedem $\epsilon \in K$, $e > 0$ ein $N \in \mathbb N$ gibt mit
 $|a_n -a| < \epsilon$ für alle $n\leq N$
 
 Ist $(a_n)$ konvergent gegen ein $a\in K$ so heißt $(a_n)$ konvergent, sonst [[Divergent]]

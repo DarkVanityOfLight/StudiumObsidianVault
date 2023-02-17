@@ -1,0 +1,1 @@
+Ist $f: [a, b] \to\mathbb R$ [stetig](Stetigkeit%20und%20Zwischenwertsatz.md) mit $f(a) < 0 < f(b)$, dann hat $f$ eine Nullstelle (ebenso falls $f(a) > 0 > f(b)$)

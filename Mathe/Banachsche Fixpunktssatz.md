@@ -1,0 +1,3 @@
+
+Man kann den Begriff der [Cauchyfolge](Cauchyfolgen.md) auf den mehrdimensionalen Fall übertragen. Ein metrischer Raum in dem jede Cauchyfolge [konvergiert](Konvergenz.md) nennt man einen __Banachraum__. Dann gilt der __Banachsche Fixpunktsatz__:
+Jede kontrahierende Abbildung $f$ (eine solche [Abbildung](Abbildungen.md) ist insbesondere auch [stetig](Stetigkeit%20und%20Zwischenwertsatz.md)) hat einen Fixpunkt und für einen beliebigen Startwert $x_{0}$ [konvergiert](Konvergenz.md) die Fixpunktiteration $x_{n+1} := f(x_{n})$ gegen einen solchen Fixpunkt.

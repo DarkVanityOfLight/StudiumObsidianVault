@@ -31,3 +31,9 @@ $$\frac{1}{f}:D\to\mathbb R, x\mapsto \frac{1}{f(x)}$$
 stetig. Sind $f: D\to\mathbb R$ und $g: E\to\mathbb R$ stetig mit $f(D)\subset E$ dann ist auch die [Komposition](Komposition.md)
 $$g\circ f: D\to\mathbb R, x\mapsto g(f(x))$$
 stetig.
+
+
+## Zwischenwertsatz
+
+Eine stetige [Funktion](Mathe/Funktionen.md) $f: [a, b] \to\mathbb R$ nimmt jeden Wert zwischen $f(a)$ und $f(b)$ an.
+

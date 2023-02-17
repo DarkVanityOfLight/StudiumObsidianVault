@@ -7,7 +7,7 @@ $$
 existiert. Wir bezeichnen diesen Grenzwert als Ableitung von $f$ in $x_0$ und schreiben $f'(x_0)$.
 $f$ heißt differenzierbar auf $[a, b]$, wenn $f$ in jedem Punkt aus dem Intervall $[a,b]$ differenzierbar ist.
 Der Quotient ${f(x) - f(x_0) \over f(x_0)}$, $X \not x_0$ heißt Differenzquotient.
-Äquivalente Formulierung von (*):
+Äquivalente Formulierung von (*): ^aee223
 $$\begin{align}
 &h:= x-x_0 \\
 &\lim_{h\to 0} {f(x_0+h) - f(x_0) \over h}
@@ -36,7 +36,7 @@ f: &\mathbb R \to \mathbb R, f(x)=x^2, x_0 \in\mathbb R \\
 \end{align}$$
 
 Sei $f: \mathbb R \supseteq[a,b] \rightarrow \mathbb R$ in $x_0 \in [a,b]$ differenzierbar.
-Dann ist $f$ in $x_0$ [stetig](Folgen.md#Stetig).
+Dann ist $f$ in $x_0$ [stetig](Mathe/Folgen.md#Stetig).
 - nicht stetig $\implies$ nicht differenzierbar
 - Die Umkehrung gilt nicht. z.B Betragsfunktion stetig in $x_0 = 0$, aber nicht differenzierbar in $x_0 = 0$
 
