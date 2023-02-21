@@ -1,4 +1,5 @@
 
+
 Sind $f, g: [r, s]\to\mathbb R$ stetig und in $]r, s[$ [differenzierbar](Differenzierbarkeit.md), und $g'(x) \not = 0$ für alle $x\in]r, s[$ dann gibt es ein $a\in]r, s[$ mit 
 $$\frac{f(s)-f(r)}{g(s)-g(r)} = \frac{f'(a)}{g'(a)}$$
 
