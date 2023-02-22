@@ -1,4 +1,3 @@
-
 Der Konvergenzradius $r(P)$ von $P$ ist die kleinste [obere schranke](Schranken.md)
 fuer all $x\in\mathbb R$ mit $P(x)$ konvergent, also
 $$r(P) = \sup\lbrace x\in\mathbb R| P(x)\text{konvergiert}\rbrace$$
