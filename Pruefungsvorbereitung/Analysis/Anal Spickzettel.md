@@ -20,12 +20,6 @@ $$|a-b| = |a-c + c -b| \leq |a-c| + |c-b|$$
 
 ---
 
-Ist $K$ Archimedisch und $x\in K$ mit $-1 < x < 1$, dann gilt 
-$$\lim_{n\to\infty} x^n = 0$$
-
-
----
-
 Sei $(a_n)$ eine Folge in einem [Archimedischen Koerper](Körper.md#Archimedisch). Gibt es ein $0 < \lambda < 1$ mit $$|a_{n+1} - a_n| \leq \lambda|a_n -a_{n-1}|$$
 für alle $n$, so ist $(a_n)$ eine Cauchyfolge.
 
