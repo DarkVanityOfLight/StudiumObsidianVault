@@ -28,7 +28,7 @@ $$\left|\sum\limits^{k}_{n=l} b_{n}\right| <\epsilon\forall k \ge l \ge N$$
 
 ## Majorantenkriterium
 Ist $\sum\limits^{\infty}_{n=1}c_{n}$ konvergent und 
-$$|b_{n|}\le c_{n}$$
+$$|b_{n}|\le c_{n}$$
 für alle $n$, dann ist $\sum\limits^{\infty}_{n=1} b_{n}$ konvergent.
 
 ## Monoton und beschränkt

@@ -70,6 +70,7 @@ $a_n = 2 + {2 \over n} \quad \lim a_n = 2$
 $N = 3\qquad |a_n - 2| < 1 \quad \forall n\geq 3$
 $c := max\{3, 4, 2 + 1\}=$ 4
 $\implies |a_n| \leq 4 \quad\forall n$
+
 ---
 
 Gibt es zu jedem $\epsilon\in k$ ein $N \in \mathbb N$ mit $a_n > \epsilon\quad\forall n \geq N$ so heißt $(a_n)$ bestimmt divergent gegen $\infty$

@@ -85,3 +85,57 @@ x_{1} &= \frac{96 + \sqrt{3072}}{24} \land x_{2} = \frac{96 - \sqrt{3072}}{24}\\
 x_{1}&\approx 6.3094 \land x_{2}\approx 1.6906
 \end{align*}
 $$
+---
+
+$$\frac{a+b}{c} = \frac{a}{c} + \frac{b}{c}$$
+
+$$\frac{a\cdot b}{c} = \frac{a}{c} \cdot b = \frac{a}{1} \cdot \frac{b}{c}$$
+$$\frac{a}{b} \cdot \frac{c}{d} = \frac{ac}{bd}$$
+$$\frac{\frac{a}{b}}{c} = \frac{a}{b\cdot c}$$
+$$
+\frac{a}{\frac{b}{c}} = \frac{a \cdot c}{b}
+$$
+---
+
+$$\sqrt[n]{x^{y}} = x^\frac{y}{n}$$
+
+---
+
+$$a = a + (c - c) = a + c -c$$
+
+---
+
+$$\lim_{n\to\infty}\frac{1}{n} = 0$$
+
+
+---
+
+$$f(x) = \frac{1}{x}$$
+
+---
+
+$$\frac{f(a)}{f(b)} = \frac{f'(a)}{f'(b)}$$
+
+---
+
+Mengen -> Abbildung -> Abbildung aus $\mathbb N$ ist eine Folge
+
+$$\begin{align*}
+a: M \to N\\
+m \mapsto n
+\end{align*}$$
+Folge
+$$a: \mathbb N \mapsto M$$
+Reihe
+$$M \mapsto \mathbb R$$
+
+---
+
+$$f(x) = \frac{x}{3}$$
+$$g(x) = x \cdot 3$$
+
+---
+
+$$\ln(\exp(x)) = x$$
+
+$$\ln x$$
