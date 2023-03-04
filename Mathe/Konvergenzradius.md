@@ -1,4 +1,3 @@
-
 Der Konvergenzradius $r(P)$ von $P$ ist die kleinste [obere schranke](Schranken.md)
 fuer all $x\in\mathbb R$ mit $P(x)$ konvergent, also
 $$r(P) = \sup\lbrace x\in\mathbb R| P(x)\text{konvergiert}\rbrace$$
@@ -20,4 +19,24 @@ $$\begin{align*}
 $$
 die wir mit $Q$ bezeichnen.
 
+
+---
+
+## Beispiel
+
+$$\sum\limits^{\infty}_{n=0} (n+1) \cdot x^{n}$$
+
+$$\begin{align*}
+&r(P) = \frac{1}{\lim_{n\to\infty}\left|\frac{(n+1)+1}{n+1}\right|}\\
+&r(P) = \frac{1}{\lim_{n\to\infty} 1 + \lim_{n\to\infty}\frac{1}{n+1} }\\
+&r(P) = \frac{1}{1}\\
+&r(P) = 1
+\end{align*}$$
+
+$$\sum\limits^{\infty}_{n=0} a_{n} (x-x_{0})^n$$
+$$\begin{align*}
+x - x_{0} &< 1\\
+|x-0| &< 1\\
+|x| &< 1
+\end{align*}$$
 

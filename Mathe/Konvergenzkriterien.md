@@ -18,7 +18,7 @@ Ein Infimum ist eine grösste untere [Schranke](Schranken.md)
 ---
 ## Cauchykriterium 
 Dei [Reihe](Reihe.md) 
-$$\sum\limits^{\infty_{n=1}}b_{n}$$
+$$\sum\limits^{\infty}_{n=1}b_{n}$$
 ist konvergent genau dann, wenn es zu jedem $\epsilon > 0$ ein $N$ gibt mit 
 $$\left|\sum\limits^{k}_{n=l} b_{n}\right| <\epsilon\forall k \ge l \ge N$$
 
