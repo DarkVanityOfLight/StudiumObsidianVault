@@ -1,11 +1,8 @@
-Liste aller Primzahlen $\leq N$ $N \geq 4$
+Wir erhalten eine Liste aller Primzahlen kleiner gleich $N \in\mathbb N, N \ge 4$ wie folgt:
 
-- Erstelle [boolsche](Warheitswerte(Boolean).md) Liste zu $2,..., N$ Markiere alle als true
-- Markiere alle $j\cdot p, j \geq p$ als nicht prim (false)
-- Finde kleinste $q>p$ das als prim(true) markiert ist
-- Falls das $q > \sqrt N$ return L
-- Sonst  $p :=q$
-- GoTo 2
+1. Erstelle eine boolesche Liste $L$ mit einem Eintrag zu jeder Zahl $2, ..., N$. Markiere alle Zahlen als prim (true). Setze $p=2$
+2. Markiere alle $j\cdot p$ mit $j \ge p$ als nicht prim (false).
+3. Finde das kleinste $q > p$, das als prim (true) markiert ist. Falls $q > \sqrt{n}$ gebe $L$ zurück. Setze $p := q$, gehe zu Schritt (2).
 
 ## Beweis
 In Schritt(2) sind alle $j\cdot p$ mit $2\leq j< p$ schon aus vorherigen Schritten als $false$ markiert, da sie einen Primteiler $< p$ besitzen. Somit sind alle echten Vielfachen von $p$ als $false$ markiert.

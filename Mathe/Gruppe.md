@@ -39,7 +39,8 @@ Setzt man für eine Gruppe $G$ nur die Existenz eines links neutralen Elements $
 Sei $G$ eine Gruppe dann
 1. Neutrales ist eindeutig
 2. Inverse sind eindeutig
-3. $(a \circ b)^{-1} = b^{-1} \circ a^{-1} \qquad (a^{-1})^{-1} = a$
+3. $(a \circ b)^{-1} = b^{-1} \circ a^{-1}$
+4. $(a^{-1})^{-1} = a$
 
 ## Beispiel
 $(\mathbb Z, +)$ Gruppe, Neutrales Element $0$

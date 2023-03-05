@@ -1,5 +1,4 @@
 
-
 Jedes Polynom
 
 $$f = a_{n}\cdot x^{n}+ ... a_{1} x+ a_{0}\in \mathbb R[x]$$

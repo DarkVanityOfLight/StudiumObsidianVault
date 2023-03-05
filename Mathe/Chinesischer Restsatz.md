@@ -46,7 +46,7 @@ $$\begin{align}
 &x \equiv -28 \mod 30\\
 & x \equiv 5 \mod 7
 \end{align}$$
-Es ist $ggT(30, 7) = 7$, also ist die [Kongruenz](Kongruent.md) loesbar. Mit dem erweiterten Euklidischen Algorithmus finden wir $u$ und $v$ mit 
+Es ist $ggT(30, 7) = 1$, also ist die [Kongruenz](Kongruent.md) loesbar. Mit dem erweiterten Euklidischen Algorithmus finden wir $u$ und $v$ mit 
 $u \cdot 30 + v \cdot 7 = 1$
 
 $u = -3, v = 13$. Es gilt dann

@@ -25,4 +25,5 @@ Sind $b \cdot q_1 + r_1 = a = b \cdot q_2 + r_2$
 $0\exists\quad r_2\leq r_1\quad 0\leq r_1 -r_2 = b\cdot\underbrace{(q_2 -q_1)}_{0} < |b|$
 $\implies q_1 = q_2 \implies r_1 = r_2$
 
+---
 

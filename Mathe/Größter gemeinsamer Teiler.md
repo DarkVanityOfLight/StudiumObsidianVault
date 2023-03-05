@@ -2,3 +2,6 @@
 
 1) $d|a_j$ für alle $j = 1, ..., t$, d.h. $d$ ist ein Teiler von allen $a_j$, und 
 2) ist $\tilde d\in \mathbb Z$ ein Teiler aller $a_j$, d.h. $\tilde d|a_j$ für alle $j = 1, ..., t$, dann gilt $\tilde d | d$.
+
+
+

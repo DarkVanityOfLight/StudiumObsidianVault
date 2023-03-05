@@ -1,4 +1,4 @@
-Sei $H \subset G$ eine [Untergruppe](Untergruppe.md). Dann definiert die Verknüpfung in G eine Operation von $H$ auf $G$
+Sei $H \subset G$ eine [Untergruppe](Untergruppe.md). Dann definiert die Verknüpfung in $G$ eine Operation von $H$ auf $G$
 $$ H \times G \to G, (h, g) \mapsto h\circ g$$
 von links und ebenso von rechts
 $$

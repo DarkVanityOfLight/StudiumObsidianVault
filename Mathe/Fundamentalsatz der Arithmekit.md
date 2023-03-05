@@ -1,35 +1,23 @@
-Jedes $u \in \mathbb Z\setminus\{-1, 0, 1\}$ hat eine eindeutige Zerlegung von der Form
-$$n = \pm p_1^{r_1} \cdot ... \cdot p_3^{r_3}$$mit $p_i$ prim, $p_1 <$
-#zuhause
+Jede Zahl $n\in \mathbb Z\setminus\lbrace 0, -1, 1\rbrace$ hat eine eindeutige Darstellung
+$$n = \pm p_{1}^{r_{1}} \cdot ...\cdot p_{s}^{r_{s}}$$
+mit [Primzahlen](Primzahl.md) $p_{1} < ..., < p_{s}$ und $r_{i}\in\mathbb N$. Die $p_{i}$ heißen Primfaktoren von $n$
+
+---
 
 ## Beweis
 ### Existenz: 
-Indunktion über $n$
-$n= 2$ prim
-$n > 2$ nicht prim 
-($n = a \cdot b\quad a,b \not = 1$)
-$\implies a,b < n$
-$\implies a, b$ haben eine [[Primfaktorzerlegung]]
 
-IV:
-Kombinieren, Sortieren -> [[Primfaktorzerlegung]] von $a\cdot b = n$
+Existenz der [Primfaktorzerlegung](Primfaktorzerlegung.md) mit Induktion nach $n$:
+$n = 2$ ist eine Primzahl. Ist $n > 2$ und keine Primzahl, dann ist $n = a\cdot b$ mit $a, b \not=1$. Da $a,b < n$, haben $a$ und $b$ nach Induktionsvoraussetzung Zerlegungen, und durch sortieren der Primfaktoren erhalten wir eine Primfaktorzerlegung von $n = a\cdot b$.
 
 ### Eindeutigkeit
-Induktion über $n$
-$n=2$: wahr
-$n> 2$: 
-$n = p_1 \cdot ... \cdot p_s = q_1 \cdot ... \cdot q_t$
-$p_1 \leq ... \leq p_s \quad q_1 \leq ... \leq q_t$
-$p_i$ prim, $q_i$ prim
 
-- Ist $s=1$ oder $t=1 \implies n$ prim
-- $s, t \geq 2$
-	- $p_1 = q_1 \implies p_2 \cdot ... \cdot p_s = q_2 \cdot ... \cdot q_t< n$
-		- nach IV eine eindeutige Zerlegung
-	- $p_1 < q_1$
-	- $n>\underbrace{p_1 \cdot (p_2 \cdot ... p_s = q_1 \cdot ... \cdot q_t)}_{=: N_1} = \underbrace{(q_1 - p_1)\cdot q_2 \cdot ... q_t}_{:= N_2} \geq 2$
-	- $N > \underbrace{N_1 = N_2}_{hat nach IV eine eindeutige Zerlegung} \geq 2$
-	- $p_1$ Primfaktor von $n_1$
-	- $p_1<q_1 \leq q_2 \leq ... \leq q_t \implies p_1 \not = q_i \forall i$
-	- $p_1 + (q_1 - p_1)$ sonst $p_1 / q_q$ wiederspruch $\implies$ $p_q$ kein Primfaktor von $N_2$
-	- 
+$n=2$ ist klar. Sei $n > 2$ und
+$$n = p_{1} \cdot ... \cdot p_{s} = q_{1} \cdot ... \cdot q_{t}$$ mit $p_{1} \le ... \le p_{s}$ und $q_{1}\le ... \le q_{t}$. Ist $s=1$ oder $t=1$ dann, ist $n$ prim, und die Behauptung ist klar. Seien also $s, t \ge 2$.
+Ist $p_{1} = q_{1}$ dann hat
+$$p_{2} \cdot ... \cdot p_{s} = q_{2} \cdot ... \cdot q_{t} <  n$$
+nach Induktionsvoraussetzung eine eindeutige Primfaktorzerlegung und die Behauptung folgt.
+Angenommen es waere $p_{1} < q_{1}$. Dann gilt
+
+$$n > \underbrace{p_{1} \cdot (p_{2}\cdot ... \cdot p_{s} = q_{2} \cdot ... \cdot q_{t})}_{=: N_{1}} = \underbrace{(q_{1} - p_{1}) \cdot q_{2} \cdot ... \cdot q_{t}}_{=: N_{2}} \ge 2$$
+also hat $N_{1} = N_{2}$ nach Induktionsvoraussetzung eine eindeutige Primfaktorzerlegung.

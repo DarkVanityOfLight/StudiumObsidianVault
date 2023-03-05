@@ -1,8 +1,3 @@
-
-$$
-\varphi(n) = |(\mathbb Z\diagup n)^{\times}|
-$$
-
-$$ggT(a, n) = 1 \quad \overline a^{\varphi(n)} = \overline 1$$
-
-Wenn $n = p$ prim $\varphi(p) = p-1$
+Die Eulersche $\varphi$-Funktion $\varphi: \mathbb N \to \mathbb Z$ ist definiert durch
+$$\varphi(n) := |(\mathbb Z/n)^{\times}| = |\lbrace r\in\mathbb Z | 1\le r \le n,ggT(r,n)=1\rbrace|$$
+gibt als für $n$ die Ordnung der Einheitengruppe $(\mathbb Z / n)^{\times}$.
