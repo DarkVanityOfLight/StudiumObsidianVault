@@ -139,3 +139,38 @@ $$g(x) = x \cdot 3$$
 $$\ln(\exp(x)) = x$$
 
 $$\ln x$$
+
+---
+
+
+Um zu zeigen, dass $U1$ ein Untervektorraum ist, müssen wir die drei Bedingungen für Untervektorräume überprüfen:
+
+1.  $0 \in U1$: Der Nullvektor ist gegeben durch $(0,0)$. Da $0_2 = 0_1^2$, ist $(0,0)$ ein Element von $U1$.
+    
+2.  $U1$ ist unter Vektoraddition abgeschlossen: Seien $u = (u_1, u_2)$ und $v = (v_1, v_2)$ Elemente von $U1$. Wir müssen zeigen, dass $u + v$ ebenfalls in $U1$ liegt. Wir haben:
+    
+
+$$(u+v)_2 = u_2 + v_2 = u_1^2 + v_1^2 = (u_1 + v_1)^2$$
+
+Also ist $u+v$ ein Element von $U1$.
+
+3.  $U1$ ist unter skalaren Multiplikation abgeschlossen: Sei $u = (u_1, u_2)$ ein Element von $U1$ und $\lambda$ ein Skalar. Wir müssen zeigen, dass $\lambda u$ ebenfalls in $U1$ liegt. Wir haben:
+
+$$(\lambda u)_2 = \lambda u_2 = \lambda u_1^2 = (\lambda u_1)^2$$
+
+Also ist $\lambda u$ ein Element von $U1$.
+
+---
+Ja, man kann auch zeigen, dass $U1$ der Kern eines geeigneten linearen Operators auf $\mathbb{R}^2$ ist, um zu beweisen, dass $U1$ ein Untervektorraum von $\mathbb{R}^2$ ist.
+
+Definieren wir den linearen Operator $T: \mathbb{R}^2 \rightarrow \mathbb{R}$ durch $T(x_1, x_2) = x_2 - x_1^2$. Dann ist $U1$ der Kern von $T$, d.h. $U1 = {x \in \mathbb{R}^2 \mid T(x) = 0}$.
+
+Um zu zeigen, dass $U1$ ein Untervektorraum ist, müssen wir die beiden Bedingungen für Kerne von linearen Operatoren überprüfen:
+
+1.  $0 \in U1$: $T(0,0) = 0^2 - 0^2 = 0$, also ist $(0,0) \in U1$.
+    
+2.  $U1$ ist unter Vektoraddition abgeschlossen: Seien $u, v \in U1$, d.h. $T(u) = T(v) = 0$. Dann haben wir $T(u + v) = T(u) + T(v) = 0 + 0 = 0$, also ist $u+v \in U1$.
+    
+
+Da $U1$ der Kern eines linearen Operators ist, ist $U1$ ein Untervektorraum von $\mathbb{R}^2$
+
