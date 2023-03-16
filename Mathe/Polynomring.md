@@ -30,25 +30,3 @@ Ein Term ist ein Polynom der Form $a_{n} x^{n} = (0, ..., 0, a_{n})$. Jedes Poly
 
 Nützlich werden Polynome dadurch, dass die Rechenoperationen kompatibel mit dem Einsetzen von Werten für die Variable $x$ sind. Es spielt keine Rolle ob man erst mit Polynomen rechnet und dann Werte einsetzt oder erst einsetzt und mit diesen Werten die entsprechende Rechenoperation durchführt. Auf diese Weise kann man neue Formeln herleiten, die unabhängig von dem konkreten Wert von $x$ gültig sind.
 
----
- Um zu zeigen, dass die lineare Abbildung $f: \mathbb{P}_2 \rightarrow \mathbb{P}_3$ mit $f(p(x))=p'(x)+(x+1)\cdot p(x)$ ein Vektorraumhomomorphismus ist, müssen wir zeigen, dass $f$ die folgenden beiden Bedingungen erfüllt:
-
-1.  Additivität: $f(u+v) = f(u) + f(v)$ für alle $u, v \in \mathbb{P}_2$.
-2.  Homogenität: $f(\lambda u) = \lambda f(u)$ für alle $\lambda \in \mathbb{R}$ und $u \in \mathbb{P}_2$.
-
-Seien $p(x) = ax^2 + bx + c$ und $q(x) = dx^2 + ex + f$ beliebige Polynome aus $\mathbb{P}_2$.
-
-Dann haben wir:
-
-1.  Additivität:
-
-$$\begin{align*} f(p(x) + q(x)) &= f((a+d)x^2 + (b+e)x + (c+f)) \\ &= (a+d) + (b+e)x + (c+f) + x(a+d)x^2 + (a+d)x(b+e) \\ &= (a+d)x^2 + (b+e)x + (c+f) + ap'(x) + bp(x) + dp'(x) + eq(x) \\ &= p'(x) + d(x+1)x^2 + (a+b+e)(x+1)x + (c+f) + p'(x) + e(x+1)x + f(x+1) \\ &= p'(x) + q'(x) + (x+1)(p(x) + q(x)) \\ &= f(p(x)) + f(q(x)) \end{align*}$$
-
-Daher ist $f$ additiv.
-
-2.  Homogenität:
-
-$$\begin{align*} f(\lambda p(x)) &= f(\lambda ax^2 + \lambda bx + \lambda c) \\ &= \lambda a + \lambda b x + \lambda c + x\lambda ax^2 + \lambda a x \cdot \lambda b \\ &= \lambda(ax^2 + bx + c) + x\lambda^2 ax^2 + \lambda^2 ax \cdot \lambda b \\ &= \lambda p'(x) + (\lambda^2 x + \lambda) p(x) \\ &= \lambda(p'(x) + (x+1)p(x)) \\ &= \lambda f(p(x)) \end{align*}$$
-
-Daher ist $f$ homogen.
-Da $f$ sowohl additiv als auch homogen ist, ist $f$ ein Vektorraumhomomorphismus.

@@ -174,3 +174,73 @@ Um zu zeigen, dass $U1$ ein Untervektorraum ist, müssen wir die beiden Bedingun
 
 Da $U1$ der Kern eines linearen Operators ist, ist $U1$ ein Untervektorraum von $\mathbb{R}^2$
 
+---
+
+---
+ Um zu zeigen, dass die lineare Abbildung $f: \mathbb{P}_2 \rightarrow \mathbb{P}_3$ mit $f(p(x))=p'(x)+(x+1)\cdot p(x)$ ein Vektorraumhomomorphismus ist, müssen wir zeigen, dass $f$ die folgenden beiden Bedingungen erfüllt:
+
+1.  Additivität: $f(u+v) = f(u) + f(v)$ für alle $u, v \in \mathbb{P}_2$.
+2.  Homogenität: $f(\lambda u) = \lambda f(u)$ für alle $\lambda \in \mathbb{R}$ und $u \in \mathbb{P}_2$.
+
+Seien $p(x) = ax^2 + bx + c$ und $q(x) = dx^2 + ex + f$ beliebige Polynome aus $\mathbb{P}_2$.
+
+Dann haben wir:
+
+1.  Additivität:
+
+$$\begin{align*} f(p(x) + q(x)) &= f((a+d)x^2 + (b+e)x + (c+f)) \\ &= (a+d) + (b+e)x + (c+f) + x(a+d)x^2 + (a+d)x(b+e) \\ &= (a+d)x^2 + (b+e)x + (c+f) + ap'(x) + bp(x) + dp'(x) + eq(x) \\ &= p'(x) + d(x+1)x^2 + (a+b+e)(x+1)x + (c+f) + p'(x) + e(x+1)x + f(x+1) \\ &= p'(x) + q'(x) + (x+1)(p(x) + q(x)) \\ &= f(p(x)) + f(q(x)) \end{align*}$$
+
+Daher ist $f$ additiv.
+
+2.  Homogenität:
+
+$$\begin{align*} f(\lambda p(x)) &= f(\lambda ax^2 + \lambda bx + \lambda c) \\ &= \lambda a + \lambda b x + \lambda c + x\lambda ax^2 + \lambda a x \cdot \lambda b \\ &= \lambda(ax^2 + bx + c) + x\lambda^2 ax^2 + \lambda^2 ax \cdot \lambda b \\ &= \lambda p'(x) + (\lambda^2 x + \lambda) p(x) \\ &= \lambda(p'(x) + (x+1)p(x)) \\ &= \lambda f(p(x)) \end{align*}$$
+
+Daher ist $f$ homogen.
+Da $f$ sowohl additiv als auch homogen ist, ist $f$ ein Vektorraumhomomorphismus.
+
+---
+
+Um die Darstellungsmatrix eines Vektorraumhomomorphismus bezüglich zweier Basen in einem Polynomring zu berechnen, können Sie wie folgt vorgehen:
+
+Angenommen, wir haben den Vektorraumhomomorphismus $f:V\rightarrow W$ zwischen zwei Vektorräumen $V$ und $W$, die beide als Polynomringe definiert sind. Wir wählen zwei Basen für $V$ und $W$, sagen wir ${v_1, v_2, \ldots, v_n}$ für $V$ und ${w_1, w_2, \ldots, w_m}$ für $W$.
+
+Dann können wir die Darstellungsmatrix von $f$ bezüglich dieser Basen wie folgt berechnen:
+
+1.  Schreiben Sie die Basen für $V$ und $W$ als Spalten in zwei Matrizen. Die Matrix für $V$ ist eine $n \times n$-Einheitsmatrix, die Matrix für $W$ ist eine $m \times m$-Einheitsmatrix.
+    
+    $$[V] = \begin{pmatrix} 1 & 0 & \cdots & 0 \\ 0 & 1 & \cdots & 0 \\ \vdots & \vdots & \ddots & \vdots \\ 0 & 0 & \cdots & 1 \end{pmatrix} \qquad [W] = \begin{pmatrix} 1 & 0 & \cdots & 0 \\ 0 & 1 & \cdots & 0 \\ \vdots & \vdots & \ddots & \vdots \\ 0 & 0 & \cdots & 1 \end{pmatrix}$$
+    
+2.  Berechnen Sie die Koordinaten von jedem Basisvektor in $W$ unter der Abbildung $f$. Dazu wenden Sie $f$ auf jeden Basisvektor in $V$ an und schreiben das Ergebnis als Linearkombination der Basisvektoren in $W$. Schreiben Sie die Koordinaten als Spalten in einer Matrix.
+    
+    $$[f(v_1)]_W \quad [f(v_2)]_W \quad \cdots \quad [f(v_n)]_W$$
+    
+3.  Die Darstellungsmatrix von $f$ bezüglich der Basen ist dann die Matrix, die aus den Koordinaten von Schritt 2 besteht, wenn Sie die Basisvektoren von $V$ als Zeilen verwenden:
+    
+    $$[f]_{V,W} = \begin{pmatrix} [f(v_1)]_W \\ [f(v_2)]_W \\ \vdots \\ [f(v_n)]_W \end{pmatrix}$$
+    
+
+Die resultierende Matrix $[f]_{V,W}$ hat die Dimension $m \times n$ und zeigt, wie die Abbildung $f$ die Koordinaten eines Vektors in der Basis von $V$ auf die Koordinaten in der Basis von $W$ abbildet.
+
+---
+
+Gerne! Hier ist ein Beispiel, wie man die Darstellungsmatrix eines Vektorraumhomomorphismus bezüglich zweier Basen in einem Polynomring berechnet:
+
+Sei $f:\mathbb{R}[x]_{\leq 2} \rightarrow \mathbb{R}^2$ definiert durch $f(p(x)) = \begin{pmatrix} p(1) \ p(-1) \end{pmatrix}$, das heißt $f$ ordnet jedem Polynom vom Grad höchstens 2 in $\mathbb{R}[x]$ ein Paar von Zahlen zu, nämlich den Funktionswert an der Stelle $1$ und den Funktionswert an der Stelle $-1$.
+
+Wir wählen die Basis ${1, x, x^2}$ für $\mathbb{R}[x]_{\leq 2}$ und die Standardbasis ${(1,0), (0,1)}$ für $\mathbb{R}^2$.
+
+1.  Schreiben Sie die Basen als Spalten in zwei Matrizen:
+    
+    $$[V] = \begin{pmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1 \end{pmatrix} \qquad [W] = \begin{pmatrix} 1 & 0 \\ 0 & 1 \end{pmatrix}$$
+    
+2.  Berechnen Sie die Koordinaten von jedem Basisvektor in $W$ unter der Abbildung $f$:
+    
+    $$[f(1)]_W = \begin{pmatrix} 1 \\ 1 \end{pmatrix} \quad [f(x)]_W = \begin{pmatrix} 1 \\ -1 \end{pmatrix} \quad [f(x^2)]_W = \begin{pmatrix} 1 \\ 1 \end{pmatrix}$$
+    
+3.  Die Darstellungsmatrix von $f$ bezüglich der Basen ist:
+    
+    $$[f]_{V,W} = \begin{pmatrix} 1 & 1 & 1 \\ 1 & -1 & 1 \end{pmatrix}$$
+    
+
+Das bedeutet, dass die Abbildung $f$ einen Vektor $p(x) = ax^2 + bx + c$ als $\begin{pmatrix} a + b + c \ a - b + c \end{pmatrix}$ in der Standardbasis von $\mathbb{R}^2$ darstellt.
