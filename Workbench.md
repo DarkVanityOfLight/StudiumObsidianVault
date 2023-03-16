@@ -313,3 +313,33 @@ $$[B'] = \begin{pmatrix} 1 & 1 & 1 \ 0 & 1 & 2 \ 0 & 0 & 1 \end{pmatrix}$$
 In diesem Beispiel haben wir das Polynom $(x+1)^2$ als dritte Spalte der Matrix geschrieben und die Koeffizienten in der Reihenfolge $1, 2, 1$ angeordnet, um sicherzustellen, dass die Matrix die richtigen Informationen enthält, um die Polynome in Bezug auf die Basis $B'$ darzustellen.
 
 Beachten Sie, dass die Reihenfolge, in der die Koeffizienten angeordnet sind, auch wichtig ist. Wenn wir die Reihenfolge der Koeffizienten ändern, würde die Darstellungsmatrix eine andere Bedeutung haben.
+
+--- 
+
+Um die darstellende Matrix $M^{\omega}_{\delta}$ des linearen Abbildung $d/dx: \mathbb{R}[x]_{\leq 3} \to \mathbb{R}[x]_{\leq 2}$ zu finden, müssen wir die Bilder von den Vektoren in der Basis $\delta$ unter der linearen Abbildung bestimmen und diese als Linearkombinationen der Basisvektoren $\omega$ darstellen.
+
+Zunächst betrachten wir die Bilder von $1$, $x$, $x^2$ und $x^3$ unter $d/dx$:
+
+$$\frac{d}{dx}(1) = 0,$$ $$\frac{d}{dx}(x) = 1,$$ $$\frac{d}{dx}(x^2) = 2x,$$ $$\frac{d}{dx}(x^3) = 3x^2.$$
+
+Dann können wir die Bilder von $\delta$ als Linearkombinationen von $\omega$ darstellen, d.h.
+
+$$\begin{aligned} \frac{d}{dx}(1) &= 0\cdot 1 + 0\cdot x + 0\cdot x^2 + 0\cdot x^3 \\ &= 0\cdot \omega_1 + 0\cdot \omega_2 + 0\cdot \omega_3 + 0\cdot \omega_4, \end{aligned}$$
+
+Die darstellende Matrix $M^{\omega}_{\delta}$ der linearen Abbildung $d/dx: \mathbb{R}[x]_{\leq 3} \to \mathbb{R}[x]_{\leq 2}$ bezüglich der Basen $\delta = {1, x, x^2}$ und $\omega = {1, x, x^2, x^3}$ kann nun als die Matrix der Koeffizienten der Linearkombinationen geschrieben werden, die wir oben erhalten haben:
+
+$$M^{\omega}_{\delta} = \begin{bmatrix} 0 & 1 & 0 & 0 \\ 0 & 0 & 2 & 0 \\ 0 & 0 & 0 & 3 \end{bmatrix}.$$
+
+Jeder Eintrag in der $i$-ten Zeile und $j$-ten Spalte dieser Matrix entspricht dem Koeffizienten von $\omega_i$ in der Linearkombination des Bildes von $\delta_j$ unter der linearen Abbildung $d/dx$.
+
+Die Linearkombinationen, die wir oben erhalten haben, basieren auf der Definition der darstellenden Matrix $M^{\omega}_{\delta}$ einer linearen Abbildung zwischen endlichdimensionalen Vektorräumen bezüglich gegebener Basen.
+
+Sei $T: V \to W$ eine lineare Abbildung zwischen endlichdimensionalen Vektorräumen $V$ und $W$ mit Basen $\alpha = {v_1, \dots, v_n}$ und $\beta = {w_1, \dots, w_m}$, dann kann man $T$ durch eine $m \times n$-Matrix darstellen, deren Einträge die Koeffizienten der Linearkombinationen der Bilder von Basisvektoren von $V$ sind, ausgedrückt als Linearkombinationen der Basisvektoren von $W$.
+
+Konkret bedeutet das, dass die darstellende Matrix $M^{\beta}_{\alpha}$ von $T$ durch
+
+$$T(v_j) = \sum_{i=1}^{m}M^{\beta}_{\alpha}(i,j)w_i$$
+
+gegeben ist, wobei $M^{\beta}_{\alpha}(i,j)$ der Koeffizient von $w_i$ in der Darstellung von $T(v_j)$ als Linearkombination von $w_1, \dots, w_m$ ist.
+
+In unserem Beispiel war die lineare Abbildung $T: \mathbb{R}[x]_{\leq 3} \to \mathbb{R}[x]_{\leq 2}$ gegeben durch $T(p(x)) = p'(x)$, und die Basen von $\mathbb{R}[x]_{\leq 3}$ und $\mathbb{R}[x]_{\leq 2}$ waren $\omega = {1, x, x^2, x^3}$ und $\delta = {1, x, x^2}$. Die Koeffizienten der Linearkombinationen, die wir oben erhalten haben, entsprechen den Einträgen der darstellenden Matrix $M^{\omega}_{\delta}$ von $T$.
