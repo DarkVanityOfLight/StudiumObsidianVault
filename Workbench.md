@@ -244,3 +244,72 @@ Wir wählen die Basis ${1, x, x^2}$ für $\mathbb{R}[x]_{\leq 2}$ und die Standa
     
 
 Das bedeutet, dass die Abbildung $f$ einen Vektor $p(x) = ax^2 + bx + c$ als $\begin{pmatrix} a + b + c \ a - b + c \end{pmatrix}$ in der Standardbasis von $\mathbb{R}^2$ darstellt.
+
+---
+
+Der Prozess, um die Darstellungsmatrix eines Vektorraumhomomorphismus von einer Polynombasis zu einer anderen zu berechnen, ist sehr ähnlich zu dem Verfahren, das ich in meinem vorherigen Beispiel erklärt habe. Der einzige Unterschied besteht darin, dass die Basen nun aus verschiedenen Polynomen bestehen können.
+
+Hier ist ein Beispiel, um zu veranschaulichen, wie dies funktioniert:
+
+Sei $f:\mathbb{R}_2[x] \rightarrow \mathbb{R}_2[x]$ definiert durch $f(p(x)) = (x+1)p(x)$, das heißt $f$ multipliziert jedes Polynom vom Grad höchstens 2 in $\mathbb{R}_2[x]$ mit dem Polynom $(x+1)$.
+
+Wir wählen die Basis ${1, x, x^2}$ für $\mathbb{R}_2[x]$ und die Basis ${1, (x+1), (x+1)^2}$ für $\mathbb{R}_2[x]$.
+
+1.  Schreiben Sie die Basen als Spalten in zwei Matrizen:
+    
+    $$[V] = \begin{pmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1 \end{pmatrix} \qquad [W] = \begin{pmatrix} 1 & 1 & 1 \\ 0 & 1 & 2 \\ 0 & 0 & 1 \end{pmatrix}$$
+    
+2.  Berechnen Sie die Koordinaten von jedem Basisvektor in $W$ unter der Abbildung $f$:
+    
+    $$[f(1)]_W = \begin{pmatrix} 1 \ 0 \ 0 \end{pmatrix} \quad [f(x)]_W = \begin{pmatrix} 1 \ 1 \ 0 \end{pmatrix} \quad [f(x^2)]_W = \begin{pmatrix} 1 \ 2 \ 1 \end{pmatrix}$$
+    
+3.  Die Darstellungsmatrix von $f$ bezüglich der Basen ist:
+    
+    $$[f]_{V,W} = \begin{pmatrix} 1 & 1 & 1 \ 0 & 1 & 2 \ 0 & 0 & 1 \end{pmatrix}$$
+    
+
+Das bedeutet, dass die Abbildung $f$ einen Vektor $p(x) = ax^2 + bx + c$ als $(a + b + c) + (a + 2b + c)(x+1) + a(x+1)^2$ in der Basis ${1, (x+1), (x+1)^2}$ darstellt.
+
+---
+
+Um eine Basis als Spalten einer Matrix zu schreiben, ordnen Sie einfach die Elemente der Basis nacheinander in Spalten an. Jedes Element der Basis wird als Spalte in der Matrix dargestellt.
+
+Hier ist ein Beispiel:
+
+Betrachten wir den Vektorraum $\mathbb{R}^3$ mit der Basis $B = {(1,0,0),(0,1,0),(0,0,1)}$.
+
+Um diese Basis als Spalten einer Matrix darzustellen, schreiben wir jedes Basisvektor als Spalte der Matrix:
+
+$$[B] = \begin{pmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1 \end{pmatrix}$$
+
+Hier haben wir einfach die Basisvektoren $(1,0,0)$, $(0,1,0)$ und $(0,0,1)$ als die Spalten der Matrix angeordnet.
+
+Beachten Sie, dass die Reihenfolge, in der die Basisvektoren angeordnet sind, wichtig ist. Wenn wir die Reihenfolge ändern würden, würden wir eine andere Darstellungsmatrix erhalten.
+
+---
+
+Bei der Darstellung von Polynomen als Spalten einer Matrix müssen wir die Koeffizienten der Polynome in den Spalten der Matrix ordnen.
+
+Hier ist ein Beispiel:
+
+Betrachten wir den Vektorraum $\mathbb{R}_2[x]$ mit der Basis $B = {1, x, x^2}$.
+
+Um diese Basis als Spalten einer Matrix darzustellen, schreiben wir jeden Basisvektor als Spalte der Matrix:
+
+$$[B] = \begin{pmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1 \end{pmatrix}$$
+
+Beachten Sie, dass jeder Basisvektor ein Polynom vom Grad höchstens 2 ist. Um jedoch eine Darstellungsmatrix für eine lineare Abbildung von $\mathbb{R}_2[x]$ zu berechnen, müssen wir die Koeffizienten der Polynome in der richtigen Reihenfolge ordnen.
+
+Hier ist ein Beispiel, um dies zu veranschaulichen:
+
+Betrachten wir die lineare Abbildung $f:\mathbb{R}_2[x] \rightarrow \mathbb{R}_2[x]$ definiert durch $f(p(x)) = (x+1)p(x)$.
+
+Wir möchten die Darstellungsmatrix von $f$ in Bezug auf die Basen $B = {1, x, x^2}$ und $B' = {1, (x+1), (x+1)^2}$ berechnen.
+
+Um die Basis $B'$ als Spalten einer Matrix darzustellen, schreiben wir jeden Basisvektor als Spalte der Matrix und ordnen die Koeffizienten in der richtigen Reihenfolge an:
+
+$$[B'] = \begin{pmatrix} 1 & 1 & 1 \ 0 & 1 & 2 \ 0 & 0 & 1 \end{pmatrix}$$
+
+In diesem Beispiel haben wir das Polynom $(x+1)^2$ als dritte Spalte der Matrix geschrieben und die Koeffizienten in der Reihenfolge $1, 2, 1$ angeordnet, um sicherzustellen, dass die Matrix die richtigen Informationen enthält, um die Polynome in Bezug auf die Basis $B'$ darzustellen.
+
+Beachten Sie, dass die Reihenfolge, in der die Koeffizienten angeordnet sind, auch wichtig ist. Wenn wir die Reihenfolge der Koeffizienten ändern, würde die Darstellungsmatrix eine andere Bedeutung haben.
