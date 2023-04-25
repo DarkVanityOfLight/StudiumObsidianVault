@@ -343,3 +343,5 @@ $$T(v_j) = \sum_{i=1}^{m}M^{\beta}_{\alpha}(i,j)w_i$$
 gegeben ist, wobei $M^{\beta}_{\alpha}(i,j)$ der Koeffizient von $w_i$ in der Darstellung von $T(v_j)$ als Linearkombination von $w_1, \dots, w_m$ ist.
 
 In unserem Beispiel war die lineare Abbildung $T: \mathbb{R}[x]_{\leq 3} \to \mathbb{R}[x]_{\leq 2}$ gegeben durch $T(p(x)) = p'(x)$, und die Basen von $\mathbb{R}[x]_{\leq 3}$ und $\mathbb{R}[x]_{\leq 2}$ waren $\omega = {1, x, x^2, x^3}$ und $\delta = {1, x, x^2}$. Die Koeffizienten der Linearkombinationen, die wir oben erhalten haben, entsprechen den Einträgen der darstellenden Matrix $M^{\omega}_{\delta}$ von $T$.
+
+
