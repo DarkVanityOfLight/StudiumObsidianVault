@@ -345,3 +345,24 @@ gegeben ist, wobei $M^{\beta}_{\alpha}(i,j)$ der Koeffizient von $w_i$ in der Da
 In unserem Beispiel war die lineare Abbildung $T: \mathbb{R}[x]_{\leq 3} \to \mathbb{R}[x]_{\leq 2}$ gegeben durch $T(p(x)) = p'(x)$, und die Basen von $\mathbb{R}[x]_{\leq 3}$ und $\mathbb{R}[x]_{\leq 2}$ waren $\omega = {1, x, x^2, x^3}$ und $\delta = {1, x, x^2}$. Die Koeffizienten der Linearkombinationen, die wir oben erhalten haben, entsprechen den Einträgen der darstellenden Matrix $M^{\omega}_{\delta}$ von $T$.
 
 
+
+---
+
+Wir wollen zeigen, dass $T(n) \in O(n)$
+$$\begin{align*}
+\text{Versuch 1}: T(n) &\le n\\
+\end{align*}$$
+Induktionsanfang
+$$T(1) = O \le 1$$
+Induktionsschritt:
+$$\begin{align*}
+T(n) &=  T\left(\lfloor \frac{n}{2} \rfloor\right)+ T\left(\lceil\frac{n}{2}\rceil\right) + 1\\
+&\le  \frac{n}{2} + \frac{n}{2} + 1\\
+&= n+1 > n :(
+\end{align*}$$
+
+Versuch 2:
+$$T(n) \le n-1$$
+Induktionsanfang:
+$$T(1) = O \le 0$$
+Induktionsschirtt:
