@@ -1,16 +1,7 @@
+Sei $V$ ein $K$-Vekotrraum und $v_{1}, ..., v_{n} \in V$. Ein Vektor $v\in V$ ist eine __Linearkombination__ von $v_{1}, ..., v_{n}$, wenn es ein $\lambda_{i} \in K$ gibt mit
+$$v = \lambda_{1}v_{1} + ... + ... + \lambda_{n}v_{n}$$
 
-Linearkombination von $v_{1},...,v_{n} \qquad \lambda_{1} v_{1} + ... + \lambda_{n}\cdot v_{n}$ 
+Die [Menge](Mengen.md) aller Linearkombinationen
+$$\langle v_{1}, ..., v_{n}\rangle := \lbrace \lambda_{1}v_{1} + ... + \lambda_{n} v_{n} | \lambda_{i} \in K\rbrace \subset V$$
+ist ein Untervektorraum, der von $v_{1},..., v_{n}$ aufgespannte Untervektorraum.
 
-$$\langle v_{1}, ..., v_{n}\rangle := \left\{\text{alle linearkombinationen in} v_{1} ... v_{n}\right\} \subset V$$
-
-## Erzeugendensystem
-
-$v_{1}, v_{n} \in V$ Erzeugendensystem wenn $V = \langle v_{1}, ... v_{n}\rangle$ 
-
-## Linearkombinationsabbildung
-
-$$\begin{align*}
-lc_{\Omega}&: K^{n}\to V\\
-&\left(\begin{array} \\ a_{1}\\ \vdots \\ a_{n}\end{array}\right) \to a_{1} v_{1} + ... + a_{n} v_{n}\\
-&co_{\Omega} = lc^{-1}_{\Omega}: V \to K^{n}
-\end{align*}$$

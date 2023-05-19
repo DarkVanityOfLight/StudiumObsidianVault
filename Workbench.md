@@ -366,3 +366,95 @@ $$T(n) \le n-1$$
 Induktionsanfang:
 $$T(1) = O \le 0$$
 Induktionsschirtt:
+
+Die Gruppe $G$ ist nicht abelsch, da Drehungen und Spiegelungen nicht miteinander vertauschen. Daher ist es möglich, dass $U$ kein Normalteiler von $G$ ist. Wenn $U$ normal wäre, würde für jedes $g \in G$ und jedes $u \in U$ das Produkt $gug^{-1}$ auch in $U$ liegen. Wir müssen nur ein Gegenbeispiel finden, um zu zeigen, dass dies nicht der Fall ist.
+
+Betrachten wir die Drehung um $90^\circ$ im Uhrzeigersinn, die in $G$ enthalten ist. Wenn $U$ normal wäre, müsste das Produkt dieser Drehung mit der Horizontalen Spiegelung in $U$ liegen. Wir berechnen:
+
+$(90^\circ \text{ Drehung im Uhrzeigersinn})\cdot (\text{Horizontal Spiegelung})\cdot(270^\circ \text{ Drehung im Uhrzeigersinn}) = (\text{Vertikale Spiegelung}) \notin U$
+
+Daher ist $U$ kein Normalteiler von $G$.
+
+---
+
+Die Symmetriegruppe $G$ des Quadrats besteht aus insgesamt 8 Elementen, die die verschiedenen Spiegelungen, Drehungen und Identitäten des Quadrats darstellen. Diese Elemente können wir als $G = {e, r, r^2, r^3, f, fr, fr^2, fr^3}$ notieren, wobei $e$ das neutrale Element (die Identität), $r$ eine Vierteldrehung im Uhrzeigersinn um den Mittelpunkt, und $f$ die Spiegelung an der Horizontalen durch die Mitte des Quadrats darstellen.
+
+Die Untergruppe $U$ des Rechtecks besteht aus 4 Elementen, die die Identität, die horizontale Spiegelung, die vertikale Spiegelung und die Drehung um 180 Grad darstellen. Wir können diese als $U = {e, h, v, r^2}$ notieren.
+
+Um zu zeigen, dass $U$ ein Normalteiler von $G$ ist, müssen wir zeigen, dass $gug^{-1} \in U$ für alle $g \in G$ und $u \in U$ gilt.
+
+Wir prüfen nun alle Elemente von $G$ mit allen Elementen von $U$:
+
+$eue^{-1} = u$ für alle $u \in U$, da $e$ das neutrale Element ist.
+
+$rur^{-1} = u$ für alle $u \in U$, da $r$ eine Vierteldrehung ist, die die horizontale und vertikale Achsen des Rechtecks austauscht und somit die Spiegelungen erhält.
+
+$r^2ur^{-2} = u$ für alle $u \in U$, da $r^2$ eine Halbdrehung um 180 Grad darstellt, die das Rechteck unverändert lässt und somit die Identitäts- und Drehungselemente erhält.
+
+$fruf^{-1} = v$ für $u = e$ oder $u = r^2$, da $f$ eine Spiegelung an der horizontalen Achse durch die Mitte des Quadrats ist und somit die Spiegelungselemente erhält.
+
+$frhf^{-1} = h$ für $u = e$ oder $u = r^2$, da $h$ die Spiegelung an der vertikalen Achse durch die Mitte des Rechtecks ist und somit die Spiegelungselemente erhält.
+
+$frv f^{-1} = v$ für $u = h$ oder $u = v$, da $v$ die Spiegelung an der horizontalen Achse durch die Mitte des Rechtecks ist und somit die Spiegelungselemente erhält.
+
+$fr^2uf^{-2} = u$ für alle $u \in U$, da $fr^2f^{-1} = r^2$ und $r^2ur^{-2} = u$ für alle $u \in U$ gilt.
+
+Da für alle Elemente von $G$ und $U$ das entsprechende $gug^{-1}$-Element in $U$ enthalten ist, ist $U$ ein Normalteiler von $G$.
+
+---
+
+Zunächst betrachten wir die Elemente von G und U. G enthält insgesamt 8 Elemente, nämlich die Identität, die Drehungen um 90, 180 und 270 Grad im Uhrzeigersinn, sowie die Spiegelungen an den Achsen durch die Mitte der Seiten und der Diagonalen des Quadrats. U besteht aus 4 Elementen, nämlich der Identität, der Drehung um 180 Grad und den Spiegelungen an den Achsen durch die Mitte der Seiten des Rechtecks.
+
+Wir wollen nun zeigen, dass U ein Normalteiler von G ist. Dazu betrachten wir die Linksnebenklassen von U in G, d.h. die Mengen $gU$ für alle $g \in G$. Zunächst ist klar, dass die Menge $eU = U$ die Identität enthält und somit das neutrale Element von G. Weiterhin können wir beobachten, dass sich alle Elemente von G durch Anwenden einer der 4 Elemente von U auf ein Element in U abbilden lassen. Zum Beispiel gilt für die Drehung um 90 Grad im Uhrzeigersinn, dass $D_{90} \in U$ und für alle $g \in G$ gilt $gD_{90} \in U$, da $g$ entweder eine Drehung oder eine Spiegelung ist, die sich durch Anwenden von Drehungen und Spiegelungen aus $D_{90}$ ergeben.
+
+Da jeder Nebenklasse von U ein Element von U angehört und alle Elemente von G sich durch Anwenden von Elementen aus U auf ein Element aus U abbilden lassen, ist jede Nebenklasse von U eine Teilmenge von G. Wir müssen also noch zeigen, dass alle Nebenklassen von U gleich sind, d.h. dass für alle $g_1,g_2 \in G$ gilt $g_1U = g_2U$. Hierzu betrachten wir die Rechtsnebenklassen von U in G, d.h. die Mengen $Ug$ für alle $g \in G$. Diese Rechtsnebenklassen sind aufgrund der Assoziativität der Gruppenoperation genau die Linksnebenklassen von U in G, d.h. $Ug = gU$ für alle $g \in G$. Daher sind alle Nebenklassen von U in G gleich und U ist ein Normalteiler von G.
+
+Zusammenfassend haben wir gezeigt, dass jede Nebenklasse von U eine Teilmenge von G ist und dass alle Nebenklassen von U gleich sind. Daher ist U ein Normalteiler von G.
+
+---
+
+1.  Das Nullvektor $(0,0)$ ist in $U_2$: $$0+0=0$$ Daher ist $(0,0)$ in $U_2$.
+2.  $U_2$ ist unter Addition abgeschlossen: Wenn $(x_1,y_1),(x_2,y_2) \in U_2$, dann gilt $x_1+y_1=0$ und $x_2+y_2=0$. Dann ist $$(x_1,y_1) + (x_2,y_2) = (x_1+x_2, y_1+y_2)$$ und da $x_1+y_1=0$ und $x_2+y_2=0$, folgt $x_1+x_2 + y_1+y_2 = 0$, was bedeutet, dass $(x_1+x_2, y_1+y_2) \in U_2$.
+3.  $U_2$ ist unter Skalarmultiplikation abgeschlossen: Wenn $(x,y) \in U_2$ und $c$ ein Skalar ist, dann ist $(c\cdot x, c\cdot y) \in U_2$, da $$c\cdot x + c\cdot y = c\cdot(x+y) = c\cdot 0 = 0.$$
+---
+Ja, $U_2$ ist ein Untervektorraum von $\mathbb{R}^2$.
+
+Um zu zeigen, dass $U_2$ ein Untervektorraum ist, müssen wir die folgenden Bedingungen nachweisen:
+
+1.  Das Nullvektor $(0,0)$ ist in $U_2$: $0\cdot 0 = 0$, daher ist $(0,0)$ in $U_2$.
+ 
+2.  Wenn $(x_1, y_1), (x_2, y_2) \in U_2$, dann gilt entweder $x_1=0$ oder $y_1=0$ oder beides sowie $x_2=0$ oder $y_2=0$ oder beides. Daher ist entweder $(x_1+x_2, y_1+y_2) = (x_1, y_2)$ oder $(x_1+x_2, y_1+y_2) = (x_2, y_1)$ oder beide, und in beiden Fällen ist entweder $x_1+x_2=0$ oder $y_1+y_2=0$ oder beides. Das bedeutet, dass $(x_1+x_2, y_1+y_2) \in U_2$, da $0 \cdot (x_1+x_2) \cdot (y_1+y_2) = 0$.
+ 
+3.  $U_2$ ist unter Skalarmultiplikation abgeschlossen: Wenn $(x,y) \in U_2$ und $c$ ein Skalar ist, dann ist $(c\cdot x, c\cdot y) \in U_2$, da entweder $x=0$ oder $y=0$ oder beides, und daher ist $c\cdot x \cdot c\cdot y = c^2 \cdot (x\cdot y) = 0$.
+
+
+Da $U_2$ alle Bedingungen eines Untervektorraums erfüllt, ist es ein Untervektorraum von $\mathbb{R}^2$.
+
+---
+
+1.  Das Nullvektor $(0,0)$ ist in $U_2$: Da $0+0=0-0=0$, ist $(0,0)$ in $U_2$.
+    
+2.  $U_2$ ist unter Addition abgeschlossen: Wenn $(x_1,y_1),(x_2,y_2) \in U_2$, dann gilt $x_1+y_1 = x_1-y_1 = x_2+y_2 = x_2-y_2 = 0$. Dann ist $(x_1+x_2, y_1+y_2) = ((x_1+y_1) + (x_2+y_2), (x_1-y_1) + (x_2-y_2)) = (0+0,0+0) = (0,0)$, das auch in $U_2$ liegt.
+    
+3.  $U_2$ ist unter Skalarmultiplikation abgeschlossen: Wenn $(x,y) \in U_2$ und $c$ ein Skalar ist, dann gilt $x+y=x-y=0$. Dann ist $(c\cdot x, c\cdot y) = (c(x+y), c(x-y)) = (c\cdot 0, c\cdot 0) = (0,0)$, das auch in $U_2$ liegt.
+
+---
+
+$$A = \begin{pmatrix} 1 & 1 & 1 & 1 \\ 1 & -1 & 1 & -1 \end{pmatrix}$$
+
+Um die Basis von $V$ zu bestimmen, müssen wir den Kern oder die Nullraum von $A$ finden, dh die Menge aller Lösungen des homogenen linearen Gleichungssystems $Ax = 0$. Wir können dies tun, indem wir die Zeilenstufenform von $A$ finden und dann die freien Variablen bestimmen.
+
+Führen wir nun die Elimination durch:
+
+$$\begin{pmatrix} 1 & 1 & 1 & 1 \\ 1 & -1 & 1 & -1 \end{pmatrix} \rightarrow \begin{pmatrix} 1 & 1 & 1 & 1 \\ 0 & -2 & 0 & -2 \end{pmatrix} \rightarrow \begin{pmatrix} 1 & 1 & 1 & 1 \\ 0 & 1 & 0 & 1 \end{pmatrix} \rightarrow \begin{pmatrix} 1 & 0 & 1 & 0 \\ 0 & 1 & 0 & 1 \end{pmatrix}$$
+
+Also haben wir $x_1 = -x_3$ und $x_2 = -x_4$. Die freien Variablen sind also $x_3$ und $x_4$. Eine Basis für den Kern von $A$ besteht aus den Lösungen des homogenen Systems, wobei jede freie Variable einmalig auf $1$ und alle anderen frei Variablen auf $0$ gesetzt werden. Wir haben also:
+
+$$\begin{pmatrix} 1 \\ 0 \\ -1 \\ 0 \end{pmatrix}, \begin{pmatrix} 0 \\ 1 \\ 0 \\ -1 \end{pmatrix}$$
+
+Diese beiden Vektoren bilden eine Basis für den Kern von $A$, was gleichbedeutend damit ist, dass sie eine Basis für $V$ bilden, da sie linear unabhängig sind und den gesamten Raum aufspannen.
+
+
+$$(\forall n,m \in\mathbb N : n, m \not \equiv 0 \mod 2) : n + m \equiv 0\mod 2 $$
+
+$$\forall n,m \in$$

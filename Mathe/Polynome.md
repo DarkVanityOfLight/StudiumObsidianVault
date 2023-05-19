@@ -28,3 +28,7 @@ $$\begin{align*}
 ln:& ]0, 2] \to \mathbb R\\\\
 &x \mapsto \ln(x) &= \sum\limits^{\infty}_{n=1} \frac{(-1)^{n-1}}{n}(x-1)^{n}
 \end{align*}$$
+
+## Homogenitaet
+
+Ein Polynom $f\in K[x_{1}, ..., x_{n}]$ heißt homogen, wenn alle Terme von $f$ denselben Grad haben.
