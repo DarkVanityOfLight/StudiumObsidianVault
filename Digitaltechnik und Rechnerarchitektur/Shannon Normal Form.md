@@ -1,0 +1,2 @@
+Die Shannon normal Form wird oft auch als 'if-then-else' normal Form(INF) genannt.
+In der Shannon normal form werden Boolische Funktionen mit der Hilfe der Konstanten $1,0$ und dem $if-then-else$([Shannon Operator](Shannon%20Operator.md)) Operator Dargestellt.
