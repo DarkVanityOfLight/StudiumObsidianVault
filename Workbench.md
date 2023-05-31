@@ -458,3 +458,9 @@ Diese beiden Vektoren bilden eine Basis für den Kern von $A$, was gleichbedeute
 $$(\forall n,m \in\mathbb N : n, m \not \equiv 0 \mod 2) : n + m \equiv 0\mod 2 $$
 
 $$\forall n,m \in$$
+
+
+
+---
+
+$$$$
