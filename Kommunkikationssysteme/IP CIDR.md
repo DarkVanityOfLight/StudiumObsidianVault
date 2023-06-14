@@ -48,4 +48,27 @@ $200.23.25.1 - 200.23.31.254$
 
 ---
 
+Wieviele Adressen haben die einzelnen Bereiche?
 
+A: $2^{32-21}-2 = 2^11 - 2 = 2048 -2 = 2046$
+B: $2^8 - 2 = 256 - 2 = 254$
+C: $2046 - 256 = 1790$
+
+---
+
+An welches Interface werden die Folgenden Ip adressen weitergeleitet
+
+$11001000 00010111 00010110 10100001$ Interface A
+$11001000 00010111 00011000 10101010$ Interface B
+$11001000 01010111 00011000 11110000$ Interface D
+$11001000 00010111 00011010 10100001$ Interface C
+$200.23.27.134$ Interface C
+$200.23.20.35$ Interface A
+
+#wichtig 
+
+## ARP
+
+DIe Zuordnung Ip-Mac ist in der ARP-Table gespeichert.
+
+$A$ fragt "who has IP B", tell IP $A$
