@@ -28,4 +28,24 @@ $x.x.00011$
 
 Longest Prefix matching:
 
-$200.23.24.1$ ist in Subnetz $B$ da der längste Prefix(di)
+$200.23.24.1$ ist in Subnetz $B$ da der längste Prefix(hier die ersten $24$ Bit) übereinstimmen.
+
+Einfach gesagt, die größere Subnetzmaske bekommt die IP-Adresse
+
+---
+
+Adressbereich Interface A
+$x.x.00010|000 00000001 - x.x.00010|111 11111110$
+$200.23.16.1 - 200.23.23.254$
+
+Adressbereich Interface B
+$x.x.000 11000|0000001 - x.x.000 11000|11111110$
+$200.23.24.1-200.23.23.254$
+
+Adressbereich Interface C:
+$x.x.00011|001 00000001 - x.x.00011|111 11111110$
+$200.23.25.1 - 200.23.31.254$
+
+---
+
+
