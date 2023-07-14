@@ -458,9 +458,11 @@ Diese beiden Vektoren bilden eine Basis für den Kern von $A$, was gleichbedeute
 $$(\forall n,m \in\mathbb N : n, m \not \equiv 0 \mod 2) : n + m \equiv 0\mod 2 $$
 
 $$\forall n,m \in$$
-
-
-
 ---
 
-$$$$
+$$F = \frac{1}{3} x^3$$
+$$\int^{1}_{-1} x^{2}dx = \frac{2}{3}$$
+
+
+$$F = x-(\frac{x^{3}}{3})$$
+$$\int^{1}_{-1}(1-x^{2})dx = \frac{4}{3}$$
