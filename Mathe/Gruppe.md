@@ -76,6 +76,6 @@ Sei $(G, \circ)$ eine Gruppe. Eine [Teilmenge](Teilmengen.md) $H \subset G$ hei�
 
 ---
 
-> Die Menge der Symmetrien $Sym(D)$ von $D$ ist mit der [Komposition](Komposition.md) von Abbildungen als Verknüpfung eine Gruppe
+> Die Menge der Symmetrien $Sym(D)$ von $D$ ist mit der [Komposition](Mathe/Komposition.md) von Abbildungen als Verknüpfung eine Gruppe
 > Die $Sym(D)$ ist nicht [kommutativ](Kommutativgesetz.md)
 

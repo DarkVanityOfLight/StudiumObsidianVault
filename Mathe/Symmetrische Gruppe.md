@@ -1,6 +1,6 @@
 Sei $X$ eine beliebige [Menge](Mengen.md). Die Menge der Selbstabildungen von $X$ 
 $$S(X) = \lbrace f: X \to X | f \text{ bijektiv }\rbrace$$
-zusammen mit der [Komposition](Komposition.md) ist eine [Gruppe](Gruppe.md).
+zusammen mit der [Komposition](Mathe/Komposition.md) ist eine [Gruppe](Gruppe.md).
 Speziell für $X = \lbrace 1, ..., n\rbrace$
 heißt die Menge der __Permutationen__ von $n$ Elementen
 $$S_{n} := S(\lbrace1,..., n\rbrace)$$
