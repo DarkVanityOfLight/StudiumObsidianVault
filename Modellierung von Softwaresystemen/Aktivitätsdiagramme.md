@@ -1,4 +1,3 @@
-Aktivitätsdiagramme sind UML Diagramme, mit denen Ablaufpläne, Reihenfolgen von Aktivitäten, parallele Aktivitäten, und co. modellieren kann.
 
 Sie werden verwendet, um Geschäftsprozesse des Auftraggebers zu modellieren. Sie können aber auch dafür eingesetzt werden um interne Systemprozesse zu beschreiben.
 
