@@ -31,8 +31,8 @@ Zur Familie der Strukturdiagramme, zaehlen:
 In der Vorlesung werden nicht alle dieser Diagrammtypen behandelt, die wichtigsten sind:
 
 - [Klassendiagramme](Klassendiagramme.md)
-- [Objektdiagramme](Objektdiagramme)
-- [Aktivitätsdiagramme](Aktivitätsdiagramme)
+- [Objektdiagramme](Objektdiagramme.md)
+- [Aktivitätsdiagramme](Aktivitätsdiagramme.md)
 - [Zustandsdiagramme](Zustandsdiagramme)
 - [Sequenzdiagramme](Sequenzdiagramme)
 - [Kommuniktaionsdiagramme](Kommuniktaionsdiagramme)
