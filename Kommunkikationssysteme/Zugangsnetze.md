@@ -10,6 +10,6 @@ Diese Art von DSL-Verbindung ermöglicht es Benutzern, sowohl das Internet als a
 Ein Netzwerk aus Kabeln und Glasfaserkabeln verbindet die Häuser mit dem ISP-Router (Internet Service Provider-Router). Dieses Netzwerk ermöglicht die Anbindung der einzelnen Haushalte an das Internet und andere Dienste, die vom ISP bereitgestellt werden.
 
 ## Enterprise Networks
-Unternehmen, Universitäten und andere Einrichtungen nutzen in ihren Netzwerken oft eine Mischung aus kabelgebundenen und drahtlosen Verbindungstechnologien, um eine Vielzahl von Switches und Routern zu verbinden. 
+Unternehmen, Universitäten und andere Einrichtungen nutzen in ihren Netzwerken oft eine Mischung aus kabelgebundenen und drahtlosen Verbindungstechnologien, um eine Vielzahl von [Switches](Switch.md) und Routern zu verbinden. 
 
 
