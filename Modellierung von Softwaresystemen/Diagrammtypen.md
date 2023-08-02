@@ -33,6 +33,6 @@ In der Vorlesung werden nicht alle dieser Diagrammtypen behandelt, die wichtigst
 - [Klassendiagramme](Klassendiagramme.md)
 - [Objektdiagramme](Objektdiagramme.md)
 - [Aktivitätsdiagramme](Aktivitätsdiagramme.md)
-- [Zustandsdiagramme](Zustandsdiagramme)
-- [Sequenzdiagramme](Sequenzdiagramme)
+- [Zustandsdiagramme](Zustandsdiagramme.md)
+- [Sequenzdiagramme](Sequenzdiagramme.md)
 - [Kommuniktaionsdiagramme](Kommuniktaionsdiagramme)

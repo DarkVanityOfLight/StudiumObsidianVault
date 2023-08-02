@@ -1,3 +1,2 @@
 
-
-Protocols define the format, order of messages sent and received among network entities, and actions taken on message transmission, receipt
+Protokolle definieren das Format, die Reihenfolge der gesendeten und empfangenen Nachrichten zwischen Netzwerkentitäten und die Aktionen, die bei der Übertragung und dem Empfang von Nachrichten ausgeführt werden.
