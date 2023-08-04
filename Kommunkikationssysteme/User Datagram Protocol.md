@@ -1,0 +1,4 @@
+UDP ist ein Internet Protokoll ohne viele Features, Pakete die über UDP versendet werden können verloren gehen ohne das es der Sender mitbekommt. Außerdem gibt es keinen Handshake zwischen dem Sender und dem Empfänger, jedes UDP Segment wird unabhängig von den anderen verarbeitet. UDP wird oft für Streaming Services verwendet da diese nicht sehr anfällig für verlorene Pakete sind jedoch deutlich anfälliger für geringe Datenraten.
+Auch DNS und QUIC verwenden UDP, die [Application Layer](Application%20Layer.md) kann ihre eigenen Protokolle auf UDP implementieren um sicherzugehen das Pakete ankommen.
+
+UDP verwendet eine Checksum um die Integrität der Daten zu ueberpruefen. Dabei wird das Segment mit dem 1er Komplement aufaddiert und angehängt, der Empfänger Rechnet dies dann nach.

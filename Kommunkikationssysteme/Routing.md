@@ -25,4 +25,4 @@ eBGP wird dafür genutzt um Erreichbarkeit Informationen von Benachbarten AS zu 
 
 iBGP wird genutzt um Erreichbarkeitsinformationen im AS-Netz zu verteilen.
 
-In einer BGP Sitzung werden BGP-Nachrichten ueber eine halbpermanente TCP-Verbindung ausgetauscht.
+In einer BGP Sitzung werden BGP-Nachrichten über eine halbpermanente TCP-Verbindung ausgetauscht.
