@@ -63,7 +63,7 @@ Der Channel wird also nur ca $37\%$ der Zeit wirklich genutzt.
 
 ## Carrier Sense Multiple Access(CSMA)
 
-Die einfachste Form von CSMA sieht folgendermassen aus:
+Die einfachste Form von CSMA sieht folgendermaßen aus:
 Falls der Kanal leer ist, sende den Frame.
 Falls etwas auf dem Kanal liegt, warte.
 
@@ -89,14 +89,14 @@ Bei CSMA/CD wir die Kollision entdeckt und die Übertragung direkt abgebrochen, 
 
 Die Entdeckung dieser Kollision ist relativ simple in Verkabelten Systemen, jedoch schwerer in Kabellosen Systemen, da der Empfänger während des Sendens abgeschaltet wird.
 
-1. Der Adapter Empfaengt ein Datagram von der [[Network Layer]] und erstellt den Frame
+1. Der Adapter Empfängt ein Datagram von der [[Network Layer]] und erstellt den Frame
 2. Der Adapter testet den Kanal
 	- Falls der Kanal leer ist sender er
 	- Sonst wird gewartet bis der Kanal leer ist
 3. Wenn der Adapter den gesamten Frame ohne Kollision hübertraegt ist er fertig
 4. Wenn der Adapter eine andere Übertragung bemerkt bricht er die Übertragung ab und schickt ein Störsignal
 5. Nach dem Abbrechen geht der Adapter in den "Expotentiellen Backoff"
-	- Nach der $m$ten Kollision wehlt der Adapter $K$ zufaellig aus $\lbrace0, 1, 2...2^{m}-1\rbrace$ und wartet $K\cdot 512$ bit Zeiten und geht danach zu Schritt 2
+	- Nach der $m$ten Kollision waehlt der Adapter $K$ zufaellig aus $\lbrace0, 1, 2...2^{m}-1\rbrace$ und wartet $K\cdot 512$ bit Zeiten und geht danach zu Schritt 2
 	- Mehr Kollisionen führen zu einem höherem Back off Intervall
 
 Bei Ethernet besteht das Störsignal aus 48 Bits. Gehen wir von einer Datenrate von $100 \frac{Mbit}{s}$ aus ist unsere Bit Zeit $0.01\mu$, damit ist für $K=1023$ die Warte Zeit ca. $5ms$

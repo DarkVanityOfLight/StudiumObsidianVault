@@ -4,7 +4,7 @@ Da TCP Flow controll implementiert wird es nicht passieren das der Sender den Em
 
 ## Sequenz Numbers and ACKs
 
-Die Sequenznummer entspricht der Byte-Stream nummer des ersten Bytes in den Daten des Segments, als Antwort erwartet der Sender nun die Sequenznummer des nächsten bytes und ein Cumulatitives ACK
+Die Sequenznummer entspricht der Byte-Stream Nummer des ersten Bytes in den Daten des Segments, als Antwort erwartet der Sender nun die Sequenznummer des nächsten bytes und ein Cumulatitives ACK
 
 ## Timeout
 
@@ -31,11 +31,11 @@ Sollte der Sender 3 zusaetzliche ACKs fuer die selben Daten erhalten, sendet er 
 ## Flow Control
 
 Sollte die [Network Layer](Network%20Layer.md) schneller Daten senden als die [Application Layer](Application%20Layer.md) sie verarbeitet tritt Flow Control in Kraft. Der Empfänger setzt die Buffer Size bei der Socket erstellung und der Freie Bufferplatz wird im `rwnd` Feld des TCP Header mitgesendet. Der Sender passt dann seine Rate an unACKed("in-flight") Daten an die Empfangenen `rwnd` an.
-Dadurch wird garantiert das der Buffer nicht überlaeuft. 
+Dadurch wird garantiert das der Buffer nicht überläuft. 
 
 ## Connection Management
 
-Der Empfaenger und der Sender "connecten" bevor sie Daten austauschen, dabei werden TCP Variablen, wie z.b Sequenz Nummern, Buffer und Flow Control Info, initialisiert. Dabei wird ein "Three way Handshake" verwendet:
+Der Empfänger und der Sender "connecten" bevor sie Daten austauschen, dabei werden TCP Variablen, wie z.b Sequenz Nummern, Buffer und Flow Control Info, initialisiert. Dabei wird ein "Three way Handshake" verwendet:
 
 Der Client sendet ein TCP SYN Segment zum Server und spezifiziert die start Sequenznummer.
 
@@ -116,6 +116,13 @@ Ignorieren wir die Slow Start Phase sieht unser Durchsatz folgendermaßen aus:
 Sei $W$ die Window groesse in Bytes an dem Punk wenn unser Loss auftritt, die Durchschnittliche Window groesse ist dann $\frac{3}{4}W$ und der Durchsatz $\frac{3}{4}W$ pro $RTT$
 
 $$\text{avg TCP thruput} = \frac{3}{4} \frac{W}{RTT} \frac{bytes}{sec}$$
+
+## Long, Fat Pipes
+
+Sei $L$ die wahrscheinlichkeit eines Segment Loss:
+
+$$\text{ TCP thoughput} = \frac{1.22 \cdot MSS}{RTT \cdot \sqrt L}$$
+
 
 ## TCP CUBIC
 

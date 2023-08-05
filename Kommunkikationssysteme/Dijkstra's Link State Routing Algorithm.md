@@ -15,7 +15,7 @@ $p(v)$ Vorgängerknoten entlang des Pfades von der Quelle zu $v$.
 
 $N'$ Die Menge von Knoten, deren Pfad mit den geringsten Kosten definitiv bekannt ist.
 
-```c
+```python
 N' = {u}
 forall nodes v
 	if v adjacent to u
@@ -28,7 +28,11 @@ Loop
 	update D(v) 
 		for all v adjacent to w and not in N':
 			D(v) = min(D(v), D(w) + c_wv)
-	/*New least path cost to v is either old least path to v or known least cost path to w + direct cost from  w to v*/
+	/*
+	New least path cost to v is either old least
+	path to v or known least cost path to w
+	direct cost from w to v
+	*/
 untill all nodes in N'
 ```
 

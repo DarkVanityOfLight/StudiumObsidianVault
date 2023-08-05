@@ -1,6 +1,4 @@
-
-
-Wenn ein Router in seine Forwading Table für eine bestimmte Adresse schaut, benutzt er das Laengste Adress Prefix das die Adresse beinhaelt.
+Wenn ein Router in seine Forwading Table für eine bestimmte Adresse schaut, benutzt er das Längste Adress Prefix das die Adresse beinhaelt.
 
 
 

@@ -16,7 +16,7 @@ Alice unterschreibt ihre Nachricht indem sie sie mit einem Private key verschlü
 Da es relativ Aufwendig ist lange Nachrichten zu verschluesseln wird ein Hash angewand um einen "Fingerabdruck" von fester länge zu generieren.
 
 ![int](Kommunkikationssysteme/attachments/int.png)
-sc
+
 
 ## Authentication
 
@@ -27,6 +27,4 @@ Diese Entity registriert ihren Public Key und identifiziert sich mit der CA. Die
 ![auth](auth.png)
 
 
-
----
 
