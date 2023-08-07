@@ -1,4 +1,3 @@
-# Potenzgesetze
 Fuer eine [reelle Zahl](Reelle%20Zahlen.md) $a$ und [natürliche Zahlen](Natürliche%20Zahlen.md) $m, n \in N$ gelten die folgenden beiden Gleichungen für Potenzen:$$a^n a^m = \underbrace{a \cdot a \cdot ... \cdot a}_{n-mal} \cdot \underbrace{a \cdot a \cdot ... \cdot a}_{m-mal} = a^{n+m}$$
 $$(a^n)^m = \underbrace{a^n \cdot a^n \cdot ... \cdot a^n}_{m-mal} = \underbrace{\underbrace{a \cdot a \cdot ... \cdot a}_{n-mal}\cdot ... \cdot \underbrace{a \cdot a \cdot ... \cdot a}_{n-mal}}_{m-mal} = \underbrace{a \cdot a \cdot ... \cdot a}_{n \cdot m-mal} = a^{n \cdot m}$$
 
