@@ -466,3 +466,25 @@ $$\int^{1}_{-1} x^{2}dx = \frac{2}{3}$$
 
 $$F = x-(\frac{x^{3}}{3})$$
 $$\int^{1}_{-1}(1-x^{2})dx = \frac{4}{3}$$
+
+
+---
+
+Here is your input formatted as a Markdown table:
+
+| Step | N' | D(A),p(A) | D(C),p(C) | D(D),p(D) | D(E),p(E) | D(F),p(F) |
+|------|----|-----------|-----------|-----------|-----------|-----------|
+| 0    |    |           |           |           |           |           |
+| 1    |    |           |           |           |           |           |
+|      |    |           |           |           |           |           |
+|      |    |           |           |           |           |           |
+|      |    |           |           |           |           |           |
+|      |    |           |           |           |           |           |
+|      |    |           |           |           |           |           |
+|      |    |           |           |           |           |           |
+|      |    |           |           |           |           |           |
+|      |    |           |           |           |           |           |
+|      |    |           |           |           |           |           |
+|      |    |           |           |           |           |           |
+
+Feel free to input the values corresponding to each step in the table.
