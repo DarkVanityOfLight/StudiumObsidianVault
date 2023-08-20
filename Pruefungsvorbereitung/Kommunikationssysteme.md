@@ -8,6 +8,8 @@
 - [Link Layer](Link%20Layer.md)
 - [Physical Layer](Physical%20Layer.md)
 
+![isoosi](isoosi.png)
+
 ## Introduction
 
 ### Circuit Switching

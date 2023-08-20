@@ -1,0 +1,2 @@
+
+Die Levenshtein Distanz $\Delta_{L}(\alpha, \beta)$ ist die kleinste Anzahl an Operationen die Benötigt sind um $\alpha$ in $\beta$ zu Transformieren. Eine Operation ist __insertion__, __deletion__ oder __substitution__ eines Einzelnen Buchstabens.

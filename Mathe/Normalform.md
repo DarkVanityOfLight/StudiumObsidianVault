@@ -1,4 +1,4 @@
-# Normalform
+
 Eine Gleichung in $x$ der Form
 $$ax^2+bx+c = 0$$
 mit $a \neq 0$ und $b,c \in R$, heißt quadratisch. Speziell bezeichnet man 

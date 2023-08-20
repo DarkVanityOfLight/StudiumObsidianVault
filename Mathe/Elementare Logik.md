@@ -76,25 +76,34 @@ Corollar: Folgerung aus einem Satz
 
 ## Logische Operationen
 Eine logische Operation verknüpft [Aussagen](Aussagen.md) zu einer neuen [Aussage](Aussagen.md). Damit erhalten wir Aussageformen, die wir als Logische Formel bezeichnen.
+
 ![Logisches Oder(Disjunktion)](Aussagen.md#Logisches%20Oder(Disjunktion))
+
 |  $A$ | $B$  | $A\lor B$  |
 |---|---|---|
 |  1 |  1 |  1 |
 |  0 |  1 |  1 |
 |  1 |  0 |  1 |
 | 0  | 0  |  0 |
+
 ![Logisches Und(Konjunktion)](Aussagen.md#Logisches%20Und(Konjunktion))
-|  $A$ | $B$  | $A\land B$  |
-|---|---|---|
-|  1 |  1 |  1 |
-|  0 |  1 |  0 |
-|  1 |  0 |  0 |
-| 0  | 0  |  0 |
+
+| $A$ | $B$ | $A\land B$ |
+| --- | --- | ---------- |
+| 1   | 1   | 1          |
+| 0   | 1   | 0          |
+| 1   | 0   | 0          |
+| 0   | 0   | 0          |
+
 ![Negation](Aussagen.md#Negation)
-| $A$  | $\neg A$  |
-|---|---|
-| 1  | 0  |
-| 0  |  1 |
+
+| $A$ | $\neg A$ |
+| --- | -------- |
+| 1   | 0        |
+| 0   | 1        |
+
+
+
 ### Beispiel
 ```bash
 if not A then ... fi
