@@ -68,3 +68,5 @@ ab + ac + bc = ab + ac \\
 (a + b)(a + c)(b + c) = (a + b)(a + c)
 $$
 
+### Stone's Theorem
+Jede endliche Boolesche Algebra ist [Isomorph](Isomorphismen.md) zur Set Algebra eines Endlichen Sets $M$. Deswegen ist die Kardinalitaet jeder endlichen Booleschen Algebra eine Potenz von $2$
