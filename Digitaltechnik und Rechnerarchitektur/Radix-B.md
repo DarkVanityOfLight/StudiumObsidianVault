@@ -138,7 +138,6 @@ def nat_cmp(x: List[int], y: List[int]) -> Tuple[bool, bool]:
 
 ```
 
-
 ## Multiplikation
 
 Wir Multiplizieren in zwei Schritten:
