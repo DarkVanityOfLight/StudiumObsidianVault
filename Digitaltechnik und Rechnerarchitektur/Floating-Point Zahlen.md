@@ -180,6 +180,20 @@ I think the best way to do this is as follows which is without remembering many 
 
 
 ```python
-def round(red, eps):
+def up_down(red):
 	if(red)
+
+def round(last, red, eps):
+	if(eps == 0):
+		if(red == 1):
+			roundMode
+		else:
+			roundDown
+			
+	elif(eps == 1):
+		if(red == 1):
+			roundUp
+		elif:
+			roundDown
+	
 ```
