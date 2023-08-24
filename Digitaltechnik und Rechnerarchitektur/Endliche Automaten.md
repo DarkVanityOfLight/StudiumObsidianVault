@@ -153,4 +153,11 @@ def RabinScott(Sigma, S, I, R):
 
 Die Idee:
 
-Berechne Äquivalente Knoten $s_1, s_2 \subseteq S\times S$ und vereinige gleiche Knoten in einen Knoten
+Berechne Äquivalente Knoten $s_1, s_2 \subseteq S\times S$ und vereinige gleiche Knoten in einen Knoten.
+
+### Minimaler Automat
+
+Wir verwenden die selbe Konstruktion um $\Delta_i \subset \Delta_{i+1}$ zu berechnen, nach endlich vielen Schritten erreichen wir $\Delta_{*}$ 
+
+Wir definieren $\varepsilon := (S \times S) \setminus \Delta$  als die Menge Äquivalenter Knoten, $\varepsilon$ ist eine [Äquivalenzrelation](Äquivalenzrelationen.md)
+
