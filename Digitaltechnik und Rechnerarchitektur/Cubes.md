@@ -1,4 +1,6 @@
 
+
+
 ## Partielle Ordnung
 
 >[!IMPORTANT] Partielle Ordnung
@@ -58,10 +60,37 @@ Daraus kann man einfach Folgen:
 
 
 
+## Notation
+
+Mit einer festen Variablenordnung koenne wir einen Cube $\text{cube}_v(v, g)$ als einen String aus den Symbolen $\lbrace1, 0, *\rbrace$ darstellen, das $i$-te Symbol im String gehoert zur $i$-ten Variable $x$ und das $i$-te Symbol wird so bestimmt:
+
+$$\begin{cases}
+1: x\in v\\
+0 : x\in g\\
+* : \text{sonst}
+\end{cases}$$
+
+Ein Cube des Grades $k$ enthält $k$ mal $*$. Cubes sind Adjazen wenn sie Sich an einer Stelle unterscheiden, wobei der eine Cube an der Stelle $1$ und der andere $0$ hat.
+
+## Consens
+
+> [!IMPORTANT] Consensus
+> Der Consens $\mathbb C(C_1, C_2, x)$ Cube aus zwei Cubes $C_1 = (v_1, g_1)$ und $C_2 = (v_2, g_2)$ und einer Variable $x\in V$ ist definiert als
+> $$\mathbb C(C_1, C_2, x) := (((v_1 \cup v_2) \setminus\lbrace x\rbrace), ((g_1 \cup g_2)\setminus \lbrace x\rbrace))$$
+> Vorausgesetzt das $x\in v_1$ und $x\in g_2$,
+> $((v_1 \cup v_2) \setminus \lbrace x\rbrace) \cap((g_1 \cup g_2) \setminus \lbrace x\rbrace) = \lbrace\rbrace$
+
+Es gilt:
+$$\text{cube}_V(cube_V)(\mathbb C(C_1, C_2, x)) \implies \text{cube}_V(C_1) \lor \text{cube}_V(C_2)$$
 
 
+$$
+\text{cube}_V(C_1) \lor \text{cube}_V(C_2) \iff \text{cube}_v(C_1) \lor \text{cube}_V(\mathbb C(C_1, C_2, x))
+$$
 
+Also der Consen von zwei Implikanten ist ein Implikant.
 
+und 
 
-
+Der Consen von zwei Primimplikanten ist ein Primimplikant.
 
