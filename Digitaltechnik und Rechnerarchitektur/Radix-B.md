@@ -149,8 +149,6 @@ $$x\cdot y = x \cdot \sum\limits^{n-1}_{j=0} y_j \cdot B^i = \sum\limits^{n-1}_{
 Die Partialprodukte $x_i \cdot y_i$ müssen mit einem Gewicht $B^{i+j}$ aufsummiert werden.
 
 ```python
-from typing import List
-
 def nat_mul_cra(x: List[int], y: List[int], p: List[int]) -> None:
     B = len(x)
     M = len(x)
@@ -189,7 +187,6 @@ $$x^{(i-1)} = x^{(i)} - y \cdot q_{i-1} \cdot B^{i-1}$$
 
 
 ```python
-from typing import Optional, List
 
 def nat_div_mod_algo(x: int, y: int, r: Optional[int], q: List[int]) -> None:
     B = 10  # Assuming B is 10 based on the provided code
@@ -227,8 +224,6 @@ Um $q_{i-1}$ zu bestimmen beginnen wir mit $0$
 - Wenn $x^{i-1}$ negativ wird, verringere $q_{i-1}$ und stelle $x^{(i-1)} := x^{(i)} + y \cdot B^{i-1}$ wieder her
 
 ```python
-from typing import List
-
 def nat_div_mod_rst(x: int, y: int, r: int,
 					M: int, q: List[int]):
     i: int
@@ -241,8 +236,6 @@ def nat_div_mod_rst(x: int, y: int, r: int,
         # Restoring step
         q[i] = q[i] - 1
         r = r + y * B ** i  
-
-
 ```
 
 ## Nonrestoring

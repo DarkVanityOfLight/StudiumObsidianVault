@@ -65,8 +65,6 @@ Generell haben wir $M \cdot B^E = (M\cdot B^\lambda) \cdot B^{E-\lambda}$, die b
 
 ### Normalisisert
 
-#### Positiv
-
 
 Exponent: $MaxNat(e) = (B^e - 1) -\beta$
 Mantissa: $MaxNat(m) = (B^m -1) \cdot B^{1-m} = B-B^{1-m}$
@@ -173,30 +171,8 @@ Zuletzt stelle $S$, $E''$ und $M''$ als Radix-B Zahl dar.
 
 I think the best way to do this is as follows which is without remembering many complicated formulas:
 
-1. Normalize the given number in that you haven/double it until the mantissa is between 1 and 2 while maintaining a product with a power of 2. Example: 0.2 = 0.2*2^0 = 0.4*2^{-1} = 0.8*2^{-2} = 1.6*2^{-3}
-2. Convert the mantissa to radix 2: 1.6 = 1 + 1/2 + 1/16 + 1/32 + epsilon, i.e., **1**.**1001****1 + eps;** if you need four bits, compute five here (which is the additional red one called the rounding bit).
-3. Consider the two representable numbers less and greater than the given number; in the example, these are 1.1001_2 * 2^{-3} and 1.1010_2 * 2^{-3}. Which is the nearest number? This is easily seen as follows: if eps=0, and the red digit is 1, we are exactly in the middle between two representable numbers, otherwise a red 1 tend to the upper number, and 0 to the lower one. Tie breaking is needed in case of the middle case which is done according to the rounding modes.
+1. Normalize the given number in that you haven/double it until the mantissa is between 1 and 2 while maintaining a product with a power of 2. Example: $0.2 = 0.2\cdot2^0 = 0.4\cdot2^{-1} = 0.8\cdot2^{-2} = 1.6*2^{-3}$
+2. Convert the mantissa to radix 2: $1.6 = 1 + 1/2 + 1/16 + 1/32 + \epsilon$, i.e., $1.10011 + \epsilon$; if you need four bits, compute five here (which is the additional red one called the rounding bit).
+3. Consider the two representable numbers less and greater than the given number; in the example, these are $1.1001_2 \cdot 2^{-3}$ and $1.1010_2 \cdot 2^{-3}$. Which is the nearest number? This is easily seen as follows: if $\epsilon=0$, and the red digit is $1$, we are exactly in the middle between two representable numbers, otherwise a red 1 tend to the upper number, and $0$ to the lower one. Tie breaking is needed in case of the middle case which is done according to the rounding modes.
 4. Rest depends on the rounding mode and whether you have a special case (denormal number, overflow, etc).
-
-
-```python
-def up_down(red):
-	if(red)
-
-def round(last, red, eps):
-	if(eps == 0):
-		if(red == 1):
-			roundMode
-		else:
-			roundDown
-			
-	elif(eps == 1):
-		if(red == 1):
-			roundUp
-		elif:
-			roundDown
-	
-```
-
----
 

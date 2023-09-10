@@ -785,3 +785,20 @@ $sm = \alpha(0) + \alpha(3) + 1$
 $sm = 0 + 3 - 4 + 1= 0$
 $s[2] = 0$
 $s[3] = \gamma(0/4) = 4$
+
+---
+
+
+$$\begin{align}
+(a \oplus 1) \land b \land (c\oplus 1) \oplus a \land (b\oplus 1) \land c \oplus a\land b\land(c \oplus 1)\\
+
+(((a \oplus 1) \land b) \land (c\oplus 1)) \oplus ((a \land (b\oplus 1)) \land c) \oplus ((a\land b)\land(c \oplus 1))\\
+
+
+\end{align}$$
+
+
+---
+
+
+

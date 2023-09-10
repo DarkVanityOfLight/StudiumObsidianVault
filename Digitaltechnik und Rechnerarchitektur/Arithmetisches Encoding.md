@@ -39,17 +39,6 @@ Angenommen, wir haben die Zeichenfolge "ABRACADABRA" mit den Wahrscheinlichkeite
 
 Wir können das arithmetische Encoding verwenden, um diese Zeichenfolge effizient zu komprimieren und wiederherzustellen.
 
-```python
-# Python-Code für das arithmetische Encoding
-def arithmetic_encode(symbols, probabilities, input_string):
-    # Implementierung des Encodings
-
-# Python-Code für das arithmetische Decoding
-def arithmetic_decode(symbols, probabilities, encoded_value):
-    # Implementierung des Decodings
-```
-
-In diesem Beispiel würden die Funktionen `arithmetic_encode` und `arithmetic_decode` die Schritte des arithmetischen Encodings und Decodings durchführen.
 
 ## Zusammenfassung
 
