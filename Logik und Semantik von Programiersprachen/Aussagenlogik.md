@@ -23,3 +23,34 @@ $$\varphi ::= \top | \bot | (\neg\varphi) | (\varphi \land \varphi) | (\varphi\l
 >[!IMPORTANT] $PROP$ bezeichnet die Menge aller aussagenlogischen Formeln
 
 
+## Entklammerung
+
+Klammerung macht eine Formel manchmal unlesbar,
+wir entfernen das äußerste Klammerpaar und definieren Folgende Operatorfolge:
+
+|Operator|Rang|
+|---------|------|
+|$\neg$ | $1$|
+|$\land$|$2$|
+|$\lor$ | $3$|
+|$\implies$|$4$|
+
+---
+
+Bis jetzt ist eine Formel nur eine Zeichenreihe von Symbolen ohne Bedeutung.
+
+## Semantik
+
+> [!DEFINITION] Eine Belegung ist eine Funktion
+> $$I : \mathcal V \to \lbrace1, 0\rbrace$$
+
+Die Semantik einer Formel ist eine __Boolsche Funktion__:
+$$f : \lbrace0,1\rbrace^{\mathcal V} \to \lbrace 0, 1\rbrace$$
+
+Eine Belegung lässt sich zu $I: PROP \to \lbrace 0, 1 \rbrace$ erweitern:
+1. $I(\top) = 1, I(\bot) = 0$
+2. $I(\neg \varphi) = 1 - I(\varphi)$
+3. $I(\varphi \lor \psi) = \max\lbrace I(\varphi), I(\psi) \rbrace$
+4. $I(\varphi \land \psi) = \min\lbrace I(\varphi), I(\psi) \rbrace$
+
+Eine Formel $\varphi$ gilt unter der Belegung $I$ so schreiben wir $I \vDash \varphi$, falls $$
