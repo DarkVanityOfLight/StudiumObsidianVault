@@ -1,0 +1,1 @@
+Eine Formel $\varphi$ ist genau dann gültig

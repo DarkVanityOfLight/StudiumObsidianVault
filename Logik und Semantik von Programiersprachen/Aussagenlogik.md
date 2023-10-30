@@ -74,3 +74,10 @@ Sei $\varphi$ eine Formel und seien $I_1, I_2 : \mathcal V \to \lbrace 0, 1\rbra
 Infolgedessen, lässt sich $[[\varphi]]$ als eine Boolesche Funktion ansehen:
 $$\lbrace0, 1\rbrace^{\mathcal Var(\varphi)} \to \lbrace 0, 1\rbrace$$
 
+
+## Semantische Implikation
+
+Eine Formel $\varphi$ impliziert (semantisch) eine Formel $\psi$ $\varphi \vDash \psi$ genau dann, wenn jedes Modell von $\varphi$ auch ein Modell von $\psi$ ist.
+
+
+
