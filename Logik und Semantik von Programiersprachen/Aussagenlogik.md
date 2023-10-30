@@ -53,4 +53,24 @@ Eine Belegung lässt sich zu $I: PROP \to \lbrace 0, 1 \rbrace$ erweitern:
 3. $I(\varphi \lor \psi) = \max\lbrace I(\varphi), I(\psi) \rbrace$
 4. $I(\varphi \land \psi) = \min\lbrace I(\varphi), I(\psi) \rbrace$
 
-Eine Formel $\varphi$ gilt unter der Belegung $I$ so schreiben wir $I \vDash \varphi$, falls $$
+Eine Formel $\varphi$ gilt unter der Belegung $I$ so schreiben wir $I \vDash \varphi$, falls $I(\varphi) = 1$.
+
+auch als $I$ erfüllt $\varphi$ oder $I$ ist ein Modell für $\varphi$ gelesen
+
+## Boolesche Funktion
+
+Aus einer Formel  $\varphi$ entsteht eine Boolesche Funktion
+
+$$[[\varphi]] : \lbrace0, 1\rbrace^{\mathcal V} \to \lbrace0, 1\rbrace$$
+
+wobei 
+$$[[ \varphi]](I) := I(\varphi)$$
+gilt.
+
+Die in einer Formel fehlenden Variablen beeinflussen den Warheitswert einer Formel nicht, d.h. die Variable irrelevant
+ 
+Sei $\varphi$ eine Formel und seien $I_1, I_2 : \mathcal V \to \lbrace 0, 1\rbrace$ zwei Belegungen, so dass die Zeilwerte von $I_1$ und $I_2$ für jede in $\varphi$ vorkommende Variable übereinstimmen. Dann gilt es, dass $I_1 (\varphi) = I_2(\varphi)$.
+
+Infolgedessen, lässt sich $[[\varphi]]$ als eine Boolesche Funktion ansehen:
+$$\lbrace0, 1\rbrace^{\mathcal Var(\varphi)} \to \lbrace 0, 1\rbrace$$
+
