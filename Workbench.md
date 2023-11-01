@@ -802,3 +802,7 @@ $$\begin{align}
 
 
 
+$$
+a \lor b \implies a \land b
+$$
+
