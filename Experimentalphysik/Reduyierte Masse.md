@@ -1,3 +1,8 @@
+$$
+\mu = \frac{m_1  \cdot m_2}{m_1 + m_2}
+$$
+
+---
 
 
 $$m_1 = m_2 = m \implies \mu =  \frac{1}{2} m$$
