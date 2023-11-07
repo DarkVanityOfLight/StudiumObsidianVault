@@ -224,3 +224,4 @@ $$\begin{align}
 
 Nach der Reflexivität von $=$ gilt dies.
 $\blacksquare$
+
