@@ -807,10 +807,10 @@ a \lor b \implies a \land b
 $$
 
 ---
-
 ## ROSY Fragen
 
 - Pseudo befehle wo in der Pipeline?
 
 
 ---
+
