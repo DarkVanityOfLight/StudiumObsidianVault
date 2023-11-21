@@ -814,3 +814,10 @@ $$
 
 ---
 
+$$f = \frac{n}{3}$$
+
+
+$$\begin{align}
+(\frac{n}{3}+1)\cdot n+1\\
+(\frac{n}{3})^2 + 
+\end{align}$$
