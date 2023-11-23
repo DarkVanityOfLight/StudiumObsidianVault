@@ -810,7 +810,7 @@ $$
 ## ROSY Fragen
 
 - Pseudo befehle wo in der Pipeline?
-
+- 2 ID IF -> no wait at branch
 
 ---
 
