@@ -822,3 +822,8 @@ $$\begin{align}
 (\frac{n}{3})^2 + 1 + 1\\
 \frac{n^2}{9} + 2\\
 \end{align}$$
+
+
+---
+Folie 148/152 Vorlesung Introduction to compilers
+#klausur_rosy 
