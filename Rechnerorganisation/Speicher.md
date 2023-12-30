@@ -46,3 +46,7 @@ Diese Adressierungsmodelle existieren aus dem Grund, angenommen wir wollen auf e
 Deswegen müssen die Adressen mit der Hilfe von Registern berechnet werden.
 
 
+---
+
+Speicher kann auf verschiedene Arten Organisiert werden, [Stacks](Stacks.md), [Queues](Queue.md) oder [[RAM]]. Die Momentanen Implementierungen bevorzugen [[RAM]], wobei Speicher Zellen durch ihre eindeutige Adresse identifiziert werden.
+

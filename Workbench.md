@@ -814,3 +814,187 @@ $$
 
 ---
 
+As the number of points increases, the columns of the Vandermonde matrix become more and more similar and thus less and less linear independent; for 10 points, the condition number is already $\approx 10^8$. In a sense, the system becomes more and more difficult to solve, leading to increasing problems in the application of numerical techniques. (This is quite typical behavior for many important numerical problems / techniques.)
+
+To remedy this, let's apply the LU decomposition with partial pivoting to solve this system. The purpose of the pivoting is to increase the numerical stability of the algorithm.
+
+Here is a slightly simpler algorithm for the LU decomposition than the one discussed in the lecture. It decomposes $PA = LU$ and does not detect singular $A$, but is easier to implement:
+
+- - -
+    
+Input $A \in \mathbb{R}^{n \times n}$; Output $P,L,U$ such that $PA = LU$.
+
+Let $U = I_n, L = I_n, P = I_n$ with $I_n$ being the identity matrix of dimension $n \times n$.
+
+For $k = 1, \ldots, n$:
+- find $k \leq i \leq n$ to maximize $|A_{ik}|$
+- exchange rows $k$ and $i$ of $P$
+
+Let $A' = P \cdot A$.
+
+For $j = 1, \ldots, n$:
+- For $i = 1, \ldots, j$: $U_{ij} = A'_{ij} - \sum\limits_{k=1}^{i-1}{U_{kj}L_{ik}}$
+- For $i = j, \ldots, n$: $L_{ij} = \frac{1}{U_{jj}} \left(A'_{ij} - \sum\limits_{k=1}^{j-1}{U_{kj}L_{ik}}\right)$
+
+
+
+$1 * 4 + 3 = 7$
+$5*4 + 6 = 26$
+$4*4 + 4 = 20$
+$3*4 + 4 = 16$
+$2*4 + 7 = 15$
+$3*4 + 6 = 18$
+$3*4 + 2 = 14$
+$7*4 + 2 = 30$
+$8*4 + 10 = 42$
+$0*4 + 1 = 1$
+
+---
+
+$$\begin{align}
+III:& -4 = 1+3s - 1t|-1\\
+\iff& -5 = 3s -t|+t\\
+\iff&-5+t = 3s|:3\\
+\iff&\frac{-5 + t}{3} = s\\
+\iff&s = \frac{-5 + t}{3}
+\end{align}$$
+
+
+$$\begin{align}
+III:& -4 = 1+3s - 1t|-1\\
+\iff& -5 = 3s - 1t|-3s\\
+\iff& -5 -3s = -1t|:-1\\
+\iff& 5 + 3s = t\\
+\iff& t = 5+3s
+\end{align}$$
+
+$$\begin{align}
+II:& 1 = -2 -1s + 2t| +2\\
+\iff& 3 = -1s + 2t | t = 5 +3s\\
+\iff& 3 = -1s + 2(5 + 3s)\\
+\iff& 3 = -1s + 10 + 6s|-10\\
+\iff& -7 = -1s + 6s\\
+\iff& -7 = 5s|:5\\
+\iff& -\frac{7}{5} = s\\
+\iff&s = -\frac{7}{5}
+\end{align}$$
+
+---
+
+$$\begin{align}
+\left(\begin{matrix}3\\1\\-4\end{matrix}\right) = \left(\begin{matrix}2\\-2\\1\end{matrix}\right) + s \cdot \left(\begin{matrix}1\\-1\\3\end{matrix}\right) + t\cdot \left(\begin{matrix}-4\\2\\-1\end{matrix}\right)
+\end{align}$$
+
+
+$$\begin{align}
+\left(\begin{matrix}3\\1\\-4\end{matrix}\right) - \left(\begin{matrix}2\\-2\\1\end{matrix}\right) =  s \cdot \left(\begin{matrix}1\\-1\\3\end{matrix}\right) + t\cdot \left(\begin{matrix}-4\\2\\-1\end{matrix}\right)
+\end{align}$$
+
+$$\begin{align}
+\left(\begin{matrix}1\\3\\-5\end{matrix}\right)  =  s \cdot \left(\begin{matrix}1\\-1\\3\end{matrix}\right) + t\cdot \left(\begin{matrix}-4\\2\\-1\end{matrix}\right)
+\end{align}$$
+
+
+$$\begin{align}
+s \cdot \left(\begin{matrix}1\\-1\\3\end{matrix}\right) + t\cdot \left(\begin{matrix}-4\\2\\-1\end{matrix}\right) = \left(\begin{matrix}1\\3\\-5\end{matrix}\right)
+\end{align}$$
+
+
+
+$$\left[\begin{array}{cc|c}
+1 & 4 & 1 \\
+-1 & 2 & 3\\
+3 & -1 & -5
+\end{array}\right]$$
+
+
+$$\begin{align}
+1s -4t = 1 |\cdot -1\\
+-1s + 2t = 3 | \cdot -1\\
+3s - 1t = -5| \cdot -1\\
+\end{align}$$
+
+$$\begin{align}
+-1s +4t = -1\\
+1s - 2t = -3\\
+-3s + 1t = 5\\
+\end{align}$$
+
+
+$$\begin{align}
+1s -4t = 1\\
+-1s + 2t = 3\\
+3s - 1t = -5
+\end{align}$$
+
+---
+
+
+$$\left[\begin{array}{cc|c}
+-3 & 0 & 1\\
+3 & 0 & -1\\
+2 & 4 & 4
+\end{array}\right]$$
+
+$III - II \cdot \frac{2}{3}$ 
+
+$$\left[\begin{array}{cc|c}
+-3 & 0 & 1\\
+3 & 0 & -1\\
+2 & 4 & 4
+\end{array}\right]$$
+
+---
+
+$$\begin{align}
+-3t + 0s = 1\\
+3t + 0s = -1\\
+2t + 4s = 4
+\end{align}$$
+
+$$\begin{align}
+-3t + 0s = 1 | : -3\\
+3t + 0s = -1\\
+2t + 4s = 4
+\end{align}$$
+$$\begin{align}
+&1t = -\frac{1}{3}\\
+&3t= -1\\
+&2t + 4s = 4| t = - \frac{1}{3}
+\end{align}$$
+
+$$\begin{align}
+1t = -\frac{1}{3}\\
+3t= -1\\
+2\cdot -\frac{1}{3} + 4s = 4 
+\end{align}$$
+$$\begin{align}
+1t = -\frac{1}{3}\\
+3t= -1\\
+-\frac{2}{3} + 4s = 4 | + \frac{2}{3}
+\end{align}$$
+$$\begin{align}
+1t = -\frac{1}{3}\\
+3t= -1\\
+4s = 4 +\frac{2}{3}
+\end{align}$$
+
+$$\begin{align}
+1t = -\frac{1}{3}\\
+3t= -1\\
+4s = 4 + \frac{2}{3}|:4
+\end{align}$$
+
+$$\begin{align}
+1t = -\frac{1}{3}\\
+3t= -1\\
+s = 3\frac{1}{3}|:4
+\end{align}$$
+$$\begin{align}
+1t = -\frac{1}{3}\\
+3t= -1\\
+s = \frac{5}{6}
+\end{align}$$
+
+---
+

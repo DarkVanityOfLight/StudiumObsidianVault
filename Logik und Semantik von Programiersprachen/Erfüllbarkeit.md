@@ -1,7 +1,7 @@
-Eine Formel $\varphi$ ist genau dann erfüllbar (staisfiable), wenn sie ein Modell hat, z.B. $Essen \land Trinken$
+Eine Formel $\varphi$ ist genau dann erfüllbar (satisfiable), wenn sie ein [Modell](Modell.md) hat.
 
 
-Um die Erfuellbarkeit einer aussagenlogischen Formel festzustellen gibt es mehrere Algorithmen.
+Um die Erfüllbarkeit einer aussagenlogischen Formel festzustellen gibt es mehrere Algorithmen.
 
 1. Wahrheitstabelle. $O(n^2)$
 2. Resolutionsbeweissystem: Die Grundlage schnellster Algorithmen zur Erfüllbarkeit

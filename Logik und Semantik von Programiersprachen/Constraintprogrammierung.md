@@ -1,5 +1,5 @@
 
-Schreibe ein Programm, welches die Angabe des Problems als Formeln (in einer ausreichend ausdrucksvollen Logik) ausgibt, und lasse Algorithmen die Details ausfüllen.
+Schreibe ein Programm, welches die Angabe des Problems als Formeln (in einer ausreichend ausdrucksvollen Logik) ausgibt, und lasse [Algorithmen](Algorithmus.md) die Details ausfüllen.
 
 
 Ein Sortieralgorithmus sieht dann z.B. so aus:

@@ -1,51 +1,42 @@
 
-Seien $`F`$, $`G`$ und $`H`$ beliebige aussagenlogische Formeln. Dann gelten folgende Äquivalenzen.
-  1. **Idempotenz**
-     $F \wedge F \equiv F$
+Seien $F$, $G$ und $H$ beliebige aussagenlogische Formeln. Dann gelten folgende [Äquivalenz](Äquivalenz.md).
+## Idempotenz
+$F \wedge F \equiv F$
+$F \vee F \equiv F$
   
-     $F \vee F \equiv F$
+## Kommutativität
+$F \wedge G \equiv G \wedge F$
+$F \vee G \equiv G \vee F$
   
-  2. **Kommutativität**
-     $F \wedge G \equiv G \wedge F$
+## Assoziativität
+$(F \wedge G) \wedge H \equiv F \wedge (G \wedge H)$
+$(F \vee G) \vee H \equiv F \vee (G \vee H)$
   
-     $F \vee G \equiv G \vee F$
+## Absorption
+$F \wedge (F \vee G) \equiv F$
+$F \vee (F \wedge G) \equiv F$
   
-  3. **Assoziativität**
-     $(F \wedge G) \wedge H \equiv F \wedge (G \wedge H)$
+## Distributivität
+$F \wedge (G \vee H) \equiv (F \wedge G) \vee (F \wedge H)$
+$F \vee (G \wedge H) \equiv (F \vee G) \wedge (F \vee H)$
   
-     $(F \vee G) \vee H \equiv F \vee (G \vee H)$
+## Doppelte Negation
+$\neg \neg F \equiv F$
+## De Morgansche Gesetze
+$\neg (F \wedge G) \equiv \neg F \vee \neg G$ 
+$\neg (F \vee G) \equiv \neg F \wedge \neg G$
   
-  4. **Absorption**
-     $F \wedge (F \vee G) \equiv F$
+## Komplementärgesetze
+$F \wedge \neg F \equiv \bot$
+$F \vee \neg F \equiv \top$
   
-     $F \vee (F \wedge G) \equiv F$
+## Neutralitätsgesetze
+$F \wedge \top \equiv F$
+$F \vee \bot \equiv F$
   
-  5. **Distributivität**
-     $F \wedge (G \vee H) \equiv (F \wedge G) \vee (F \wedge H)$
-  
-     $F \vee (G \wedge H) \equiv (F \vee G) \wedge (F \vee H)$
-  
-  6. **Doppelte Negation**
-     $\neg \neg F \equiv F$
-  
-  7. **De Morgansche Gesetze**
-     $\neg (F \wedge G) \equiv \neg F \vee \neg G$
-  
-     $\neg (F \vee G) \equiv \neg F \wedge \neg G$
-  
-  8. **Komplementärgesetze**
-     $F \wedge \neg F \equiv \bot$
-  
-     $F \vee \neg F \equiv \top$
-  
-  9. **Neutralitätsgesetze**
-     $F \wedge \top \equiv F$
-     $F \vee \bot \equiv F$
-  
-  10. **Extremalgesetze**
-      $F \wedge \bot \equiv \bot$
-  
-      $F \vee \top \equiv \top$
+## Extremalgesetze
+ $F \wedge \bot \equiv \bot$
+$F \vee \top \equiv \top$
 Alle diese Äquivalenzen können leicht mittels Wahrheitstabellen bewiesen werden.
 ## Herleitung von äquivalenten Formeln
 **Motivation**: Die Größe der Wahrheitstabelle wächst exponentiell mit der Anzahl der Variablen in der Formel. Für Große Formeln kann also die Wahrheitstabelle in der Praxis unfassbar Groß werden.

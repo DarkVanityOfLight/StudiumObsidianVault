@@ -1,4 +1,6 @@
 
+Das Damenproblem mithilfe von [Constraintprogrammierung](Constraintprogrammierung.md):
+
 > Constrain 1
 > In jeder Reihe/Spalte steht genau eine Dame
 
@@ -8,7 +10,7 @@
 __Eingabe__ Eine Zahl $n \in \mathbb N$
 __Ausgabe__: Eine gültige Lösung zum Damenproblem für die Groesse $n$
 
-Diese Constraints können wir in die Aussagelogik übersetzen.
+Diese Constraints können wir in die [Aussagenlogik](Aussagenlogik.md) übersetzen.
 
 
 ## Constraint 1

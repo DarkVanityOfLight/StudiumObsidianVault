@@ -13,7 +13,3 @@ $$(F_1 \lor F_2 \lor F_3) \land \varphi_1 \land \varphi_2 \land \varphi_3$$
 Wir bekommen $1 + 3n$ Klauseln
 
 
----
-
-## DPLL
-

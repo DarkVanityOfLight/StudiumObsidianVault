@@ -1,0 +1,1 @@
+>[!DEFINITION] Man nennt eine Formel ein Term, falls sie eine Konjunktion von [Literalen](Literal.md) ist.
