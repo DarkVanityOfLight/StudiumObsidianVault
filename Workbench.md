@@ -810,7 +810,7 @@ $$
 ## ROSY Fragen
 
 - Pseudo befehle wo in der Pipeline?
-
+- 2 ID IF -> no wait at branch
 
 ---
 
@@ -998,3 +998,17 @@ s = \frac{5}{6}
 
 ---
 
+=======
+$$f = \frac{n}{3}$$
+
+
+$$\begin{align}
+(\frac{n}{3}+1)\cdot n+1\\
+(\frac{n}{3})^2 + 1 + 1\\
+\frac{n^2}{9} + 2\\
+\end{align}$$
+
+
+---
+Folie 148/152 Vorlesung Introduction to compilers
+#klausur_rosy 
