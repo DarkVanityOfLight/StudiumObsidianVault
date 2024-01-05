@@ -1,0 +1,1 @@
+Die [Prädikatenlogik](Logik%20und%20Semantik%20von%20Programiersprachen/Prädikatenlogik.md) lässt generelle Grundmengen von Objekten zu, auf die sich die Prädikatenlogik Formel beziehen können, d.h. anstelle von nur $0$ und $1$. Diese Menge wird auch __Unsiversum__ genannt.

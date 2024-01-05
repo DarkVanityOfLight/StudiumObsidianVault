@@ -85,7 +85,7 @@ $$
 $$
 {\sum(f) = t_1 \to t_2 \qquad\sum\vdash e_1:t_1 \over \sum\vdash f(e_1) :t_2} f\in dom\sum
 $$
-Der Rumpf einer Funktion wird in der um den formalen Parameter erweiterten [Signatur](Signatur.md) getypt (',' ist der [Die Erweiterung(Kommaoperator)](Endliche%20Abbildungen.md#Die%20Erweiterung(Kommaoperator))).
+Der Rumpf einer Funktion wird in der um den formalen Parameter erweiterten [Signatur](Grundlagen%20der%20Programmierung/Signatur.md) getypt (',' ist der [Die Erweiterung(Kommaoperator)](Endliche%20Abbildungen.md#Die%20Erweiterung(Kommaoperator))).
 
 ## [Dynamische Semantik](Semantik.md#Dynamische%20Semantik)
 

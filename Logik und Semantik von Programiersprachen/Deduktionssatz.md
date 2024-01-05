@@ -1,6 +1,10 @@
+## Semantisch
+>[!PROPOSITION] 
+>$$\Sigma \vDash \varphi \to \psi \text{ gdw } \Sigma, \varphi \vDash \psi$$
 
->[!DEFINITION] Deduktionssatz
->$$\Sigma\vDash \varphi \to \psi\;\text{gdw}\; \Sigma \cup \lbrace \varphi \rbrace \vDash \psi$$ 
+## Syntaktisch
+>[!Proposition]
+> $$\Sigma\vDash \varphi \to \psi\;\text{gdw}\; \Sigma \cup \lbrace \varphi \rbrace \vDash \psi$$ 
 
 ## Beweis
 
