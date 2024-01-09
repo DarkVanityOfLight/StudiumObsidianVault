@@ -21,3 +21,24 @@ Aus diesem Lemma lässt sich die folgende Regel zur Umbenennung der gebundenen V
 >[!DEFINITION] Proposition
 >Sei $\varphi = \mathcal Q x\varphi$  eine Formel, bei der $\mathcal Q \in \lbrace \forall, \exists\rbrace$. Sei $y$ eine nicht in $\psi$ vorkommende Variable. Dann gilt $\varphi \equiv \mathcal Qy(\psi[y/x])$
 
+
+## Gleichzeitige Substitution
+
+Eine __(gleichzeitige) Substitution__ ist eine Abbildung $\theta: VAR \to TERMS$
+Die Notation $\lbrace t_1 / x_1, \dots, t_n / x_n\rbrace$ bezeichnet die Substitution 
+$$\begin{align}
+\theta :& x_1 \mapsto t_1\\
+&\vdots\\
+& x_n \mapsto t_n\\
+&y\mapsto y
+\end{align}$$
+
+### Substitutionen Anwenden
+
+Gegeben sei ein Ausdruck $E$ ([Term](Term.md), [Literal](Literal.md), [Klausel](Klausel.md)), schreibe 
+$$E\theta \text{ oder } E[\theta]$$
+um Folgendes zu bezeichnen: "gleichzeitig jedes Vorkommen von $x$ durch $\theta$(x)" ersetzen.
+
+### Beispiel
+
+$E = \lbrace P(x), Q(f(y)) \rbra$

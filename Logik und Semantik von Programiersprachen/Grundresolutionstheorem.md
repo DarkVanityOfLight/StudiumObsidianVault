@@ -5,3 +5,8 @@ Durch den [Kompaktheitssatz der Aussagenlogik](Kompaktheitssatz%20der%20Aussagen
 Sei $\Sigma$ eine Menge von bereinigten [Pränexnormalform(PNF)](Normalformen%20der%20Prädikatenlogik.md#Pränexnormalform(PNF)) [Saetzen](Satz.md). Ferner sei $SNF(\Sigma)$ die Menge entsprechender [Skolemnormalform(SNF)](Normalformen%20der%20Prädikatenlogik.md#Skolemnormalform(SNF))Formeln, jeweils mit verschiedenen Skolemfunktionen. Dann:
 
 $\Sigma$ ist [Unerfüllbar](Unerfüllbar.md) g.d.w es einen [Resolutions-Beweis](Resolution.md) von $\bot$ aus $E(SNF(\Sigma))$ gibt.
+
+
+>[!DANGER]
+>Eine blinde(wenn auch systematische) Durchnummerierung von Grundklauseln stellt zahlreiche irrelevante Grundklauseln her.
+
