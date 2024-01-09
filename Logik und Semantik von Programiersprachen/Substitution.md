@@ -41,4 +41,22 @@ um Folgendes zu bezeichnen: "gleichzeitig jedes Vorkommen von $x$ durch $\theta$
 
 ### Beispiel
 
-$E = \lbrace P(x), Q(f(y)) \rbra$
+$E = \lbrace P(x), Q(f(y)) \rbrace$, $\theta = \lbrace y/x, f(a)/y$, dann
+$$E\theta = \lbrace P(y), Q(f(f(a))) \rbrace$$
+
+
+### Substitutionen Verknüpfen
+
+Gegeben sind zwei Substitutionen 
+$\theta_1: VAR \to TERMS$ $\theta_2: VAR \to TERMS$
+IHre Komposition
+$$\theta_1 \circ \theta_2: VAR \to TERMS$$
+ist die Substitution 
+$$x\mapsto\theta_1(x)[\theta_2]$$
+
+>[!NOTE]
+>Es gilt für jeden Ausdruck $E$, dass $E[\theta\sigma] = (E\theta)\sigma$
+
+>[!NOTE] Assoziativität
+>$$(\theta_1\theta_2)\theta_3 = \theta_1(\theta_2\theta_3)$$
+
