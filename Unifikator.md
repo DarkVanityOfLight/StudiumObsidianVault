@@ -7,4 +7,23 @@ $$\theta_1 = \lbrace f(a)/x, a/y, a/z\rbrace$$
 
 ## Allgemeinster Unifikator
 
-Ein __allgemeinster Unifikator(mgu)__ von $U$ ist ein Unifikator $\theta$, d
+Ein __allgemeinster Unifikator(mgu)__ von $U$ ist ein Unifikator $\theta$, der ein Präfix jedes andere Unifikator $\theta'$ ist, d.h.
+$$\theta' = \theta \circ \mu \text{ für ein bestimmtes }\mu$$
+
+
+## Unifikationssatz
+
+> Jede unifizierbare Literalmenge hat einen mgu
+
+## Unifikationsalgorithmus
+
+_Eingabe_: Eine Literalmenge $U$
+_Ausgabe_: Ein mgu von $U$
+
+1. $\theta := \emptyset$
+2. Wiederhole folgendes, bis $\theta$ ein Unifikator von $U$ wird:
+	1. Wähle wei verschiedene [atomare](Atomare%20Aussage.md) Formeln in $U\theta$ aus und finde die erste Position, bei der sie sich unterscheiden
+	2. Ist keines der beiden Zeichen eine Variable, "fail".
+	3. Nun unterscheiden sie sich bei Subtermen $t_1 = x$ und $t_2$, wenn $x$ in $t_2$ vorkommt, "fail"
+	4. $\theta := \theta \circ [t_2 / x]$
+3.  Gebe $\theta$ aus
