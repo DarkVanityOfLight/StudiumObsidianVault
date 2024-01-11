@@ -11,4 +11,14 @@ _Ausgabe_: "Erfüllbar" oder "Unerfüllbar"
 	4. wird $S$ durch $(1)$-$(3)$ nicht geändert, gebe 'sat' aus
 3. Gebe 'unsat' aus
 
-Das Verfahren stoppt für erfüll
+Das Verfahren stoppt für erfüllbare $\Sigma$ nicht unbedingt.
+
+## Resolution als ein Fixpunktalgorithmus
+
+Angegeben ist eine Klauselmenge $F$
+
+$$Res(F) := F \cup \lbrace R : R \text{ is a resolvent of } F \rbrace$$
+$$Res^0(F) = F$$
+$$Res^{n+1}(F) := Res(Res^n(F))$$
+
+$$Res^*(F) := \bigcup_{n\ge0} Res^n(F)$$
