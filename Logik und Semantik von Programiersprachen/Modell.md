@@ -6,5 +6,5 @@ Ein Model $M$ für die Formel $\varphi$  ist eine [Belegung](Belegung.md) für d
 
 ## Praedikatenlogik
 
-Ein Modell für eine Formel $\varphi$ ist eine [Struktur](Struktur.md) $\mathfrak S$ und eine [Bewertung](Bewertung.md) $\mathcal v$, sodass gilt:
-$$(\mathfrak S, \mathcal v) \vDash \varphi$$
+Ein Modell für eine Formel $\varphi$ ist eine [Struktur](Struktur.md) $\mathfrak S$ und eine [Bewertung](Bewertung.md) $\nu$, sodass gilt:
+$$(\mathfrak S, \nu) \vDash \varphi$$

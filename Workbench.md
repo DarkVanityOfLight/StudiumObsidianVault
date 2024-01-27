@@ -1012,3 +1012,45 @@ $$\begin{align}
 ---
 Folie 148/152 Vorlesung Introduction to compilers
 #klausur_rosy 
+
+---
+
+**Gauss-Seidel Update:**
+The Gauss-Seidel iteration for solving $Ax = b$ can be expressed as:
+
+$$ \mathbf{x}^{(k+1)}_{GS} = -(D+L)^{-1}U\mathbf{x}^{(k)} + (D+L)^{-1}\mathbf{b}$$
+
+Here, $D$ is the diagonal matrix of $A$, $L$ is the strictly lower triangular part of $A$, and $U$ is the strictly upper triangular part of $A$
+
+2. **Splitting the Matrix:**
+   We can express $A$ as the sum of lower triangular ($L$), diagonal ($D$), and upper triangular ($U$) parts:
+   $$A = D + L + U$$
+   Rewrite the Gauss-Seidel update using this decomposition:
+   $$\mathbf{x}^{(k+1)}_{GS} = -(D+L)^{-1}U\mathbf{x}^{(k)} + (D+L)^{-1}\mathbf{b}$$
+
+3. **SOR Update:**
+   Now, for the Successive Over-Relaxation method, we introduce an over-relaxation parameter $ \omega $:
+   $$\mathbf{x}^{(k+1)} = (1-\omega)\mathbf{x}^{(k)} + \omega \mathbf{x}^{(k+1)}_{GS}$$
+   Substitute the expression for $\mathbf{x}^{(k+1)}_{GS}$ from the Gauss-Seidel update:
+   $$\mathbf{x}^{(k+1)} = (1-\omega)\mathbf{x}^{(k)} - \omega(D+L)^{-1}U\mathbf{x}^{(k)} + \omega(D+L)^{-1}\mathbf{b}$$
+
+4. **Rearrange Terms:**
+   Factor out $(D+L)^{-1}$ from the second term:
+   $$\mathbf{x}^{(k+1)} = (1-\omega)\mathbf{x}^{(k)} + \omega(D+L)^{-1}(\mathbf{b} - U\mathbf{x}^{(k)})$$
+
+   Now, the term $(D+L)^{-1}$ is common in both terms.
+
+5. **Matrix Representation:**
+   Let $M = (D+\omega L)$, then:
+   $$\mathbf{x}^{(k+1)} = (1-\omega)\mathbf{x}^{(k)} + \omega M^{-1}(\mathbf{b} - U\mathbf{x}^{(k)})$$
+
+   This is the form used in the code: $\mathbf{x}^{(k+1)} = (1-\omega)\mathbf{x}^{(k)} + \omega M^{-1}(\mathbf{b} - U\mathbf{x}^{(k)})$, where $M = D+\omega L$.
+
+---
+
+$$\begin{align}
+\exists x((x < r \land x = y) \lor (x > r \land x = y))\\
+((y < r) \lor (y > r))
+\end{align}$$
+
+

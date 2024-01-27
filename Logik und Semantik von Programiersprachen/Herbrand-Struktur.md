@@ -14,5 +14,5 @@ Eine Herbrand-Struktur ist daher eine "syntaktische" Struktur, deren Funktionssy
 
 >[!DEFINITION] überführungslemma für Herbrand-Strukturen
 > Es gilt, dass
-> $$(\mathcal H, \mathcal v) \vDash \varphi[t/x] \text{ g.d.w } (\mathcal H, \mathcal v[t/x]) \vDash \varphi$$
+> $$(\mathcal H, \nu) \vDash \varphi[t/x] \text{ g.d.w } (\mathcal H, \nu[t/x]) \vDash \varphi$$
 

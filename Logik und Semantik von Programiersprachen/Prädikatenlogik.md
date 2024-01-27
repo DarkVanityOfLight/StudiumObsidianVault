@@ -48,20 +48,20 @@ $$\exists \forall y (x< y)$$
 
 ### Interpretationsfunktion
 
-Die Interpretationsfunktion lässt sich durch eine rekursive Definition über $\sigma$-[Terme](Term.md) erweitern. Gegeben eine [Struktur](Struktur.md) $\mathfrak S = (D, I)$ mit der Signatur $\sigma$, eine [Bewertung](Bewertung.md) $\mathcal v$ und ein $\sigma$-Term $t$, definieren wir rekursiv den Wert $\textbf{val}_{\mathfrak S, \mathcal v}(t)$   (oder schlicht: $\textbf{val}(t)$) von $t$ mit Bezug auf $\mathfrak S$ und $\mathcal v$ wie folgt:
+Die Interpretationsfunktion lässt sich durch eine rekursive Definition über $\sigma$-[Terme](Term.md) erweitern. Gegeben eine [Struktur](Struktur.md) $\mathfrak S = (D, I)$ mit der Signatur $\sigma$, eine [Bewertung](Bewertung.md) $\nu$ und ein $\sigma$-Term $t$, definieren wir rekursiv den Wert $\textbf{val}_{\mathfrak S, \nu}(t)$   (oder schlicht: $\textbf{val}(t)$) von $t$ mit Bezug auf $\mathfrak S$ und $\nu$ wie folgt:
 
 1. Induktionsanfang(Variable $x$): $\textbf{val}(x) := \mathfrak(v)(x)$
 2. Induktionsanfang(Konstantensymbol $c$): $\textbf{val}(c) := I(c)$
 3. Induktionsschritt($r$-stelliges Funktionssymbol $f$): $$\textbf{val}(f(t_1, \dots, t_{r})) := I(f)(\textbf{val}(t_1), \dots, \textbf{val}(t_r))$$
 ---
 
-Die Semantik der $FO$ ist komplizierter als die der [Aussagenlogik](Aussagenlogik.md). Denn: Wie beweist man, dass $\mathfrak S, \mathcal v \vDash \varphi$, wobei die [Struktur](Struktur.md) $\mathfrak S$ ein unendliches [Universum](Universum.md) hat. Wie wir sehen werden, gibt es keine Algorithmus, welcher dieses Problem für alle Fälle lösen kann. Dies steht im Gegensatz zur Aussagenlogik, deren Erfüllbarkeitsproblem mithilfe von verschiedenen Methoden gelöst werden kann. Trotz der Abwesenheit eines generellen Algorithmus für die Erfüllbarkeitsproblematik lässt sich die Methode der semantischen Argumente gebrauchen, um  $(\mathfrak S, \mathcal v) \vDash \varphi$ zu beweisen.
+Die Semantik der $FO$ ist komplizierter als die der [Aussagenlogik](Aussagenlogik.md). Denn: Wie beweist man, dass $\mathfrak S, \nu \vDash \varphi$, wobei die [Struktur](Struktur.md) $\mathfrak S$ ein unendliches [Universum](Universum.md) hat. Wie wir sehen werden, gibt es keine Algorithmus, welcher dieses Problem für alle Fälle lösen kann. Dies steht im Gegensatz zur Aussagenlogik, deren Erfüllbarkeitsproblem mithilfe von verschiedenen Methoden gelöst werden kann. Trotz der Abwesenheit eines generellen Algorithmus für die Erfüllbarkeitsproblematik lässt sich die Methode der semantischen Argumente gebrauchen, um  $(\mathfrak S, \nu) \vDash \varphi$ zu beweisen.
 
 ## Beispiel
 
-Wir wollen $(\mathcal N, \mathcal v) \vDash \forall x\exists y(x<y)$ beweisen. Hier ordnet $\mathcal v$ jeder Variable das Element $0_{\mathcal N}$ zu. Zunächst einmal betrachten wir eine beliebige Zahl $n\in\mathbb N$. Unser Ziel ist, dass die Behauptung $(\mathcal N, \mathcal v_{[n/x]}) \vDash \exists y(x<y)$ bewiesen werden muss. Zu diesem Zweck genügt es zu beweisen, dass es eine Zahl $m\in\mathbb N$ gibt, welche
-$$(\mathcal N, \mathcal v_{[m/y, n/x]}) \vDash y$$
-erfüllt. Der Beweis ist leicht: die Zahl kann als $n +_{\mathcal N} 1_{\mathcal N}$ ausgewählt werden. Daraus folgt, dass $(\mathcal N, \mathcal v) \vDash \forall x\exists y(x < y)$.
+Wir wollen $(\mathcal N, \nu) \vDash \forall x\exists y(x<y)$ beweisen. Hier ordnet $\nu$ jeder Variable das Element $0_{\mathcal N}$ zu. Zunächst einmal betrachten wir eine beliebige Zahl $n\in\mathbb N$. Unser Ziel ist, dass die Behauptung $(\mathcal N, \nu_{[n/x]}) \vDash \exists y(x<y)$ bewiesen werden muss. Zu diesem Zweck genügt es zu beweisen, dass es eine Zahl $m\in\mathbb N$ gibt, welche
+$$(\mathcal N, \nu_{[m/y, n/x]}) \vDash y$$
+erfüllt. Der Beweis ist leicht: die Zahl kann als $n +_{\mathcal N} 1_{\mathcal N}$ ausgewählt werden. Daraus folgt, dass $(\mathcal N, \nu) \vDash \forall x\exists y(x < y)$.
 
 ## Freie Variablen
 

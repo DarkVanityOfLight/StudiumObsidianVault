@@ -2,4 +2,4 @@ Eine Formel $\varphi$ impliziert(sematisch) eine Formel $\psi$  $\varphi \vDash 
 
 ## Prädikatenlogik
 
-Wir erweitern die Definition, $\Sigma \vDash \varphi$, gegeben eine [Menge](Mengen.md) $\Sigma$ von Formeln. Nämlich $\Sigma$ impliziert $\varphi$ ($\Sigma \vDash \varphi$), wenn jedes [Modell](Modell.md) $(\mathfrak S, \mathcal v)$ für $\Sigma$ (z.B. $(\mathfrak S, \mathcal v) \vDash \psi$ für jedes $\psi\in\Sigma$) auch ein Modell für $\varphi$ ist.
+Wir erweitern die Definition, $\Sigma \vDash \varphi$, gegeben eine [Menge](Mengen.md) $\Sigma$ von Formeln. Nämlich $\Sigma$ impliziert $\varphi$ ($\Sigma \vDash \varphi$), wenn jedes [Modell](Modell.md) $(\mathfrak S, \nu)$ für $\Sigma$ (z.B. $(\mathfrak S, \nu) \vDash \psi$ für jedes $\psi\in\Sigma$) auch ein Modell für $\varphi$ ist.

@@ -7,4 +7,4 @@ $$((Eat \implies \neg Starve) \land Eat) \implies \neg Starve$$
 
 ## Prädikatenlogik
 
-Eine Formel $\varphi$ wird gültig genannt, wenn $\mathfrak S, \mathcal v \vDash \varphi$ für   jede [Struktur](Struktur.md) $\mathfrak S$ und jede Bewertung $\mathcal v$. 
+Eine Formel $\varphi$ wird gültig genannt, wenn $\mathfrak S, \nu \vDash \varphi$ für   jede [Struktur](Struktur.md) $\mathfrak S$ und jede Bewertung $\nu$. 

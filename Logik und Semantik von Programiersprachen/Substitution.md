@@ -9,12 +9,12 @@ $\varphi := \forall x(P(x)) \land Q(x)$. Wenn $t:= f(y)$, dann bezeichnet $\varp
 
 Ein Term $t$ ist einsetzbar für $x$  in $\varphi$, wenn es für jede Variable $y$ in $t$ gilt, dass jedes Vorkommen von $y$ in $\varphi$ gebunden ist.
 
-Jede Substitution mit der Notation $\mathcal v[a/x]$ für eine [Bewertung](Bewertung.md) stimmt überein, wenn deren Anwendung auf einsetzbare Terme beschränkt wird.
+Jede Substitution mit der Notation $\nu[a/x]$ für eine [Bewertung](Bewertung.md) stimmt überein, wenn deren Anwendung auf einsetzbare Terme beschränkt wird.
 
 >[!NOTE] Lemma
 >Sei $\varphi$ eine Formel und $t$ ein fuer $x$ einsetzbarere Term in $\varphi$. Dann gilt es, dass 
->$$(\mathfrak S, \mathcal v) \vDash \varphi[t/x] \text{ g.d.w } (\mathfrak S, \mathcal v[\textbf{val}(t)/x])\vDash \varphi$$
->wobei $\textbf{val} := \textbf{val}_{\mathfrak S, \mathcal v}$
+>$$(\mathfrak S, \nu) \vDash \varphi[t/x] \text{ g.d.w } (\mathfrak S, \nu[\textbf{val}(t)/x])\vDash \varphi$$
+>wobei $\textbf{val} := \textbf{val}_{\mathfrak S, \nu}$
 
 Aus diesem Lemma lässt sich die folgende Regel zur Umbenennung der gebundenen Variablen ableiten.
 
