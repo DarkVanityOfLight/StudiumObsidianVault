@@ -6,3 +6,7 @@ Sei $\Sigma$ eine Menge von bereinigten [Pränexnormalform(PNF)](Normalformen%20
 
 $\Sigma$ ist [Unerfüllbar](Unerfüllbar.md) g.d.w es einen [Resolutions-Beweis](Resolution.md) von $\bot$ aus $E(SNF(\Sigma))$ gibt.
 
+
+>[!DANGER]
+>Eine blinde(wenn auch systematische) Durchnummerierung von Grundklauseln stellt zahlreiche irrelevante Grundklauseln her.
+
