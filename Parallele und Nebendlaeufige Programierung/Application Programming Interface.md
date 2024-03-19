@@ -1,0 +1,2 @@
+
+Eine __API__ ist ein Software Interface, dass es Computern erlaubt, zu kommunizieren, sie verbindet Computer und Software miteinander. Es ist eine Abstraktion der eigentlichen Implementierung und zeigt nur die wichtigen Objekte/Daten an, die interagierenden Programme können in verschiedenen Sprachen sein.

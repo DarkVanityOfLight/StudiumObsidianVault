@@ -1,0 +1,1 @@
+ThreadPools sind Sammlungen von Threads, die übergebenen Tasks werden von einem freien, frei werdenden oder neu kreierten [Thread](Thread.md) ausgeführt. Dadurch wird die obere Schranke für die Anzahl an Threads kontrolliert und der Overhead pro Task-Ausführung wir verringert, da Threads wiederverwendet werden

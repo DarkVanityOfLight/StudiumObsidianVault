@@ -1,0 +1,1 @@
+Ein Byzantinischer Fehler ist dann, wenn ein [Prozess](Prozess.md) beliebiges Fehlverhalten aufweist. Man muss also gegen alles Schutz bieten

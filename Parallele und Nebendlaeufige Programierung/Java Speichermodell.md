@@ -1,0 +1,2 @@
+
+Das Java Speichermodell verwendet eine schwächere Version von [Sequentieller Konsistenz](Sequentielle%20Konsistenz.md) (happens-before Konsistenz). Dabei werden bewusste Synchronisation im Code hinzugefügt(volatile, synchronized, Lock. Durch eine Kombination dieser Synchronisation wird erreicht, dass alle Programmausführungen sequentiell konsistent sind wenn es gewünscht ist, aber nicht zwingend sequentiell konsistent sind.

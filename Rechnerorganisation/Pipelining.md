@@ -191,7 +191,6 @@ Stufen in denen Variablen geschrieben werden sind oft spät, der Extremfall wär
 - $WAW(i, j):\iff false$
 
 Wenn nur die Stufe $p$ schreiben darf, gibt es keine WAR oder WAW Konflikte
-#klausur_rosy
 
 --- 
 
