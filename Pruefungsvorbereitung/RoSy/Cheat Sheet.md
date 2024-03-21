@@ -123,7 +123,7 @@ Nach Konstruktion des Graphen:
 
 
 __Shift__
-Wir haben eine Shift Aktion, sollten wir ein Nichtterminal Symbol $a$ lesen und unser momentaner State enthält eine Regel der Art $A \to \alpha.a\beta$. 
+Wir haben eine Shift Aktion, sollten wir ein Terminal Symbol $a$ lesen und unser momentaner State enthält eine Regel der Art $A \to \alpha.a\beta$ 
 Dann:
 $S(q_i)$ Shifte das Eingabesymbol auf den Stack und lege $q_i$ darauf
 
