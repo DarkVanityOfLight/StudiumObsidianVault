@@ -3,7 +3,7 @@
 |              | no forward, no bypass | no forward + bypass     | forward + bypass        |
 | ------------ | --------------------- | ----------------------- | ----------------------- |
 | after ALU    | $p_{WB} - p_{ID}$     | $(p_{wb} - p_{id}) - 1$ | $(p_{EX} - p_{ID}) - 1$ |
-| after load   | $p_{WB} - p_{WB}$     | $(p_{WB} - p_{ID}) -1$  | $(p_{MA} - p_{ID}) - 1$ |
+| after load   | $p_{WB} - p_{ID}$     | $(p_{WB} - p_{ID}) -1$  | $(p_{MA} - p_{ID}) - 1$ |
 | after branch | $p_{WB} - p_{IF}$     | $(p_{WB} - p_{IF}) - 1$ | $(p_{EX} - p_{IF}) - 1$ |
 
 
