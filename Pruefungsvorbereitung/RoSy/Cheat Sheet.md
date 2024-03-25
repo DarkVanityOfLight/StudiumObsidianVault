@@ -15,7 +15,7 @@ Seien $x_i$ die anzahl an zusätzlichen Warte Takten und $y_i$ die Anzahl an Bef
 
 $$x_0 \cdot\frac{a \cdot n}{100} \cdot y_0 + x_1 \cdot \frac{se \cdot n}{100}\cdot y_1 + x_2 \cdot \frac{su \cdot n}{100} y_2 + x_3 \cdot \frac{so \cdot n}{100}\cdot y_3 = \frac{n_{nop}}{100}$$
 
-Daher führt der Prozessor mit der Pipeline insgesamt $\frac{n_{nop}+100}{100} n = n_{nop1}$Befehle aus und es ergibt sich der folgende SpeedUp:
+Daher führt der Prozessor mit der Pipeline insgesamt $\frac{n_{nop}+100}{100} n = n_{p}$Befehle aus und es ergibt sich der folgende SpeedUp:
 Mit $\tau$ als zusätzliche Wartezeit und $p$ die länge der Pipeline
 
 $$S =  \frac{n\cdot\Delta}{n_p \cdot \left( \frac{\Delta}{p} + \tau \right)} $$
