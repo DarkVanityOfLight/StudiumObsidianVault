@@ -998,7 +998,6 @@ s = \frac{5}{6}
 
 ---
 
-=======
 $$f = \frac{n}{3}$$
 
 
@@ -1054,3 +1053,8 @@ $$\begin{align}
 \end{align}$$
 
 
+---
+
+$$\begin{align}
+\left( \lbrace q_0 \dots q_{11}\rbrace, \lbrace1, \dots, 12\rbrace, \delta, q_0, \lbrace q_0\rbrace\right)
+\end{align}$$
