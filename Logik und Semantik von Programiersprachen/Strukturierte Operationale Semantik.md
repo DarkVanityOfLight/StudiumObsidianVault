@@ -13,7 +13,7 @@ $$- : \mathbb Z \to \mathbb Z \qquad - : n \mapsto (-1 \cdot n)$$
 
 ## Bewertung
 
-Wir gebrauchen die Definition von [Bewertungen](Bewertung.md) aus der [Prädikatenlogik](Logik%20und%20Semantik%20von%20Programiersprachen/Prädikatenlogik.md) 
+Wir gebrauchen die Definition von [Bewertungen](Logik%20und%20Semantik%20von%20Programiersprachen/Bewertung.md) aus der [Prädikatenlogik](Logik%20und%20Semantik%20von%20Programiersprachen/Prädikatenlogik.md) 
 $$\nu : \text{VAR} \to \mathbb Z$$
 unter anderem, lässt sich eine Bewertung als ein Programmzustand zu einem bestimmten Zeitpunkt betrachten.
 

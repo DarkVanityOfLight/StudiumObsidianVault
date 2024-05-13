@@ -148,12 +148,20 @@ Sollte $q_i$ eine Regel der Art $S' \to S.$ enthalten und unsere Eingabe ist $\e
 - $\overline a$ finds anything that doesn't match the pattern.
 
 ## First
+
 - $FIRST(a) := \lbrace a\rbrace$
 - $A\to \epsilon \implies \epsilon \in FIRST(A)$
 - $A\to a\beta \implies a\in FIRST(A)$
 - $A\to B\beta \implies (FIRST(B)\setminus \lbrace \epsilon\rbrace)\subseteq FIRST(A)$ wenn $\epsilon\in FIRST(B)$ dann alle Constraints von $A\to\beta$
 ## Follow
+
 - $\$ \in FOLLOW(S)$
 - Jede Regel $A \to \alpha B\beta \implies FIRST(\beta)\setminus\lbrace\epsilon\rbrace\subset FOLLOW(B)$
 - Jede Regel $A\to \alpha B\beta$ mit $\epsilon \in FIRST(\beta) \implies FOLLOW(A) \subset FOLLOW(B)$
 
+
+## Adress Calculation by MMU
+
+- $vPage(a) := a \text{ div } 2^p$
+- $pOff(a) := a \mod 2^p$
+- $pPage(a) := \phi(vPage(a))$

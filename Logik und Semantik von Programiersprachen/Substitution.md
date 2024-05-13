@@ -9,7 +9,7 @@ $\varphi := \forall x(P(x)) \land Q(x)$. Wenn $t:= f(y)$, dann bezeichnet $\varp
 
 Ein Term $t$ ist einsetzbar für $x$  in $\varphi$, wenn es für jede Variable $y$ in $t$ gilt, dass jedes Vorkommen von $y$ in $\varphi$ gebunden ist.
 
-Jede Substitution mit der Notation $\nu[a/x]$ für eine [Bewertung](Bewertung.md) stimmt überein, wenn deren Anwendung auf einsetzbare Terme beschränkt wird.
+Jede Substitution mit der Notation $\nu[a/x]$ für eine [Bewertung](Logik%20und%20Semantik%20von%20Programiersprachen/Bewertung.md) stimmt überein, wenn deren Anwendung auf einsetzbare Terme beschränkt wird.
 
 >[!NOTE] Lemma
 >Sei $\varphi$ eine Formel und $t$ ein fuer $x$ einsetzbarere Term in $\varphi$. Dann gilt es, dass 

@@ -1054,3 +1054,49 @@ $$\begin{align}
 \end{align}$$
 
 
+
+---
+
+
+$$
+a\cdot \left(\begin{array}{1}2 \\ -3 \\ -3\end{array}\right) + b \cdot \left(\begin{array}{1} 2 \\ 3 \\ -1 \end{array}\right) = 0
+$$
+---
+
+$$\begin{align}
+&S \to \text{axiom } F\text{\\n}S | \text{mp } F F F\text{\\n}S | \epsilon\\
+&F \to V|(F\_\implies\_F) |\neg F | \top | \bot\\
+&V \to \lbrace \text{a,...,z}\rbrace V | \lbrace\text{a,...z}\rbrace
+\end{align}$$
+---
+
+$$
+A \implies A
+$$
+---
+
+$$\begin{align}
+((P \lor Q) \implies P) \lor (Q\land R)\\
+(\neg (P \lor Q) \lor P) \lor (Q \land R)\\
+((\neg P \land \neg Q) \lor P) \lor (Q\land R)
+\end{align}$$
+
+---
+
+$$\begin{align}
+&(a\lor b\lor c\lor d)\\
+&(a\lor b\lor c \lor j_0) \land(\neg j_0 \lor d)
+\end{align}$$
+
+
+$$\begin{align}
+a \leftrightarrow a\land b
+\end{align}$$
+
+
+---
+
+$$\begin{align}
+
+\end{align}$$
+$$$$
