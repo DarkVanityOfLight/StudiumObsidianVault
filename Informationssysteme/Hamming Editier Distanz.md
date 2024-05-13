@@ -1,0 +1,2 @@
+
+Die Hamming-Editier-Distanz beschreibt die Anzahl an Positionen an denen die beiden Strings $x$ und $y$ verschieden sind. Bei Strings unterschiedlicher Länge wird der kürzere String mit `Null` aufgefüllt
