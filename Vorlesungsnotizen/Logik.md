@@ -13,3 +13,9 @@ $$(F_1 \lor F_2 \lor F_3) \land \varphi_1 \land \varphi_2 \land \varphi_3$$
 Wir bekommen $1 + 3n$ Klauseln
 
 
+---
+
+$$X_1 \lor (\neg x_1 \land x_3) \lor (x_1 \land \neg x_2)$$
+
+$$C_1 = \lbrace \neg X_1 \lor x_1, \neg X_1 \lor x_2, \neg x_1 \lor \neg x_2 \lor X_1\rbrace$$
+

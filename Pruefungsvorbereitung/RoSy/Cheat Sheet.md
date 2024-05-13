@@ -3,7 +3,7 @@
 |              | no forward, no bypass | no forward + bypass     | forward + bypass        |
 | ------------ | --------------------- | ----------------------- | ----------------------- |
 | after ALU    | $p_{WB} - p_{ID}$     | $(p_{wb} - p_{id}) - 1$ | $(p_{EX} - p_{ID}) - 1$ |
-| after load   | $p_{WB} - p_{WB}$     | $(p_{WB} - p_{ID}) -1$  | $(p_{MA} - p_{ID}) - 1$ |
+| after load   | $p_{WB} - p_{ID}$     | $(p_{WB} - p_{ID}) -1$  | $(p_{MA} - p_{ID}) - 1$ |
 | after branch | $p_{WB} - p_{IF}$     | $(p_{WB} - p_{IF}) - 1$ | $(p_{EX} - p_{IF}) - 1$ |
 
 
@@ -15,7 +15,7 @@ Seien $x_i$ die anzahl an zusätzlichen Warte Takten und $y_i$ die Anzahl an Bef
 
 $$x_0 \cdot\frac{a \cdot n}{100} \cdot y_0 + x_1 \cdot \frac{se \cdot n}{100}\cdot y_1 + x_2 \cdot \frac{su \cdot n}{100} y_2 + x_3 \cdot \frac{so \cdot n}{100}\cdot y_3 = \frac{n_{nop}}{100}$$
 
-Daher führt der Prozessor mit der Pipeline insgesamt $\frac{n_{nop}+100}{100} n = n_{nop1}$Befehle aus und es ergibt sich der folgende SpeedUp:
+Daher führt der Prozessor mit der Pipeline insgesamt $\frac{n_{nop}+100}{100} n = n_{p}$Befehle aus und es ergibt sich der folgende SpeedUp:
 Mit $\tau$ als zusätzliche Wartezeit und $p$ die länge der Pipeline
 
 $$S =  \frac{n\cdot\Delta}{n_p \cdot \left( \frac{\Delta}{p} + \tau \right)} $$
@@ -123,7 +123,7 @@ Nach Konstruktion des Graphen:
 
 
 __Shift__
-Wir haben eine Shift Aktion, sollten wir ein Nichtterminal Symbol $a$ lesen und unser momentaner State enthält eine Regel der Art $A \to \alpha.a\beta$. 
+Wir haben eine Shift Aktion, sollten wir ein Terminal Symbol $a$ lesen und unser momentaner State enthält eine Regel der Art $A \to \alpha.a\beta$ 
 Dann:
 $S(q_i)$ Shifte das Eingabesymbol auf den Stack und lege $q_i$ darauf
 
