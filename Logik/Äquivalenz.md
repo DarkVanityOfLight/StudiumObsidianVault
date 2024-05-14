@@ -10,7 +10,7 @@ $$[[\varphi]] = [[\psi]]$$
 
 ## Praedikatenlogik
 
-Sei $\sigma$ eine Signatur. Wir betrachten [prädikatenlogische](Logik%20und%20Semantik%20von%20Programiersprachen/Prädikatenlogik.md) Formeln und Strukturen, die mit $\sigma$ passen. 
+Sei $\sigma$ eine Signatur. Wir betrachten [prädikatenlogische](Logik/Prädikatenlogik.md) Formeln und Strukturen, die mit $\sigma$ passen. 
 
 Zwei Formeln $\varphi$ und $\psi$ sind äquivalent($\varphi\equiv\psi$), wenn für jede [Struktur](Struktur.md) gilt, dass $(\mathfrak S, \nu) \vDash \varphi$ genau dann wenn $(\mathfrak S, \nu) \vDash \psi)$. 
 

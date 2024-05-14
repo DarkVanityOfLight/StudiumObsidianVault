@@ -1,5 +1,5 @@
 
-Eine [Gruppe](Gruppe.md) ist eine [Struktur](Struktur.md) mit der [Signatur](Logik%20und%20Semantik%20von%20Programiersprachen/Signatur.md), die ein binäres Funktionssymbol $\circ$ und das Identitätssymbol $e$ enthält, wobei die folgenden Anforderungen erfüllt sind:
+Eine [Gruppe](Gruppe.md) ist eine [Struktur](Struktur.md) mit der [Signatur](Logik/Signatur.md), die ein binäres Funktionssymbol $\circ$ und das Identitätssymbol $e$ enthält, wobei die folgenden Anforderungen erfüllt sind:
 1. $\circ$ ist [assoziativ](Assoziativgesetz.md)
 2. Es existiert ein neutrales Element $e$
 3. Jedes Element hat ein inverses Element $a^{-1}$, sodass $a\circ a^{-1} = e$

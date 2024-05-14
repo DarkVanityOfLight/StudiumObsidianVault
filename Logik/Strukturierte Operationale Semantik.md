@@ -5,7 +5,7 @@ SOS ist eine Semantik, die der Ausführung eines Programms ähnelt.
 
 ## Datentyp
 
-Wir beschränken uns auf Programme, die auf [ganzen Zahlen](Ganze%20Zahlen.md) arbeiten. Dazu benutzen wir die Theorie der [Ganzzahlige lineare Arithmetik](Logik%20und%20Semantik%20von%20Programiersprachen/Ganzzahlige%20lineare%20Arithmetik.md) zum definieren der Semantik von WHILE:
+Wir beschränken uns auf Programme, die auf [ganzen Zahlen](Ganze%20Zahlen.md) arbeiten. Dazu benutzen wir die Theorie der [Ganzzahlige Lineare Arithmetik](Logik/Ganzzahlige%20Lineare%20Arithmetik.md) zum definieren der Semantik von WHILE:
 
 $$\mathcal Z := (\mathbb Z; +, \cdot, 0, 1)$$
 Der Bequemlichkeit halber verwenden wir die folgende unäre Funktion
@@ -13,7 +13,7 @@ $$- : \mathbb Z \to \mathbb Z \qquad - : n \mapsto (-1 \cdot n)$$
 
 ## Bewertung
 
-Wir gebrauchen die Definition von [Bewertungen](Logik%20und%20Semantik%20von%20Programiersprachen/Bewertung.md) aus der [Prädikatenlogik](Logik%20und%20Semantik%20von%20Programiersprachen/Prädikatenlogik.md) 
+Wir gebrauchen die Definition von [Bewertungen](Bewertung.md) aus der [Prädikatenlogik](Logik/Prädikatenlogik.md) 
 $$\nu : \text{VAR} \to \mathbb Z$$
 unter anderem, lässt sich eine Bewertung als ein Programmzustand zu einem bestimmten Zeitpunkt betrachten.
 

@@ -1,5 +1,5 @@
 
-Eine __Theorie__ ist eine [Satzmenge](Satz.md) mit einer bestimmten [Signatur](Logik%20und%20Semantik%20von%20Programiersprachen/Signatur.md). Gegeben sei $\mathcal A$ eine $\sigma$-[Struktur](Struktur.md). Definiere die __Theorie__ von $\mathcal A$:
+Eine __Theorie__ ist eine [Satzmenge](Satz.md) mit einer bestimmten [Signatur](Logik/Signatur.md). Gegeben sei $\mathcal A$ eine $\sigma$-[Struktur](Struktur.md). Definiere die __Theorie__ von $\mathcal A$:
 $$Th(\mathcal A) := \lbrace \varphi : \mathcal A \vDash \varphi\rbrace$$
 
 Sei $\mathcal S$ eine [Menge](Mengen.md) von $\sigma$-Strukturen. Definiere die __Theorie__ von $\mathcal S$:
