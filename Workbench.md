@@ -1102,3 +1102,8 @@ a \leftrightarrow a\land b
 
 ---
 
+$$\begin{align}
+\frac{n^\alpha}{c^n}\\
+\frac{e^{\alpha \cdot \ln n}}{e^{n \cdot \ln c}}\\
+\frac{\alpha\cdot n^{\alpha-1}}{c^n \cdot \ln c}
+\end{align}$$
