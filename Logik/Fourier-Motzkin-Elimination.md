@@ -1,4 +1,4 @@
-Betrachten wir die [LIA](Logik%20und%20Semantik%20von%20Programiersprachen/Ganzzahlige%20Lineare%20Arithmetik.md).
+Betrachten wir die [LIA](Logik/Ganzzahlige%20Lineare%20Arithmetik.md).
 Wir zeigen, wie $x$ in $\exists x\varphi$ eliminierbar ist, wobei
 $$\varphi = \bigwedge^n_{i=1} x \sim_i t_i, \qquad \textbf{mit} \sim_i\in\lbrace <, >, =\rbrace$$
 

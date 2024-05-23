@@ -48,7 +48,7 @@ $$\exists \forall y (x< y)$$
 
 ### Interpretationsfunktion
 
-Die Interpretationsfunktion lässt sich durch eine rekursive Definition über $\sigma$-[Terme](Term.md) erweitern. Gegeben eine [Struktur](Struktur.md) $\mathfrak S = (D, I)$ mit der Signatur $\sigma$, eine [Bewertung](Logik%20und%20Semantik%20von%20Programiersprachen/Bewertung.md) $\nu$ und ein $\sigma$-Term $t$, definieren wir rekursiv den Wert $\textbf{val}_{\mathfrak S, \nu}(t)$   (oder schlicht: $\textbf{val}(t)$) von $t$ mit Bezug auf $\mathfrak S$ und $\nu$ wie folgt:
+Die Interpretationsfunktion lässt sich durch eine rekursive Definition über $\sigma$-[Terme](Term.md) erweitern. Gegeben eine [Struktur](Struktur.md) $\mathfrak S = (D, I)$ mit der Signatur $\sigma$, eine [Bewertung](Bewertung.md) $\nu$ und ein $\sigma$-Term $t$, definieren wir rekursiv den Wert $\textbf{val}_{\mathfrak S, \nu}(t)$   (oder schlicht: $\textbf{val}(t)$) von $t$ mit Bezug auf $\mathfrak S$ und $\nu$ wie folgt:
 
 1. Induktionsanfang(Variable $x$): $\textbf{val}(x) := \mathfrak(v)(x)$
 2. Induktionsanfang(Konstantensymbol $c$): $\textbf{val}(c) := I(c)$
@@ -65,7 +65,7 @@ erfüllt. Der Beweis ist leicht: die Zahl kann als $n +_{\mathcal N} 1_{\mathcal
 
 ## Freie Variablen
 
-Variablen die nicht durch einen [Quantor](Quantoren.md) gebunden sind nennen wir "frei". Der Wert einer Formel hängt nicht von der [Bewertung](Logik%20und%20Semantik%20von%20Programiersprachen/Bewertung.md) für gebundene Variablen ab.
+Variablen die nicht durch einen [Quantor](Quantoren.md) gebunden sind nennen wir "frei". Der Wert einer Formel hängt nicht von der [Bewertung](Bewertung.md) für gebundene Variablen ab.
 
 Wir definieren Frei rekursiv. Mit der Notation $Var(\varphi)$ bezeichnen wir die Menge aller Variablen in $\varphi$. Die Menge $FREE(\varphi)$ der freien Variablen in $\varphi$ wird wie folgt definiert:
 1. $FREE(R(t_1, \dots  t_n)) = \bigcup^n_{i=1} FREE(t_i)$

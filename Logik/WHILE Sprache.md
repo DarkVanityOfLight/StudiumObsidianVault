@@ -39,7 +39,7 @@ $\varphi ::= \bot | \top | t = t | t < t| t>t| \neg \varphi | \varphi \land \var
 
 ### Mehrdeutigkeit
 
-Wie in der Syntax der [Aussagenlogik](Aussagenlogik.md)/[Prädikatenlogik](Logik%20und%20Semantik%20von%20Programiersprachen/Prädikatenlogik.md) lassen sich Klammern und andere Good Coding Practices (Einrueckung, etc. ) verwenden, um die Syntax eines Programms eindeutig zu machen.
+Wie in der Syntax der [Aussagenlogik](Aussagenlogik.md)/[Prädikatenlogik](Logik/Prädikatenlogik.md) lassen sich Klammern und andere Good Coding Practices (Einrueckung, etc. ) verwenden, um die Syntax eines Programms eindeutig zu machen.
 
 ### Freie Variablen
 
