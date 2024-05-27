@@ -1107,3 +1107,41 @@ $$\begin{align}
 \frac{e^{\alpha \cdot \ln n}}{e^{n \cdot \ln c}}\\
 \frac{\alpha\cdot n^{\alpha-1}}{c^n \cdot \ln c}
 \end{align}$$
+
+---
+
+
+$$\begin{align}
+x < 3 \lor x < 5
+\end{align}$$
+
+---
+
+$$\begin{align}
+&Inf(ab) = Inf(a) | Inf(b) | Inf(a) \cdot Inf(b)\\
+&Inf(ab) = \varepsilon | a | b | a \cdot b\\
+&Inf(a | b) = a | b\\
+&Inf(a^*) = a^*
+\end{align}$$
+
+$$\begin{align}
+&aabb^*\\
+&Inf(aabb^*) = Inf(aabb)^*\\
+&Inf(aabb) = Inf(aa) | Inf(bb) | Inf(aa) \cdot Inf(bb)\\
+&Inf(aa)  = Inf(a) | Inf(a) \cdot Inf(a)\\
+&Inf(bb) = Inf(b) | Inf(b) \cdot Inf(b)\\
+&Inf(a) = a | \varepsilon\\
+&Inf(b) = b | \varepsilon\\
+&Inf(aa) = a | \varepsilon | (a|\varepsilon) \cdot (a| \varepsilon)\\
+&Inf(bb) = b | \varepsilon | (b|\varepsilon) \cdot (b| \varepsilon)\\
+&Inf(aabb) = (a | \varepsilon | (a|\varepsilon) \cdot (a| \varepsilon)) | (b | \varepsilon | (b|\varepsilon) \cdot (b| \varepsilon)) |
+\end{align}$$
+
+
+---
+
+$$\begin{align}
+1 + 1\mathbb N\\
+a + b \cdot n = 2x\\
+n = \frac{2x}{a + b}
+\end{align}$$
