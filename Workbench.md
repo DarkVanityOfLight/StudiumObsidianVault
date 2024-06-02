@@ -1146,3 +1146,12 @@ $$\begin{align}
 a + b \cdot n = 2x\\
 n = \frac{2x}{a + b}
 \end{align}$$
+
+---
+
+
+$$\begin{align}
+(x \implies y)\\
+(\neg x\lor y)
+\end{align}$$
+$$(x \implies (y \implies 0)) \implies 0$$
