@@ -1106,13 +1106,13 @@ $$\begin{align}
 \frac{n^\alpha}{c^n}\\
 \frac{e^{\alpha \cdot \ln n}}{e^{n \cdot \ln c}}\\
 \frac{\alpha\cdot n^{\alpha-1}}{c^n \cdot \ln c}
-<<<<<<< HEAD
-\end{align}$$
 
----
+\end{align}$$---
 
+12/13 August
 
-$$\begin{align}
+$$
+\begin{align}
 x < 3 \lor x < 5
 \end{align}$$
 
@@ -1146,9 +1146,6 @@ $$\begin{align}
 a + b \cdot n = 2x\\
 n = \frac{2x}{a + b}
 \end{align}$$
-
----
-
 
 $$\begin{align}
 (x \implies y)\\
