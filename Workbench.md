@@ -1155,3 +1155,14 @@ $$\begin{align}
 (\neg x\lor y)
 \end{align}$$
 $$(x \implies (y \implies 0)) \implies 0$$
+
+
+---
+
+$$\begin{align}
+&y = \frac{1}{2} (-s_1 + s_3 - 2x)\\
+&s_1 = -2x - 2y + s_3\\
+&s_3 = s_1 + 2x + 2y
+\end{align}$$
+
+---

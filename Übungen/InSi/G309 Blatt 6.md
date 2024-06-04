@@ -1,4 +1,6 @@
 
+> Marcel Wirdel, Kilian Lichtner
+
 ## Aufgabe 1
 
 _a)_
@@ -45,7 +47,7 @@ LIMIT 1;
 _b)_
 
 ```sql
-SELECT DISTINCT studenten.name 
+SELECT DISTINCT studenten.name
 FROM studenten 
 JOIN pruefen ON studenten.matrnr = pruefen.matrnr 
 JOIN voraussetzen ON pruefen.vorlnr = voraussetzen.nachfolger
