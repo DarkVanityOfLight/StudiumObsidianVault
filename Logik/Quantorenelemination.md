@@ -24,6 +24,8 @@ Sei eine Formel $Q_1 x_1 \dots Q_n x_n \varphi$ gegeben, wobei $\varphi$ q-frei 
 		1. $F := \neg(\text{zu } \exists x_i \neg F)$ $T$-äquivalente q-freie Formel
 3. Gib $F$ aus
 
+## Quantorenelimination für $Th(\mathbb Q, <)$
+
 Wir zeigen, wie sich $x$ in $\exists x\varphi$ eliminieren lässt, wobei 
 $$\varphi = \bigwedge^n_{i=1} x \sim_i x_i$$ mit $\sim_i \in \lbrace <, >, =\rbrace$
 
@@ -58,3 +60,31 @@ _Fall 3_: Man ersetze $x \leq x$ durch $T$. Dann verwende:
 $$(\mathbb Q, <) \vDash \exists x\left(\bigwedge_{i=1}^{r} l_i \sim_i x \land \bigwedge^{s}_{j=1} x \approx u_j\right) \leftrightarrow \bigwedge^r_{i=1}\bigwedge^s_{j=1} l_i \sim_{i, j} u_j$$
 wobei $\sim_i, \approx_j \in \lbrace <, \leq \rbrace$ und falls $\sim_i = \approx_j = \le$, dann $\sim_{i,j} := \le$ sonst $\sim_{i, j} := \le$
 
+### Komplexität
+Ein naive Implementation läuft in doppelt Exponentieller Zeit, kann aber so verbessert werden, sodass sie in einfach Exponentieller Zeit läuft.
+
+## Quantifier Elimination over $Th(\mathbb Z; <, 0, s, p)$
+
+$$\begin{align}
+s: \mathbb Z\to \mathbb Z; s: i\mapsto i +1\\
+p: \mathbb Z \to \mathbb Z; p: i\mapsto i-1
+\end{align}$$
+
+We show how to eliminate $x$ from $\exists x\varphi$, where 
+
+$$\varphi = \bigwedge^n_{i=1} s^{k_i}(x) \sim_i s^{k'_i}(x_i)$$ where $\sim_i \in \lbrace <, >, =\rbrace$
+
+We can assume that each conjunct is of the form 
+$$x \sim s^k{y}$$
+for some $\sim, k$.
+
+We take a look at $3$ different cases:
+
+1. One conjunct is $x\sim^k(x)$.
+	1. Replace $x\sim s^k(x)$ by $\top$ iff $x\sim x+k$
+	2. If we replaced by $\bot$ replace $\exists \varphi$ with $\bot$
+	3. Otherwise, go to Case 2
+2. One conjunct is $x = s^k(y)$ with $y$ distinct from $x$. Then: $$\mathcal Z_< \vDash \exists x\varphi \leftrightarrow \varphi[s^k(y) / x]$$
+3. If we have upper/lower bounds on $x$. Then, 
+   $$\mathcal Z_< \vDash \exists x \left(\bigwedge^r_{i=1} s^{k_i}(y_i) < x \land \bigwedge^s_{j=1} x < s^{k'_j}(z_j)\right) \leftrightarrow \bigwedge^r_{i=1}\bigwedge^s_{j=1} s^{k_i + 1}(y_i) < s^{k'_j}(z_j)$$
+   

@@ -13,8 +13,10 @@ dann gehen wir rekursiv vor:
   - $(\neg F)[G/H] := \neg F[G/H]$
   - $(F \wedge F')[G/H] := F[G/H] \wedge F'[G/H]$
   - $(F \vee F')[G/H] := F[G/H] \vee F'[G/H]$
-**Satz (Einsetzungssatz)**: Falls $G \equiv H$, dann gilt
-$F[G/H] \equiv F$.
+  
+>[!SATZ] (Einsetzungssatz):
+> Falls $G \equiv H$, dann gilt $F[G/H] \equiv F$.
+
 _Beweis_. Wir nehmen $F \ne H$ an, da sonst $F[G/H] = G \equiv H = F$ gilt. Der Beweis ist mit struktureller Induktion über $F$.
 - Induktionsansfang: trivial, da $F[G/H] = F$ gilt wenn $F$ im Induktionsanfang oben definiert ist. 
 - Induktionsschritt: Wir werden nur den Fall $F = \neg F$' betrachten.  Nach Definition haben wir 

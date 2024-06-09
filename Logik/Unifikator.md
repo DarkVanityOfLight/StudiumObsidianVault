@@ -1,4 +1,4 @@
-Ein __Unifikator__ einer [Menge](Mengen.md) $U$ von [Literalen](Literal.md) ist eine [Substitution](Substitution.md), die alle Liteale in $U$ gleichsetzt. Hat $U$ einen Unifikator, wird es __unifizierbar__ genannt.
+Ein __Unifikator__ einer [Menge](Mengen.md) $U$ von [Literalen](Literal.md) ist eine [Substitution](Substitution.md), die alle Literale in $U$ gleichsetzt. Hat $U$ einen Unifikator, wird es __unifizierbar__ genannt.
 
 ## Beispiel
 

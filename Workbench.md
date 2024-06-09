@@ -1163,3 +1163,6 @@ $$\begin{align}
 \end{align}$$
 
 ---
+
+$$\neg((\neg a \land b)\lor (b\land \neg d))$$
+
