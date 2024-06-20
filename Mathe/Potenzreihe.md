@@ -1,6 +1,6 @@
 
 $$f(x) = \sum\limits^{\infty}_{n=0} a_{n} x^n$$
-$$P(x_{n)}\text{konvergiert} \implies P(x) \text{konvergiert} \forall |x| < |x_n|$$
+$$P(x^{n}\text{konvergiert} \implies P(x) \text{konvergiert} \forall |x| < |x_n|$$
 
 ## Konvergenzradius
 
