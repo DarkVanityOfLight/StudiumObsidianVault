@@ -1,7 +1,7 @@
 Sei $M$ eine [Menge](Mengen.md). Die Potenzmenge von $M$ ist
 $2^{M}= \mathcal P(M) = \lbrace A|A\subset M \rbrace$
 
-> Ist $M$ eine endliche Menge. Dann gilt:
+> Sei $M$ eine endliche Menge. Dann gilt:
 > $$\left|2^{M}\right|= 2^{|M|}$$
 
 ## Beispiel

@@ -1,4 +1,6 @@
 
+> Kris Grohe, Kilian Lichtner
+
 ## Aufgabe 1
 
 Für die ersten $47$ Würfe gilt der folgende Gewinn im $i$ten Wurf:

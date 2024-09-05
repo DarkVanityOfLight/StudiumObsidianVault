@@ -1,7 +1,7 @@
 
 
 ## Axioms
-We have the same axioms as in the [Theory of equality](Theory%20of%20equality.md), additionally we have the functional and relational congruence:
+We have the same axioms as in the [Theory of equality](Logik/Theory%20of%20equality.md), additionally we have the functional and relational congruence:
 
 $$\forall \overline x,\overline y \left(\bigwedge^n_{i=1} x_i = y_i\right) \to f(\overline x) = f(\overline y)$$
 $$\forall \overline x, \overline y \left( \bigwedge^n_{i=1} x_i = y_i\right) \to R(\overline x) \leftrightarrow R(\overline y)$$

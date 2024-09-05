@@ -1166,3 +1166,13 @@ $$\begin{align}
 
 $$\neg((\neg a \land b)\lor (b\land \neg d))$$
 
+
+---
+
+$$(p, a, A) \to (q_1, B_1 \dots B_k)$$
+becomes
+$$ (p, A, q) \to a(q_1, B_1, q_2)(q_2, B_2, q_3) \dots (q_k, B_k, q)$$
+
+
+$(p, a, X) \to (p, XX)$
+$(p, X, s) \to a(p, X, t)(t,X, s)$

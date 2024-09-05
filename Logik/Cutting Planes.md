@@ -45,5 +45,3 @@ $$\begin{align}
 
 Since each of the elements on the left hand side is equal to zero under the current assignment $\alpha$ is ruled out by the new constraint. In other words, the solution to the linear problem augmented with the constraint is guaranteed to be different from the previous one.
 
-#logiccursor
-

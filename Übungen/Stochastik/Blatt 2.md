@@ -166,5 +166,4 @@ List.iter (fun path -> Printf.printf "Path: %s\n" (String.concat "" (List.map st
 >Path: 00110
 >Path: 00101
 >Path: 00011
->>>>>>> origin/main
 

@@ -1,0 +1,1 @@
+Sei $\Omega$ ein diskreter Wahrscheinlichkeitsraum und $X: \Omega\to\mathbb R$ eine [Zufallsvariable](Zufallsvariablen.md)

@@ -27,4 +27,3 @@ Diese Darstellung ist jedoch nicht eindeutig!
 ## Regulär
 
 Eine Sprache $L \subseteq \Sigma^*$ heißt regulär, wenn sie von einem DFA erkannt wird, d.h. es existiert ein [Deterministischer endlicher Automat](Deterministische%20endliche%20Automaten.md) $A$ mit $L(A) =  L$.
-
