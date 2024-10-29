@@ -1176,3 +1176,12 @@ $$ (p, A, q) \to a(q_1, B_1, q_2)(q_2, B_2, q_3) \dots (q_k, B_k, q)$$
 
 $(p, a, X) \to (p, XX)$
 $(p, X, s) \to a(p, X, t)(t,X, s)$
+
+---
+
+$$\begin{align}
+&0.6 = P(L | V) \cdot 0.7 + 0.95 \cdot 0.3&\\
+\iff&  0.6 = P(L | V) \cdot 0.7 + 0.285& | -0.285\\ 
+\iff&  0.315 = P(L|V) \cdot 0.7 &| \div 0.7\\
+\iff& 0.45 = P(L|V)
+\end{align}$$

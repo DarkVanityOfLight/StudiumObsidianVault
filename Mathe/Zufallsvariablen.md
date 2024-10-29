@@ -49,3 +49,9 @@ $$X_1 \sim X_2$$
 wenn
 $$P(X_1 - X_2 = 0) = 0$$
 Dies bedeutet also, dass das Ereignis aller $\omega\in\Omega$ mit $X_1(\omega) \not = X_2(\omega)$ die Wahrscheinlichkeit $0$ hat.
+
+## Unabhängig und identisch verteilt
+
+Wir sagen, dass Zufallsvariablen $X_1, \dots, X_n: \Omega \to \mathbb R$ auf dem diskreten Wahrscheinlichkeitsraum $\Omega$ __unabhängig und identisch verteilt__ sind, falls für alle $i$ die Verteilungsfunktionen $a\mapsto P(X_i = a)$ übereinstimmen und 
+$$P(X_1 = a_1, \dots, X_n = a_n) = P(X_1 = a_1) \cdot ... \cdot P(X_n = a_n)$$
+für alle $a_1, \cdot, a_n$.
