@@ -1185,3 +1185,73 @@ $$\begin{align}
 \iff&  0.315 = P(L|V) \cdot 0.7 &| \div 0.7\\
 \iff& 0.45 = P(L|V)
 \end{align}$$
+---
+A Deterministic Turing Machine is a tuple
+$M = \langle Q, \Sigma, \delta, q_0, F\rangle$
+- $Q$ is a finite set of states
+- $\Sigma$ is an alphabet
+- $q_0 \in Q$ initial State
+- $F \subseteq Q$ accepting states
+- $\delta: (Q \setminus F) \times \Sigma^2 \to Q \times \Sigma^2 \times \lbrace L, R\rbrace^2$
+
+A DTM $M$ computes a function $f: \Sigma^* \to \Sigma^*$ if for every $w\in\Sigma^*$ whenever $M$ is initialized with $w$ on its input tape and in state $q_0$
+it reaches a final state in $F$ with $f(w)$ written on its output tape.
+
+Decision Problem: Language $L \subseteq \Sigma^*$ A DTM decides $L$ if it computes a function $f: \Sigma^* \to \lbrace 0, 1\rbrace$ such that it $f(w) = 1$ iff $w\in L$ for all $w\in \Sigma^*$
+A nondeterministic Turing machine (NTM) is a tuple $M = \langle Q, \Sigma, \Delta, q_0, F\rangle$
+- $Q, \Sigma, q_0, F$ as for DTM
+- $\Delta \subseteq ((Q\setminus F) \times \Sigma^*) \times (Q \times \Sigma^2 \times \lbrace L, R\rbrace^2)$
+
+The function of a NTM is not defined.
+A NTM decides $L\subseteq \Sigma^*$ if for every word $w\in \Sigma^*$ the computation halts(final state or dead end).
+And there exists a nondeterministic choice such that $M$ reaches a final state iff $w\in L$.
+
+Time Complexity:
+DTIME: Let $T: \mathbb N \to\mathbb R_{\ge 0}$
+A language $L \subseteq \Sigma^*$ is in $\text{DTIME(T)}$ iff there is a DTM that decides $L$ and on every input $w\in\Sigma^*$ it halts within $c\cdot T(|w|)$ steps for some constant $c >0$
+
+NTIME:
+Let $T: \mathbb N \to\mathbb R_{\ge 0}$
+A language $L \subseteq \Sigma^*$ is in $\text{NTIME(T)}$ iff there is a NTM that decides $L$ and on every input $w\in\Sigma^*$ it halts within $c\cdot T(|w|)$ steps for some constant $c >0$. Every branch of our nondeterministic choices should halt within $c\cdot T(|w|)$.
+
+$P := \bigcup_{k \ge 1} \text{DTIME}(n^k)$
+$NP := \bigcup_{k \ge 1} \text{NTIME}(n^k)$
+$EXP := \bigcup_{k \ge 1} DTIME(2^{n^k})$
+$2-EXP := \bigcup_{k\ge 1} DTIME(2^{2^{n^k}})$
+
+Space Complexity
+DSPACE: Let $S: \mathbb N \to \mathbb R_{\ge 0 }$
+A language $L \subseteq \Sigma^*$ is in $DSPACE(S)$ iff there is a DTM that decides $L$ and on every input $w\in\Sigma^*$ it halts using at most $c$ $S(|w|)$ cells on its working tape for some constant $c > 0$.
+
+NSPACE: Same with NTM
+
+$L := DSPACE(\log n)$
+$NL:= NSPACE(\log n)$
+
+$PSPACE := \bigcup_{k \ge 1} DSPACE(n^k)$
+$NPSPACE := \bigcup_{k \ge 1} NSPACE(n^k)$
+
+Hierachy:
+$L\subseteq NL \subseteq P\subseteq NP\subseteq PSPACE \subseteq EXP \subset NEXP \subseteq 2-EXP$
+
+
+A reduction from problem $L\subseteq \Sigma^*$ to $L' \subseteq \Sigma^*$ is a function
+$f: \Sigma^* \to \Sigma^*$ such that $w\in L$ iff $f(w) \in L'$ for all $w \in \Sigma^*$
+that is computable (within some time/space requirement)
+
+Hanrdness:
+$L$ is $C$-Hard for some complexity class $C$, if there is a computable reduction from any problem in $C$ to $L$.
+
+Completness: $C$-Hard + contained in $C$
+
+Polynomial time reduction: Reduction that can be computed in polynomial time by some DTM
+
+Logspace reduction: Reduction that can be computed in logspace by DTM.
+
+poly-time and logspace computation on closed under composition, i.e.  $f.g: \Sigma^* \to \Sigma^*$ computation by DTM in poly time (or logspace), then $g\circ f$ is computable in polytime (logspace)
+
+=> polytime and logspace reductions are transitive
+
+NL-hardness and p-hardness is defined via logspace reductions $L$
+All other are defined via polytime reductions.
+#doMe

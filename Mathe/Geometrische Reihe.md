@@ -1,5 +1,5 @@
 Für $|x| < 1$ konvergiert die geometrische [Reihe](Reihe.md) und
-$$\sum^{\infty}_{n=0} x_n = {1 \over 1 -x}$$
+$$\sum^{\infty}_{n=0} x^n = {1 \over 1 -x}$$
 
 ## Beweis
  Nach der [Geometrische Summenformel](Geometrische%20Summenformel.md) gilt
