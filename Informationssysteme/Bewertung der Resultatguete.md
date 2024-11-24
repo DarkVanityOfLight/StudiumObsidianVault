@@ -24,7 +24,7 @@ $$R = \frac{tp}{tp+fn}$$
 
 F-measure kombiniert Precision und Recall
 
-$$F_\beta = \frac{(\beta^2 PR)}{\beta^2 P + R}$$
+$$F_\beta = \frac{(\beta^2 + 1) PR)}{\beta^2 P + R}$$
 
 wobei $\beta$ zwischen Precision und Recall gewichtet werden kann.
 

@@ -1255,3 +1255,15 @@ poly-time and logspace computation on closed under composition, i.e.  $f.g: \Sig
 NL-hardness and p-hardness is defined via logspace reductions $L$
 All other are defined via polytime reductions.
 #doMe
+
+
+$\psi := \top; \psi := \bot$
+$\psi := \bot; \psi := \top$
+
+Bei der Rückrichtung müssen wir ja eg einen Fall finden bei dem $F \phi \to F \psi$ gilt aber nicht $F(\phi \to \psi)$. Weil dann $\top \to \bot \equiv \bot$
+
+$F(\phi \to \psi)$ hält nur nicht wenn $\phi = \top$ an jedem Punkt und $\psi = \bot$ an jedem Punkt, denn wenn $\phi = \bot$ hält die Implikation oder wenn
+$\psi = \top$ hält die Implikation.
+
+
+Nehmen wir also an $\phi = \top$ und $\psi = \bot$, dann gilt aber nicht $F(\phi) \to F(\bot)$
