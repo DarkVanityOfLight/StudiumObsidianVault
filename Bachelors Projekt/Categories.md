@@ -1,5 +1,4 @@
 
-## Word Equations
 ## Word Equations with regular constraints
 ## Word Equations with length constraints
 ## Word Equations + Full LIA
