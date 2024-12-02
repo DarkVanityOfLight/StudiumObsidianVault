@@ -65,3 +65,51 @@ So here he gave some explanation, which he didn't wrote down, neither did I full
 > A play is winning if there is a finite winning prefix
 > This definition does not admit winning conditions about length of the games. This is correct and intended, it is enough for our purposes.
 
+
+---
+
+
+## Exercise 1
+$$\begin{align}
+u \vDash \langle \Sigma \rangle \varphi\\
+n \ge 1, a_1 \in \Sigma, u[2, n] \vDash \varphi\\
+u[2, n] \vDash \varphi
+\end{align}$$
+
+$$\begin{align}
+&u\vDash F \varphi\\
+\iff&u \vDash \top U \varphi\\
+\iff&\exists j \in \lbrace 1, \dots, n\rbrace u[j, n] \vdash \varphi\\
+&\forall i\lbrace 1, \dots, j-1\rbrace u[i, n] \vDash \top\\
+\iff& \exists j\lbrace 1, \dots, n\rbrace u[j, n]\vDash \varphi
+\end{align}$$
+
+$$\begin{align}
+&u \vDash G \varphi\\
+\iff& u \vDash \neg F \neg \varphi\\
+&u\not\vDash \neg F \neg \varphi\\
+&\neg (\exists i \in \lbrace 1, \dots, n\rbrace u[i, n] \vDash \varphi)\\
+\iff& \forall i \in \lbrace 1, \dots, n\rbrace\\
+&u[i, n] \vDash \varphi
+\end{align}$$
+
+---
+
+$$(\neg d U (1 \lor (0.5 \land X(\neg d U (0.5 \lor 1)))))\lor G \neg d$$
+## Exercise 2
+
+$$F\varphi \land F \psi \not \to F(\varphi \land \psi)$$
+
+$$G(\varphi \lor \psi) \not \to G\varphi \lor G\psi$$
+
+$$F(\varphi \to \psi) \not \to F\varphi \to F\psi$$
+
+$$(G(\varphi) \to G(\psi)) \not \to G(\varphi \lor \psi)$$
+$$XG\varphi \not \to GX \varphi$$
+$$\varphi = \langle a\rangle \top \qquad u = aa$$
+$$FX\varphi \not \to XF\varphi$$
+$$\varphi = \neg \langle a\rangle \top \qquad u = a$$
+
+
+## Exercise 3
+$$\forall u, \varphi u \vDash G\varphi \to F\varphi$$

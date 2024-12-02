@@ -17,7 +17,7 @@ Die Massenzahl eines Atoms ist die Gesamtzahl der Protonen und Neutronen im Kern
 
 ## Elektronenhüllen
 Elektronen bewegen sich in bestimmten Energieniveaus oder __Elektronenhüllen__ um den Kern. Diese Hüllen werden oft als Schalen bezeichnet. Die Schalen sind nach ihrer Energieniveaus nummeriert (K-Schale, L-Schale, M-Schale)
-Die maximale Anzahl an Elektrinen in einer Schale ist gegeben durch:
+Die maximale Anzahl an Elektronen in einer Schale ist gegeben durch:
 $$2n^2$$
 wobei $n$ die Nummer der Schale ist.
 

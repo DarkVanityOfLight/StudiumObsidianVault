@@ -5,8 +5,6 @@ $H_2SO_4$
 __Gewicht pro Mol:__
 $$2 \cdot 1g/mol + 32g/mol + 4 \cdot 16g/mol = 98g/mol$$
 
-$$2400t \cdot 0.1 = 240t$$
-
 $1g$ Schwefelsäure $/ L$.
 
 __Konzentration:__
