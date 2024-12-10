@@ -1,0 +1,3 @@
+Säuren sind Verbindungen, die in wässriger Lösung Protonen($H^+$-[Ionen](Ionen.md)) abgeben können. Sie werden häufig durch ihre saure Reaktion und ihren [pH-Wert](pH-Wert.md), der unter $7$ liegt, charakterisiert. Die Protonenabgabe ist die Grundlage der Bronsted-Lowry Definition von Säuren.
+
+Säuren reagieren typischerweise mit [Base](Base.md) um [Salze](Salz.md) und Wasser zu bilden. Zudem lösen sie unedle Metalle auf, wobei Wasserstoffgas entsteht, und könne Carbonate zersetzen, wobei Kohlenstoffdioxid freigesetzt wird.

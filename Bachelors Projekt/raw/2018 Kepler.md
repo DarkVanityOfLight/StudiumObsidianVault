@@ -10,7 +10,8 @@ The approach reduces the problem to Presburger arithmetic and includes two key c
 
 
 ## Categories
-- Quadratic Word equations + length constraints (Page 2) with and whitout regular membership
+- Quadratic Word Equations 
+- Quadratic Word Equation + Length constraints (Page 2)
 
 ---
 
