@@ -1,0 +1,2 @@
+Basen sind Verbindungen, die Protonen ($H^+$-Ionen) aufnehmen können, was sie zum gegenstück von [Säure](Säure.md) macht. Diese Eigenschaft wird durch die Brønsted-Lowry-Definition beschrieben. In der Arrhenius-Definition setzen Basen Hydroxid-Ionen ($OH^-$) in wässriger Lösung frei.
+Sie besitzen einen pH-Wert über 7 und leiten elektrischen Strom, wenn sie in Wasser gelöst sind.

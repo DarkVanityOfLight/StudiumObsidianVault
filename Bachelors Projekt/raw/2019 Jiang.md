@@ -1,0 +1,3 @@
+- String constraints
+- Length constraints
+- (Logic) Boolean constraints

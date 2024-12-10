@@ -1,0 +1,4 @@
+- Finish solvers
+- Repo
+- cactus plot
+- 
