@@ -1267,3 +1267,8 @@ $\psi = \top$ hält die Implikation.
 
 
 Nehmen wir also an $\phi = \top$ und $\psi = \bot$, dann gilt aber nicht $F(\phi) \to F(\bot)$
+
+---
+
+> APTIME = PSPACE
+
