@@ -21,6 +21,8 @@
 
 ## [13] Spiellogik implementieren
 
+- Round Based passiv Players oder alle Gleichzeitig
+
 ---
 
 ## [5] Interaktiver Spieltisch
