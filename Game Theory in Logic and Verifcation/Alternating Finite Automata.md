@@ -59,3 +59,35 @@ $u\in L(a)$ iff Player $0$ wins from $(0, q_0)$ in $G$
 Membership of AFA is polynomial time solvable.
 
 
+## Toolbox
+
+### Membership
+Given an AFA $A$ over $\Sigma$, a word $w \in \Sigma^*$.
+We can decide in PTIME if $w\in L(A)$.
+By interpreting of membership as a two player reachability game.
+
+### Nonemptiness
+Given an AFA $A$ over $\Sigma$ deciding if $L(A) \not = \emptyset$ is solvable in PSPACE.
+For the proof we transform any AFA into an equivalent NFA.
+
+### Intersection
+
+Given AFA $A_1$ with $n_1$ states and $A_2$ with $n_2$ states, we can construct in PTIME an AFA $A$ with $n_1 + n_2 + 1$ states recognizing
+$L(A_1) \cap L(A_2)$.
+![](Alternating%20Finite%20Automata%202024-12-13%2013.19.08.excalidraw)
+
+### Union
+Given AFA $A_1$ with $n_1$ states and $A_2$ with $n_2$ states, we can construct in PTIME an AFA $A$ with $n_1 + n_2 + 1$ states recognizing
+$L(A_1) \cup L(A_2)$.
+
+![](Alternating%20Finite%20Automata%202024-12-13%2013.20.51.excalidraw)
+
+### Complement
+Given an AFA $A$ with $n$ states, we construct in PTIME an AFA $A'$ with $n$ states recognizing $\overline{L(A)}$.
+
+### Universality
+Given an AFA $A$ over $\Sigma$ deciding if $L(A) = \Sigma^*$ is PSPACE
+
+### Inclusion
+Given two AFA $A, A'$ over $\Sigma$. Deciding if $L(A) \subseteq L(A')$ is PSPACE.
+
