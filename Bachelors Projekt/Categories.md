@@ -16,3 +16,14 @@
 
 ---
 
+
+
+- `str_replace`
+- `regular_expressions`
+- `word_equations`
+- `length_constraints`
+- `logic`(was `boolean_logic`)
+- `lia`
+- `search`
+- `substrings`
+- `nia`

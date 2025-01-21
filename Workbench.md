@@ -1275,4 +1275,8 @@ Nehmen wir also an $\phi = \top$ und $\psi = \bot$, dann gilt aber nicht $F(\phi
 ---
 
 $$\frac{(w_{1, 1} \cdot x_0 + w_{2, 1} x_1) - |(w_{1, 1} \cdot x_0 + w_{2, 1} x_1) |}{2}$$
+---
 
+$$
+\forall x U_d(x) \lor 
+$$
