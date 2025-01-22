@@ -16,12 +16,13 @@
 
 - Globale Spieler namen
 - Error messages
+- Scribbled Style
 
 ---
 
 ## [13] Spiellogik implementieren
 
-- Round Based passiv Players oder alle Gleichzeitig
+- Round Based passiv Players oder alle Gleichzeitig?
 
 ---
 
@@ -47,4 +48,7 @@
 
 - Neues Popup für API Client errors
 
+
+---
+## Scribbled Style
 
