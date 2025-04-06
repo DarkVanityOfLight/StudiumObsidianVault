@@ -310,6 +310,55 @@ __Inductive Step__
 
 >[!IMPORTANT] LTL games are determined and can be solved in double exponential time.
 
+## Past Operators
+
+$w, i\vDash Y \varphi \iff i > 1,\text{ and } w, i-1 \vDash \varphi$
+$w, i \vDash \varphi S \psi \iff \exists j\in[1, i] : w, j\vDash \psi \text{ and } \forall k\in(j, i]: w, k\vDash \varphi$
+
+## Kamp's Theorem
+
+> LTL = FO over $\Sigma^+$. That is:
+> 1. for every LTL formular $\varphi$, there exists an FO formula $\psi(x)$ such that for all words $w = a_1\dots a_n\in\Sigma^+, i\in [1, n]$
+> 2. for every FO formula $\psi(x)$, there exists an LTL formula $\varphi$ such that for all words $w = a_1\dots a_n\in \Sigma^+, i\in[1, n] \mathfrak A_w \vDash \psi(i) \iff w, i\vDash\varphi$
+
+>[!NOTATION]
+> Write $w\vDash \varphi$ if $w, 1\vDash \varphi$. Write $L_\varphi = \lbrace w\in\Sigma^+ : w\vDash \varphi\rbrace$
+
+### LTL+past -> FO
+
+Introduce Relation symbols $U_a/1$ for all $a\in\Sigma$ $U_a(i) \iff w[i] = a$
+
+
+__Base Case:__
+$\varphi := a \implies \psi := U_a(x)$
+
+
+__Induction:__
+
+- $\varphi := X \varphi'$ Let $\psi'$ be the formula equivalent to $\varphi'$. Define $\psi(x) := \exists y(x < y\land \psi'(y) \land \neg\exists z(x < z<y))$. Then $w, i \vDash \varphi \iff \mathfrak A_w \vDash \psi(i)$
+
+- $\varphi := \varphi_1 U \varphi_2$. Let $\psi_i$ be the formula equivalent to $\varphi_i$. Define $\psi(x) := \exists y(x \le y \land \psi_2(y) \land \forall z(x \le z < y \to \psi_1(z)))$. Then $w, i\vDash \varphi \iff \mathfrak A_w \vDash \psi(i)$.
+
+The cases for $Y$ and $S$ are identical.
+
+
+### FO -> LTL
+
+A LTL+past formula is said to be a future formula if it does not have operators $Y$ and $S$.
+
+An LTL+past formula is said to be a past formula if it does not have operators $X$ and $U$.
+
+>[!LEMMA] Seperation Property
+> Every LTL+past formula is a boolean combination of future formulas and past formulas.
+
+### Base Case
+$\psi(x) := W \implies \varphi := W$ for $W \in \lbrace\top,\bot\rbrace$
+$\psi(x) := U_a(x) \implies \varphi := a$
+$\psi := x = x \implies \varphi := \top$
+$\psi(x):= x < x \implies \varphi := \bot$
+
+### Inductive Case
+$\exists y\theta(y) \implies \varphi := (\top U \varphi_\theta) \lor (\top S \varphi_\theta)$
 
 ## Structures
 
@@ -326,6 +375,23 @@ where $A$ is the universe (a set of elements) $R_i^\mathfrak A \subseteq A^{r_i}
 $STRUCT[\sigma]$ denotes the set of all structures over $\sigma$
 $A, B, \dots$ are used for universes of structures $\mathfrak A, \mathfrak B$
 We sometimes omit superscripts from $R^\mathfrak A_i, c^\mathfrak A_i$
+
+## Alternating Turing Machines
+
+An alternating turing machine is a nondeterministic
+Turing machine whose state set $Q$ is divided into four classes $Q_\exists$, $Q_\forall$ , $Q_{acc}$ and $Q_{rej}$
+
+
+$ALOGSPACE = ASPACE(O(\log n))$
+$APTIME = \bigcup_{d\in\mathbb N} ATIME(n^d)$
+$ASPACE = \bigcup_{d\in\mathbb N} ASPACE(n^d)$
+
+
+### Class Equivalencies
+$PTIME = ALOGSPACE$
+$PSPACE = APTIME$
+$EXPTIME = APSPACE$
+$EXPSPACE = AEXPTIME$
 
 ## Homomorphism
 
@@ -392,76 +458,6 @@ For every $b\in B$, there is $a\in A$ s.t $(\mathfrak A, a) \equiv_{k-1} (\mathf
 Let $\sigma$ be a relational vocabulary, $\mathfrak A \in STRUCT[\sigma]$, and $\overline a\in A^m$ . The rank-k m-type of $\overline a$ over $\mathfrak A$ is the set 
 $$tp_k(\mathfrak A, \overline a) := \lbrace \varphi(\overline x) \in FO[k] : \mathfrak A \vDash \varphi(\overline a)\rbrace$$
 A rank-k m-type is any set of formulas of the form $tp_k(\mathfrak A, \overline a)$ with $|\overline a| = m$. When $m$ is clear, we simply say rank-k type.
-
-
-## Alternating Turing Machines
-
-An alternating turing machine is a nondeterministic
-Turing machine whose state set $Q$ is divided into four classes $Q_\exists$, $Q_\forall$ , $Q_{acc}$ and $Q_{rej}$
-
-
-$ALOGSPACE = ASPACE(O(\log n))$
-$APTIME = \bigcup_{d\in\mathbb N} ATIME(n^d)$
-$ASPACE = \bigcup_{d\in\mathbb N} ASPACE(n^d)$
-
-
-### Class Equivalencies
-$PTIME = ALOGSPACE$
-$PSPACE = APTIME$
-$EXPTIME = APSPACE$
-$EXPSPACE = AEXPTIME$
-
-
-## Past Operators
-
-$w, i\vDash Y \varphi \iff i > 1,\text{ and } w, i-1 \vDash \varphi$
-$w, i \vDash \varphi S \psi \iff \exists j\in[1, i] : w, j\vDash \psi \text{ and } \forall k\in(j, i]: w, k\vDash \varphi$
-
-## Kamp's Theorem
-
-> LTL = FO over $\Sigma^+$. That is:
-> 1. for every LTL formular $\varphi$, there exists an FO formula $\psi(x)$ such that for all words $w = a_1\dots a_n\in\Sigma^+, i\in [1, n]$
-> 2. for every FO formula $\psi(x)$, there exists an LTL formula $\varphi$ such that for all words $w = a_1\dots a_n\in \Sigma^+, i\in[1, n] \mathfrak A_w \vDash \psi(i) \iff w, i\vDash\varphi$
-
->[!NOTATION]
-> Write $w\vDash \varphi$ if $w, 1\vDash \varphi$. Write $L_\varphi = \lbrace w\in\Sigma^+ : w\vDash \varphi\rbrace$
-
-### LTL+past -> FO
-
-Introduce Relation symbols $U_a/1$ for all $a\in\Sigma$ $U_a(i) \iff w[i] = a$
-
-
-__Base Case:__
-$\varphi := a \implies \psi := U_a(x)$
-
-
-__Induction:__
-
-- $\varphi := X \varphi'$ Let $\psi'$ be the formula equivalent to $\varphi'$. Define $\psi(x) := \exists y(x < y\land \psi'(y) \land \neg\exists z(x < z<y))$. Then $w, i \vDash \varphi \iff \mathfrak A_w \vDash \psi(i)$
-
-- $\varphi := \varphi_1 U \varphi_2$. Let $\psi_i$ be the formula equivalent to $\varphi_i$. Define $\psi(x) := \exists y(x \le y \land \psi_2(y) \land \forall z(x \le z < y \to \psi_1(z)))$. Then $w, i\vDash \varphi \iff \mathfrak A_w \vDash \psi(i)$.
-
-The cases for $Y$ and $S$ are identical.
-
-
-### FO -> LTL
-
-A LTL+past formula is said to be a future formula if it does not have operators $Y$ and $S$.
-
-An LTL+past formula is said to be a past formula if it does not have operators $X$ and $U$.
-
->[!LEMMA] Seperation Property
-> Every LTL+past formula is a boolean combination of future formulas and past formulas.
-
-### Base Case
-$\psi(x) := W \implies \varphi := W$ for $W \in \lbrace\top,\bot\rbrace$
-$\psi(x) := U_a(x) \implies \varphi := a$
-$\psi := x = x \implies \varphi := \top$
-$\psi(x):= x < x \implies \varphi := \bot$
-
-### Inductive Case
-$\exists y\theta(y) \implies \varphi := (\top U \varphi_\theta) \lor (\top S \varphi_\theta)$
-
 
 ## Hanf Locality
 
