@@ -1283,3 +1283,18 @@ $$\frac{(w_{1, 1} \cdot x_0 + w_{2, 1} x_1) - |(w_{1, 1} \cdot x_0 + w_{2, 1} x_
 $$
 \forall x U_d(x) \lor 
 $$
+
+
+---
+
+$\varphi$ Graph ist chordal
+$\neg \varphi$ Graph ist nicht chordal(es existiert ein zykel ohne chord)
+$\lambda_k$ Alle Zykel der laenge $\le k$ sind chordal
+
+
+$\neg \varphi \cup T$ Subsets sind erfuellbar fuer nicht chordale zykle der laenge $> k$
+=> Kompaktheit sagt es existiert ein unendliches modell
+=> Es kann jedoch keins existieren weil $T$ die existenz jeder laenge von Zykle verhindert
+
+
+$$\exists x_1 \dots x_k E(x_1, x_2) \dots  E(x_k, x_1)$$
