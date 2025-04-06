@@ -1279,7 +1279,10 @@ $$\frac{(w_{1, 1} \cdot x_0 + w_{2, 1} x_1) - |(w_{1, 1} \cdot x_0 + w_{2, 1} x_
 
 
  Hypochloride säuren 
+---
 
 $$
 \forall x U_d(x) \lor 
 $$
+---
+Esterbolung

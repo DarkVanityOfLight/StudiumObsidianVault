@@ -11,7 +11,7 @@ $\mathfrak A\quad(a_1, \dots, a_n) \in A$
 $A(a_1, \dots, a_n) = \mathfrak A'$
 $c_i^{\mathfrak A'} = a_i$
 
-$$\phi^{\mathfrak A'} = \varphi^{\mathfrak A'}(c_1^{\mathfrak A'}, \dots, c_n^{\mathfrak A'}) = \varphi^{\mathfrak A'}(a_1, \dots, a_n) = \varphi^A(a_1, \dots, a_n)$$
+$$\phi^{\mathfrak A'} = \varphi^{\mathfrak A'}(c_1^{\mathfrak A'}, \dots, c_n^{\mathfrak A'}) = \varphi^{\mathfrak A'}(a_1, \dots, a_n) = \varphi^\mathfrak A(a_1, \dots, a_n)$$
 
 $\mathfrak A' \vDash \phi \iff A \vDash \varphi$
 

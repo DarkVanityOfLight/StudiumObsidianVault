@@ -39,14 +39,14 @@ Deterministic Turing Machine(DTM) is $M = \langle Q, \Sigma, \Gamma, \delta, q_0
 - $\Gamma \subseteq \Sigma$ is the tape alphabet
 - Assume $\square \in \Gamma\setminus \Sigma$ as the blank symbol
 - With more symbols in $\Gamma$ we may assume the TM does not move to the left if at the first cell
-- $q_0, q_f$ are the initial and final state, respectively.
+- $q_0, q_F$ are the initial and final state, respectively.
 - $\delta : (Q \setminus \lbrace q_f\rbrace) \times \Gamma \to Q \times \Gamma\times\lbrace L, R\rbrace$ -> TM halts when in $q_f$
 
 Say that the DTM is $p(n)$-space bounded for some polynomial $p$ if on some input word $w := a_1 \dots a_n \in \Sigma^*$ the TM uses at most $m := p(n)$ cells.
 Then a configuration is element of $\Gamma^k Q \Gamma^{m - k}$ for some $0 \le k < m$.
 
 The inital configuration $q_0 w \underbrace{\square \dots\square}_{m-n}$
-Find configurations $i$ Elements of $\Gamma^k q_f \Gamma^{m-k}$.
+Find configurations: Elements of $\Gamma^k q_f \Gamma^{m-k}$.
 
 __Reduction:__
 Given a DTM $M$ and a word $w$ when $M$ is $p(n)$-space bounded,
@@ -68,9 +68,13 @@ First construct a formula that checks a specific transition from the beginning.
 For all $q\in Q\setminus \lbrace q_f\rbrace$, $a\in \Gamma$ and $\delta(q,a) = (q', a', L)$
 #exercise do for $\delta(q, a) = (q', a', R)$
 
-$$\varphi_{q, a} := \bigvee_{k = 2}^{m} \left( \bigwedge_{i = 1}^{k-2} \bigvee_{b\in\Gamma} X^i b \land X^{m+2+i} b\right) \land X^k q \land X^{m+1 + k} q' \land X^{k+1} a \land X^{m+3 +k} a' \land \left( \bigvee_{b\in\Gamma} X^{k-1} v \land X^{m+2+k}\right) \land \left( \bigwedge^{m+1}_{i = k+2}\bigvee_{b\in \Gamma} X^i b X^{m+2+i} b \right)$$
+$$\begin{align}
+&\varphi_{q, a} := \underbrace{\bigvee_{k = 2}^{m}}_{\text{Position of the head}}
+\underbrace{\left(\bigwedge_{i = 1}^{k-2} \bigvee_{b\in\Gamma} X^i b \land X^{m+2+i} b\right)}_{\text{left y the head is unchanged}} \land \underbrace{X^k q \land X^{m+1 + k} q'}_{\text{from $q$ to $q'$ and head moves left}} \land \underbrace{X^{k+1} a}_{\text{$a$ read}} \land \underbrace{X^{m+3 +k} a'}_{\text{$a'$ written}}\\
+&\land \underbrace{\left( \bigvee_{b\in\Gamma} X^{k-1} b \land X^{m+2+k} b \right)}_{\text{Content of cell left of the head is now rightof the head}} \land \underbrace{\left( \bigwedge^{m+1}_{i = k+2}\bigvee_{b\in \Gamma} X^i b X^{m+2+i} b \right)}_{\text{right of the the head to content is unchanged}}
+\end{align}$$
 
-$$\varphi_{cons} := G(\# \land \neg(X \neg F \#)) \to X^{m+2}  \# \land \left(\bigvee_{q\in Q\setminus \lbrace q_f\rbrace} \bigvee_{a \in \Gamma} \varphi_{q, a}\right)$$
+$$\varphi_{cons} := G(\# \land \neg \varphi_\text{last} \to X^{m+2} \# \land \left(\bigvee_{q\in Q\setminus \lbrace q_f\rbrace} \bigvee_{a \in \Gamma} \varphi_{q, a}\right)$$
 
 
 $$\varphi := \varphi_{initial} \land \varphi_{final} \land \varphi_{cons}$$
