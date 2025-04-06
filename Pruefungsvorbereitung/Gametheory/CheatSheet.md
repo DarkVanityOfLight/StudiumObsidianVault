@@ -1,3 +1,6 @@
+# Game Theory in Logic and Verification
+> Kilian Lichtner
+
 ## Games
 
 >[!DEFINITION] Arena
@@ -395,7 +398,7 @@ $EXPSPACE = AEXPTIME$
 
 ## Homomorphism
 
-Given two $\sigma$-[structures](Structure.md) $\mathfrak A,\mathfrak B$, a homomorphism form $\mathfrak A$ to $\mathfrak B$ is a mapping $h: A \to B$ such that for all constant symbol $c\in \sigma$ and relation symbol $R \in \sigma$
+Given two $\sigma$-structures $\mathfrak A,\mathfrak B$, a homomorphism form $\mathfrak A$ to $\mathfrak B$ is a mapping $h: A \to B$ such that for all constant symbol $c\in \sigma$ and relation symbol $R \in \sigma$
 1. $(a_1, \dots a_r) \in R^\mathfrak A \implies (h(a_1), \dots, h(a_r)) \in R^\mathfrak B$ 
 2. $h(c^\mathfrak A) = c^\mathfrak B$
 
@@ -408,9 +411,9 @@ Let $B' \subseteq B$ include all constants in $\mathfrak B$. The substructure of
 
 ## Isomorphism
 
-An isomorphism is a [bijective](Bijektiv.md) [homomorphism](Homomorphism.md) whose inverse is also a homomorphism.
+An isomorphism is a bijective homomorphism whose inverse is also a homomorphism.
 
-Two $\sigma$-[structures](Structure.md) $\mathfrak A$, $\mathfrak B$ are said to be isomorphic, written $\mathfrak A \cong \mathfrak B$, if there is an isomorphims from $\mathfrak A$ to $\mathfrak B$.
+Two $\sigma$-structures $\mathfrak A$, $\mathfrak B$ are said to be isomorphic, written $\mathfrak A \cong \mathfrak B$, if there is an isomorphims from $\mathfrak A$ to $\mathfrak B$.
 
 Intuitively, $\mathfrak A\cong \mathfrak B$ means that $\mathfrak A$, $\mathfrak B$ look the same up to renaming of elements in the universe.
 
