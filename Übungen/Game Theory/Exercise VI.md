@@ -1,7 +1,7 @@
 ## Sheet 8
 ### Exercise 1
 $$(\mathfrak A, \overline a) \leftrightarrow_d (\mathfrak B, \overline b)$$
-$d \ge \frac{}{3^r - 1}{2}$
+$d \ge \frac{3^r - 1}{2}$
 $\implies (\mathfrak A, \overline a) \equiv_r (\mathfrak B, \overline b)$
 
 $r = 0 \qquad d \ge 0 (\mathfrak A, \overline a) \leftrightarrow_0 (\mathfrak B, \overline b)$
@@ -71,8 +71,11 @@ $\psi_i = \varphi_i^2$
 
 $$G(a \to F(b\lor c))$$
 
+
 $$\varphi(x) = \forall y(x \le y \land (U_a(y) \to \exists z(y \le z \land U_b(z) \lor U_c(z)))))$$
+
 ---
+
 
 $$Gd \lor (Fa \to Fb \lor (F(c \land XFc)))$$
 

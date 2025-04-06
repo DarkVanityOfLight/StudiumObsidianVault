@@ -10,12 +10,12 @@ a) Alkene
 b) CycloAlkan
 c) Aromat
 d) Alkohol
-e) Aromat
+e) Phenol
 f) Ether
 g) Aldehyde
 h) Ketone
-i) Ester
-j) Ketone
+i) Acetal
+j) Carbonsäure
 k) Ester???
 l) Ester???
 m) Ester???
