@@ -43,7 +43,7 @@ Dies folgt aus Lemma $1$ mit Induktion. Die folgende Behauptung folgt aus der le
 
 >[!NOTE] $\Gamma$ ist endlich erfüllbar
 
-Wir zeigen nun, dass $\Gamma$ erfüllbar ist. Dafür konstruieren wir ein [Modell](Modell.md) $I$. Aus $\Sigma \subseteq \Gamma$ folgt, dass $\Sigma$ erfüllbar ist. Unser Modell weist $true$ allen [Atomaren Formeln](Atomare%20Aussage.md) $x_i$ aus $\Gamma$ zu, und $false$ wir zugewiesen andernfalls.
+Wir zeigen nun, dass $\Gamma$ erfüllbar ist. Dafür konstruieren wir ein [Modell](Modell.md) $I$. Aus $\Sigma \subseteq \Gamma$ folgt, dass $\Sigma$ erfüllbar ist. Unser Modell weist $true$ allen [Atomaren Formeln](Logik/Atom.md) $x_i$ aus $\Gamma$ zu, und $false$ wir zugewiesen andernfalls.
 
 >[!NOTE] $I\vDash \Gamma$
 

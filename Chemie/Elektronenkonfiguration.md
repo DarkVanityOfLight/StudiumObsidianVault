@@ -1,5 +1,5 @@
 
-Die __Elektronenkonfiguration__ beschreibt die Verteilung der Elektronen inden verschiedenen [Schalen und Orbitalen](Atom.md#Elektronenhüllen).
+Die __Elektronenkonfiguration__ beschreibt die Verteilung der Elektronen inden verschiedenen [Schalen und Orbitalen](Chemie/Atom.md#Elektronenhüllen).
 
 Elektronen füllen die Orbitale gemäß der Aufbauprinzip:
 - Zuerst füllen Elektronen die Orbitale mit der niedrigsten Energie.

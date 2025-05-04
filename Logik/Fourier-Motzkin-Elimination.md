@@ -20,5 +20,5 @@ Die Elimination eines Quantors erhöht die Anzahl $m$ von (Un)Gleichungen auf $m
 
 Dementsprechend: $n$ Quantoren, ergeben $\ge m^{2^n}$ (Un) Gleichungen
 
-Nach der Eliminierung redundanter [Atome](Atomare%20Aussage.md)/Disjunkte, läuft das Verfahren in $3-EXPTIME$.
+Nach der Eliminierung redundanter [Atome](Logik/Atom.md)/Disjunkte, läuft das Verfahren in $3-EXPTIME$.
 

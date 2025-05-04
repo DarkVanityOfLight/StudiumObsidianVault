@@ -1,3 +1,10 @@
+---
+aliases:
+  - set
+  - sets
+  - Menge
+---
+
 Die Objekte in einer Menge nennt man Element der Menge M.
 
 > Eine Menge ist die Zusammenfassung von wohl unterschiedenen Objekten unserer Anschauung oder unseres Denkens zu einem Ganzen.

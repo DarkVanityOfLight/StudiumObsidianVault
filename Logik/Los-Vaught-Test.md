@@ -1,7 +1,7 @@
 Kardinalzahlen:
 $$0, 1,\dots, \aleph_0, \aleph_1, \dots$$
 
-Für jede Kardinalzahl $k$, ist eine [Theorie](Theorien%20der%20ersten%20Stufe.md) $T$ $k$-__kategorisch__, wenn alle [Modelle](Modell.md) von $T$, deren [Universum](Universum.md) die Größe $k$ hat, [isomorph](Isomorphismen.md) sind.
+Für jede Kardinalzahl $k$, ist eine [Theorie](Theorien%20der%20ersten%20Stufe.md) $T$ $k$-__kategorisch__, wenn alle [Modelle](Modell.md) von $T$, deren [Domain](Domain.md) die Größe $k$ hat, [isomorph](Isomorphismen.md) sind.
 
 >[!THEOREM]
 >Angenommen $T$ hat kein endliches [Modell](Modell.md). Dann gilt, ist $T$ $k$-kategorisch (für eine unendliche Kardinalzahl $k$), dann ist $T$ vollständig

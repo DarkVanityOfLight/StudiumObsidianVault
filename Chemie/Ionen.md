@@ -1,4 +1,4 @@
-Ein __Ion__ entsteht, wenn ein [Atom](Atom.md) [Elektronen](Elektron.md) gewinnt oder verliert.
+Ein __Ion__ entsteht, wenn ein [Atom](Chemie/Atom.md) [Elektronen](Elektron.md) gewinnt oder verliert.
 
 ## Kationen
 Positiv geladene Ionen, entstehen durch __Elektronenverlust__

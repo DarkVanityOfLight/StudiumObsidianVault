@@ -1297,3 +1297,53 @@ $\neg \varphi \cup T$ Subsets sind erfuellbar fuer nicht chordale zykle der laen
 
 
 $$\exists x_1 \dots x_k E(x_1, x_2) \dots  E(x_k, x_1)$$
+
+---
+
+$$\omega_{2i} = 1 \lor ()$$
+
+$2i+1 == 2i$
+$2i == 2i-1$
+
+
+$$\beta = u x \approx_e v y + wz +d$$
+$x := vars1$
+$y := vars2$
+$z:=free$
+
+----
+
+$$
+\begin{align*}
+&\exists\,q_0,q_1,p_0,p_1,p_2,p_3,o_0,o_1,o_2,o_3.\\
+&\bigl(q_0 = 1 \lor q_0 = 0\bigr)
+ \land \bigl(q_1 = 1 \lor q_1 = 0\bigr)
+ \land \neg(x_0 = 0)\\
+&\quad\land (o_0 = 1 \lor o_0 = 0)
+ \land (o_1 = 1 \lor o_1 = 0)
+ \land (o_2 = 1 \lor o_2 = 0)
+ \land (o_3 = 1 \lor o_3 = 0)\\
+&\quad\land (q_1 = 1 \land q_0 = 1)
+ \land \top\\
+&\quad\land
+\bigl[
+  \neg(q_0 = 1)
+  \;\lor\;
+  \bigl(
+    (o_0 = 1 \lor ((x_{0,0} + 1)\le p_0 \land (x_0 + 1)\le 0))
+    \land (o_1 = 1 \lor (p_1 \le 5 \land \bot))
+    \land (o_1 = 0 \lor \bot)
+  \bigr)
+\bigr]\\
+&\quad\land
+\bigl[
+  \neg(q_1 = 1)
+  \;\lor\;
+  \bigl(
+    (o_2 = 1 \lor ((x_{0,0} + 1)\le p_2 \land (x_0 + 1)\le 0))
+    \land (o_3 = 1 \lor (p_3 \le 2x_{0,0} \land 0 \le 2b))
+    \land (o_3 = 0 \lor 0 < 2x_0)
+  \bigr)
+\bigr].
+\end{align*}
+$$

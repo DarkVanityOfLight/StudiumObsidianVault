@@ -1,21 +1,38 @@
-
-__Recall__: $O(f), \Omega(f), o(f), n^{O(1)}, 2^{O(f(n))}$
-
-The length of a configuration is the maximal length of the words on its read-write tapes.
-
-The duration/length(space) of a computation is the length of the sequence (maximal length of a configuration)
-
-Let $f: \mathbb N \to \mathbb N$ then A TM is $f$-time bounded if for every input $x$, every computation on $x$ has length at most $f(|x|)$. Similarly: $f$-space bounded.
-
-- $DTIME(f) = \lbrace L(M) | M\text{ deterministic and f-time bounded}\rbrace$
-- $NTIME(f) = \lbrace L(M) | M\text{ non deterministic and f-time bounded}\rbrace$
-- $DPSACE(f)  = \lbrace L(M) | M\text{ deterministic and f-space bounded}\rbrace$
-- $NSPACE(f) = \lbrace L(M) | M\text{ non deterministic and f-space bounded}\rbrace$
+---
+aliases:
+  - time bounded
+  - space bounded
+  - f-time bounded
+  - f-space bounded
+---
 
 
-- $L = DSPACE(\log n)$
-- $NL = NSPACE(\log n)$
-- $P = DTIME(n^{O(1)}) = \bigcup_{f\in F} DTIME(f)$
-- $NP = NTIME(n^{O(1)})$
-- $NPSPACE = NSPACE(n^{O(1)})$
-- $EXPTIME = DTIME(2^{n^{O(1)})}$
+**Recall:**
+- [[Big-O Notation|O(f)]], [[Big-Omega Notation|\Omega(f)]], [[Little-o Notation|o(f)]] — standard asymptotic notation
+- $n^{O(1)}$ — polynomial functions
+- $2^{O(f(n))}$ — exponential functions
+
+
+## Definitions
+- **Configuration length**: Maximum length of the words on the read-write tapes.
+- **Computation length**: Number of steps in the computation (length of the sequence).
+- **Computation space**: Maximal size of any configuration during computation.
+
+### Formal Definitions
+- A [TM](Turing%20Machines.md) is **$f$-time bounded** if it halts in $\max(f(n), 2n+1)$ steps.
+- A [TM](Turing%20Machines.md) is **$f$-space bounded** if it uses at most $\max(f(n), 1)$ space.
+  
+>[!IMPORTANT]
+>Time and space bounds are made "safe" by ensuring minimums ($2n+1$, $1$) so TMs have enough to read the full input.
+
+
+---
+
+## Bounding Machines
+
+For $f: \mathbb{N} \to \mathbb{N}$:
+- A [Turing Machine](Turing%20Machines.md) is **$f$-time bounded** if, for every input $x$, every [computation](Turing%20Machines.md#Configurations%20&%20Computations) on $x$ has length $\leq f(|x|)$.
+- Similarly: **$f$-space bounded** if space usage is $\leq f(|x|)$.
+
+
+

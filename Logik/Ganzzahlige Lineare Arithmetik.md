@@ -12,7 +12,7 @@ Die resultierende [Theorien der ersten Stufe](Theorien%20der%20ersten%20Stufe.md
 
 ## Normalformen für Atome
 
-Wir lassen generelle lineare (Un)Gleichung als [Atome](Atomare%20Aussage.md) zu
+Wir lassen generelle lineare (Un)Gleichung als [Atome](Logik/Atom.md) zu
 $$t_1 \sim t_2, \qquad \sim \in \lbrace <, >, =\rbrace$$
 wobei jede (Un)Gleichungsseite($t_i$) die folgende Form hat
 $$c_1 x_1 + \dots c_nx_n + c_0$$
