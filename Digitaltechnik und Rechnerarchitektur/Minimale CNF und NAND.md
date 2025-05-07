@@ -1,7 +1,7 @@
 
 ## CNF
 
-Da wir nur Algorithmen betrachten die DNFs ergeben wird hier erklärt wie man aus einer DNF eine minimale CNF macht.
+Da wir nur Algorithmen betrachten die DNFs ergeben wird hier erklärt wie man aus einer DNF eine minimale [CNF](Normalformen.md#Darstellung%20von%20DNF%20und%20CNF) macht.
 
 Um die Minimale CNF einer Formel $\varphi$ zu berechnen:
 - Berechne die Minimale DNF $\bigvee_i\bigwedge_j \alpha_{i,j}$ für $\neg \varphi$

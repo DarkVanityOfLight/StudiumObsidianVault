@@ -22,4 +22,6 @@ with free variables $z$.
 - $q^< =1 \to \alpha$ $q^{\approx} = 1 \to \beta$ for the corresponding atoms $\alpha, \beta$
 - Create $\varphi'$ by replacing each atom with it's corresponding $q$ 
 - $\psi := \exists q^{<}, q^{\approx} \varphi' \land \bigwedge_i (q_i^{<} = 1 \to \alpha_i) \land \bigwedge_j (q^{\approx}_j = 1 \to \beta_j)$ 
-- 
+- Build $\gamma_i = (p_{2i-1} \le \omega \to (r^T_i x_0 \le p_{2i-1} \land r_{i}^T x \le 0) \land (p_{2i} \le \omega \to (p_{2i} \le s_{i}^T x_0 + t_i^T z+ h_i \land s_i^T x \ge 0)) \land (p_{2i} = \omega \to s_i^T x > 0)$ 
+- $\delta_j = u_j^t x_0 \approx_{e_j}^j v_j^T (x_0 + x) + w_j^T z + d_j \land u_j^T x \equiv_{e_j} 0 \land v_j^T x \equiv_{e_j} 0$  
+- $\theta = \bigwedge^n_{i=1} (p_{2i -1} \le \omega \land p_{2i-1} \le p_{2i} \lor p_{2i} = \omega)$(admissible) 

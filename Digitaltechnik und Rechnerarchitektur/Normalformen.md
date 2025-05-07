@@ -16,6 +16,8 @@
 
 ## Kanonische Formen
 
+[Normalformen in der Aussagenlogik](Normalformen%20in%20der%20Aussagenlogik.md)
+
 - **DNF (Disjunktive Normalform)**: Eine DNF ist eine Disjunktion von Würfeln.
 
 - **CNF (Konjunktive Normalform)**: Eine CNF ist eine Konjunktion von Klauseln.
