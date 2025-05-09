@@ -1296,7 +1296,9 @@ $\neg \varphi \cup T$ Subsets sind erfuellbar fuer nicht chordale zykle der laen
 => Es kann jedoch keins existieren weil $T$ die existenz jeder laenge von Zykle verhindert
 
 
+
 $$\exists x_1 \dots x_k E(x_1, x_2) \dots  E(x_k, x_1)$$
+
 
 ---
 
@@ -1347,3 +1349,42 @@ $$
 \bigr].
 \end{align*}
 $$
+
+
+---
+
+
+$$rx = sy + tz +h$$
+
+$$rx \le sy + tz + h$$
+$$rx  \ge sy + tz + h$$
+
+$$rx < sy + tz +h +1$$
+$$\begin{align}
+rx > sy  + tz +h - 1\\
+-rx < -sy -ty -h +1
+\end{align}$$
+
+$$\begin{align}
+\gamma_1 =& (p_{2i-1} < \omega \to (rx_0 \le p_{2i-1} \land rx \le 0)) \land\\
+& (p_{2i} < \omega \to (p_{2i} \le s x_0 + t z + h + 1 \land sx \ge 0)) \land \\
+&p_{2i} = \omega \to sx > 0
+\end{align}$$
+
+
+$$\begin{align}
+\gamma_2 =& (p_{2i-1} < \omega \to (-rx_0 \le p_{2i-1} \land -rx \le 0)) \land\\
+& (p_{2i} < \omega \to (p_{2i} \le -s x_0 - t z - h + 1 \land -sx \ge 0)) \land \\
+&p_{2i} = \omega \to -sx > 0
+\end{align}$$
+
+$$\begin{align}
+\gamma_{1, 2} =& \gamma_1 \land \gamma_2\\
+&(p_{2i-1} < \omega \to (rx_0 \le p_{2i-1} \land rx \le 0 \land -rx_0 \le p_{2i-1} \land -rx \le 0)) \land\\
+&(p_{2i} < \omega \to (p_{2i} \le s x_0 + t z + h + 1 \land sx \ge 0 \land p_{2i} \le -s x_0 - t z - h + 1 \land -sx \ge 0)) \land\\
+&(p_{2i} = \omega \to sx > 0 \land -sx > 0)\\
+\iff&\\
+&(p_{2i-1} < \omega \to (rx_0 \le p_{2i-1} \land -rx_0 \le p_{2i-1} \land rx = 0)) \land\\
+&(p_{2i} < \omega \to (p_{2i} \le s x_0 + t z + h + 1 \land p_{2i} \le -s x_0 - t z - h + 1 \land sx = 0)) \land\\
+&(p_{2i} = \omega \to \bot)\\
+\end{align}$$
