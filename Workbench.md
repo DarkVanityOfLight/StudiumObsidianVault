@@ -1387,4 +1387,10 @@ $$\begin{align}
 &(p_{2i-1} < \omega \to (rx_0 \le p_{2i-1} \land -rx_0 \le p_{2i-1} \land rx = 0)) \land\\
 &(p_{2i} < \omega \to (p_{2i} \le s x_0 + t z + h + 1 \land p_{2i} \le -s x_0 - t z - h + 1 \land sx = 0)) \land\\
 &(p_{2i} = \omega \to \bot)\\
+\iff&\\
+&(p_{2i-1} < \omega \to (\underbrace{-p_{2i-1} \le rx_0  \le p_{2i-1}}_{p_{2i-1} = r_{x_0} \implies \top}\land rx = 0)) \land\\
+&(-s x_0 - t z - h\ge p_{2i} -1 \le s x_0 + t z + h\land   sx = 0) \land\\
+&(p_{2i} \not= \omega)\\
 \end{align}$$
+
+
