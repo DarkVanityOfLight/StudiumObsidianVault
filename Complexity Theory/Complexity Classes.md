@@ -1,3 +1,7 @@
+---
+aliases:
+  - complexity class
+---
 
 - [[DTIME(f)]] = { languages accepted by deterministic, $f$-time bounded TMs }
 - [[NTIME(f)]] = { languages accepted by nondeterministic, $f$-time bounded TMs }
