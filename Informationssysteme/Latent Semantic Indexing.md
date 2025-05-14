@@ -1,4 +1,4 @@
-Ansaetze wie zb. [TF*IDF](TF*IDF.md) keonnen nicht mit Synonymie z.b. Auto und PKW und Polysemie umgehen
+Ansaetze wie zb. [TFxIDF](TFxIDF.md) keonnen nicht mit Synonymie z.b. Auto und PKW und Polysemie umgehen
 
 
 ## Latent Topic Models
