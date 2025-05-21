@@ -1,3 +1,8 @@
+---
+aliases:
+  - asymptotic mix
+---
+
 ## Asymptotically equivalent number sequences
 [Asymptotically equivalent number sequences](MSO+U.pdf#page=2&selection=286,0,291,12&color=red)
 
