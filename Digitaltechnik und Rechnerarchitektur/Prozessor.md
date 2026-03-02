@@ -36,11 +36,11 @@ Wir versuchen die Ergebnisse möglichst lange in den Registern zu halten, zu die
 
 ### Stacks
 
-Befehle gehen davon aus das die Operanten auf dem Stack liegen, die Befehle verbrauchen die Operanten und legen das Ergebnis zurück auf den Stack. Die Generation von Code wird durch eine [Tiefensuche](Algorithmen%20und%20Datenstrukturen/Graph.md#Tiefensuche) über die Syntaxbäume ausgeführt.
+Befehle gehen davon aus das die Operanten auf dem Stack liegen, die Befehle verbrauchen die Operanten und legen das Ergebnis zurück auf den Stack. Die Generation von Code wird durch eine [Tiefensuche](Programmiersprachen/Graph.md#Tiefensuche) über die Syntaxbäume ausgeführt.
 
 ## Queue
 
-Befehle finden die Argumente am Kopf der Schlange und hängen ihre Ergebnisse an das Ende an. Code wird hier durch eine [Breitensuche](Algorithmen%20und%20Datenstrukturen/Graph.md#Breitensuche) über den Syntaxbaum erstellt. 
+Befehle finden die Argumente am Kopf der Schlange und hängen ihre Ergebnisse an das Ende an. Code wird hier durch eine [Breitensuche](Programmiersprachen/Graph.md#Breitensuche) über den Syntaxbaum erstellt. 
 
 ---
 

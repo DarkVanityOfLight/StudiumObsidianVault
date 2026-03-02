@@ -3,8 +3,8 @@ Sei $\sigma$ eine [Signatur](Mathe/Signatur.md). Eine __Eigenschaft__ $P$ ist ei
 ## Beispiele
 Betrachten wir die Graphensignatur $\sigma = \lbrace E\rbrace$
 
-- Die Menge aller endlichen [Graphen](Algorithmen%20und%20Datenstrukturen/Graph.md)(endlichkeit)
-- Die Menge aller [Zusammenhaengenden Graphen](Algorithmen%20und%20Datenstrukturen/Graph.md#Zusammenhang)(Zusammenhang)
+- Die Menge aller endlichen [Graphen](Programmiersprachen/Graph.md)(endlichkeit)
+- Die Menge aller [Zusammenhaengenden Graphen](Programmiersprachen/Graph.md#Zusammenhang)(Zusammenhang)
 - Die Menge aller Bipartiten Graphen
 - Die Menge aller Graphen mit [[Hamiltonpfad]]
 

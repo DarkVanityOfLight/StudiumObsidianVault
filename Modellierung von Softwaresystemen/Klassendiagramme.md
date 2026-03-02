@@ -94,7 +94,7 @@ Da die Subklase die Attribute, Operationen und Assoziationen der Superklasse erb
 
 - Die Operation $draw$ in ColoredSquare ueberschreibt die Operation $draw$ der Square Klasse und Implementiert diese neu.
 
-- Die Operation $modify$ in der ColoredSquare Klasse wird überladen, welche der beiden Operationen ausgeführt wird hängt von der [Signatur](Grundlagen%20der%20Programmierung/Signatur.md) der Argumente ab.
+- Die Operation $modify$ in der ColoredSquare Klasse wird überladen, welche der beiden Operationen ausgeführt wird hängt von der [Signatur](Programmiersprachen/Signatur.md) der Argumente ab.
 
 Beim überschreiben von Operatioen ist es auch erlaubt ihre Sichtbarkeit zu ändern. 
 Theoretisch lässt sich beim überschreiben auch der Name ändern, Damit der Bezug klar bleibt, kann er explizit im Diagramm angegeben werden.

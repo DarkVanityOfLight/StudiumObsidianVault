@@ -1,5 +1,5 @@
 
-DPLL ist ein Algorithmus fuer das SAT Problem, der auf der [Tiefensuche](Algorithmen%20und%20Datenstrukturen/Graph.md#Tiefensuche) und der Deduktion/Einheits[resolution](Resolution.md) basiert ist.
+DPLL ist ein Algorithmus fuer das SAT Problem, der auf der [Tiefensuche](Programmiersprachen/Graph.md#Tiefensuche) und der Deduktion/Einheits[resolution](Resolution.md) basiert ist.
 
 Ein einfacher Tiefensuche basierter [Algorithmus](Algorithmus.md) könnte in etwa so aussehen:
 ```python

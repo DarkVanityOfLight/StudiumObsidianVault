@@ -8,11 +8,8 @@ aliases:
 > 
 
 $$
-AltD(X, Y) := \forall x, x' (X(x) \land X(x') \to \exists y (Y(y) \land x < y < x'))
+AltD(X, Y) := \forall x, x' (X(x) \land X(x') \to \exists y (Y(y) \land x < y < x')) \land \forall x X(x) \to \neg Y(x)
 $$
 "every two nodes in $X$ are separated by at least one node from $Y$"
 
 $$Alt(X, Y) := AltD(X, Y) \land AltD(Y, X)$$
->[!QUESTION]
-> Uniqueness $x\in X\to x \not \in Y$
-

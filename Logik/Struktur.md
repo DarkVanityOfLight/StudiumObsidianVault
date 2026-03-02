@@ -5,7 +5,7 @@ aliases:
 ---
 
 
-> Die __Struktur__ stimmt mit der [[Mathe/Signatur]](siehe auch [Signatur](Mathe/Signatur.md) und [Signatur](Grundlagen%20der%20Programmierung/Signatur.md)) $\sigma$ überein.
+> Die __Struktur__ stimmt mit der [[Mathe/Signatur]](siehe auch [Signatur](Mathe/Signatur.md) und [Signatur](Programmiersprachen/Signatur.md)) $\sigma$ überein.
 
 
 Ein Beispiel einer Struktur ist ein [Modell](Modell.md) einer bestimmten mathematischen Theorie. Beispielsweise können [Prädikatenlogische](Logik/Prädikatenlogik.md) Formeln mit der Signatur $\sigma_{\mathbb N}$ mit Bezug auf einem Standardmodell $\mathcal N$ der Zahlentheorie interpretiert werden, wobei $<, +$ und $\times$ als kleiner als, Addition und Multiplikations Operatoen, bzw. $0$ und $1$ als die Zahlen $0$ und $1$ verstanden werden. 

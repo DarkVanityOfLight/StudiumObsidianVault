@@ -1,3 +1,9 @@
+---
+aliases:
+  - signature
+  - type
+---
+
 Eine Signatur $\sigma$ ist eine(endliche/unendliche) Menge, die aus zwei Objektsorten besteht:
 1. Funktionssymbole: $f, h, g, \dots$
 2. Relationssymbole(auch Prädikatssymbole genannt): $R_1, R_2, \dots$

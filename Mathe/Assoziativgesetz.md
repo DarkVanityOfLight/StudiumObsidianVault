@@ -1,3 +1,8 @@
+---
+aliases:
+  - associative
+---
+
 > Eine Rechenoperation $*$ auf einer [Menge](Mengen.md) heisst assoziativ, wenn fuer alle $a,b$ und $c$ aus $M$ gilt: $$a \cdot (b \cdot c) = (a \cdot b) \cdot c$$
 > Die Addition und Multiplikation [reelle Zahlen](Reelle%20Zahlen.md) sind assoziativ, d. h  fuer alle reellen Zahlen $a, b$ und $c$ gelten $$(a + b) + c = a + (b+c)\ und\ (a \cdot b) \cdot c = a \cdot (b \cdot c)$$
 

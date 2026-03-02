@@ -1,10 +1,16 @@
+---
+aliases:
+  - first-order logic
+  - Logik erster Stufe
+  - FO
+---
 
 Die Prädikatenlogik(auch als Logik der ersten Stufe bezeichnet und meistens als FO abgekürzt) ist eine Erweiterung der [Aussagenlogik](Aussagenlogik.md) mit drei Eigenschaften. Erstens lässt sie generelle Grundmengen von Objekten zu, auf die sich die Prädikatenlogik Formel beziehen können, d.h. anstelle von nur $0$ und $1$. Diese Menge wird auch __Universum__ genannt. Zweitens ist die Prädikatenlogik imstande, Zusammenhänge zwischen Elementen in der Grundmenge zu beschreiben. Zu diesen Zweck werden __Praedikaten__(auch __Relationen__) genannt verwendet, die sich auf Elemente des [Unviversums](Domain.md) beziehen. Und nicht zuletzt verwendet FO die meistens in der Mathematik benutzten [Quantoren](Quantoren.md). Das heißt: die Logik ist in der Lage Sätze wie "für jedes Element des Universums" oder "es gibt ein Element des Universums ..." zu beschreiben. Beispielsweise können wir den Satz "everyone is loved by someone" durch die folgende Formel ausdrücken:
 $$\forall x \exists y Loves(x, y)$$
 
 ## Syntax
 
-In der Aussagenlogik haben wir eine Menge $V$ der Aussagen angenommen, aus denen aussagenlogische Formeln rekursiv aufgebaut werden. In der FO benutzen wir sowohl eine "Signatur"(siehe auch [Signatur](Mathe/Signatur.md), [Signatur](Grundlagen%20der%20Programmierung/Signatur.md)) als auch "Variablen"(der ersten Stufe), um die Formeln aufzubauen. Angenommen ist die Existenz einer abzählbare unendliche Menge $Var$ der Variablen(der ersten Stufe), die in der Regel als $x, y,z, \dots$  bezeichnet werden. 
+In der Aussagenlogik haben wir eine Menge $V$ der Aussagen angenommen, aus denen aussagenlogische Formeln rekursiv aufgebaut werden. In der FO benutzen wir sowohl eine "Signatur"(siehe auch [Signatur](Mathe/Signatur.md), [Signatur](Programmiersprachen/Signatur.md)) als auch "Variablen"(der ersten Stufe), um die Formeln aufzubauen. Angenommen ist die Existenz einer abzählbare unendliche Menge $Var$ der Variablen(der ersten Stufe), die in der Regel als $x, y,z, \dots$  bezeichnet werden. 
 
 
 ### Term

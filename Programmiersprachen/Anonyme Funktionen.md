@@ -19,7 +19,7 @@ $$
 $$
 #prüfungszettel 
 
-## [Dynamische Semantik](Semantik#Dynamische%20Semantik)
+## [Dynamische Semantik](Semantik.md#Dynamische%20Semantik)
 Auswertungsregeln:
 $$\over \delta \vdash (fun x\to e) \Downarrow \langle\delta, x, e\rangle$$
 $$

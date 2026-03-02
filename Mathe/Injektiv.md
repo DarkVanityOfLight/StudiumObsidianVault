@@ -1,3 +1,8 @@
+---
+aliases:
+  - injective
+---
+
 Gilt für alle $m_1, m_2 \in M$ dass $f(m_1) = f(m_2) \implies m_1 = m_2$
 so heißt die [Abbildung](Abbildungen.md)$f$ injektiv.
 

@@ -4,6 +4,7 @@ aliases:
   - Multi-Tape Turing Machine
   - Turing Machine
   - TM
+  - computing
 tags:
   - computability
   - complexity

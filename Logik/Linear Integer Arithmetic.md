@@ -7,7 +7,7 @@ This was proven by [quantifier elimination](Quantorenelemination.md)
 ## Quantifier Free Linear Arithmetic
 
 >[!THEOREM]
->The existential theories of $Th(\mathbb Z; + , <, =, 0, 1)$ and $Th(\mathbb R; +, <, =, 0, 1)$ are both [[NP-complete]].
+>The existential theories of $Th(\mathbb Z; + , <, =, 0, 1)$ and $Th(\mathbb R; +, <, =, 0, 1)$ are both [[NP-Complete]].
 
 ## Quantifier Elimination
 
