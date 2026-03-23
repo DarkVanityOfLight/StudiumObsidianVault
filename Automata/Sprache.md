@@ -1,3 +1,7 @@
+---
+aliases:
+  - language
+---
 
 Sei $\Sigma$ ein [Alphabet](Alphabet.md). Eine (formale) Sprache $L$ über dem [Alphabet](Alphabet.md) $\Sigma$ ist eine beliebige [Teilmenge](Teilmengen.md) von $\Sigma^*$, d.h. $L\subseteq\Sigma^*$.
 

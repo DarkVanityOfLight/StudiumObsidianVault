@@ -1,3 +1,7 @@
+---
+aliases:
+  - regular language
+---
 
 Eine [Sprache](Sprache.md) $L$ ist regulär $\iff$ $L$ wird von einem [Deterministische endliche Automaten](Deterministische%20endliche%20Automaten.md) erkannt $L$ wird von einem [Nichtdeterministische endliche Automaten](Nichtdeterministische%20endliche%20Automaten.md) erkannt.
 

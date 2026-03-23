@@ -1,5 +1,9 @@
+---
+aliases:
+  - NFA
+---
 
-Ein nichtdeterministischer endlicher Automat $A$ ist ein $5$-[Tupel](Tupel.md) $A = (Q, \Sigma, \Delta, I, F)$ wobei:
+Ein nichtdeterministischer endlicher Automat $A$ ist ein $5$-[Tuple](Tuple.md) $A = (Q, \Sigma, \Delta, I, F)$ wobei:
 - $Q$ eine endliche [Menge](Mengen.md) an Zustaenden ist,
 - $\Sigma$ ein endliches Eingabe[alphabet](Alphabet.md) ist
 - $\Delta \subseteq Q \times \Sigma \times Q$ die Transitionsrelation ist

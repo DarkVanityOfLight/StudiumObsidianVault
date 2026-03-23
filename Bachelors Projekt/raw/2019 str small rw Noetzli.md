@@ -1,2 +1,0 @@
-- substring operations
-- string replace

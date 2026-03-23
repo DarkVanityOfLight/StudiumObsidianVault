@@ -1,3 +1,8 @@
+---
+aliases:
+  - function
+---
+See also [Funktionen](Programmiersprachen/Funktionen.md) 
 Sei $D \subset\mathbb R$. Eine Abbildung $f: D\to\mathbb R$ heißt Funktion.
 
 ## Graph

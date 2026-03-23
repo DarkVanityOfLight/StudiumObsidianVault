@@ -1,3 +1,9 @@
+---
+aliases:
+  - Quasi-Ordering
+  - quasi-ordering
+---
+
 Eine Halbordnung nennt man eine Relation die Reflexiv, Transitiv und Anti symmetrisch ist.
 
 $R \subset M\times M$, $R \subset M^2$ 
