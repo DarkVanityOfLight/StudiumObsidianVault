@@ -20,4 +20,4 @@ $$T = [(x_1, g)(x_2, g)(x_3, d)(x_4, d)(x_5, g)(\neg x_6, d)]$$
 
 Given a conflict graph $G = (V, E)$, a cut of $G$ is a partition of $V$ into two parts $V_1$(reason side) and $V_2$ conflict side such that:
 1. $V_1$ contains all vertices without incoming edges
-2. $V_2$ contains $\bot$ and at least on [literal](Literal.md) $l$ such that $l\to_E \bot$
+2. $V_2$ contains $\bot$ and at least on [literal](Logik/Literal.md) $l$ such that $l\to_E \bot$

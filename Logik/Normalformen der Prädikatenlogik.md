@@ -34,4 +34,4 @@ bei der $f$ ein $n$-stelliges Funktionssymbol ist, das nicht in $\varphi$ vorkom
 ## Skolem Klausel Normalform(SKNF)
 
 [Bereinigte](Bereinigt.md) SNF-Formeln, deren quantorefreie [Teilformeln](Teilformeln.md) in KNF sind.
-Dazu wandeln wir mithilfe der [Tseitin Transformation](Tseitin%20Transformation.md) den quantor freien Teil in KNF um.
+Dazu wandeln wir mithilfe der [Tseitin Transformation](Logik/Tseitin%20Transformation.md) den quantor freien Teil in KNF um.

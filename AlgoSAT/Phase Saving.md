@@ -1,0 +1,1 @@
+After selecting a variable with [VSIDS](VSIDS.md) we should select a value for it. Here we can use phase saving, setting the variable to the most recent value, this saves the progress the solver has done previously between restarts.

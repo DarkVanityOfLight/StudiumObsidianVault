@@ -1,4 +1,4 @@
-[DPLL](DPLL.md) verwendet eine schwächere Version der [Resolutionsregel](Resolution.md):
+[DPLL](Logik/DPLL.md) verwendet eine schwächere Version der [Resolutionsregel](Logik/Resolution.md):
 $$
 \frac{l\;\;\;\; C[\neg l]}{C[\bot/\neg l]}
 $$

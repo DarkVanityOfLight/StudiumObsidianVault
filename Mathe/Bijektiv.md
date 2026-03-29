@@ -1,3 +1,8 @@
+---
+aliases:
+  - bijection
+---
+
 Wenn die [Abbildungen](Abbildungen.md) [Surjektiv](Surjektiv.md) und [Injektiv](Injektiv.md) ist, ist er Bijektiv
 Ist $f: M \to N$ bijektiv dann gibt es für jedes $n \in N$ genau ein $m \in M$
 mit $f(m) = n$

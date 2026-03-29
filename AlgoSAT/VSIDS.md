@@ -1,0 +1,1 @@
+Variable State independent Decaying Sum, works by increasing for each conflict the score of the involved variables by 1, and halfing all scores each 256 conflicts, improvements increase the score of involved variables by $\delta$ and increase $\delta := 1.05\delta$

@@ -1,5 +1,5 @@
 
-Seien $C_1, C_2$ Klauseln von [Literalen](Literal.md) mit paarweise verschiedenen Variablen, sie __kollidieren__, wenn eine nichtleere Teilmenge $D_i \subseteq C_i$ existiert, wobei 
+Seien $C_1, C_2$ Klauseln von [Literalen](Logik/Literal.md) mit paarweise verschiedenen Variablen, sie __kollidieren__, wenn eine nichtleere Teilmenge $D_i \subseteq C_i$ existiert, wobei 
 $$unify(D_1 \cup \overline D_2) \not = fail$$
 
 wobei $\overline D_2$ jedes Literal negiert.

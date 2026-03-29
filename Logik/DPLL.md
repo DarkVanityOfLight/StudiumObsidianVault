@@ -1,5 +1,5 @@
 
-DPLL ist ein Algorithmus fuer das SAT Problem, der auf der [Tiefensuche](Programmiersprachen/Graph.md#Tiefensuche) und der Deduktion/Einheits[resolution](Resolution.md) basiert ist.
+DPLL ist ein Algorithmus fuer das SAT Problem, der auf der [Tiefensuche](Programmiersprachen/Graph.md#Tiefensuche) und der Deduktion/Einheits[resolution](Logik/Resolution.md) basiert ist.
 
 Ein einfacher Tiefensuche basierter [Algorithmus](Algorithmus.md) könnte in etwa so aussehen:
 ```python
@@ -27,7 +27,7 @@ def SAT(Formula):
 		return SAT(Formula[0/x]) or SAT[Formula[1/x]]
 ```
 
-Eine einfache Verbessrung besteht daraus das wir ein [Literal](Literal.md) _pure_ nennen, falls es nur positiv oder negativ in der Formel auftritt. Diese Literale kann man wahr machen bevor man eine Variable für die Abzweigung auswählt.
+Eine einfache Verbessrung besteht daraus das wir ein [Literal](Logik/Literal.md) _pure_ nennen, falls es nur positiv oder negativ in der Formel auftritt. Diese Literale kann man wahr machen bevor man eine Variable für die Abzweigung auswählt.
 
 Unser DPLL Algorithmus sieht dann so aus:
 

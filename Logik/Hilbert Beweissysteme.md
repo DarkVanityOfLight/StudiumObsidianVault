@@ -61,7 +61,7 @@ $$\Sigma \vDash \varphi \text{ impliziert } \Sigma \vdash \varphi$$
 Wir werden dies nur für den Fall $\Sigma = \emptyset$ zeigen. Der allgemeine Fall folgt aus dem [Kompaktheitssatz der Aussagenlogik](Kompaktheitssatz%20der%20Aussagenlogik.md)
 
 >[!NOTE] Lemma
->Falls $\varphi$ Variablen $x_1, \dots, x_n$ hat und $l_i$ ein $x_i$-[Literal](Literal.md) ist, dann gilt
+>Falls $\varphi$ Variablen $x_1, \dots, x_n$ hat und $l_i$ ein $x_i$-[Literal](Logik/Literal.md) ist, dann gilt
 >$$l_1, \dots, l_n \vdash \varphi \text{ oder } l_1, \dots, l_n \vdash \neg \varphi$$
 
 Daraus würde die Vollständigkeit direkt folgen. Betrachten wir eine Tautologie $\varphi$. Dann:

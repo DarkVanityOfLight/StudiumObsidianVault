@@ -1,5 +1,5 @@
 
-A __UIP__ in a [conflict Graph](Implication%20Graph.md) is a node $v\not = \bot$ with the highest decision level $l$ such that any path from the guessed literal at level $l$ to $\bot$ visists $v$.
+A __UIP__ in a [conflict Graph](Logik/Implication%20Graph.md) is a node $v\not = \bot$ with the highest decision level $l$ such that any path from the guessed literal at level $l$ to $\bot$ visists $v$.
 
 The guessed literal at level $l$ is one UIP
 

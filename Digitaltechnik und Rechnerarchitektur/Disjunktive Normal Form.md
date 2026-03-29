@@ -10,7 +10,7 @@ $$\bigwedge^n_{i=1}\bigvee^{m_i}_{j=1} \alpha_{i,j}$$
 
 Um aus einer Beliebigen Formel eine DNF zu erhalten folgt man diesen Schritten:
 
-- Erstelle die [Negation Normal Form](Negation%20Normal%20Form.md)
+- Erstelle die [Negation Normal Form](Digitaltechnik%20und%20Rechnerarchitektur/Negation%20Normal%20Form.md)
 - Wende die [Distributivgesetze](Distributivgesetz.md) an: $$\begin{align}
 \alpha \land (\beta \lor \gamma) = \alpha \land \beta \lor \alpha \land \gamma\\
 (\beta \land \gamma) \land \alpha = \alpha \land\beta \lor \alpha \land \gamma

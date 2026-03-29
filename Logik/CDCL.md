@@ -13,7 +13,7 @@ Thus there exists at most one guessed literal at any decision level.
 
 ## Learning a conflict clause
 
-Given a cut $V_1, V_2$ of a [conflict graph](Implication%20Graph.md) $G = (V, E)$ the conflict clause associated with this cut is
+Given a cut $V_1, V_2$ of a [conflict graph](Logik/Implication%20Graph.md) $G = (V, E)$ the conflict clause associated with this cut is
 $$\lbrace\neg l: \exists k\in\mathbb N, l@k\in V_1 \cap\text{pred}(V_2)\rbrace$$
 where $\text{pred}(V_2) := \lbrace v\in V_1 : \exists w\in V_2 (v\to_E w) \rbrace$
 

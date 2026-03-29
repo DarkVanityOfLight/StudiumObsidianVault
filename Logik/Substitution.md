@@ -35,7 +35,7 @@ $$\begin{align}
 
 ### Substitutionen Anwenden
 
-Gegeben sei ein Ausdruck $E$ ([Term](Term.md), [Literal](Literal.md), [Klausel](Klausel.md)), schreibe 
+Gegeben sei ein Ausdruck $E$ ([Term](Term.md), [Literal](Logik/Literal.md), [Klausel](Klausel.md)), schreibe 
 $$E\theta \text{ oder } E[\theta]$$
 um Folgendes zu bezeichnen: "gleichzeitig jedes Vorkommen von $x$ durch $\theta$(x)" ersetzen.
 

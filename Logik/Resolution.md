@@ -13,7 +13,7 @@ $$\lbrace\lbrace p, \neg q\rbrace, \lbrace r, q, \neg t\rbrace, \lbrace\neg r\rb
 Gegeben sind zwei [Klauseln](Klausel.md) $C$ und $C'$ mit:
 1. $l\in C$ und
 2. $\neg l \in C'$,
-3. wobei $l$ ein [Literal](Literal.md) ist.
+3. wobei $l$ ein [Literal](Logik/Literal.md) ist.
 
 Folgendes nennt man eine Resolvente von $C$ und $C'$
 $$R = C \setminus \lbrace l\rbrace \cup C' \setminus \lbrace\neg l \rbrace$$
