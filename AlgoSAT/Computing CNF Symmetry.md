@@ -1,4 +1,4 @@
-We want to compute all [Symmetries](AlgoSAT/Symmetrie.md) of a given CNF [Formula](Formula.md) $F$. 
+We want to compute all [Symmetries](Symmetry.md) of a given CNF [Formula](Formula.md) $F$. 
 
 > [!Model Graph for CNF]
 > We call a [Graph](AlgoSAT/Graph.md) $G(F)$ a _model graph_ for a CNF formula $F$, iff

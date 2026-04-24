@@ -1,4 +1,4 @@
-Consider a [bijection](Bijektiv.md) $\varphi: Lit(F) \to Lit(F)$. We define the notion of a _semantic [Symmetrie](AlgoSAT/Symmetrie.md)_ $\varphi$ as follows:
+Consider a [bijection](Bijektiv.md) $\varphi: Lit(F) \to Lit(F)$. We define the notion of a _semantic [Symmetry](Symmetry.md)_ $\varphi$ as follows:
 
 1. For all complete [assignments](Assignment.md) $\tau$ of $F$ it holds that $$F[\tau] = \varphi(F)[\tau]$$
 2. For all $\ell\in Lit(F)$ it holds that $\overline{\varphi(\ell)} = \varphi(\overline \ell)$

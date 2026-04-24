@@ -1,0 +1,2 @@
+Given a partial [assignment](Assignment.md) $\tau$, determine whether it can be extended to a lexicographically minimal full assignment $\tau'$.
+If yes we continue the full assignment $\tau'$, if no the current node can be pruned. The key difficulty is implementing a fast, expressive minimality check
